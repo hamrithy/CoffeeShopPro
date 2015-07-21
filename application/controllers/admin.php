@@ -5,18 +5,15 @@
 
 		public function __construct(){
 			parent::__construct();
-
-			$this->load->helper('url');
 		}
-
 		
 		public function index(){
-			
 			$this->load->view('admin-kh4it/index');
 		}
-
-
+		
+		public function dashboard(){
+			redirect("front");
+		}
 	}
-
 
 ?>
