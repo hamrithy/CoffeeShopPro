@@ -145,7 +145,7 @@
 								<li class="dropdown">
 								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #fff">
 									
-									Hi, <strong>Vuthea</strong>
+									Hi, <strong><?php echo $this->session->userdata('username');?></strong>
 								  </a>
 								  <ul class="dropdown-menu square primary margin-list-rounded with-triangle">
 								    <li ><a style="color: #333;" href="#" target="_blank">Home</a></li>
