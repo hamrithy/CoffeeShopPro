@@ -6,7 +6,7 @@
                     <div class="col-md-2 ">
                         <div class="logo aligncenter">
                             <div class="identity">
-                                <a href="<?php echo site_url()?>/front/" title="home" rel="home">
+                                <a href="<?php echo site_url()?>/" title="home" rel="home">
                                     <img src="<?php echo base_url()?>public/style_front/images/downtown-logo.png" alt="Downtown theme logo">
                                 </a>
                             </div>
