@@ -1296,3 +1296,739 @@ INFO - 2015-07-22 04:32:05 --> File loaded: D:\wamp\www\CoffeeShopPro\applicatio
 INFO - 2015-07-22 04:32:05 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
 INFO - 2015-07-22 04:32:05 --> Final output sent to browser
 DEBUG - 2015-07-22 04:32:05 --> Total execution time: 0.1380
+INFO - 2015-07-22 05:39:25 --> Config Class Initialized
+INFO - 2015-07-22 05:39:25 --> Hooks Class Initialized
+DEBUG - 2015-07-22 05:39:25 --> UTF-8 Support Enabled
+INFO - 2015-07-22 05:39:25 --> Utf8 Class Initialized
+INFO - 2015-07-22 05:39:25 --> URI Class Initialized
+INFO - 2015-07-22 05:39:25 --> Router Class Initialized
+INFO - 2015-07-22 05:39:25 --> Output Class Initialized
+INFO - 2015-07-22 05:39:25 --> Security Class Initialized
+DEBUG - 2015-07-22 05:39:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 05:39:25 --> Input Class Initialized
+INFO - 2015-07-22 05:39:25 --> Language Class Initialized
+INFO - 2015-07-22 05:39:25 --> Loader Class Initialized
+INFO - 2015-07-22 05:39:25 --> Helper loaded: url_helper
+INFO - 2015-07-22 05:39:25 --> Database Driver Class Initialized
+INFO - 2015-07-22 05:39:25 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 05:39:25 --> Controller Class Initialized
+INFO - 2015-07-22 05:39:25 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 05:39:25 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 05:39:25 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 05:39:25 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 05:39:25 --> Final output sent to browser
+DEBUG - 2015-07-22 05:39:25 --> Total execution time: 0.1830
+INFO - 2015-07-22 05:51:53 --> Config Class Initialized
+INFO - 2015-07-22 05:51:53 --> Hooks Class Initialized
+DEBUG - 2015-07-22 05:51:53 --> UTF-8 Support Enabled
+INFO - 2015-07-22 05:51:53 --> Utf8 Class Initialized
+INFO - 2015-07-22 05:51:53 --> URI Class Initialized
+DEBUG - 2015-07-22 05:51:53 --> No URI present. Default controller set.
+INFO - 2015-07-22 05:51:53 --> Router Class Initialized
+INFO - 2015-07-22 05:51:53 --> Output Class Initialized
+INFO - 2015-07-22 05:51:53 --> Security Class Initialized
+DEBUG - 2015-07-22 05:51:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 05:51:53 --> Input Class Initialized
+INFO - 2015-07-22 05:51:53 --> Language Class Initialized
+INFO - 2015-07-22 05:51:53 --> Loader Class Initialized
+INFO - 2015-07-22 05:51:53 --> Helper loaded: url_helper
+INFO - 2015-07-22 05:51:53 --> Database Driver Class Initialized
+INFO - 2015-07-22 05:51:53 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 05:51:53 --> Controller Class Initialized
+INFO - 2015-07-22 05:51:53 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-22 05:51:53 --> Final output sent to browser
+DEBUG - 2015-07-22 05:51:53 --> Total execution time: 0.1400
+INFO - 2015-07-22 05:52:24 --> Config Class Initialized
+INFO - 2015-07-22 05:52:24 --> Hooks Class Initialized
+DEBUG - 2015-07-22 05:52:24 --> UTF-8 Support Enabled
+INFO - 2015-07-22 05:52:24 --> Utf8 Class Initialized
+INFO - 2015-07-22 05:52:24 --> URI Class Initialized
+INFO - 2015-07-22 05:52:24 --> Router Class Initialized
+INFO - 2015-07-22 05:52:24 --> Output Class Initialized
+INFO - 2015-07-22 05:52:24 --> Security Class Initialized
+DEBUG - 2015-07-22 05:52:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 05:52:24 --> Input Class Initialized
+INFO - 2015-07-22 05:52:24 --> Language Class Initialized
+INFO - 2015-07-22 05:52:24 --> Loader Class Initialized
+INFO - 2015-07-22 05:52:24 --> Helper loaded: url_helper
+INFO - 2015-07-22 05:52:24 --> Database Driver Class Initialized
+INFO - 2015-07-22 05:52:24 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 05:52:24 --> Controller Class Initialized
+INFO - 2015-07-22 05:52:24 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/index.php
+INFO - 2015-07-22 05:52:24 --> Final output sent to browser
+DEBUG - 2015-07-22 05:52:24 --> Total execution time: 0.1410
+INFO - 2015-07-22 05:52:30 --> Config Class Initialized
+INFO - 2015-07-22 05:52:30 --> Hooks Class Initialized
+DEBUG - 2015-07-22 05:52:30 --> UTF-8 Support Enabled
+INFO - 2015-07-22 05:52:30 --> Utf8 Class Initialized
+INFO - 2015-07-22 05:52:30 --> URI Class Initialized
+INFO - 2015-07-22 05:52:30 --> Router Class Initialized
+INFO - 2015-07-22 05:52:30 --> Output Class Initialized
+INFO - 2015-07-22 05:52:30 --> Security Class Initialized
+DEBUG - 2015-07-22 05:52:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 05:52:30 --> Input Class Initialized
+INFO - 2015-07-22 05:52:30 --> Language Class Initialized
+INFO - 2015-07-22 05:52:30 --> Loader Class Initialized
+INFO - 2015-07-22 05:52:30 --> Helper loaded: url_helper
+INFO - 2015-07-22 05:52:30 --> Database Driver Class Initialized
+INFO - 2015-07-22 05:52:30 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 05:52:30 --> Controller Class Initialized
+INFO - 2015-07-22 05:52:30 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 05:52:30 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 05:52:30 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 05:52:30 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 05:52:30 --> Final output sent to browser
+DEBUG - 2015-07-22 05:52:30 --> Total execution time: 0.1180
+INFO - 2015-07-22 06:17:22 --> Config Class Initialized
+INFO - 2015-07-22 06:17:22 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:17:22 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:17:22 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:17:22 --> URI Class Initialized
+INFO - 2015-07-22 06:17:22 --> Router Class Initialized
+INFO - 2015-07-22 06:17:22 --> Output Class Initialized
+INFO - 2015-07-22 06:17:22 --> Security Class Initialized
+DEBUG - 2015-07-22 06:17:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:17:22 --> Input Class Initialized
+INFO - 2015-07-22 06:17:22 --> Language Class Initialized
+INFO - 2015-07-22 06:17:22 --> Loader Class Initialized
+INFO - 2015-07-22 06:17:22 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:17:22 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:17:22 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:17:22 --> Controller Class Initialized
+INFO - 2015-07-22 06:17:22 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:17:22 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:17:22 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:17:22 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:17:22 --> Final output sent to browser
+DEBUG - 2015-07-22 06:17:22 --> Total execution time: 0.1610
+INFO - 2015-07-22 06:18:00 --> Config Class Initialized
+INFO - 2015-07-22 06:18:00 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:18:00 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:18:00 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:18:00 --> URI Class Initialized
+INFO - 2015-07-22 06:18:00 --> Router Class Initialized
+INFO - 2015-07-22 06:18:00 --> Output Class Initialized
+INFO - 2015-07-22 06:18:00 --> Security Class Initialized
+DEBUG - 2015-07-22 06:18:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:18:00 --> Input Class Initialized
+INFO - 2015-07-22 06:18:00 --> Language Class Initialized
+INFO - 2015-07-22 06:18:00 --> Loader Class Initialized
+INFO - 2015-07-22 06:18:00 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:18:00 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:18:00 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:18:00 --> Controller Class Initialized
+INFO - 2015-07-22 06:18:00 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:18:00 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:18:00 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:18:00 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:18:00 --> Final output sent to browser
+DEBUG - 2015-07-22 06:18:00 --> Total execution time: 0.1210
+INFO - 2015-07-22 06:20:19 --> Config Class Initialized
+INFO - 2015-07-22 06:20:19 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:20:19 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:20:19 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:20:19 --> URI Class Initialized
+INFO - 2015-07-22 06:20:19 --> Router Class Initialized
+INFO - 2015-07-22 06:20:19 --> Output Class Initialized
+INFO - 2015-07-22 06:20:19 --> Security Class Initialized
+DEBUG - 2015-07-22 06:20:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:20:19 --> Input Class Initialized
+INFO - 2015-07-22 06:20:19 --> Language Class Initialized
+INFO - 2015-07-22 06:20:19 --> Loader Class Initialized
+INFO - 2015-07-22 06:20:19 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:20:19 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:20:19 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:20:19 --> Controller Class Initialized
+INFO - 2015-07-22 06:20:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:20:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:20:20 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:20:20 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:20:20 --> Final output sent to browser
+DEBUG - 2015-07-22 06:20:20 --> Total execution time: 0.1350
+INFO - 2015-07-22 06:20:23 --> Config Class Initialized
+INFO - 2015-07-22 06:20:23 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:20:23 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:20:23 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:20:23 --> URI Class Initialized
+INFO - 2015-07-22 06:20:23 --> Router Class Initialized
+INFO - 2015-07-22 06:20:23 --> Output Class Initialized
+INFO - 2015-07-22 06:20:23 --> Security Class Initialized
+DEBUG - 2015-07-22 06:20:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:20:23 --> Input Class Initialized
+INFO - 2015-07-22 06:20:23 --> Language Class Initialized
+INFO - 2015-07-22 06:20:23 --> Loader Class Initialized
+INFO - 2015-07-22 06:20:23 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:20:23 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:20:23 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:20:23 --> Controller Class Initialized
+INFO - 2015-07-22 06:20:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:20:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:20:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:20:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:20:23 --> Final output sent to browser
+DEBUG - 2015-07-22 06:20:23 --> Total execution time: 0.1200
+INFO - 2015-07-22 06:20:32 --> Config Class Initialized
+INFO - 2015-07-22 06:20:32 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:20:32 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:20:32 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:20:32 --> URI Class Initialized
+INFO - 2015-07-22 06:20:32 --> Router Class Initialized
+INFO - 2015-07-22 06:20:32 --> Output Class Initialized
+INFO - 2015-07-22 06:20:32 --> Security Class Initialized
+DEBUG - 2015-07-22 06:20:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:20:32 --> Input Class Initialized
+INFO - 2015-07-22 06:20:32 --> Language Class Initialized
+INFO - 2015-07-22 06:20:32 --> Loader Class Initialized
+INFO - 2015-07-22 06:20:32 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:20:32 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:20:32 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:20:32 --> Controller Class Initialized
+INFO - 2015-07-22 06:20:32 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:20:32 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:20:32 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:20:32 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:20:32 --> Final output sent to browser
+DEBUG - 2015-07-22 06:20:32 --> Total execution time: 0.1440
+INFO - 2015-07-22 06:20:40 --> Config Class Initialized
+INFO - 2015-07-22 06:20:40 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:20:40 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:20:40 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:20:40 --> URI Class Initialized
+INFO - 2015-07-22 06:20:40 --> Router Class Initialized
+INFO - 2015-07-22 06:20:40 --> Output Class Initialized
+INFO - 2015-07-22 06:20:40 --> Security Class Initialized
+DEBUG - 2015-07-22 06:20:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:20:40 --> Input Class Initialized
+INFO - 2015-07-22 06:20:40 --> Language Class Initialized
+ERROR - 2015-07-22 06:20:40 --> 404 Page Not Found: Admin/addpost
+INFO - 2015-07-22 06:20:41 --> Config Class Initialized
+INFO - 2015-07-22 06:20:41 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:20:41 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:20:41 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:20:41 --> URI Class Initialized
+INFO - 2015-07-22 06:20:41 --> Router Class Initialized
+INFO - 2015-07-22 06:20:41 --> Output Class Initialized
+INFO - 2015-07-22 06:20:41 --> Security Class Initialized
+DEBUG - 2015-07-22 06:20:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:20:41 --> Input Class Initialized
+INFO - 2015-07-22 06:20:41 --> Language Class Initialized
+INFO - 2015-07-22 06:20:41 --> Loader Class Initialized
+INFO - 2015-07-22 06:20:41 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:20:41 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:20:41 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:20:41 --> Controller Class Initialized
+INFO - 2015-07-22 06:20:41 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:20:41 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:20:41 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:20:41 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:20:41 --> Final output sent to browser
+DEBUG - 2015-07-22 06:20:41 --> Total execution time: 0.1450
+INFO - 2015-07-22 06:23:46 --> Config Class Initialized
+INFO - 2015-07-22 06:23:46 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:23:46 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:23:46 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:23:46 --> URI Class Initialized
+INFO - 2015-07-22 06:23:46 --> Router Class Initialized
+INFO - 2015-07-22 06:23:46 --> Output Class Initialized
+INFO - 2015-07-22 06:23:46 --> Security Class Initialized
+DEBUG - 2015-07-22 06:23:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:23:46 --> Input Class Initialized
+INFO - 2015-07-22 06:23:46 --> Language Class Initialized
+INFO - 2015-07-22 06:23:46 --> Loader Class Initialized
+INFO - 2015-07-22 06:23:46 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:23:46 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:23:46 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:23:46 --> Controller Class Initialized
+INFO - 2015-07-22 06:23:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:23:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:23:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:23:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:23:46 --> Final output sent to browser
+DEBUG - 2015-07-22 06:23:46 --> Total execution time: 0.1390
+INFO - 2015-07-22 06:23:50 --> Config Class Initialized
+INFO - 2015-07-22 06:23:50 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:23:50 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:23:50 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:23:50 --> URI Class Initialized
+INFO - 2015-07-22 06:23:50 --> Router Class Initialized
+INFO - 2015-07-22 06:23:50 --> Output Class Initialized
+INFO - 2015-07-22 06:23:50 --> Security Class Initialized
+DEBUG - 2015-07-22 06:23:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:23:50 --> Input Class Initialized
+INFO - 2015-07-22 06:23:50 --> Language Class Initialized
+INFO - 2015-07-22 06:23:50 --> Loader Class Initialized
+INFO - 2015-07-22 06:23:50 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:23:50 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:23:50 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:23:50 --> Controller Class Initialized
+INFO - 2015-07-22 06:23:50 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:23:50 --> Final output sent to browser
+DEBUG - 2015-07-22 06:23:50 --> Total execution time: 0.1250
+INFO - 2015-07-22 06:25:27 --> Config Class Initialized
+INFO - 2015-07-22 06:25:27 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:25:27 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:25:27 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:25:27 --> URI Class Initialized
+INFO - 2015-07-22 06:25:27 --> Router Class Initialized
+INFO - 2015-07-22 06:25:27 --> Output Class Initialized
+INFO - 2015-07-22 06:25:27 --> Security Class Initialized
+DEBUG - 2015-07-22 06:25:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:25:27 --> Input Class Initialized
+INFO - 2015-07-22 06:25:27 --> Language Class Initialized
+INFO - 2015-07-22 06:25:27 --> Loader Class Initialized
+INFO - 2015-07-22 06:25:27 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:25:27 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:25:27 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:25:27 --> Controller Class Initialized
+INFO - 2015-07-22 06:25:27 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:25:27 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:25:27 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:25:27 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:25:27 --> Final output sent to browser
+DEBUG - 2015-07-22 06:25:27 --> Total execution time: 0.1240
+INFO - 2015-07-22 06:28:48 --> Config Class Initialized
+INFO - 2015-07-22 06:28:48 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:28:48 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:28:48 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:28:48 --> URI Class Initialized
+INFO - 2015-07-22 06:28:48 --> Router Class Initialized
+INFO - 2015-07-22 06:28:48 --> Output Class Initialized
+INFO - 2015-07-22 06:28:48 --> Security Class Initialized
+DEBUG - 2015-07-22 06:28:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:28:48 --> Input Class Initialized
+INFO - 2015-07-22 06:28:48 --> Language Class Initialized
+INFO - 2015-07-22 06:28:48 --> Loader Class Initialized
+INFO - 2015-07-22 06:28:48 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:28:48 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:28:48 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:28:48 --> Controller Class Initialized
+INFO - 2015-07-22 06:28:48 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:28:48 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:28:48 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:28:48 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:28:48 --> Final output sent to browser
+DEBUG - 2015-07-22 06:28:48 --> Total execution time: 0.1390
+INFO - 2015-07-22 06:29:40 --> Config Class Initialized
+INFO - 2015-07-22 06:29:40 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:29:40 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:29:40 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:29:40 --> URI Class Initialized
+INFO - 2015-07-22 06:29:40 --> Router Class Initialized
+INFO - 2015-07-22 06:29:40 --> Output Class Initialized
+INFO - 2015-07-22 06:29:40 --> Security Class Initialized
+DEBUG - 2015-07-22 06:29:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:29:40 --> Input Class Initialized
+INFO - 2015-07-22 06:29:40 --> Language Class Initialized
+INFO - 2015-07-22 06:29:40 --> Loader Class Initialized
+INFO - 2015-07-22 06:29:40 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:29:40 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:29:40 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:29:40 --> Controller Class Initialized
+INFO - 2015-07-22 06:29:40 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:29:40 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:29:40 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:29:40 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:29:40 --> Final output sent to browser
+DEBUG - 2015-07-22 06:29:40 --> Total execution time: 0.1360
+INFO - 2015-07-22 06:32:05 --> Config Class Initialized
+INFO - 2015-07-22 06:32:05 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:32:05 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:32:05 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:32:05 --> URI Class Initialized
+INFO - 2015-07-22 06:32:05 --> Router Class Initialized
+INFO - 2015-07-22 06:32:05 --> Output Class Initialized
+INFO - 2015-07-22 06:32:05 --> Security Class Initialized
+DEBUG - 2015-07-22 06:32:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:32:05 --> Input Class Initialized
+INFO - 2015-07-22 06:32:05 --> Language Class Initialized
+INFO - 2015-07-22 06:32:05 --> Loader Class Initialized
+INFO - 2015-07-22 06:32:06 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:32:06 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:32:06 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:32:06 --> Controller Class Initialized
+INFO - 2015-07-22 06:32:06 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:32:06 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:32:06 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:32:06 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:32:06 --> Final output sent to browser
+DEBUG - 2015-07-22 06:32:06 --> Total execution time: 0.1380
+INFO - 2015-07-22 06:32:19 --> Config Class Initialized
+INFO - 2015-07-22 06:32:19 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:32:19 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:32:19 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:32:19 --> URI Class Initialized
+INFO - 2015-07-22 06:32:19 --> Router Class Initialized
+INFO - 2015-07-22 06:32:19 --> Output Class Initialized
+INFO - 2015-07-22 06:32:19 --> Security Class Initialized
+DEBUG - 2015-07-22 06:32:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:32:19 --> Input Class Initialized
+INFO - 2015-07-22 06:32:19 --> Language Class Initialized
+INFO - 2015-07-22 06:32:19 --> Loader Class Initialized
+INFO - 2015-07-22 06:32:19 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:32:19 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:32:19 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:32:19 --> Controller Class Initialized
+INFO - 2015-07-22 06:32:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:32:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:32:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:32:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:32:19 --> Final output sent to browser
+DEBUG - 2015-07-22 06:32:19 --> Total execution time: 0.1350
+INFO - 2015-07-22 06:37:04 --> Config Class Initialized
+INFO - 2015-07-22 06:37:04 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:37:04 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:37:04 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:37:04 --> URI Class Initialized
+INFO - 2015-07-22 06:37:04 --> Router Class Initialized
+INFO - 2015-07-22 06:37:04 --> Output Class Initialized
+INFO - 2015-07-22 06:37:04 --> Security Class Initialized
+DEBUG - 2015-07-22 06:37:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:37:04 --> Input Class Initialized
+INFO - 2015-07-22 06:37:04 --> Language Class Initialized
+INFO - 2015-07-22 06:37:04 --> Loader Class Initialized
+INFO - 2015-07-22 06:37:04 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:37:04 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:37:04 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:37:04 --> Controller Class Initialized
+INFO - 2015-07-22 06:37:04 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:37:04 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:37:04 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:37:04 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:37:04 --> Final output sent to browser
+DEBUG - 2015-07-22 06:37:04 --> Total execution time: 0.1400
+INFO - 2015-07-22 06:37:06 --> Config Class Initialized
+INFO - 2015-07-22 06:37:06 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:37:06 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:37:06 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:37:06 --> URI Class Initialized
+INFO - 2015-07-22 06:37:06 --> Router Class Initialized
+INFO - 2015-07-22 06:37:06 --> Output Class Initialized
+INFO - 2015-07-22 06:37:06 --> Security Class Initialized
+DEBUG - 2015-07-22 06:37:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:37:06 --> Input Class Initialized
+INFO - 2015-07-22 06:37:06 --> Language Class Initialized
+INFO - 2015-07-22 06:37:06 --> Loader Class Initialized
+INFO - 2015-07-22 06:37:06 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:37:06 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:37:06 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:37:06 --> Controller Class Initialized
+INFO - 2015-07-22 06:37:23 --> Config Class Initialized
+INFO - 2015-07-22 06:37:23 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:37:23 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:37:23 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:37:23 --> URI Class Initialized
+INFO - 2015-07-22 06:37:23 --> Router Class Initialized
+INFO - 2015-07-22 06:37:23 --> Output Class Initialized
+INFO - 2015-07-22 06:37:23 --> Security Class Initialized
+DEBUG - 2015-07-22 06:37:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:37:23 --> Input Class Initialized
+INFO - 2015-07-22 06:37:23 --> Language Class Initialized
+INFO - 2015-07-22 06:37:23 --> Loader Class Initialized
+INFO - 2015-07-22 06:37:23 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:37:23 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:37:23 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:37:23 --> Controller Class Initialized
+INFO - 2015-07-22 06:37:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:37:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:37:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:37:23 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpage.php
+INFO - 2015-07-22 06:37:23 --> Final output sent to browser
+DEBUG - 2015-07-22 06:37:23 --> Total execution time: 0.1370
+INFO - 2015-07-22 06:37:45 --> Config Class Initialized
+INFO - 2015-07-22 06:37:45 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:37:45 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:37:45 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:37:45 --> URI Class Initialized
+INFO - 2015-07-22 06:37:45 --> Router Class Initialized
+INFO - 2015-07-22 06:37:45 --> Output Class Initialized
+INFO - 2015-07-22 06:37:45 --> Security Class Initialized
+DEBUG - 2015-07-22 06:37:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:37:45 --> Input Class Initialized
+INFO - 2015-07-22 06:37:46 --> Language Class Initialized
+INFO - 2015-07-22 06:37:46 --> Loader Class Initialized
+INFO - 2015-07-22 06:37:46 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:37:46 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:37:46 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:37:46 --> Controller Class Initialized
+INFO - 2015-07-22 06:37:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:37:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:37:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:37:46 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpage.php
+INFO - 2015-07-22 06:37:46 --> Final output sent to browser
+DEBUG - 2015-07-22 06:37:46 --> Total execution time: 0.1370
+INFO - 2015-07-22 06:37:49 --> Config Class Initialized
+INFO - 2015-07-22 06:37:49 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:37:49 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:37:49 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:37:49 --> URI Class Initialized
+INFO - 2015-07-22 06:37:49 --> Router Class Initialized
+INFO - 2015-07-22 06:37:49 --> Output Class Initialized
+INFO - 2015-07-22 06:37:49 --> Security Class Initialized
+DEBUG - 2015-07-22 06:37:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:37:49 --> Input Class Initialized
+INFO - 2015-07-22 06:37:49 --> Language Class Initialized
+INFO - 2015-07-22 06:37:49 --> Loader Class Initialized
+INFO - 2015-07-22 06:37:49 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:37:49 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:37:49 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:37:49 --> Controller Class Initialized
+INFO - 2015-07-22 06:37:49 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:37:49 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:37:49 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:37:49 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpage.php
+INFO - 2015-07-22 06:37:49 --> Final output sent to browser
+DEBUG - 2015-07-22 06:37:49 --> Total execution time: 0.1880
+INFO - 2015-07-22 06:39:33 --> Config Class Initialized
+INFO - 2015-07-22 06:39:33 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:39:33 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:39:33 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:39:33 --> URI Class Initialized
+INFO - 2015-07-22 06:39:33 --> Router Class Initialized
+INFO - 2015-07-22 06:39:33 --> Output Class Initialized
+INFO - 2015-07-22 06:39:33 --> Security Class Initialized
+DEBUG - 2015-07-22 06:39:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:39:33 --> Input Class Initialized
+INFO - 2015-07-22 06:39:33 --> Language Class Initialized
+INFO - 2015-07-22 06:39:33 --> Loader Class Initialized
+INFO - 2015-07-22 06:39:33 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:39:33 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:39:33 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:39:33 --> Controller Class Initialized
+INFO - 2015-07-22 06:39:33 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:39:33 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:39:33 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:39:33 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpage.php
+INFO - 2015-07-22 06:39:33 --> Final output sent to browser
+DEBUG - 2015-07-22 06:39:33 --> Total execution time: 0.1390
+INFO - 2015-07-22 06:39:42 --> Config Class Initialized
+INFO - 2015-07-22 06:39:42 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:39:42 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:39:42 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:39:42 --> URI Class Initialized
+INFO - 2015-07-22 06:39:42 --> Router Class Initialized
+INFO - 2015-07-22 06:39:42 --> Output Class Initialized
+INFO - 2015-07-22 06:39:42 --> Security Class Initialized
+DEBUG - 2015-07-22 06:39:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:39:42 --> Input Class Initialized
+INFO - 2015-07-22 06:39:42 --> Language Class Initialized
+INFO - 2015-07-22 06:39:42 --> Loader Class Initialized
+INFO - 2015-07-22 06:39:42 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:39:42 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:39:42 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:39:42 --> Controller Class Initialized
+INFO - 2015-07-22 06:39:42 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:39:42 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:39:42 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:39:42 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpage.php
+INFO - 2015-07-22 06:39:42 --> Final output sent to browser
+DEBUG - 2015-07-22 06:39:42 --> Total execution time: 0.2120
+INFO - 2015-07-22 06:40:11 --> Config Class Initialized
+INFO - 2015-07-22 06:40:11 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:40:11 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:40:11 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:40:11 --> URI Class Initialized
+INFO - 2015-07-22 06:40:11 --> Router Class Initialized
+INFO - 2015-07-22 06:40:11 --> Output Class Initialized
+INFO - 2015-07-22 06:40:11 --> Security Class Initialized
+DEBUG - 2015-07-22 06:40:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:40:11 --> Input Class Initialized
+INFO - 2015-07-22 06:40:11 --> Language Class Initialized
+INFO - 2015-07-22 06:40:11 --> Loader Class Initialized
+INFO - 2015-07-22 06:40:11 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:40:11 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:40:11 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:40:11 --> Controller Class Initialized
+INFO - 2015-07-22 06:40:11 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:40:11 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:40:11 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:40:11 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:40:11 --> Final output sent to browser
+DEBUG - 2015-07-22 06:40:11 --> Total execution time: 0.1370
+INFO - 2015-07-22 06:40:14 --> Config Class Initialized
+INFO - 2015-07-22 06:40:14 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:40:14 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:40:14 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:40:14 --> URI Class Initialized
+INFO - 2015-07-22 06:40:14 --> Router Class Initialized
+INFO - 2015-07-22 06:40:14 --> Output Class Initialized
+INFO - 2015-07-22 06:40:14 --> Security Class Initialized
+DEBUG - 2015-07-22 06:40:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:40:14 --> Input Class Initialized
+INFO - 2015-07-22 06:40:14 --> Language Class Initialized
+INFO - 2015-07-22 06:40:14 --> Loader Class Initialized
+INFO - 2015-07-22 06:40:14 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:40:14 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:40:14 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:40:14 --> Controller Class Initialized
+INFO - 2015-07-22 06:40:14 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:40:14 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:40:14 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:40:14 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addpost.php
+INFO - 2015-07-22 06:40:14 --> Final output sent to browser
+DEBUG - 2015-07-22 06:40:14 --> Total execution time: 0.1410
+INFO - 2015-07-22 06:40:41 --> Config Class Initialized
+INFO - 2015-07-22 06:40:41 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:40:41 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:40:41 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:40:41 --> URI Class Initialized
+DEBUG - 2015-07-22 06:40:41 --> No URI present. Default controller set.
+INFO - 2015-07-22 06:40:41 --> Router Class Initialized
+INFO - 2015-07-22 06:40:41 --> Output Class Initialized
+INFO - 2015-07-22 06:40:41 --> Security Class Initialized
+DEBUG - 2015-07-22 06:40:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:40:41 --> Input Class Initialized
+INFO - 2015-07-22 06:40:41 --> Language Class Initialized
+INFO - 2015-07-22 06:40:41 --> Loader Class Initialized
+INFO - 2015-07-22 06:40:41 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:40:41 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:40:41 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:40:41 --> Controller Class Initialized
+INFO - 2015-07-22 06:40:41 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-22 06:40:41 --> Final output sent to browser
+DEBUG - 2015-07-22 06:40:41 --> Total execution time: 0.1320
+INFO - 2015-07-22 06:40:53 --> Config Class Initialized
+INFO - 2015-07-22 06:40:53 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:40:53 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:40:53 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:40:53 --> URI Class Initialized
+INFO - 2015-07-22 06:40:53 --> Router Class Initialized
+INFO - 2015-07-22 06:40:53 --> Output Class Initialized
+INFO - 2015-07-22 06:40:53 --> Security Class Initialized
+DEBUG - 2015-07-22 06:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:40:53 --> Input Class Initialized
+INFO - 2015-07-22 06:40:53 --> Language Class Initialized
+INFO - 2015-07-22 06:40:53 --> Loader Class Initialized
+INFO - 2015-07-22 06:40:53 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:40:53 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:40:53 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:40:53 --> Controller Class Initialized
+INFO - 2015-07-22 06:40:53 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/index.php
+INFO - 2015-07-22 06:40:53 --> Final output sent to browser
+DEBUG - 2015-07-22 06:40:53 --> Total execution time: 0.1280
+INFO - 2015-07-22 06:41:03 --> Config Class Initialized
+INFO - 2015-07-22 06:41:03 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:41:03 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:41:03 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:41:03 --> URI Class Initialized
+DEBUG - 2015-07-22 06:41:03 --> No URI present. Default controller set.
+INFO - 2015-07-22 06:41:03 --> Router Class Initialized
+INFO - 2015-07-22 06:41:03 --> Output Class Initialized
+INFO - 2015-07-22 06:41:03 --> Security Class Initialized
+DEBUG - 2015-07-22 06:41:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:41:03 --> Input Class Initialized
+INFO - 2015-07-22 06:41:03 --> Language Class Initialized
+INFO - 2015-07-22 06:41:03 --> Loader Class Initialized
+INFO - 2015-07-22 06:41:03 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:41:03 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:41:03 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:41:03 --> Controller Class Initialized
+INFO - 2015-07-22 06:41:03 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-22 06:41:03 --> Final output sent to browser
+DEBUG - 2015-07-22 06:41:03 --> Total execution time: 0.1230
+INFO - 2015-07-22 06:41:14 --> Config Class Initialized
+INFO - 2015-07-22 06:41:14 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:41:14 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:41:14 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:41:14 --> URI Class Initialized
+INFO - 2015-07-22 06:41:14 --> Router Class Initialized
+INFO - 2015-07-22 06:41:14 --> Output Class Initialized
+INFO - 2015-07-22 06:41:14 --> Security Class Initialized
+DEBUG - 2015-07-22 06:41:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:41:14 --> Input Class Initialized
+INFO - 2015-07-22 06:41:14 --> Language Class Initialized
+INFO - 2015-07-22 06:41:14 --> Loader Class Initialized
+INFO - 2015-07-22 06:41:14 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:41:14 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:41:14 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:41:14 --> Controller Class Initialized
+INFO - 2015-07-22 06:41:14 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/index.php
+INFO - 2015-07-22 06:41:14 --> Final output sent to browser
+DEBUG - 2015-07-22 06:41:14 --> Total execution time: 0.1350
+INFO - 2015-07-22 06:41:21 --> Config Class Initialized
+INFO - 2015-07-22 06:41:21 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:41:21 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:41:21 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:41:21 --> URI Class Initialized
+INFO - 2015-07-22 06:41:21 --> Router Class Initialized
+INFO - 2015-07-22 06:41:21 --> Output Class Initialized
+INFO - 2015-07-22 06:41:21 --> Security Class Initialized
+DEBUG - 2015-07-22 06:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:41:21 --> Input Class Initialized
+INFO - 2015-07-22 06:41:21 --> Language Class Initialized
+INFO - 2015-07-22 06:41:21 --> Loader Class Initialized
+INFO - 2015-07-22 06:41:21 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:41:21 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:41:21 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:41:21 --> Controller Class Initialized
+INFO - 2015-07-22 06:41:21 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:41:21 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:41:21 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:41:21 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:41:21 --> Final output sent to browser
+DEBUG - 2015-07-22 06:41:21 --> Total execution time: 0.1370
+INFO - 2015-07-22 06:42:19 --> Config Class Initialized
+INFO - 2015-07-22 06:42:19 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:42:19 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:42:19 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:42:19 --> URI Class Initialized
+INFO - 2015-07-22 06:42:19 --> Router Class Initialized
+INFO - 2015-07-22 06:42:19 --> Output Class Initialized
+INFO - 2015-07-22 06:42:19 --> Security Class Initialized
+DEBUG - 2015-07-22 06:42:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:42:19 --> Input Class Initialized
+INFO - 2015-07-22 06:42:19 --> Language Class Initialized
+INFO - 2015-07-22 06:42:19 --> Loader Class Initialized
+INFO - 2015-07-22 06:42:19 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:42:19 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:42:19 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:42:19 --> Controller Class Initialized
+INFO - 2015-07-22 06:42:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:42:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:42:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:42:19 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:42:19 --> Final output sent to browser
+DEBUG - 2015-07-22 06:42:19 --> Total execution time: 0.1420
+INFO - 2015-07-22 06:44:07 --> Config Class Initialized
+INFO - 2015-07-22 06:44:07 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:44:07 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:44:07 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:44:07 --> URI Class Initialized
+INFO - 2015-07-22 06:44:07 --> Router Class Initialized
+INFO - 2015-07-22 06:44:07 --> Output Class Initialized
+INFO - 2015-07-22 06:44:07 --> Security Class Initialized
+DEBUG - 2015-07-22 06:44:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:44:07 --> Input Class Initialized
+INFO - 2015-07-22 06:44:07 --> Language Class Initialized
+INFO - 2015-07-22 06:44:07 --> Loader Class Initialized
+INFO - 2015-07-22 06:44:07 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:44:07 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:44:07 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:44:07 --> Controller Class Initialized
+INFO - 2015-07-22 06:44:07 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:44:07 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:44:07 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:44:07 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:44:07 --> Final output sent to browser
+DEBUG - 2015-07-22 06:44:07 --> Total execution time: 0.1480
+INFO - 2015-07-22 06:45:05 --> Config Class Initialized
+INFO - 2015-07-22 06:45:05 --> Hooks Class Initialized
+DEBUG - 2015-07-22 06:45:05 --> UTF-8 Support Enabled
+INFO - 2015-07-22 06:45:05 --> Utf8 Class Initialized
+INFO - 2015-07-22 06:45:05 --> URI Class Initialized
+INFO - 2015-07-22 06:45:05 --> Router Class Initialized
+INFO - 2015-07-22 06:45:05 --> Output Class Initialized
+INFO - 2015-07-22 06:45:05 --> Security Class Initialized
+DEBUG - 2015-07-22 06:45:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-22 06:45:05 --> Input Class Initialized
+INFO - 2015-07-22 06:45:05 --> Language Class Initialized
+INFO - 2015-07-22 06:45:05 --> Loader Class Initialized
+INFO - 2015-07-22 06:45:05 --> Helper loaded: url_helper
+INFO - 2015-07-22 06:45:05 --> Database Driver Class Initialized
+INFO - 2015-07-22 06:45:05 --> Session: Class initialized using 'files' driver.
+INFO - 2015-07-22 06:45:05 --> Controller Class Initialized
+INFO - 2015-07-22 06:45:05 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-22 06:45:05 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-22 06:45:05 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-22 06:45:05 --> File loaded: D:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listpost.php
+INFO - 2015-07-22 06:45:05 --> Final output sent to browser
+DEBUG - 2015-07-22 06:45:05 --> Total execution time: 0.1350

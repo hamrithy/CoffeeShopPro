@@ -7,7 +7,7 @@
 								  <div class="panel-heading">
 									<h3 class="panel-title">
 									<i class="fa fa-tachometer"></i>
-										<a href="dashboard.jsp"  >
+										<a href="#"  >
 										Dashboard
 										
 										</a>
@@ -24,7 +24,7 @@
 								  <div class="panel-heading">
 									<h3 class="panel-title">
 										<a href="#accordion-1-child-6" data-toggle="collapse" data-parent="#accordion-1" class="block-collapse">
-										Jobs
+										Posts
 										<span class="right-content">
 											<span class="right-icon"><i class="glyphicon glyphicon-plus icon-collapse"></i></span>
 										</span>
@@ -33,12 +33,38 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-6" style="height: 0px;">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="listjobs.act">List Jobs</a><br><br>
-										<i ></i>&nbsp;<a href="addjob.act">Add Job</a><br><br>
+										<i ></i>&nbsp;<a href="listposts">List Posts</a><br><br>
+										<i ></i>&nbsp;<a href="addpost">Add Posts</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
 								</div><!-- /.panel panel-default -->
+
+								<div class="panel panel-default">
+								  <div class="panel-heading">
+									<h3 class="panel-title">
+										<a href="#accordion-1-child-12" data-toggle="collapse" data-parent="#accordion-7" class="block-collapse collapsed">
+										Pages
+										<span class="right-content">
+											<span class="right-icon">
+												<i class="glyphicon glyphicon-minus icon-collapse"></i>
+											</span>
+										</span>
+										</a>
+									</h3>
+								  </div>
+									<div class="collapse" id="accordion-1-child-12">
+									  <div class="panel-body">
+										<i ></i>&nbsp;<a href="listpage">List Pages</a><br><br>
+										<i ></i>&nbsp;<a href="addpage">Add Page</a><br><br>
+										
+									  </div><!-- /.panel-body -->
+									</div><!-- /.collapse in -->
+								</div><!-- /.panel panel-default -->
+								<br/>
+								<h4 class="small-title">
+									<strong><i class="fa fa-user"></i> User Section</strong>
+								</h4>
 								<div class="panel panel-default">
 								  <div class="panel-heading">
 									<h3 class="panel-title">
@@ -144,27 +170,7 @@
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
 								</div><!-- /.panel panel-default -->
-								<div class="panel panel-default">
-								  <div class="panel-heading">
-									<h3 class="panel-title">
-										<a href="#accordion-1-child-12" data-toggle="collapse" data-parent="#accordion-7" class="block-collapse collapsed">
-										Page
-										<span class="right-content">
-											<span class="right-icon">
-												<i class="glyphicon glyphicon-minus icon-collapse"></i>
-											</span>
-										</span>
-										</a>
-									</h3>
-								  </div>
-									<div class="collapse" id="accordion-1-child-12">
-									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="listpage.act">List Pages</a><br><br>
-										<i ></i>&nbsp;<a href="addpage.act">Add Page</a><br><br>
-										
-									  </div><!-- /.panel-body -->
-									</div><!-- /.collapse in -->
-								</div><!-- /.panel panel-default -->
+								
 							</div><!-- /.panel-group -->
 							
 						

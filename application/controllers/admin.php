@@ -14,6 +14,22 @@
 		public function dashboard(){
 			$this->load->view('admin-kh4it/listpost');
 		}
+
+		public function listposts(){
+			$this->load->view('admin-kh4it/listpost');
+		}
+
+		public function addpost(){
+			$this->load->view('admin-kh4it/addpost');
+		}
+
+		public function listpage(){
+			$this->load->view('admin-kh4it/listpage');
+		}
+
+		public function addpage(){
+			$this->load->view('admin-kh4it/addpage');
+		}
 	}
 
 ?>

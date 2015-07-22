@@ -1,44 +1,50 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-    
-<%@ page import="java.util.ArrayList, model.dto.Page" %>  
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="description" content="We share Knowledge with IT lessons, IT Traing to students. Enjoy with Khmer Academy!">
-		<meta name="keywords" content="Khmer Academy, Khmer Learning Online, Khmer Studying IT, IT Traning in Cambodia, Khmer Forum, IT Chatting">
 		<meta name="author" content="Vuthea Chheang">
-		<title>List Pages | The Looking</title>
+		<title>List Pages</title>
  
-		<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		
-		<!-- PLUGINS CSS -->
-		<link href="assets/plugins/weather-icon/css/weather-icons.min.css" rel="stylesheet">
-		<link href="assets/plugins/prettify/prettify.min.css" rel="stylesheet">
-		<link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet">
-		<link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-		<link href="assets/plugins/owl-carousel/owl.theme.min.css" rel="stylesheet">
-		<link href="assets/plugins/owl-carousel/owl.transitions.min.css" rel="stylesheet">
-		<link href="assets/plugins/chosen/chosen.min.css" rel="stylesheet">
-		<link href="assets/plugins/icheck/skins/all.css" rel="stylesheet">
-		<link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet">
-		<link href="assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
-		<link href="assets/plugins/validator/bootstrapValidator.min.css" rel="stylesheet">
-		<link href="assets/plugins/summernote/summernote.min.css" rel="stylesheet">
-		<link href="assets/plugins/markdown/bootstrap-markdown.min.css" rel="stylesheet">
-		<link href="assets/plugins/datatable/css/bootstrap.datatable.min.css" rel="stylesheet">
-		<link href="assets/plugins/morris-chart/morris.min.css" rel="stylesheet">
-		<link href="assets/plugins/c3-chart/c3.min.css" rel="stylesheet">
-		<link href="assets/plugins/slider/slider.min.css" rel="stylesheet">
-		
-		<!-- MAIN CSS (REQUIRED ALL PAGE)-->
-		<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-		<link href="assets/css/style.css" rel="stylesheet">
-		<link href="assets/css/style-responsive.css" rel="stylesheet">
- 
+	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
+	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- PLUGINS CSS -->
+	<link href="<?php echo base_url(); ?>public/assets/plugins/weather-icon/css/weather-icons.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/prettify/prettify.min.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/magnific-popup/magnific-popup.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/owl-carousel/owl.carousel.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/owl-carousel/owl.theme.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/owl-carousel/owl.transitions.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/chosen/chosen.min.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/icheck/skins/all.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/datepicker/datepicker.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/timepicker/bootstrap-timepicker.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/validator/bootstrapValidator.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/summernote/summernote.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/markdown/bootstrap-markdown.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/datatable/css/bootstrap.datatable.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/morris-chart/morris.min.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/c3-chart/c3.min.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/slider/slider.min.css" rel="stylesheet">
+
+	<!-- MAIN CSS (REQUIRED ALL PAGE)-->
+	<link href="<?php echo base_url(); ?>/public/assets/plugins/font-awesome/css/font-awesome.min.css"
+		rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>/public/assets/css/style-responsive.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -47,18 +53,11 @@
 		
 		<!--  CSS (REQUIRED ALL PAGE)-->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<script src="assets/js/script/category.js"></script>
+
 	</head>
  
 	<body class="tooltips">
-<%
-	ArrayList<Page> pages;
-	if(request.getAttribute("page")!=null){
-		pages = (ArrayList) request.getAttribute("page");
-	}else{
-		pages = new ArrayList<Page>();
-	}
-%>		
+	
 		
 		<!--
 		===========================================================
@@ -67,13 +66,13 @@
 		-->
 		<div class="wrapper">
 			<!-- BEGIN TOP NAV -->
-			<jsp:include page="_header.jsp"></jsp:include>
+			<?php $this->load->view('admin-kh4it/_header') ?>
 			<!-- END TOP NAV -->
 			
 			
 			
 			<!-- BEGIN SIDEBAR LEFT -->
-			<jsp:include page="_sidebar.jsp"></jsp:include>
+			<?php $this->load->view('admin-kh4it/_sidebar') ?>
 			<!-- END SIDEBAR LEFT -->
 			
 			
@@ -89,7 +88,7 @@
 									<h1 class="panel-title">
 									<i class="fa fa-tasks"></i>
 										<a href="index.act"  >
-										List Jobs
+										List Pages
 										
 										</a>
 									</h1>
@@ -103,30 +102,27 @@
 						<table class="table table-striped table-hover" id="datatable-example">
 							<thead class="the-box dark full">
 								<tr>
-									<th>ID</th>
-									<th>Title</th>
-									<th>Date</th>
-									<th>User</th>
-									
+									<th>Page ID</th>
+									<th>Titile</th>
+									<th>Date</th>									
+									<th>Posted By</th>
 									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
 						
-							<%for(int i=0; i<pages.size(); i++){ %>
+							
 								<tr>
-									<td><%=pages.get(i).getPageid() %></td>
-									<td><%=pages.get(i).getPagetitle() %></td>
-									<td><%=pages.get(i).getCreatedate() %></td>
-									<td><%=pages.get(i).getUsername() %></td>
-									
+									<td>123</td>
+									<td>Manager</td>
+									<td>20-02-2015</td>									
+									<td>Vuthea</td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletepage.act?pageid=<%=pages.get(i).getPageid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getpageupdate.act?pageid=<%=pages.get(i).getPageid() %>'" class="btn btn-primary">Update</button>
-										<a target="_blank" href="../view/viewpage.act?pageid=<%=pages.get(i).getPageid() %>" class="btn btn-info">View</a>
+										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
+										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
 									</td>
 								</tr>
-							<% } %>
+							
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->
@@ -138,7 +134,8 @@
 				
 				
 				<!-- BEGIN FOOTER -->
-				<jsp:include page="_footer.jsp"></jsp:include>
+				<?php $this->load->view('admin-kh4it/_footer') ?>
+				
 				<!-- END FOOTER -->
 				
 				
@@ -162,68 +159,69 @@
 		Placed at the end of the document so the pages load faster
 		===========================================================
 		-->
-		<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/plugins/retina/retina.min.js"></script>
-		<script src="assets/plugins/nicescroll/jquery.nicescroll.js"></script>
-		<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-		<script src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
- 
-		<!-- PLUGINS -->
-		<script src="assets/plugins/skycons/skycons.js"></script>
-		<script src="assets/plugins/prettify/prettify.js"></script>
-		<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-		<script src="assets/plugins/chosen/chosen.jquery.min.js"></script>
-		<script src="assets/plugins/icheck/icheck.min.js"></script>
-		<script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
-		<script src="assets/plugins/timepicker/bootstrap-timepicker.js"></script>
-		<script src="assets/plugins/mask/jquery.mask.min.js"></script>
-		<script src="assets/plugins/validator/bootstrapValidator.min.js"></script>
-		<script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
-		<script src="assets/plugins/datatable/js/bootstrap.datatable.js"></script>
-		<script src="assets/plugins/summernote/summernote.min.js"></script>
-		<script src="assets/plugins/markdown/markdown.js"></script>
-		<script src="assets/plugins/markdown/to-markdown.js"></script>
-		<script src="assets/plugins/markdown/bootstrap-markdown.js"></script>
-		<script src="assets/plugins/slider/bootstrap-slider.js"></script>
-		
-		<!-- EASY PIE CHART JS -->
-		<script src="assets/plugins/easypie-chart/easypiechart.min.js"></script>
-		<script src="assets/plugins/easypie-chart/jquery.easypiechart.min.js"></script>
-		
-		<!-- KNOB JS -->
-		<!--[if IE]>
-		<script type="text/javascript" src="assets/plugins/jquery-knob/excanvas.js"></script>
+	<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
+	<script src="<?php echo base_url(); ?>/public/assets/js/jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/retina/retina.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/nicescroll/jquery.nicescroll.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+
+	<!-- PLUGINS -->
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/skycons/skycons.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/prettify/prettify.js"></script>
+	<script
+		src="<?php echo base_url(); ?>/public/assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/chosen/chosen.jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/icheck/icheck.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/timepicker/bootstrap-timepicker.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/mask/jquery.mask.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/validator/bootstrapValidator.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/datatable/js/bootstrap.datatable.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/summernote/summernote.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/markdown/markdown.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/markdown/to-markdown.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/markdown/bootstrap-markdown.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/slider/bootstrap-slider.js"></script>
+
+	<!-- EASY PIE CHART JS -->
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/easypie-chart/easypiechart.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/easypie-chart/jquery.easypiechart.min.js"></script>
+
+	<!-- KNOB JS -->
+	<!--[if IE]>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/public/assets/plugins/jquery-knob/excanvas.js"></script>
 		<![endif]-->
-		<script src="assets/plugins/jquery-knob/jquery.knob.js"></script>
-		<script src="assets/plugins/jquery-knob/knob.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/jquery-knob/jquery.knob.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/jquery-knob/knob.js"></script>
 
-		<!-- FLOT CHART JS -->
-		<script src="assets/plugins/flot-chart/jquery.flot.js"></script>
-		<script src="assets/plugins/flot-chart/jquery.flot.tooltip.js"></script>
-		<script src="assets/plugins/flot-chart/jquery.flot.resize.js"></script>
-		<script src="assets/plugins/flot-chart/jquery.flot.selection.js"></script>
-		<script src="assets/plugins/flot-chart/jquery.flot.stack.js"></script>
-		<script src="assets/plugins/flot-chart/jquery.flot.time.js"></script>
+	<!-- FLOT CHART JS -->
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.tooltip.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.resize.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.selection.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.stack.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/flot-chart/jquery.flot.time.js"></script>
 
-		<!-- MORRIS JS -->
-		<script src="assets/plugins/morris-chart/raphael.min.js"></script>
-		<script src="assets/plugins/morris-chart/morris.min.js"></script>
-		
-		<!-- C3 JS -->
-		<script src="assets/plugins/c3-chart/d3.v3.min.js" charset="utf-8"></script>
-		<script src="assets/plugins/c3-chart/c3.min.js"></script>
-		
-		<!-- MAIN APPS JS -->
-		<script src="assets/js/apps.js"></script>
+	<!-- MORRIS JS -->
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/morris-chart/raphael.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/morris-chart/morris.min.js"></script>
+
+	<!-- C3 JS -->
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/c3-chart/d3.v3.min.js" charset="utf-8"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/plugins/c3-chart/c3.min.js"></script>
+
+	<!-- MAIN APPS JS -->
+	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
 		
 		function deletedata(url){
 			if (confirm("Are you sure you want to delete?") == true) {
 				$.get(url ,function(data){
-					window.location.href="listpage.act";
+					window.location.href="listjobs.act";
 				});
 			} 
 		}

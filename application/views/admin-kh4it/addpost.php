@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="author" content="Vuthea Chheang">
-		<title>List POSTs</title>
+		<title>Add Post</title>
  
 	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -77,66 +77,91 @@
 			
 			
 			
+	
+			
+			
+			
 			<!-- BEGIN PAGE CONTENT -->
 			<div class="page-content">
 				
 				
 				<div class="container-fluid">
-					<br/>
-					<div class="panel panel-info">
-								  <div class="panel-heading">
-									<h1 class="panel-title">
-									<i class="fa fa-tasks"></i>
-										<a href="index.act"  >
-										List Posts
-										
-										</a>
-									</h1>
-								  </div>
-									
-					</div><!-- /.panel panel-default -->
-										
-					<!-- BEGIN DATA TABLE -->
-					<div class="the-box">
-						<div class="table-responsive">
-						<table class="table table-striped table-hover" id="datatable-example">
-							<thead class="the-box dark full">
-								<tr>
-									<th>Post ID</th>
-									<th>Titile</th>
-									<th>Posted Date</th>									
-									<th>Posted By</th>
-									<th>Action</th>
-								</tr>
-							</thead>
-							<tbody>
-						
-							
-								<tr>
-									<td>123</td>
-									<td>Manager</td>
-									<td>20-02-2015</td>									
-									<td>Vuthea</td>
-									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
-									</td>
-								</tr>
-							
-							</tbody>
-						</table>
-						</div><!-- /.table-responsive -->
-					</div><!-- /.the-box .default -->
-					<!-- END DATA TABLE -->
 					
+				<br/>				
+					<div class="panel panel-primary">
+							  <div class="panel-heading">
+								<h3 class="panel-title" id="formtitle">Form Add Post </h3>
+							  </div>
+							  <div class="panel-body">
+					
+					
+					<div class="row">
+					
+					<div class="col-sm-12">
+					
+					<div>
+						<form id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
+							<fieldset>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
+									</div>
+								</div> 
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Short Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control" name="txtshortdescription" id="txtshortdescription"></textarea>
+									</div>
+								</div>								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"></textarea>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Thumnail Image<span class="required">*</span></label>
+									<div class="col-lg-4">
+										<input type="file" id="txtfile" name="txtfile">
+									</div>
+									
+								</div> 
+								
+								
+							
+							
+							</fieldset>
+
+							<div class="form-group">
+							
+								<div class="col-lg-9 col-lg-offset-3">
+									
+									<input type="submit" id="btnsave" class="btn btn-info" value="Save"/>
+								</div>
+							</div>
+							
+						</form>
+					</div><!-- /.the-box -->
+						
+					</div><!-- /.col-sm-8 -->
+						
+				
+					</div><!-- /.row -->
+					</div>
+					</div>
+					
+				
 				</div><!-- /.container-fluid -->
 				
 				
 				
-				<!-- BEGIN FOOTER -->
+			<!-- BEGIN FOOTER -->
 				<?php $this->load->view('admin-kh4it/_footer') ?>
 				
-				<!-- END FOOTER -->
+			<!-- END FOOTER -->
 				
 				
 			</div><!-- /.page-content -->
@@ -216,17 +241,6 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
-		
-		function deletedata(url){
-			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
-				});
-			} 
-		}
-		
-		
-		</script>
+
 	</body>
 </html>
