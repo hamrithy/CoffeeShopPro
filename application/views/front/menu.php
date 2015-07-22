@@ -437,5 +437,13 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script type="text/javascript">
+/*        $(function(){
+               $("nav.main-nav li").click(function(){
+                $(this).parent().children().removeClass("current-menu-item");
+                $(this).addClass("current-menu-item");
+            });
+        });*/
+    </script>
 </body>
 </html>
