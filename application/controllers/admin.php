@@ -30,6 +30,14 @@
 		public function addpage(){
 			$this->load->view('admin-kh4it/addpage');
 		}
+
+		public function listusers(){
+			$this->load->view('admin-kh4it/listuser');
+		}
+
+		public function adduser(){
+			$this->load->view('admin-kh4it/adduser');
+		}
 	}
 
 ?>

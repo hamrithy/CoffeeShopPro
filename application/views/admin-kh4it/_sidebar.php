@@ -80,8 +80,8 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-7">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="listusers.act">List User</a><br><br>
-										<i ></i>&nbsp;<a href="adduser.act">Add User</a><br><br>
+										<i ></i>&nbsp;<a href="listusers">List User</a><br><br>
+										<i ></i>&nbsp;<a href="adduser">Add User</a><br><br>
 									
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
