@@ -8,25 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
     <!-- Apple devices -->
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
-    <link rel="icon" href="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>public/style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
+    <link rel="icon" href="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
 
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]--> <!-- 16x16 -->
 
     <!-- For Mobile Windows -->
     <meta name="msapplication-TileColor" content="#D83434">
-    <meta name="msapplication-TileImage" content="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <meta name="msapplication-TileImage" content="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
     
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'  rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/screen.css">
 
-    <script src="<?php echo base_url()?>style_front/js/modernizr.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/modernizr.js"></script>
 </head>
 <body>
     <div class="page-content show-content">
@@ -131,8 +131,8 @@
     
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/bootstrap.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/plugins.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/options.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
 </body>
 </html>

@@ -8,27 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
     <!-- Apple devices -->
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
-    <link rel="icon" href="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>public/style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
+    <link rel="icon" href="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
 
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]--> <!-- 16x16 -->
 
     <!-- For Mobile Windows -->
     <meta name="msapplication-TileColor" content="#D83434">
-    <meta name="msapplication-TileImage" content="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <meta name="msapplication-TileImage" content="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
     
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'  rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/screen.css">
 
-    <script src="<?php echo base_url()?>style_front/js/jquery.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/modernizr.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/options.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/jquery.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/modernizr.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
 
 </head>
 <body>
@@ -51,7 +51,7 @@
                                 <div class="post background-white padding">
                                         <header>
                                             <figure>
-                                                <img src="<?php echo base_url()?>style_front/images/beef-soup.jpg" alt="Featured Image" />
+                                                <img src="<?php echo base_url()?>public/style_front/images/beef-soup.jpg" alt="Featured Image" />
                                             </figure>
 
                                             <div class="header-meta row no-margin">
@@ -82,7 +82,7 @@
                                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
                                             </p>
                                             <p>
-                                                <img src="<?php echo base_url()?>style_front/images/eggs-bacon.jpg" alt="Eggs and Bacon" />
+                                                <img src="<?php echo base_url()?>public/style_front/images/eggs-bacon.jpg" alt="Eggs and Bacon" />
                                             </p>
                                             <p class="padding">
                                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
@@ -137,7 +137,7 @@
                                             <ul class="comment-list clean-list border-top margin-top-100 padding-top">
                                                 <li>
                                                     <div class="tt-comment">
-                                                        <span class="tt-avatar"><img src="<?php echo base_url()?>style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
+                                                        <span class="tt-avatar"><img src="<?php echo base_url()?>public/style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
                                                         <div class="comment-block">
                                                             <div class="comment-meta">
                                                                 John Doe
@@ -158,7 +158,7 @@
                                                     <ul class="children">
                                                         <li class="comment comment-author-tesla odd alt depth-2">
                                                             <div class="tt-comment">
-                                                                <span class="tt-avatar"><img src="<?php echo base_url()?>style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
+                                                                <span class="tt-avatar"><img src="<?php echo base_url()?>public/style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
                                                                 <div class="comment-block">
                                                                     <div class="comment-meta">
                                                                         John Doe
@@ -227,7 +227,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
-                                                        <img src="<?php echo base_url()?>style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="Сrispy Bacon sandwich" />
+                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="Сrispy Bacon sandwich" />
                                                     </a>
                                                 </figure>
                                             </div>
@@ -242,7 +242,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
-                                                        <img src="<?php echo base_url()?>style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="Sandwiches Fried Bacon" />
+                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="Sandwiches Fried Bacon" />
                                                     </a>
                                                 </figure>
                                             </div>
@@ -257,7 +257,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
-                                                        <img src="<?php echo base_url()?>style_front/images/dishes/mascarpone-mousse.jpg" alt="Mascarpone Mousse" />
+                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="Mascarpone Mousse" />
                                                     </a>
                                                 </figure>
                                             </div>
@@ -272,7 +272,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
-                                                        <img src="<?php echo base_url()?>style_front/images/dishes/icecream.jpg" alt="Icecream" />
+                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" alt="Icecream" />
                                                     </a>
                                                 </figure>
                                             </div>
@@ -287,7 +287,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
-                                                        <img src="<?php echo base_url()?>style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="Donut with scrambled eggs" />
+                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="Donut with scrambled eggs" />
                                                     </a>
                                                 </figure>
                                             </div>

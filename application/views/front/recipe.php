@@ -8,27 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
     <!-- Apple devices -->
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
-    <link rel="icon" href="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>public/style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
+    <link rel="icon" href="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
 
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]--> <!-- 16x16 -->
 
     <!-- For Mobile Windows -->
     <meta name="msapplication-TileColor" content="#D83434">
-    <meta name="msapplication-TileImage" content="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <meta name="msapplication-TileImage" content="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
     
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'  rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/screen.css">
 
-    <script src="<?php echo base_url()?>style_front/js/jquery.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/modernizr.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/options.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/jquery.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/modernizr.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
 
 </head>
 <body>
@@ -46,7 +46,7 @@
                 <div class="background-white margin-top-60 margin-bottom-120">
                     <header>
                         <figure>
-                            <img src="<?php echo base_url()?>style_front/images/recipe-featured.jpg" alt="Featured Image" />
+                            <img src="<?php echo base_url()?>public/style_front/images/recipe-featured.jpg" alt="Featured Image" />
                             <figcaption>
                                 <h2 class="entry-title aligncenter margin-top-60">The Hot Lovers Description Page</h2>
                             </figcaption>
@@ -61,7 +61,7 @@
                                    1. Combine 1 tablespoon soy sauce, sherry, 2 teaspoons cornstarch, and chicken in a large bowl; toss well to coat. Combine remaining 2 tablespoons soy sauce, remaining 2 teaspoons cornstarch, broth, oyster sauce, and honey in a small bowl.     
                                 </p>
                                 <p>
-                                    <img src="<?php echo base_url()?>style_front/images/chicken-recipe.jpg" alt="Grilled Chicken Legs" />
+                                    <img src="<?php echo base_url()?>public/style_front/images/chicken-recipe.jpg" alt="Grilled Chicken Legs" />
                                 </p>
                                 <p>
                                     A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
@@ -121,7 +121,7 @@
                                                 <div class="col-md-5">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="<?php echo base_url()?>style_front/images/popular/barbecue-salmon.jpg" alt="Barbecue from salmon with vegetables" />
+                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/barbecue-salmon.jpg" alt="Barbecue from salmon with vegetables" />
                                                         </a>
                                                     </figure>
                                                 </div> 
@@ -135,7 +135,7 @@
                                                 <div class="col-md-5">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="<?php echo base_url()?>style_front/images/popular/cookies-with-honey.jpg" alt="Cookies with honey cream and bananas" />
+                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/cookies-with-honey.jpg" alt="Cookies with honey cream and bananas" />
                                                         </a>
                                                     </figure>
                                                 </div> 
@@ -149,7 +149,7 @@
                                                 <div class="col-md-5">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="<?php echo base_url()?>style_front/images/popular/barbecue-cassoulet.jpg" alt="Barbecue cassoulet" />
+                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/barbecue-cassoulet.jpg" alt="Barbecue cassoulet" />
                                                         </a>
                                                     </figure>
                                                 </div> 

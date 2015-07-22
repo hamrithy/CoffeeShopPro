@@ -8,25 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
     <!-- Apple devices -->
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
-    <link rel="icon" href="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>public/style_front/img/favicon/favicon-apple.html" /> <!-- 152x152 -->
+    <link rel="icon" href="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
 
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]--> <!-- 16x16 -->
 
     <!-- For Mobile Windows -->
     <meta name="msapplication-TileColor" content="#D83434">
-    <meta name="msapplication-TileImage" content="<?php echo base_url()?>style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
+    <meta name="msapplication-TileImage" content="<?php echo base_url()?>public/style_front/img/favicon/favicon.html"> <!-- 32x32 or 64x64 -->
     
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'  rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>style_front/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/screen.css">
 
-    <script src="<?php echo base_url()?>style_front/js/modernizr.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/modernizr.js"></script>
 </head>
 <body>
     <div class="page-content show-content">
@@ -65,7 +65,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
                                         </figcaption>
@@ -94,7 +94,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
                                         </figcaption>
@@ -123,7 +123,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/pizza-with-mozzarella.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/pizza-with-mozzarella.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/pizza-with-mozzarella.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/pizza-with-mozzarella.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Pizza with mozzarella &amp; salami">Pizza with mozzarella 
                                             &amp; salami</a>
@@ -153,7 +153,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
                                         </figcaption>
@@ -182,7 +182,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
                                         </figcaption>
@@ -211,7 +211,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/sauce-seafood.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/sauce-seafood.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sauce-seafood.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sauce-seafood.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Sauce with seafood">Sauce with 
                                             seafood</a>
@@ -241,7 +241,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/crispy-bacon-sandwich.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Crispy bacon sandwich with mascarpone">Crispy bacon sandwich with mascarpone</a>
                                         </figcaption>
@@ -270,7 +270,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/sandwiches-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Sandwiches with fried bacon">Sandwiches with 
                                             fried bacon</a>
@@ -300,7 +300,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/barbecue-salmon.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/barbecue-salmon.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/barbecue-salmon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/barbecue-salmon.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Barbecue from salmon with vegetables">Barbecue from salmon 
                                             with vegetables</a>
@@ -330,7 +330,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/barbecue-cassoulet.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/barbecue-cassoulet.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/barbecue-cassoulet.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/barbecue-cassoulet.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="Barbecue cassoulet">Barbecue 
                                             cassoulet</a>
@@ -360,7 +360,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/icecream.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/icecream.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="icecream">Mint 
                                             Icecream</a>
@@ -391,7 +391,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>style_front/images/dishes/vegetables.jpg" class="zoom-image"><img src="<?php echo base_url()?>style_front/images/dishes/vegetables.jpg" alt="menu item"></a>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/vegetables.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/vegetables.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
                                             <a href="<?php echo site_url()?>/front/recipe" title="vegetables">Vegetables
                                             Mix</a>
@@ -434,8 +434,8 @@
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/bootstrap.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/plugins.js"></script>
-    <script src="<?php echo base_url()?>style_front/js/options.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
 </body>
 </html>
