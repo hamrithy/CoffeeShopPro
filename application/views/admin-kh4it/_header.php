@@ -1,21 +1,6 @@
-<%@page import="model.dto.User"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="UTF-8"%>
 
- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
 
-	<%if(request.getSession().getAttribute("thelookinguser")==null){%>
-	<script>
-		window.location.href="index.act";
-	</script>
-	<% }%>
-	<% 
-	
-	User usr = (User) session.getAttribute("thelookinguser");	
-	
-	%>
-
-<script src="assets/js/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>public/assets/js/jquery.min.js"></script>
 <style>
 			.required{
 				color: red;
@@ -131,7 +116,7 @@
 					
 					<!-- Begin Logo brand -->
 					<div class="logo-brand">
-						<a href="dashboard.jsp"><img alt="The Looking Group" src="../uploads/logo/White-Logo.jpg" height="60px" ></a>
+						<a href="#"><img alt="Cafe Chateau" src="<?php echo base_url(); ?>public/upload/logo2.png" style="margin-top: 5px;" ></a>
 					</div><!-- /.logo-brand -->
 					<!-- End Logo brand -->
 					
@@ -154,22 +139,22 @@
 						<!-- Begin Collapse menu nav -->
 						<div id="main-fixed-nav" >
 							<!-- Begin nav search form -->
-						<%if(session.getAttribute("thelookinguser")!=null) {%>	
+						
 							<ul class="nav-user navbar-right" id="mynav">
 						 	
 								<li class="dropdown">
 								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #fff">
 									
-									Hi, <strong><%= usr.getUsername() %></strong>
+									Hi, <strong>Vuthea</strong>
 								  </a>
 								  <ul class="dropdown-menu square primary margin-list-rounded with-triangle">
-								    <li ><a style="color: #333;" href="../view/index.act" target="_blank">Home</a></li>
+								    <li ><a style="color: #333;" href="#" target="_blank">Home</a></li>
 								   
-									<li ><a style="color: #333;" href="logout.act">Log out</a></li>
+									<li ><a style="color: #333;" href="#">Log out</a></li>
 								  </ul>
 								</li>
 							</ul> 
-						<%} %>
+						
 							
 								<!-- End Section for not login user -->
 							

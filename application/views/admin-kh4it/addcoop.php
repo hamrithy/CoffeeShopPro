@@ -1,7 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-    
-<%@ page import="java.util.ArrayList, model.dto.Cooperator" %>  
 
 <!DOCTYPE html>
 <html lang="en">
@@ -259,20 +255,7 @@
 		
 		</script>
 		
-		<% 
-	 	if(request.getAttribute("cooperator")!=null){
-	 		Cooperator cooperator = (Cooperator)request.getAttribute("cooperator");
-	 	%>
-			<script>
-			document.getElementById("formtitle").innerHTML = "Update Cooperator Information";
-			document.frmaddcoop.action = "updatecoop.act";
-			document.getElementById("cooperatorid").value = "<%= cooperator.getCooperatorid() %>";
-			document.getElementById("name").value = "<%= cooperator.getName() %>";
-			document.getElementById("imageurl").value = "<%= cooperator.getImageurl() %>";
-			document.getElementById("ordering").value = "<%= cooperator.getOrdering() %>";
-			document.getElementById("type").value = "<%= cooperator.getType() %>";
-			</script>
-		<%} %> 
+
 		
 		
 	</body>

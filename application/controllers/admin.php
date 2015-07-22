@@ -12,7 +12,7 @@
 		}
 		
 		public function dashboard(){
-			redirect("front");
+			$this->load->view('admin-kh4it/listpost');
 		}
 	}
 
