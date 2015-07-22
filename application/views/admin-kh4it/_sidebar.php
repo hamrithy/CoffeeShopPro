@@ -118,10 +118,10 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-9">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="listitem">List Food Item</a><br><br>
-										<i ></i>&nbsp;<a href="addcoop.act">Add Item</a><br><br>
-										<i ></i>&nbsp;<a href="listitem">List Food Category</a><br><br>
-										<i ></i>&nbsp;<a href="addcoop.act">Add Food Cateogry</a><br><br>
+										<i ></i>&nbsp;<a href="listfooditem">List Food Item</a><br><br>
+										<i ></i>&nbsp;<a href="addfooditem">Add Item</a><br><br>
+										<i ></i>&nbsp;<a href="listfoodcategory">List Food Category</a><br><br>
+										<i ></i>&nbsp;<a href="addfoodcategory">Add Food Cateogry</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
