@@ -31,52 +31,13 @@
 </head>
 <body>
     <div class="page-content show-content">
-        <div class="section section-nav">
-            <div class="container">
-                <div class="row relative">
-                    
-
-                    <div class="col-md-2 ">
-                        <div class="logo aligncenter">
-                            <div class="identity">
-                                <a href="index.html" title="home" rel="home">
-                                    <img src="<?php echo base_url()?>style_front/images/downtown-logo.png" alt="Downtown theme logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="menu-button alignleft"></div>
-                    </div>
-                    
-
-                    <div class="col-md-5 nav-wrap">
-                        <nav class="main-nav to-right responsive-nav"> <!-- .mega-menu helper class ued as switcher -->
-                            <ul class="clean-list clearfix"> <!-- .to-right, to-left, .center-me helper class-->
-                               <li class="current-menu-item">
-                                    <a href="#">Home</a>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="menu.html">Menu</a>
-                                    <ul>
-                                        <li>
-                                            <a href="recipe.html">Recipe</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="booking.html">Reservation</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </nav><!-- /.main-nav -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
+        <!-- Header -->
+        
+        <?php include_once '_header.php';?>
+        
+        <!-- End Header -->
 
         <section class="section section-slider">
                 <div id="home_slider" class="home-slider">
@@ -651,35 +612,17 @@
             </div>
         </div>
 
-        <footer class="main-footer">
-            <!-- Footer widgets -->
-            <div class="big-footer">
-                <div class="paralax paralax-content paralax-background" data-stellar-background-ratio="0.1">
-                    <div class="container">
-
-                        
-                        <div class="socials center-me margin-top-60">
-                            <ul class="clean-list social-links clearfix">
-                                <li class="i-facebook"><a title="facebook" target="_blank" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a></li>
-                                <li class="i-twitter"><a title="twitter" target="_blank" href="https://twitter.com/teslathemes"><i class="twitter"></i></a></li>
-                                <li class="i-pinterest"><a title="pinterest" target="_blank" href="http://www.pinterest.com/teslathemes/"><i class="pinterest"></i></a></li>
-                                <li class="i-gplus"><a title="gplus" target="_blank" href="https://plus.google.com/u/0/103868954833393210572/"><i class="gplus"></i></a></li>
-                                <li class="i-instagram"><a title="instagram" target="_blank" href="#"><i class="instagram"></i></a></li>
-                                <li class="i-dribbble"><a title="dribbble" target="_blank" href="http://dribbble.com/TeslaThemes"><i class="dribbble"></i></a></li>
-                                <li class="i-vimeo"><a title="vimeo" href="#" target="_blank"><i class="vimeo"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> <!-- /.container -->
-            </div><!-- /.big-footer -->
-            <!-- Copyright section -->
-            <div class="small-footer">
-               <div class="copyright background-green">
-                    <!--<p class="aligncenter no-margin">Copyright &copy; 2015 downtown.  <a href="http://teslathemes.com/" target="_blank">Designed by TeslaThemes</a></p>-->
-                    <p class="aligncenter no-margin">Copyright &copy; 2015 TSD.  <a href="http://tsdsolution.com/" target="_blank">Designed by Technology Soluton Development</a></p>
-                </div>
-            </div><!-- / small footer -->
-        </footer><!-- /.main-footer -->
+        
+        
+        <!--  Footer -->
+        
+        
+        <?php include_once '_footer.php';?>
+        
+        <!--  End Footer -->
+        
+        
+        
     </div>
 
     <!-- Scripts -->
