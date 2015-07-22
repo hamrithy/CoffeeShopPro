@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->library('encryption');
 			$this->load->model('dto/DtoUser');
 		}
 
@@ -20,7 +21,7 @@
 
 		public function index(){
 			if($this->isLoggedIn()){
-				redirect('admin/post');
+				redirect('admin/post/dashboard');
 			}else{
 				$this->login();
 			}
@@ -32,6 +33,7 @@
 
 		public function logout(){
 			$this->session->unset_userdata("logged_in");
+			$this->login();
 		}
 
 		public function authenticate(){
@@ -41,8 +43,14 @@
 			$this->session->set_userdata("logged_in",true);	
 			$this->session->set_userdata("username",$username);	
 			$this->session->set_userdata("id", $username);	
+
 			log_message('debug', $username);
 			log_message('debug', $password);
+
+			$ciphertext = $this->encryption->encrypt($password);	// ENCRYPTION PASSWORD
+			log_message('debug', "ENCRYPTION=".$ciphertext);
+			log_message('debug', "DECRYPTION=".$this->encryption->decrypt($ciphertext));	// DECRYPTION PASSWORD
+			
 			redirect("admin/post");
 		}
 	}

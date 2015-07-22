@@ -28,7 +28,7 @@ class DaoPost extends CI_Model{
 
 	public function lstPost(){
 		$this->db->select('postid , title , shortdescription , longdescription , postdate , thumbnailurl , userid');
-		$this->db->from('posts');
+		$this->db->from('POSTS');
 		$this->db->order_by("postid", "desc");
 		$query = $this->db->get();
 		$result = $query->result();

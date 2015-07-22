@@ -148,9 +148,9 @@
 									Hi, <strong><?php echo $this->session->userdata('username');?></strong>
 								  </a>
 								  <ul class="dropdown-menu square primary margin-list-rounded with-triangle">
-								    <li ><a style="color: #333;" href="#" target="_blank">Home</a></li>
+								    <li ><a style="color: #333;" href="<?php echo site_url('')?>" target="_blank">Home</a></li>
 								   
-									<li ><a style="color: #333;" href="#">Log out</a></li>
+									<li ><a style="color: #333;" href="<?php echo site_url("admin/auth/logout")?>">Log out</a></li>
 								  </ul>
 								</li>
 							</ul> 
