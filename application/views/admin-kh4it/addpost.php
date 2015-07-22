@@ -100,12 +100,12 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
+						<form action="<?php echo site_url();?>/testpost/addpost" id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
 							<fieldset>
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
+										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" required="required"/>
 									</div>
 								</div> 
 								

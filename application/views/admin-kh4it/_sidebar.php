@@ -55,8 +55,8 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-12">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listpage");?>">List Pages</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/addpage");?>">Add Page</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/page/listpage");?>">List Pages</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/page/addpage");?>">Add Page</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
@@ -76,8 +76,8 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-11">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listmenu");?>">List Menu</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/addmenu");?>">Add Menu</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/menu/listmenu");?>">List Menu</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/menu/addmenu");?>">Add Menu</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
@@ -97,8 +97,8 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-8">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listsslide");?>">List Slides</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/addslide");?>">Add Slide</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/slide/listsslide");?>">List Slides</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/slide/addslide");?>">Add Slide</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
@@ -118,10 +118,10 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-9">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listfooditem");?>">List Food Item</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/addfooditem");?>">Add Item</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listfoodcategory");?>">List Food Category</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/addfoodcategory");?>">Add Food Cateogry</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfooditem");?>">List Food Item</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/addfooditem");?>">Add Item</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfoodcategory");?>">List Food Category</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/addfoodcategory");?>">Add Food Cateogry</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
@@ -146,8 +146,8 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-7">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/listusers");?>">List User</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/post/adduser");?>">Add User</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/user/listusers");?>">List User</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/user/adduser");?>">Add User</a><br><br>
 									
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
