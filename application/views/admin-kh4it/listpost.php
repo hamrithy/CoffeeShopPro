@@ -118,8 +118,8 @@
 									<td><?php echo $v->postdate; ?></td>									
 									<td><?php echo $v->userid; ?></td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
+										<a  href="<?php echo site_url()?>/testpost/deletepostpro/<?php echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
+										<a  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
 							<?php } ?>
