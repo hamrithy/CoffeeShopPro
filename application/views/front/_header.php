@@ -19,24 +19,24 @@
                         <nav class="main-nav to-right responsive-nav"> <!-- .mega-menu helper class ued as switcher -->
                             <ul class="clean-list clearfix"> <!-- .to-right, to-left, .center-me helper class-->
                                <li class="current-menu-item">
-                                    <a href="<?php echo site_url()?>/front/">Home</a>
+                                    <a href="<?php echo site_url()?>/">Home</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="<?php echo site_url()?>/front/menu">Menu</a>
+                                    <a href="<?php echo site_url()?>/menu">Menu</a>
                                     <ul>
                                         <li>
-                                            <a href="<?php echo site_url()?>/front/recipe">Recipe</a>
+                                            <a href="<?php echo site_url()?>/recipe">Recipe</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url()?>/front/booking">Reservation</a>
+                                    <a href="<?php echo site_url()?>/booking">Reservation</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url()?>/front/blog">Blog</a>
+                                    <a href="<?php echo site_url()?>/blog">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url()?>/front/contact">Contact Us</a>
+                                    <a href="<?php echo site_url()?>/contact">Contact Us</a>
                                 </li>
                             </ul>
                         </nav><!-- /.main-nav -->
