@@ -27,3 +27,13 @@
                 </div>
             </div><!-- / small footer -->
         </footer><!-- /.main-footer -->
+
+    <script type="text/javascript">
+        $(function(){
+            //$("nav.main-nav li").click(function(){
+                alert(1);
+                $(this).parent().siblings().removeClass('current-menu-item');
+                $(this).addClass('current-menu-item');
+            //});
+        });
+    </script>
