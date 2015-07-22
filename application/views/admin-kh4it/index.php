@@ -76,7 +76,7 @@
 			  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 			  <strong>Login!</strong> Log to your account.
 			</div>
-			<form role="form" action="login.act" action="POST">
+			<form role="form" action="admin/dashboard" method="POST">
 				<div class="form-group has-feedback lg left-feedback no-label">
 				  <input type="text" name="username" class="form-control no-border input-lg rounded" placeholder="Enter username" autofocus>
 				  <span class="fa fa-user form-control-feedback"></span>
