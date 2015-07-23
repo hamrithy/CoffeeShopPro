@@ -118,8 +118,10 @@
 									<td><?php echo $v->postdate; ?></td>									
 									<td><?php echo $v->username; ?></td>
 									<td>
-										<a  href="<?php echo site_url()?>/admin/post/deletepost/<?php echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
-										<a  class="btn btn-primary">Update</a>
+										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
+										
+										<a  href="#" onclick="deletedata('<?php  echo site_url()?>/admin/post/deletepost/<?php  echo $v->postid ?>')" class="btn btn-danger">Delete</a>
+										<a  href="#" class="btn btn-primary">Update</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -220,9 +222,7 @@
 		
 		function deletedata(url){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
-				});
+				$.get(url);
 			} 
 		}
 		

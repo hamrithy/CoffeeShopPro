@@ -37,7 +37,7 @@ class DaoPost extends CI_Model{
 	
 	public function deletePost(DtoPost $p){
 		$this->db->where('postid',$p->getPostid());
-		$this->db->delete('posts');
+		$this->db->delete('POSTS');
 	}
 	
 	

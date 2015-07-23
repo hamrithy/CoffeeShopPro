@@ -52,7 +52,7 @@
 			
 			$this->DtoPost->setPostid($id);
 			$this->DaoPost->deletePost($this->DtoPost);
-			$this->index();
+			//$this->index();
 		}
 		 
 	}
