@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->library("session");
 		}
 		
 		public function index(){
@@ -32,7 +33,7 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
-			$this->DtoPost->setUserid(1);
+			$this->DtoPost->setUserid($this->session->userdata("userid"));
 			
 			$this->DaoPost->addPost($this->DtoPost);
 			$this->index();
@@ -71,7 +72,7 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
-			$this->DtoPost->setUserid(1);
+			$this->DtoPost->setUserid($this->session->userdata("userid"));
 			
 			$this->DaoPost->updatePost($this->DtoPost);
 			$this->index();
