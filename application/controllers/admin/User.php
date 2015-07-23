@@ -48,6 +48,11 @@
 			
 		}
 
+		public function updateUser($user_id){
+			$data["result"] = get_user_by_id($user_id);
+			$this->load->view('admin-kh4it/updateuser');
+		}
+
 		public function rest_users(){
 			$data["users"] = $this->DaoUser->get_all_users();
 			echo json_encode($data);
