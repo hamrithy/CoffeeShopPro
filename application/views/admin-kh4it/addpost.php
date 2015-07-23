@@ -77,13 +77,16 @@
 			$(document).ready(function() {
 
 						<?php
+						$getPost = $getPost;
 						if($getPost != null ){
 							foreach($getPost as $v){
 							?>
+							document.title= "Edit Post";
+							$("#formtitle").text("Form Edit Post");
 							$("#txtpostid").val("<?php echo $v->postid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
 							$("#txtshortdescription").val("<?php echo $v->shortdescription?>");
-							$("#txtdescription").text("<?php echo $v->longdescription ?>");
+							//$("#txtdescription").html("<?php //echo $v->longdescription ?>");
 							$("#txtfile").val("<?php echo $v->thumbnailurl?>");
 							$("#myimagedemo").fadeIn("fast").attr('src', '<?php echo $v->thumbnailurl ?>'  );
 							document.frmpost.action="<?php echo site_url();?>/admin/post/updatepost";
@@ -119,7 +122,7 @@
 					
 					<div>
 						<form action="<?php echo site_url();?>/admin/post/addpostpro" id="frmpost" name="frmpost" method="post" class="form-horizontal" role="form">
-							<fieldset>
+							
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-10">
@@ -137,7 +140,15 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"> </textarea>
+										<textarea class="form-control" name="txtdescription" id="txtdescription">
+											<?php 
+												if($getPost != null ){
+													foreach($getPost as $v){
+													echo $v->longdescription;
+													}
+												}
+											?>
+										 </textarea>
 									</div>
 								</div>
 								
@@ -181,7 +192,7 @@
 						</div><!-- /.modal -->	
 							
 							
-							</fieldset>
+							
 
 							<div class="form-group">
 							
@@ -289,9 +300,15 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/ckeditor/ckeditor.js"></script>
+	
+	<script> 
 
-	
-	
+		CKEDITOR.replace( 'txtdescription' ,
+			{ filebrowserBrowseUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&editor=ckeditor&fldr=', 
+			filebrowserUploadUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&editor=ckeditor&fldr=', 
+			filebrowserImageBrowseUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=1&editor=ckeditor&fldr=' }); 
+	</script>
 		
 		
 	</body>

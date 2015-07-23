@@ -74,12 +74,15 @@
 			$(document).ready(function() {
 
 						<?php
-						if($getPage != null ){
-							foreach($getPage as $v){
+						$mPage= $getPage;
+						if($mPage != null ){
+							foreach($mPage as $v){
 							?>
+							document.title= "Edit Page";
+							$("#formtitle").text("Form Edit Page");
 							$("#txtpageid").val("<?php echo $v->pageid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
-							$("#txtdescription").text('<?php echo $v->body ?>');
+							//$("#txtdescription").text('<?php //echo $v->body ?>');
 							document.frmpage.action="<?php echo site_url();?>/admin/page/updatepage";
 							<?php
 							 }
@@ -119,7 +122,7 @@
 					
 					<div>
 						<form action="<?php echo site_url();?>/admin/page/addpagepro" id="frmpage" name="frmpage" method="post" class="form-horizontal" role="form">
-							<fieldset>
+						
 								<div class="form-group">
 									<label class="col-lg-1 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-11">
@@ -130,12 +133,20 @@
 								<div class="form-group">
 									<label class="col-lg-1 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-11">
-										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"></textarea>
+										<textarea class="form-control" name="txtdescription" id="txtdescription">
+											<?php 
+												if($mPage != null ){
+													foreach($mPage as $v){
+													echo $v->body;
+													}
+												}
+											?>
+										</textarea>
 									</div>
 								</div>
 								
 								
-							</fieldset>
+							
 
 							<div class="form-group">
 							
@@ -244,6 +255,15 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/ckeditor/ckeditor.js"></script>
+	
+	<script> 
+
+		CKEDITOR.replace( 'txtdescription' ,
+			{ filebrowserBrowseUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&editor=ckeditor&fldr=', 
+			filebrowserUploadUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&editor=ckeditor&fldr=', 
+			filebrowserImageBrowseUrl : '<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=1&editor=ckeditor&fldr=' }); 
+	</script>
 
 	</body>
 </html>
