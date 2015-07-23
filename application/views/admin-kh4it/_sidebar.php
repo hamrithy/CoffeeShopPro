@@ -97,7 +97,7 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-8">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/slide/listsslide");?>">List Slides</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/slide/listslide");?>">List Slides</a><br><br>
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/slide/addslide");?>">Add Slide</a><br><br>
 										
 									  </div><!-- /.panel-body -->
