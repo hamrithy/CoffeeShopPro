@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->model('dao/DaoFoodType');
 		}
 		
 		public function index(){
@@ -17,6 +18,10 @@
 
 		public function addfoodcategory(){
 			$this->load->view('admin-kh4it/addfoodcategory');
+		}
+
+		public function actionListFoodCategories(){
+			//$data['data'] = 
 		}
 	}
 

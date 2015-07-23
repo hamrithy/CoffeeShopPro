@@ -5,18 +5,25 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->model('dto/DtoFood');
+			$this->load->model('dao/DaoFood');
 		}
 		
 		public function index(){
-			$this->listfooditem();
+			$this->actionGetAllFoodItems();
 		}
 
 		public function addfooditem(){
 			$this->load->view('admin-kh4it/addfooditem');
 		}
 
-		public function listfooditem(){
-			$this->load->view('admin-kh4it/listfooditem');
+		 public function listfooditems(){
+		 	$this->actionGetAllFoodItems();
+		 }
+
+		public function actionGetAllFoodItems(){
+			$data['foodItems'] = $this->DaoFood->getAllFoodItems();
+			$this->load->view('admin-kh4it/listfooditem', $data);
 		}
 	}
 
