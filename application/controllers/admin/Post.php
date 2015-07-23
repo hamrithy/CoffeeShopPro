@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->library('encryption');
 			$this->load->library("session");
 		}
 		
@@ -33,7 +34,7 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
-			$this->DtoPost->setUserid($this->session->userdata("userid"));
+			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			
 			$this->DaoPost->addPost($this->DtoPost);
 			$this->index();
@@ -72,7 +73,7 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
-			$this->DtoPost->setUserid($this->session->userdata("userid"));
+			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			
 			$this->DaoPost->updatePost($this->DtoPost);
 			$this->index();
@@ -80,4 +81,6 @@
 		 
 	}
 
+	
+	
 ?>
