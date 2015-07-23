@@ -1,26 +1,30 @@
 <?php
-class Food extends CI_Model{
+class DaoFood extends CI_Model{
 
 	public function __construct(){
 		parent::__construct();
-		$this->load->database();
 		$this->load->model('dto/DtoFood');
 	}
 
-	public function getAllFoods(){
-		$query = $this->db->get('foods');
+	public function getAllFoodItems(){
+		$query = $this->db->get('FOODS');
 		return $query->result();
 	}
 
 	public function addFood(DtoFood $food){
-		$data = array('foodid' =>  $food->getFoodid(),
-					  'title'  =>	$food->getTittll()
-		);
-		return $this->db->insert('foods', $data);
+		$data = array('title' 			=>  $food->getTitle(),
+					  'descriptioin'  	=>  $food->getDescription(),
+					  'thumbnailurl'	=>	$food->getThumbnailurl(),
+					  'promotiontype'	=>	$food->getPromotiontype(),
+					  'price'			=>	$food->getPrice(),
+					  'userid'			=>	$food->getUserid(),
+					  'foodtypeid'		=>	$food->getFoodTypeid()
+					);
+		return $this->db->insert('FOODS', $data);
 	}
 
-	public function deleteFood($id){
-		$this->db->where('foodid', $id);
-		return $this->db->delete('foods');
-	}
+	// public function deleteFood($id){
+	// 	$this->db->where('foodid', $id);
+	// 	return $this->db->delete('foods');
+	// }
 }

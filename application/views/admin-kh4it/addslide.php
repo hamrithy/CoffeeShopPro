@@ -75,8 +75,9 @@
 			<?php $this->load->view('admin-kh4it/_sidebar') ?>
 			<!-- END SIDEBAR LEFT -->
 			
-			<?php if($getSlide !=null){ ?>
+			
 			<script>
+				<?php if($getSlide !=null){ ?>
 				$(document).ready(function(){
 					<?php 
 						foreach ($getSlide as $s){
@@ -94,9 +95,9 @@
 					<?php } ?>
 
 				});
-
+				<?php } ?>
 			</script>
-			<?php } ?>
+		
 			
 			
 			

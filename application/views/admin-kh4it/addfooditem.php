@@ -100,23 +100,49 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmadduser" method="post" action="adduserpro" class="form-horizontal">
+						<form id="frmadduser" id="frmadduser" method="post" action="<?php echo site_url();?>/admin/post/actionaddfooditem" class="form-horizontal">
 							<fieldset>
 								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Username<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="username" />
+										<input type="text" class="form-control" name="title" />
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Email<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Price<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="email" />
+										<input type="text" class="form-control" name="price" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">Promotion<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<select class="form-control" name="txtstatus">
+											<option value="0">Normal</option>
+											<option value="1">Best Offer</option>
+											<option value="2">Best Hot</option>
+										</select> 
 									</div>
 								</div>
 								
+								<div class="form-group">
+									<label class="col-lg-3 control-label">Food Category<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<select class="form-control" name="txtstatus">
+											<option value="1">Active</option>
+											<option value="0">DeActive</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control summernote-lg" name="txtdescription" id="description"> </textarea>
+									</div>
+								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
@@ -131,15 +157,7 @@
 										<input type="password" class="form-control" name="confirmpassword" />
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
-											<option value="1">Active</option>
-											<option value="0">DeActive</option>
-										</select>
-									</div>
-								</div>
+								
 							
 							</fieldset>
 

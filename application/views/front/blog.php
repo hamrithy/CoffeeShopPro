@@ -44,11 +44,15 @@
                         <div class="col-md-9 no-padding ">
                             <div class="margin-right-6">
                                 <ul class="clean-list background-white ">
+                              
+                              
+                              
+                                <?php foreach ($listPost as $p ){ ?>
                                 <li class="post padding ">
                                     <header>
                                         <figure>
                                             <a href="post.html">
-                                                <img src="<?php echo base_url()?>public/style_front/images/beef-soup.jpg" alt="Featured Image" />
+                                                <img src="<?php echo $p->thumbnailurl?>" alt="Featured Image" />
                                             </a>
                                         </figure>
 
@@ -60,7 +64,7 @@
                                                 </span>
                                             </div>
                                             <div class="col-md-10 col-sm-10 col-xs-10">
-                                                <h2 class="entry-title">Beef Soup</h2>
+                                                <h2 class="entry-title"><?php echo $p->title ?></h2>
                                                 <ul class="clean-list post-meta-list border-top row">
                                                     <li class="no-padding">
                                                         <a href="#" class="meta-link comments">1 comment</a> /
@@ -77,95 +81,19 @@
                                     </header>
                                     <div class="entry-content border padding">
                                         <p class="padding">
-                                            le soup is a Chinese and Taiwanese noodle soup made of stewed or red braised beef, beef broth, vegetables and Chinese noodles. It exists in various forms throughout East Asia and Southeast Asia. Stewed beef noodle soup was first created by the Hui people (a Chinese Muslim ethnic group) during the Tang Dynasty of China. The red braised beef noodle soup was invented by the veterans in Kaoshiung, Taiwan who fled from mainland China during the Chinese civil war. In the West, this food may be served in a small portion as a soup. In China, a large bowl of it is often taken as a whole meal with or without any side dish.  
+                                            <?php echo $p->shortdescription ?>  
                                         </p>
                                     </div>
                                     <div class="read-more half-padding border ovh">
                                         <a href="post.html" class="alignright">Read More</a>
                                     </div>
                                 </li>
+								<?php } ?>
 
-                                <li class="post padding ">
-                                    <header>
-                                        <figure>
-                                            <a href="post.html">
-                                                <img src="<?php echo base_url()?>public/style_front/images/roast-beef.jpg" alt="Featured Image" />
-                                            </a>
-                                        </figure>
 
-                                        <div class="header-meta row no-margin">
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <span class="date center-me pre-line aligncenter margin-half-top">
-                                                    29
-                                                    Jun
-                                                </span>
-                                            </div>
-                                            <div class="col-md-10 col-sm-10 col-xs-10">
-                                                <h2 class="entry-title">Roast Beaf</h2>
-                                                <ul class="clean-list post-meta-list border-top row">
-                                                    <li class="no-padding">
-                                                        <a href="#" class="meta-link comments">1 comment</a> /
-                                                        <a class="text-red hover-text-dark-red author" href="#">By Tim Dolan</a> / 
-                                                        <div class="tag-list inline">
-                                                            <a href="#" rel="tag">food</a>, <a href="#" rel="tag">roast</a>, <a href="#" rel="tag">beaf</a>
-                                                        </div>
+                                
 
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </header>
-                                    <div class="entry-content border padding">
-                                        <p class="padding">
-                                            The perfect roast beef recipe, perfect for a Sunday Lunch, let the beef rest for at least half an hour then slice thinly for a tender roast beef dinner. The roast beef sandwich commonly comprises bread, cold roast beef (either the leftovers from a homemade dinner or deli meat), lettuce and mustard, although it would not be uncommon to find horseradish, fresh/powdered chili pepper and even in some cases red onion.     
-                                        </p>
-                                    </div>
-                                    <div class="read-more half-padding border ovh">
-                                        <a href="post.html" class="alignright">Read More</a>
-                                    </div>
-                                </li>
-
-                                 <li class="post padding ">
-                                    <header>
-                                        <figure>
-                                            <a href="post.html">
-                                                <img src="<?php echo base_url()?>public/style_front/images/barbeque.jpg" alt="Featured Image" />
-                                            </a>
-                                        </figure>
-
-                                        <div class="header-meta row no-margin">
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <span class="date center-me pre-line aligncenter margin-half-top">
-                                                    29
-                                                    Jun
-                                                </span>
-                                            </div>
-                                            <div class="col-md-10 col-sm-10 col-xs-10">
-                                                <h2 class="entry-title">Barbecue</h2>
-                                                <ul class="clean-list post-meta-list border-top row">
-                                                    <li class="no-padding">
-                                                        <a href="#" class="meta-link comments">1 comment</a> /
-                                                        <a class="text-red hover-text-dark-red author" href="#">By Gill Williams</a> / 
-                                                        <div class="tag-list inline">
-                                                            <a href="#" rel="tag">food</a>, <a href="#" rel="tag">barbeque</a>, <a href="#" rel="tag">meat</a>
-                                                        </div>
-
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </header>
-                                    <div class="entry-content border padding">
-                                        <p class="padding">
-                                            Barbecue (also barbeque, BBQ and barby/barbies) is a cooking method and apparatus. While there is a vast degree of variation and overlap in terminology and method surrounding this form of cooking, the generally accepted difference between barbecue and grilling is in the cooking time and type of heat used: grilling is generally done "hot and fast" over direct heat from low-smoke fuels (with the flame contacting the meat itself)
-                                        </p>
-                                    </div>
-                                    <div class="read-more half-padding border ovh">
-                                        <a href="post.html" class="alignright">Read More</a>
-                                    </div>
-                                </li>
+                                 
                                 </ul>
                                 <div class="pagination margin-right-6">
                                     <ul class="page-numbers center-me clean-list ">

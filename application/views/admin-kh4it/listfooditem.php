@@ -102,27 +102,25 @@
 						<table class="table table-striped table-hover" id="datatable-example">
 							<thead class="the-box dark full">
 								<tr>
-									<th>Page ID</th>
+									<th>Food ID</th>
 									<th>Titile</th>
-									<th>Date</th>									
-									<th>Posted By</th>
+									<th>Price</th>									
 									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
 						
-							
+							<?php foreach($foodItems as $row){ ?>
 								<tr>
-									<td>123</td>
-									<td>Manager</td>
-									<td>20-02-2015</td>									
-									<td>Vuthea</td>
+									<td><?php echo $row->foodid; ?></td>
+									<td><?php echo $row->title; ?></td>
+									<td><?php echo $row->price; ?></td>									
 									<td>
 										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
 										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
 									</td>
 								</tr>
-							
+							<?php } ?>
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->
