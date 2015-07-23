@@ -27,26 +27,36 @@
 
 			$this->load->model("dao/DaoPost");
 			$this->load->model("dto/DtoPost");
-			$dto = new DtoPost();
-			$dao = new DaoPost();
 			
-			$dto->setTitle($this->input->post('txttitle'));
-			$dto->setShortdescription($this->input->post('txtshortdescription'));
-			$dto->setLongdescription($this->input->post('txtdescription'));
-			$dto->setThumbnailurl("Path");
-			$dto->setUserid(1);
+			$this->DtoPost->setTitle($this->input->post('txttitle'));
+			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
+			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
+			$this->DtoPost->setThumbnailurl("Path");
+			$this->DtoPost->setUserid(1);
 			
-			$data = $dao->addPost($dto);
+			$this->DaoPost->addPost($this->DtoPost);
 			$this->index();
 		}
 		
 		public function listPostPro(){
 			$this->load->model("dao/DaoPost");
-			$dao = new DaoPost();
-			$data["lstPost"] = $dao->lstPost();
+			$data["listPost"] = $this->DaoPost->listPost();   
 			$this->load->view("admin-kh4it/listpost" , $data);
 		}
 
+		
+		
+		/* public function deletePostPro($id){
+			$this->load->model("dao/DaoPost");
+			$this->load->model("dto/DtoPost");
+			$dao = new DaoPost();
+			$dto = new DtoPost();
+			$dto->setPostid($id);
+			$dao->deletePost($dto);
+			redirect("testpost");
+		}
+		
+		 */
 	}
 
 ?>
