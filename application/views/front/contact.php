@@ -51,24 +51,24 @@
                 <div class="contact-form-wrap padding">
                     <h3 class="entry-title">Drop Us a Line</h3><hr />
 
-                     <form class="tt-form contact-form margin-top padding-top" id="contact_form" action="#" method="POST" novalidate>
+                     <form class="tt-form contact-form margin-top padding-top" id="contact_form" action="<?php  echo site_url('contact/sendemail')?>" method="POST" novalidate>
          
                         <div class="row form-row"><!-- Start Row -->
                                 <div class="col-md-4 column"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="Name" name="name" >
+                                        <input type="text" class="contact-form-line" value="" placeholder="Name" name="name" id="NAME">
                                     </div>
                                 </div><!-- End Column -->
                              
                                 <div class="col-md-4 column"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="E-Mail" name="e-mail" >
+                                        <input type="text" class="contact-form-line" value="" placeholder="E-Mail" name="e-mail" id="EMAIL">
                                     </div>
                                 </div><!-- End Column -->
                              
                                 <div class="col-md-4 column"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="Website" name="website" >
+                                        <input type="text" class="contact-form-line" value="" placeholder="Website" name="website" id="WEBSITE">
                                     </div>
                                 </div><!-- End Column -->
                         </div><!-- End Row -->
@@ -76,14 +76,14 @@
                         <div class="row form-row"><!-- Start Row -->
                             <div class="col-md-12 column"><!-- Start Column -->
                                 <div class="input-cover input-cover-text">
-                                    <textarea class="contact-form-area" placeholder="" name="message" ></textarea>
+                                    <textarea class="contact-form-area" placeholder="" name="message" id="MESSAGE"></textarea>
                                 </div>                              <!-- End Element -->
                             </div><!-- End Column -->
                         </div><!-- End Row -->
                      
                         <div class="row form-row"><!-- Start Row -->
                             <div class="col-md-12 column"><!-- Start Column -->
-                                <input type="submit" id="submit" class="form-send margin-top" value="Write a Message">
+                                <input type="submit" id="btnSubmit" class="form-send margin-top" value="Write a Message">
                             </div><!-- End Column -->
                         </div><!-- End Row -->
                         <input type="hidden" value="contact" name="id">
@@ -134,5 +134,27 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#btnSubmit').click(function(){
+                alert($("#contact_form").attr("action"));
+                $.ajax({
+                    type: "POST",
+                    url: $("#contact_form").attr("action"),
+                    dataType: 'json',
+                    data: {
+                        name: $("#NAME").val(),
+                        email: $("#EMAIL").val(), 
+                        website: $("#WEBSITE").val(),
+                        message: $("#MESSAGE").val(),
+                    },
+                    success: function(data){
+                        console.log("DATA:",data);
+                        alert("Your email has been sent.");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

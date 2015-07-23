@@ -10,7 +10,7 @@
 		public function index(){
 			$this->load->view('front/menu');
 		}
-
+		
 	}
 
 ?>
