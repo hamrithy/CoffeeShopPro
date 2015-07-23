@@ -69,7 +69,7 @@
 	         			$user->setUserid($row->userid);
 						$this->session->set_userdata('logged_in', $user);
 						$this->session->set_userdata('username', $user->getUsername());
-						$this->session->set_userdata('id', $user->getUserid());
+						$this->session->set_userdata('userid', $user->getUserid());
 	     			}
 	     			redirect("admin/post");
 	   			}else{

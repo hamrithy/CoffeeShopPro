@@ -6,6 +6,7 @@ class DaoUser extends CI_Model
 	{
 		parent::__construct();
 		$this->load->model("dto/DtoUser");
+		$this->load->library('encryption');
 	}
 
 	function get_all_users(){
@@ -28,14 +29,14 @@ class DaoUser extends CI_Model
 		return $this->db->get('users');
 	}
 
-	function create_new_user(UserDto $user){
+	function create_new_user(DtoUser $user){
 		$data = array(
 			"username" => $user->getUsername(),
-			"password" => $user->getpassword(),
+			"password" => md5($user->getPassword()),
 			"usertype" => $user->getUsertype(),
 			"active"   => $user->getActive()
 		);
-		return $this->db->insert('users', $data);
+		return $this->db->insert('USERS', $data);
 	}
 
 	function update_user($user_id, $data){
@@ -59,7 +60,7 @@ class DaoUser extends CI_Model
 		$this -> db -> select('userid, username');
 		$this -> db -> from('USERS');
 		$this -> db -> where('username', $user->getUsername());
-		$this -> db -> where('password', $user->getPassword());
+		$this -> db -> where('password', md5($user->getPassword()));
 		$this -> db -> limit(1);
 
 		$query = $this -> db -> get();

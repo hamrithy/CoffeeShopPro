@@ -100,7 +100,7 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmadduser" method="post" action="adduserpro" class="form-horizontal">
+						<form id="frmadduser" id="frmadduser" method="post" action="<?php echo site_url("admin/user/adduserpro")?>" class="form-horizontal">
 							<fieldset>
 								
 								<div class="form-group">
@@ -110,10 +110,16 @@
 									</div>
 								</div>
 
-								<div class="form-group">
+<!-- 							<div class="form-group">
 									<label class="col-lg-3 control-label">Email<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<input type="text" class="form-control" name="email" />
+									</div>
+								</div> -->
+								<div class="form-group">
+									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<input type="text" class="form-control" name="usertype" />
 									</div>
 								</div>
 								
@@ -134,9 +140,9 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
+										<select class="form-control" name="status">
 											<option value="1">Active</option>
-											<option value="0">DeActive</option>
+											<option value="0">Inactive</option>
 										</select>
 									</div>
 								</div>
