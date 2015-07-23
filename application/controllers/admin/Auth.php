@@ -47,12 +47,10 @@
 			$this->form_validation->set_rules('username', 'Username', 'required');
 			$this->form_validation->set_rules('password', 'Password', 'required');
 					
-			if ($this->form_validation->run() == FALSE)
-			{
+			if ($this->form_validation->run() == FALSE){
 				log_message('debug', "FALSE");
 				$this->load->view('admin-kh4it/index','refresh');
-			}else
-			{
+			}else{
 				log_message('debug', "TRUE");
 				$user->setUsername($this->input->post('username'));
 				$user->setPassword(md5($this->input->post('password')));

@@ -120,8 +120,8 @@
 									  <div class="panel-body">
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfooditem");?>">List Food Item</a><br><br>
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/addfooditem");?>">Add Item</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfoodcategory");?>">List Food Category</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/addfoodcategory");?>">Add Food Cateogry</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/foodcategory/listfoodcategory");?>">List Food Category</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/foodcategory/addfoodcategory");?>">Add Food Cateogry</a><br><br>
 										
 									  </div><!-- /.panel-body -->
 									</div><!-- /.collapse in -->
