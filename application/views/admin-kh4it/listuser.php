@@ -99,6 +99,7 @@
 					<!-- BEGIN DATA TABLE -->
 					<div class="the-box">
 						<div class="table-responsive">
+						<div id="MESSAGE"></div>
 						<table class="table table-striped table-hover" id="datatable-example">
 							<thead class="the-box dark full">
 								<tr>
@@ -118,16 +119,16 @@
 									<td id="ACTIVE">
 										<?php
 											if($user->active==1){
-												echo('<a  href="javascript:;" class="btn btn-primary btnActive">Active</a>');
+												echo('<a  href="javascript:;" class="btn btn-primary" id="1">Active</a>');
 											}else if($user->active==0){
-												echo('<a  href="javascript:;" class="btn btn-danger btnInActive">Inactive</a>');
+												echo('<a  href="javascript:;" class="btn btn-danger" id="0">Inactive</a>');
 											}
 										?>										
 									</td>									
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
 										
-										<a  href="javascript:;" class="btn btn-danger btnDelete">Delete</a>
+										<!-- <a  href="javascript:;" class="btn btn-danger btnDelete">Delete</a> -->
 										<a  href="javascript:;"  class="btn btn-primary btnUpdate">Update</a>
 									</td>
 								</tr>
@@ -227,7 +228,7 @@
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 	<script>
 		$(function(){
-			$(document).on('click','.btnDelete',function(){
+			/*$(document).on('click','.btnDelete',function(){
 				_this  = $(this);
 				if (confirm("Are you sure you want to delete?") == true) {
 					$.post(
@@ -237,14 +238,46 @@
 						}
 					);
 				}
-			});
+			});*/
 
 			$(document).on('click', '.btnUpdate', function(){
 				location.href= '<?php  echo site_url()?>/admin/user/updateuser/'+$(this).parents("tr").find("#USERID").html();
 			});
 
-			$(document).on('click', '.btnInActive', function(){
-				alert("INACTIVE");
+			$(document).on('click', '#ACTIVE a', function(){
+				_this = $(this);
+				$.ajax({
+					type: "POST",
+					url: '<?php  echo site_url()?>/admin/user/updateuserstatuspro',
+					dataType: 'json',
+					data: {
+						userid: _this.parents('tr').find("#USERID").html(),
+						status: _this.attr("id")
+					},
+					success: function(data){
+						console.log("DATA:",data);
+						if(data["ERROR"]==true){
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
+							$("#MESSAGE").fadeIn(1000);
+							$("#MESSAGE").fadeOut(5000);
+						}else{
+							if(1-_this.attr("id")==1){
+								_this.html("Active");
+								_this.removeClass("btn-danger");
+								_this.addClass("btn-primary");
+								_this.attr("id",1);
+							}else{
+								_this.html("Inactive");
+								_this.removeClass("btn-primary");
+								_this.addClass("btn-danger");
+								_this.attr("id",0);
+							}
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been updated successfully.</div>');
+							$("#MESSAGE").fadeIn(1000);
+							$("#MESSAGE").fadeOut(5000);
+						}
+					}
+				});
 			});
 
 			$(document).on('click', '.btnActive', function(){

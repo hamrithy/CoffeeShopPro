@@ -73,6 +73,24 @@
 			echo json_encode($data);
 		}
 
+		public function updateUserStatusPro(){
+			$this->load->model("dao/DaoUser");
+			$this->load->model("dto/DtoUser");
+			
+			$user = new DtoUser();
+			$userDao = new DaoUser();
+			$user->setUserid($this->input->post('userid'));
+			$user->setActive($this->input->post("status"));
+			
+			if($userDao->update_status($user)){
+				$data["ERROR"] = false;
+			}else{
+				$data["ERROR"] = true;
+				$data["ERR_MSG"] = "Your user cannot update.";
+			}
+			echo json_encode($data);
+		}
+
 		public function rest_users(){
 			$data["users"] = $this->DaoUser->get_all_users();
 			echo json_encode($data);

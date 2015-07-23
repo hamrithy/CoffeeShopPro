@@ -55,7 +55,7 @@
 			{
 				log_message('debug', "TRUE");
 				$user->setUsername($this->input->post('username'));
-				$user->setPassword($this->input->post('password'));
+				$user->setPassword(md5($this->input->post('password')));
 
 				$result = $userDao->login($user);
 				if($result)

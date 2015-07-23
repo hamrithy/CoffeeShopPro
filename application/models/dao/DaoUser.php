@@ -62,6 +62,17 @@ class DaoUser extends CI_Model
 		}
 	}
 
+	function update_status(DtoUser $user){
+		$this->db->set("active", 1 - $user->getActive());
+		$this->db->where("userid", $user->getUserid());
+		$this->db->update("USERS");
+		if($this->db->affected_rows()==1){
+			return true;
+		}else{
+			return false;
+		}	
+	}
+
 	function change_password($user_id, $new_pssword){
 		$this->db->set("password", $new_pssword);
 		$this->db->where('id', $user_id);
@@ -69,18 +80,20 @@ class DaoUser extends CI_Model
 	}
 
 	function login(DtoUser $user){
-		$this -> db -> select('userid, username');
-		$this -> db -> from('USERS');
-		$this -> db -> where('username', $user->getUsername());
-		$this -> db -> where('password', md5($user->getPassword()));
-		$this -> db -> where('active', 1);
-		$this -> db -> limit(1);
+		$this->db->select('userid, username');
+		$this->db->from('USERS');
+		$this->db->where('username', $user->getUsername());
+		$this->db->where('password', md5($user->getPassword()));
+		$this->db->where('active', 1);
+		$this->db->limit(1);
 
-		$query = $this -> db -> get();
+		$query = $this->db->get();
 
-		if($query -> num_rows() == 1){
+		if($query->num_rows()==1){
+			log_message("debug","CAN LOGGIN...");
 		    return $query->result();
 		}else{
+			log_message("debug","CANNOT LOGIN...");
 			return false;
 		}
 	}
