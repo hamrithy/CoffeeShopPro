@@ -9,7 +9,7 @@ class DaoUser extends CI_Model
 		$this->load->library('encryption');
 	}
 
-	function get_all_USERS(){
+	function get_all_users(){
 		$query = $this->db->get('USERS');
 		return $query->result();
 	}
