@@ -111,18 +111,18 @@
 							</thead>
 							<tbody>
 						
-							
+							<?php foreach ($lstPost as $v){ ?>
 								<tr>
-									<td>123</td>
-									<td>Manager</td>
-									<td>20-02-2015</td>									
-									<td>Vuthea</td>
+									<td><?php echo $v->postid; ?></td>
+									<td><?php echo $v->title; ?></td>
+									<td><?php echo $v->postdate; ?></td>									
+									<td><?php echo $v->userid; ?></td>
 									<td>
 										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
 										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
 									</td>
 								</tr>
-							
+							<?php } ?>
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->

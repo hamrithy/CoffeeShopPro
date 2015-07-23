@@ -7,14 +7,16 @@
 			parent::__construct();
 		}
 		
-		
-		
 		public function index(){
+			$this->listPostPro();
+		}
+		
+		public function addPost(){
 			$this->load->view('admin-kh4it/addpost');
 		}
 		 
 		
-		public function addPost(){
+		public function addPostPro(){
 
 			$this->load->model("dao/DaoPost");
 			$this->load->model("dto/DtoPost");
@@ -28,9 +30,15 @@
 			$dto->setUserid(1);
 			
 			$data = $dao->addPost($dto);
-			redirect("TestPost");
-			
+// 			redirect("testpost");
+			$this->index();
+		}
 		
+		public function listPostPro(){
+			$this->load->model("dao/DaoPost");
+			$dao = new DaoPost();
+			$data["lstPost"] = $dao->lstPost();
+			$this->load->view("admin-kh4it/listpost" , $data);
 		}
 		
 		
