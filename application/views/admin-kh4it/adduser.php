@@ -134,10 +134,12 @@
 
 								<div class="form-group">
 									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
-									<select class="form-control" name="usertype" id="USERTYPE">
-										<option value="0">Admin</option>
-										<option value="1">User</option>
-									</select>
+									<div class="col-lg-5">
+										<select class="form-control" name="usertype" id="USERTYPE">
+											<option value="0">Admin</option>
+											<option value="1">User</option>
+										</select>
+									</div>
 								</div>
 								
 								
