@@ -120,8 +120,8 @@
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
 										
-										<a  href="#" onclick="deletedata('<?php  echo site_url()?>/admin/post/deletepost/<?php  echo $v->postid ?>')" class="btn btn-danger">Delete</a>
-										<a  href="#" class="btn btn-primary">Update</a>
+										<a  href="#" class="btn btn-danger btnDelete">Delete</a>
+										<a  href="#"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -218,15 +218,17 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
-		
-		function deletedata(url){
-			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url);
-			} 
-		}
-		
-		
+		<script>	
+		$(document).ready(function(){
+			$(".btnDelete").click(function(){
+				_this  = $(this);
+				if (confirm("Are you sure you want to delete?") == true) {
+					$.post('<?php  echo site_url()?>/admin/post/deletepost/<?php  echo $v->postid ?>',function(){
+						_this.closest( 'tr').remove();
+					});
+				}
+			});
+		});
 		</script>
 	</body>
 </html>
