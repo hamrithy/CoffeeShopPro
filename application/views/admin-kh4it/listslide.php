@@ -104,7 +104,8 @@
 								<tr>
 									<th>ID</th>
 									<th>Titile</th>
-									<th>Image</th>									
+									<th>Image</th>	
+									<th>Link</th>								
 									<th>Order</th>
 									<th>Action</th>
 								</tr>
@@ -114,12 +115,13 @@
 							<?php foreach ($listSlide as $s){ ?>
 								<tr>
 									<td><?php echo $s->slideid; ?></td>
-									<td><?php echo $s->title; ?></td>
-									<td><?php echo $s->imageurl; ?></td>									
+									<td><?php echo $s->title; ?></td>									
+									<td><img src="<?php echo $s->imageurl; ?>" class="img-responsive" style="height: 60px;"/></td>		
+									<td><?php echo $s->linkto; ?></td>							
 									<td><?php echo $s->ordering; ?></td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('#')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='#" class="btn btn-primary">Update</button>
+										<button value="<?php echo $s->slideid ?>" onclick="deletedata(this)" class="btn btn-danger">Delete</button>
+										<a href="<?php  echo site_url()?>/admin/slide/getSlide/<?php  echo $s->slideid ?>" class="btn btn-primary" >Update</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -218,10 +220,11 @@
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
 		
-		function deletedata(url){
+		function deletedata(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
+				$.post('<?php  echo site_url()?>/admin/slide/deleteSlidePro/'+btn.value ,function(data){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
 				});
 			} 
 		}

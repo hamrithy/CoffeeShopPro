@@ -36,6 +36,15 @@
 			$this->db->delete('SLIDES');
 		}
 
+		public function getSlide(DtoSlide $s){
+			$this->db->select('s.slideid , s.title, s.caption, s.linkto , s.imageurl, s.ordering , u.userid, u.username');
+			$this->db->from('SLIDES s');
+			$this->db->join('USERS u', 's.userid = u.userid');
+			$this->db->where('slideid', $s->getSlideid());
+			$this->db->order_by('slideid', 'desc');
+			$query = $this->db->get();
+			return $query->result();
+		}
 
 	}
 

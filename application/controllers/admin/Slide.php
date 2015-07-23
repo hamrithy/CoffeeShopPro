@@ -30,6 +30,7 @@
 
 			$this->DaoSlide->addSlide($this->DtoSlide);
 			$this->index();
+			redirect('admin/slide/listslide');
 
 
 		}
@@ -39,7 +40,24 @@
 			$this->load->view("admin-kh4it/listslide", $data);
 		}
 
+		public function deleteSlidePro($id){
+			$this->load->model("dao/DaoSlide");
+			$this->load->model("dto/DtoSlide");
 
+			$this->DtoSlide->setSlideid($id);
+			$this->DaoSlide->deleteSlide($this->DtoSlide);
+		}
+
+		public function getSlide($id){
+			$this->load->model('dao/DaoSlide');
+			$this->load->model("dto/DtoSlide");
+
+			$this->DtoSlide->setSlideid($id);
+			$data['getSlide'] = $this->DaoSlide->getSlide($this->DtoSlide);
+			$this->load->view('admin-kh4it/addslide', $data);
+
+
+		}
 	}
 
 ?>
