@@ -1,5 +1,5 @@
 <?php
-class CommentDto  extends CI_Model {
+class DtoComment{
 
 	private $commentid;
 	private $commenter;

@@ -1,5 +1,5 @@
 <?php
-class MenuDto  extends CI_Model {
+class DtoMenu {
 
 	private $menuid;
 	private $title;

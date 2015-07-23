@@ -1,6 +1,6 @@
 <?php
 
-class PostDto extends CI_Model {
+class DtoPost{
 
 	private $postid;
 	private $title;

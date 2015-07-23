@@ -1,6 +1,6 @@
 <?php
 
-class SlideDto extends CI_Model {
+class DtoSlide{
 
 	private $slideid;
 	private $title;

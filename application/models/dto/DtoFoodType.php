@@ -1,5 +1,5 @@
 <?php
-class FoodTypeDto  extends CI_Model {
+class DtoFoodType{
 
 	private $foodtypeid;
 	private $title;

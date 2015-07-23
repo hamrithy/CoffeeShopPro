@@ -1,6 +1,6 @@
 <?php
 
-class UserDto extends CI_Model {
+class DtoUser{
 
 	private $userid;
 	private $username;

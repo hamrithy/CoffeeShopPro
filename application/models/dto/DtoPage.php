@@ -1,5 +1,5 @@
 <?php
-class PageDto  extends CI_Model {
+class DtoPage {
 
 	private $pageid;
 	private $title;

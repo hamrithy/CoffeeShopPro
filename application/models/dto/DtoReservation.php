@@ -1,5 +1,5 @@
 <?php
-class Reservation  extends CI_Model {
+class DtoReservation{
 
 	private $reservationid;
 	private $submitdate;
