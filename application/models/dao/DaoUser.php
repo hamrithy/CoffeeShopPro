@@ -1,10 +1,11 @@
 <?php
 
-class UserDAO extends CI_Model 
+class DaoUser extends CI_Model 
 {
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->model("dto/DtoUser");
 	}
 
 	function get_all_users(){
@@ -29,29 +30,45 @@ class UserDAO extends CI_Model
 
 	function create_new_user(UserDto $user){
 		$data = array(
-			"username" => $user->getUsername();
-			"password" => $user->getpassword();
-			"usertype" => $user->getUsertype();
-			"active"   => $user->getActive();
+			"username" => $user->getUsername(),
+			"password" => $user->getpassword(),
+			"usertype" => $user->getUsertype(),
+			"active"   => $user->getActive()
 		);
 		return $this->db->insert('users', $data);
 	}
 
 	function update_user($user_id, $data){
 		$data = array(
-			"username" => $user->getUsername();
-			"password" => $user->getpassword();
-			"usertype" => $user->getUsertype();
-			"active"   => $user->getActive();
+			"username" => $user->getUsername(),
+			"password" => $user->getpassword(),
+			"usertype" => $user->getUsertype(),
+			"active"   => $user->getActive()
 		);
 		$this->db->where('userid', $user_id);
 		return $this->db->update('users', $data);
 	}
 
-	function chage_password($user_id, $new_pssword){
+	function change_password($user_id, $new_pssword){
 		$this->db->set("password", $new_pssword);
 		$this->db->where('id', $user_id);
 		return $this->db->update('users');
+	}
+
+	function login(DtoUser $user){
+		$this -> db -> select('userid, username');
+		$this -> db -> from('USERS');
+		$this -> db -> where('username', $user->getUsername());
+		$this -> db -> where('password', $user->getPassword());
+		$this -> db -> limit(1);
+
+		$query = $this -> db -> get();
+
+		if($query -> num_rows() == 1){
+		    return $query->result();
+		}else{
+			return false;
+		}
 	}
 
 }

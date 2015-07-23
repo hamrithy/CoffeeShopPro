@@ -6,13 +6,12 @@
 		public function __construct(){
 			parent::__construct();
 			$this->load->library('encryption');
-			$this->load->model('dto/DtoUser');
 		}
 
 		private function isLoggedIn(){
 			$this->session->userdata('logged_in');			
 			$isLoggedIn = $this->session->userdata('logged_in');			
-			if(isset($isLoggedIn) || $isLoggedIn==true){
+			if(isset($isLoggedIn) || $isLoggedIn){
 				return true;
 			}else{
 				return false;
@@ -27,31 +26,65 @@
 			}
 		}
 		
-		public function login(){
-			$this->load->view('admin-kh4it/index');
+		private function login(){
+			$this->load->library('form_validation');
+			$this->load->view('admin-kh4it/index','refresh');
 		}
 
 		public function logout(){
 			$this->session->unset_userdata("logged_in");
+			session_destroy();
 			$this->login();
 		}
 
 		public function authenticate(){
+			log_message('debug', "AUTHENTICATION");
+			$this->load->model('dto/DtoUser');
+			$this->load->model('dao/DaoUser');
 			$user = new DtoUser();
-			$username=$this->input->post('username');
-			$password=$this->input->post('password');
-			$this->session->set_userdata("logged_in",true);	
-			$this->session->set_userdata("username",$username);	
-			$this->session->set_userdata("id", $username);	
+			$userDao = new DaoUser();
+			$this->load->library('form_validation');
 
-			log_message('debug', $username);
-			log_message('debug', $password);
+			$this->form_validation->set_rules('username', 'Username', 'required');
+			$this->form_validation->set_rules('password', 'Password', 'required');
+					
+			if ($this->form_validation->run() == FALSE)
+			{
+				log_message('debug', "FALSE");
+				$this->load->view('admin-kh4it/index','refresh');
+			}else
+			{
+				log_message('debug', "TRUE");
+				$user->setUsername($this->input->post('username'));
+				$user->setPassword($this->input->post('password'));
 
-			$ciphertext = $this->encryption->encrypt($password);	// ENCRYPTION PASSWORD
-			log_message('debug', "ENCRYPTION=".$ciphertext);
-			log_message('debug', "DECRYPTION=".$this->encryption->decrypt($ciphertext));	// DECRYPTION PASSWORD
+				$result = $userDao->login($user);
+				if($result)
+	  			{
+	    			foreach($result as $row)
+	     			{
+	     				log_message('debug', $row->username);
+	     				log_message('debug', $row->userid);
+	       				$user->setUsername($row->username);
+	         			$user->setUserid($row->userid);
+						$this->session->set_userdata('logged_in', $user);
+						$this->session->set_userdata('username', $user->getUsername());
+						$this->session->set_userdata('id', $user->getUserid());
+	     			}
+	     			redirect("admin/post");
+	   			}else{
+	     			$this->form_validation->set_message('check_database', 'Invalid username or password');
+	     			$this->login();
+	   			}
+
+	   			log_message('debug', $user->getUsername());
+				log_message('debug', $user->getPassword());
+
+				$ciphertext = $this->encryption->encrypt($user->getPassword());	// ENCRYPTION PASSWORD
+				log_message('debug', "ENCRYPTION=".$ciphertext);
+				log_message('debug', "DECRYPTION=".$this->encryption->decrypt($ciphertext));	// DECRYPTION PASSWORD				
+			}
 			
-			redirect("admin/post");
 		}
 	}
 

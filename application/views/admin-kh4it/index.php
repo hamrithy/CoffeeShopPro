@@ -76,6 +76,10 @@
 			  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 			  <strong>Login!</strong> Log to your account.
 			</div>
+			<div class="alert alert-warning alert-bold-border fade in alert-dismissable" style="display:none;">
+			  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			  <strong><?php echo validation_errors(); ?></strong>
+			</div>
 			<form role="form" action="<?php echo site_url("admin/auth/authenticate")?>" method="POST">
 				<div class="form-group has-feedback lg left-feedback no-label">
 				  <input type="text" name="username" class="form-control no-border input-lg rounded" placeholder="Enter username" autofocus>
