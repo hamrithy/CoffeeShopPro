@@ -64,9 +64,9 @@ $query_builder = TRUE;
 
 $db['development'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'mysql1003.mochahost.com',
+	'username' => 'vuthea_coffee',
+	'password' => 'abc123+-*',
 	'database' => 'vuthea_coffee',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
