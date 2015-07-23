@@ -124,7 +124,7 @@
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" required="required"/>
-										<input type="text" class="form-control" name="txtpostid" id="txtpostid" />
+										<input type="hidden" class="form-control" name="txtpostid" id="txtpostid" />
 									</div>
 								</div> 
 								
