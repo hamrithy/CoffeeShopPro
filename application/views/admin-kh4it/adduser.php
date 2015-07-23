@@ -101,6 +101,7 @@
 					
 					<div>
 						<form id="frmadduser" id="frmadduser" method="post" action="<?php echo site_url("admin/user/adduserpro")?>" class="form-horizontal">
+							<div id="MESSAGE" style="margin:0 auto;"></div>
 							<fieldset>
 								
 								<div class="form-group">
@@ -156,7 +157,7 @@
 									<input type="button" class="btn btn-success" id="btnSave" value="Save"/>
 								</div>
 							</div>
-							<div id="MESSAGE"></div>							
+														
 						</form>
 					</div><!-- /.the-box -->
 						
