@@ -120,8 +120,8 @@
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
 										
-										<button  value="<?php  echo $v->postid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</a>
-										<button   value="<?php  echo $v->postid ?>"  class="btn btn-primary">Update</a>
+										<button  value="<?php  echo $v->postid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a  href="<?php  echo site_url()?>/admin/post/getpost/<?php  echo $v->postid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
 							<?php } ?>

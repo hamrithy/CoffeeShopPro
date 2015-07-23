@@ -43,7 +43,15 @@
 			$data["listPost"] = $this->DaoPost->listPost();   
 			$this->load->view("admin-kh4it/listpost" , $data);
 		}
-
+		
+		public function getPost($id){
+			$this->load->model("dao/DaoPost");
+			$this->load->model("dto/DtoPost");
+			
+			$this->DtoPost->setPostid($id);
+			$data["getPost"] = $this->DaoPost->getPost($this->DtoPost);
+			$this->load->view("admin-kh4it/addpost" , $data);
+		}
 		
 		
 		public function deletePost($id){

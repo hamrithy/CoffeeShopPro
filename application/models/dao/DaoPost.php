@@ -35,6 +35,16 @@ class DaoPost extends CI_Model{
 		return $query->result();
 	}
 	
+	public function getPost(DtoPost $p){
+		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl , u.userid , u.username');
+		$this->db->from('POSTS p');
+		$this->db->join('USERS u', 'p.userid = u.userid');
+		$this->db->where('postid',$p->getPostid());
+		$this->db->order_by("postid", "desc");
+		$query = $this->db->get();
+		return $query->result();
+	}
+	
 	public function deletePost(DtoPost $p){
 		$this->db->where('postid',$p->getPostid());
 		$this->db->delete('POSTS');
