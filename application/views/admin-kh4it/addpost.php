@@ -137,16 +137,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"> 
-												<?php  
-												/* if($getPost != null ){
-														foreach ($getPost as $v){ 
-															echo $v->longdescription; 
-														} 
-													}
-												*/
-												?>
-										</textarea>
+										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"> </textarea>
 									</div>
 								</div>
 								
