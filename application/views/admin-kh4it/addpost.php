@@ -100,7 +100,7 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form action="<?php echo site_url();?>/testpost/addpostpro" id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
+						<form action="<?php echo site_url();?>/admin/post/addpostpro" id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
 							<fieldset>
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
