@@ -228,18 +228,6 @@
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 	<script>
 		$(function(){
-			/*$(document).on('click','.btnDelete',function(){
-				_this  = $(this);
-				if (confirm("Are you sure you want to delete?") == true) {
-					$.post(
-						'<?php  echo site_url()?>/admin/user/deleteuser/'+_this.parents("tr").find("#USERID").html(),
-						function(data){
-							console.log("DATA:",data);
-						}
-					);
-				}
-			});*/
-
 			$(document).on('click', '.btnUpdate', function(){
 				location.href= '<?php  echo site_url()?>/admin/user/updateuser/'+$(this).parents("tr").find("#USERID").html();
 			});
@@ -278,10 +266,6 @@
 						}
 					}
 				});
-			});
-
-			$(document).on('click', '.btnActive', function(){
-				alert("ACTIVE");
 			});
 		});		
 	</script>
