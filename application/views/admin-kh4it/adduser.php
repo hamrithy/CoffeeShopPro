@@ -116,13 +116,6 @@
 										<input type="text" class="form-control" name="email" />
 									</div>
 								</div> -->
-								<div class="form-group">
-									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<input type="text" class="form-control" name="usertype" />
-									</div>
-								</div>
-								
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
@@ -137,6 +130,15 @@
 										<input type="password" class="form-control" name="confirmpassword" />
 									</div>
 								</div>
+
+								<div class="form-group">
+									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<input type="text" class="form-control" name="usertype" />
+									</div>
+								</div>
+								
+								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
 									<div class="col-lg-5">

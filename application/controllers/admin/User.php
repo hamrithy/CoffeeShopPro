@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->model("dao/DaoUser");
 		}
 		
 		public function index(){

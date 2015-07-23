@@ -5,7 +5,6 @@
 
 		public function __construct(){
 			parent::__construct();
-			$this->load->library('encryption');
 		}
 
 		private function isLoggedIn(){
@@ -68,23 +67,15 @@
 	       				$user->setUsername($row->username);
 	         			$user->setUserid($row->userid);
 						$this->session->set_userdata('logged_in', $user);
-						$this->session->set_userdata('username', $user->getUsername());
-						$this->session->set_userdata('userid', $user->getUserid());
+						$this->session->set_userdata('username', $this->encryption->encrypt($user->getUsername()));
+						$this->session->set_userdata('userid', $this->encryption->encrypt($user->getUserid()));	
 	     			}
 	     			redirect("admin/post");
 	   			}else{
 	     			$this->form_validation->set_message('check_database', 'Invalid username or password');
 	     			$this->login();
-	   			}
-
-	   			log_message('debug', $user->getUsername());
-				log_message('debug', $user->getPassword());
-
-				$ciphertext = $this->encryption->encrypt($user->getPassword());	// ENCRYPTION PASSWORD
-				log_message('debug', "ENCRYPTION=".$ciphertext);
-				log_message('debug', "DECRYPTION=".$this->encryption->decrypt($ciphertext));	// DECRYPTION PASSWORD				
-			}
-			
+	   			}			
+			}			
 		}
 	}
 
