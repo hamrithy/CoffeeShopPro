@@ -114,13 +114,21 @@
 								<tr>
 									<td id="USERID"><?php echo $user->userid; ?></td>
 									<td id="USERNAME"><?php echo $user->username; ?></td>
-									<td id="USERTYPE"><?php echo $user->usertype; ?></td>									
-									<td id="ACTIVE"><?php echo $user->active; ?></td>
+									<td id="USERTYPE"><?php echo $user->usertype; ?></td>
+									<td id="ACTIVE">
+										<?php
+											if($user->active==1){
+												echo('<a  href="javascript:;" class="btn btn-primary btnActive">Active</a>');
+											}else if($user->active==2){
+												echo('<a  href="javascript:;" class="btn btn-danger btnInActive">Inactive</a>');
+											}
+										?>										
+									</td>									
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
 										
 										<a  href="javascript:;" class="btn btn-danger btnDelete">Delete</a>
-										<a  href="javascript:;"  class="btn btn-primary">Update</a>
+										<a  href="javascript:;"  class="btn btn-primary btnUpdate">Update</a>
 									</td>
 								</tr>
 							<?php } ?>							
@@ -222,13 +230,25 @@
 			$(document).on('click','.btnDelete',function(){
 				_this  = $(this);
 				if (confirm("Are you sure you want to delete?") == true) {
-
 					$.post(
 						'<?php  echo site_url()?>/admin/user/deleteuser/'+_this.parents("tr").find("#USERID").html(),
 						function(data){
 							console.log("DATA:",data);
-						});
+						}
+					);
 				}
+			});
+
+			$(document).on('click', '.btnUpdate', function(){
+				location.href= '<?php  echo site_url()?>/admin/user/updateuser/'+$(this).parents("tr").find("#USERID").html();
+			});
+
+			$(document).on('click', '.btnInActive', function(){
+				alert("INACTIVE");
+			});
+
+			$(document).on('click', '.btnActive', function(){
+				alert("ACTIVE");
 			});
 		});		
 	</script>

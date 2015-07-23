@@ -90,7 +90,7 @@
 				<br/>				
 					<div class="panel panel-primary">
 							  <div class="panel-heading">
-								<h3 class="panel-title" id="formtitle">Form Add User </h3>
+								<h3 class="panel-title" id="formtitle">Form Update User </h3>
 							  </div>
 							  <div class="panel-body">
 					
@@ -259,7 +259,8 @@
 	<script type="text/javascript">
 		$(function(){
 			$("#btnSave").click(function(){
-				$.ajax({
+				alert("SAVE");
+				/*$.ajax({
 					type: "POST",
 					url: '<?php  echo site_url()?>/admin/user/adduserpro',
 					dataType: 'json',
@@ -288,7 +289,7 @@
 							});
 						}
 					}
-				});
+				});*/
 			});
 		});		
 
