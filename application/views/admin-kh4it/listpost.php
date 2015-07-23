@@ -120,8 +120,8 @@
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
 										
-										<a  href="#" class="btn btn-danger btnDelete">Delete</a>
-										<a  href="#"  class="btn btn-primary">Update</a>
+										<button  value="<?php  echo $v->postid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</a>
+										<button   value="<?php  echo $v->postid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -218,17 +218,16 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>	
-		$(document).ready(function(){
-			$(".btnDelete").click(function(){
-				_this  = $(this);
-				if (confirm("Are you sure you want to delete?") == true) {
-					$.post('<?php  echo site_url()?>/admin/post/deletepost/<?php  echo $v->postid ?>',function(){
-						_this.closest( 'tr').remove();
-					});
-				}
-			});
-		});
+		<script>
+		function deleteData(btn){
+			alert(btn.value);
+			if (confirm("Are you sure you want to delete?") == true) {
+				$.post('<?php  echo site_url()?>/admin/post/deletepost/'+btn.value,function(){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
+				});
+			}
+		}	
 		</script>
 	</body>
 </html>
