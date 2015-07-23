@@ -121,21 +121,24 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" id="PASSWORD" value="<?php echo md5($result->password);?>"/>
+										<input type="password" class="form-control" name="password" id="PASSWORD" value="<?php echo $result->password;?>"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD" value="<?php echo md5($result->password);?>"/>
+										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD" value="<?php echo $result->password;?>"/>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="usertype" id="USERTYPE" value="<?php echo $result->usertype;?>"/>
+										<select class="form-control" name="usertype" id="USERTYPE">
+											<option value="0">Admin</option>
+											<option value="1">User</option>
+										</select>
 									</div>
 								</div>
 								
