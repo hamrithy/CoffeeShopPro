@@ -64,10 +64,11 @@ $query_builder = TRUE;
 
 $db['development'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql1003.mochahost.com',
-	'username' => 'vuthea_coffee',
-	'password' => 'abc123+-*',
+	//'hostname' => 'localhost',
+	//'username' => 'root',
+	//'password' => '',
 	'database' => 'vuthea_coffee',
+	'hostname' => 'mysql1003.mochahost.com', 	'username' => 'vuthea_coffee', 	'password' => 'abc123+-*',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -83,7 +84,6 @@ $db['development'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
 
 $db['testing'] = array(
 	'dsn'	=> '',

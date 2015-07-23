@@ -31,7 +31,7 @@
 			$this->DtoPost->setTitle($this->input->post('txttitle'));
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
-			$this->DtoPost->setThumbnailurl("Path");
+			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
 			$this->DtoPost->setUserid(1);
 			
 			$this->DaoPost->addPost($this->DtoPost);
