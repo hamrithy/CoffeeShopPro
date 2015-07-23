@@ -220,7 +220,6 @@
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
 		function deleteData(btn){
-			alert(btn.value);
 			if (confirm("Are you sure you want to delete?") == true) {
 				$.post('<?php  echo site_url()?>/admin/post/deletepost/'+btn.value,function(){
 					var row = btn.parentNode.parentNode;
