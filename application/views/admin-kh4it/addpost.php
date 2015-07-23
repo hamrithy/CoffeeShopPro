@@ -124,13 +124,42 @@
 								
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Thumnail Image<span class="required">*</span></label>
-									<div class="col-lg-4">
-										<input type="file" id="txtfile" name="txtfile">
+									<div class="col-lg-5">
+										  <input type="text" value="" class="form-control" id="txtfile" name="txtfile" onchange="myimagechange()">
+									</div>
+									<div class="col-lg-1">
+										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
 									</div>
 									
 								</div> 
-								
-								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Demo Image</label>
+									<div class="col-lg-6">
+										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
+									</div>
+								</div>
+								<script>
+									function myimagechange(){
+										
+										$("#myimagedemo").attr("src", $("#txtfile").val() );
+									}
+
+								</script>
+
+						<!-- code for popup file manager -->		
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog modal-lg">
+							  <div class="modal-content">
+							    <div class="modal-header">
+							      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							      <h4 class="modal-title">File Manager</h4>
+							    </div>
+							    <div class="modal-body">
+							      <iframe width="900" height="400" src="<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&field_id=txtfile'&fldr=" frameborder="0" style="overflow: scroll; overflow-x: hidden; overflow-y: scroll; "></iframe>
+							    </div>
+							  </div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->	
 							
 							
 							</fieldset>
