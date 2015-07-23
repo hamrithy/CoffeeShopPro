@@ -9,7 +9,7 @@ class DaoUser extends CI_Model
 	}
 
 	function get_all_users(){
-		$query = $this->db->get('users');
+		$query = $this->db->get('USERS');
 		return $query->result();
 	}
 

@@ -104,23 +104,26 @@
 								<tr>
 									<th>ID</th>
 									<th>Username</th>
+									<th>Roles</th>
 									<th>Status</th>						
 									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
-						
-							
+								<?php foreach ($users as $user){ ?>
 								<tr>
-									<td>123</td>
-									<td>Vuthea</td>							
-									<td>Active</td>
+									<td id="USERID"><?php echo $user->userid; ?></td>
+									<td id="USERNAME"><?php echo $user->username; ?></td>
+									<td id="USERTYPE"><?php echo $user->usertype; ?></td>									
+									<td id="ACTIVE"><?php echo $user->active; ?></td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
+										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
+										
+										<a  href="javascript:;" class="btn btn-danger btnDelete">Delete</a>
+										<a  href="javascript:;"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
-							
+							<?php } ?>							
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->
@@ -214,17 +217,20 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
-		
-		function deletedata(url){
-			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
-				});
-			} 
-		}
-		
-		
-		</script>
+	<script>
+		$(function(){
+			$(document).on('click','.btnDelete',function(){
+				_this  = $(this);
+				if (confirm("Are you sure you want to delete?") == true) {
+
+					$.post(
+						'<?php  echo site_url()?>/admin/user/deleteuser/'+_this.parents("tr").find("#USERID").html(),
+						function(data){
+							console.log("DATA:",data);
+						});
+				}
+			});
+		});		
+	</script>
 	</body>
 </html>
