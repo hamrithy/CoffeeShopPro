@@ -75,9 +75,28 @@
 			<?php $this->load->view('admin-kh4it/_sidebar') ?>
 			<!-- END SIDEBAR LEFT -->
 			
-			
-			
-	
+			<?php if($getSlide !=null){ ?>
+			<script>
+				$(document).ready(function(){
+					<?php 
+						foreach ($getSlide as $s){
+					?>
+						document.title = "Edit Slide";
+						$("#formtitle").text("Form Edit Slide");
+						$("#btnsave").val("Edit");
+						$("#txttitle").val("<?php echo $s->title ?>");
+						$("#txtcaption").val("<?php echo $s->caption ?>");
+						$("#txtlinkto").val("<?php echo $s->linkto ?>");
+						$("#txtimage").val("<?php echo $s->imageurl ?>");
+						$("#txtorder").val("<?php echo $s->ordering ?>");
+						$("#myimagedemo").fadeIn("slow").attr('src', '<?php echo $s->imageurl ?>'  );
+						document.frmpost.action="<?php echo site_url();?>/admin/slide/updateSlidePro/<?php echo $s->slideid ?>";
+					<?php } ?>
+
+				});
+
+			</script>
+			<?php } ?>
 			
 			
 			
@@ -101,55 +120,55 @@
 					
 					<div>
 						<form id="frmpost" name="frmpost" method="post" action="addSlidePro" class="form-horizontal" role="form">
-							<fieldset>
+							
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
-									<div class="col-lg-10">
+									<label class="col-sm-2 control-label">Title<span class="required">*</span></label>
+									<div class="col-sm-10">
 										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
 									</div>
 								</div> 
 								
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Caption<span class="required">*</span></label>
-									<div class="col-lg-10">
+									<label class="col-sm-2 control-label">Caption<span class="required">*</span></label>
+									<div class="col-sm-10">
 										<textarea class="form-control" name="txtcaption" id="txtcaption"></textarea>
 									</div>
 								</div>								
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Link<span class="required">*</span></label>
-									<div class="col-lg-10">
+									<label class="col-sm-2 control-label">Link<span class="required">*</span></label>
+									<div class="col-sm-10">
 										<input type="text" class="form-control" name="txtlinkto" id="txtlinkto"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Background Image<span class="required">*</span></label>
-									<div class="col-lg-5">
+									<label class="col-sm-2 control-label">Background Image<span class="required">*</span></label>
+									<div class="col-sm-5">
 										  <input type="text" value="" class="form-control" id="txtimage" name="txtimage" onchange="myimagechange()">
 									</div>
-									<div class="col-lg-1">
+									<div class="col-sm-1">
 										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
 									</div>
 									
 								</div> 
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Demo Image</label>
-									<div class="col-lg-6">
+									<label class="col-sm-2 control-label">Demo Image</label>
+									<div class="col-sm-6">
 										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-2 control-label">Order<span class="required">*</span></label>
-									<div class="col-lg-4">
+									<label class="col-sm-2 control-label">Order<span class="required">*</span></label>
+									<div class="col-sm-4">
 										<input type="text" id="txtorder" name="txtorder">
 									</div>
 									
 								</div> 							
-							</fieldset>
+							
 
 							<div class="form-group">
 							
-								<div class="col-lg-9 col-lg-offset-3">
+								<div class="col-sm-9 col-sm-offset-3">
 									
 									<input type="submit" id="btnsave" class="btn btn-info" value="Save"/>
 								</div>

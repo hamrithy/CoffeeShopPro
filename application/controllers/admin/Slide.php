@@ -26,7 +26,7 @@
 			$this->DtoSlide->setLinkto($this->input->post('txtlinkto'));
 			$this->DtoSlide->setImageurl($this->input->post('txtimage'));
 			$this->DtoSlide->setOrdering($this->input->post('txtorder'));
-			$this->DtoSlide->setUserid(1);
+			$this->DtoSlide->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 
 			$this->DaoSlide->addSlide($this->DtoSlide);
 			$this->index();
@@ -57,6 +57,23 @@
 			$this->load->view('admin-kh4it/addslide', $data);
 
 
+		}
+
+		public function updateSlidePro($id){
+			$this->load->model('dao/DaoSlide');
+			$this->load->model("dto/DtoSlide");
+
+			$this->DtoSlide->setSlideid($id);
+			$this->DtoSlide->setTitle($this->input->post('txttitle'));
+			$this->DtoSlide->setCaption($this->input->post('txtcaption'));
+			$this->DtoSlide->setLinkto($this->input->post('txtlinkto'));
+			$this->DtoSlide->setImageurl($this->input->post('txtimage'));
+			$this->DtoSlide->setOrdering($this->input->post('txtorder'));
+			$this->DtoSlide->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
+
+			$this->DaoSlide->updateSlide($this->DtoSlide);
+			$this->index();
+			redirect('admin/slide/listslide');
 		}
 	}
 

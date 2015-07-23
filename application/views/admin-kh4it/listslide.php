@@ -99,7 +99,7 @@
 					<!-- BEGIN DATA TABLE -->
 					<div class="the-box">
 						<div class="table-responsive">
-						<table class="table table-striped table-hover" id="datatable-example">
+						<table class="table table-striped table-hover" id="slidetable">
 							<thead class="the-box dark full">
 								<tr>
 									<th>ID</th>
@@ -219,7 +219,14 @@
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
-		
+		$(document).ready(function() 
+		    { 
+		       $('#slidetable').dataTable( {
+			        "order": [[ 0, "desc" ]]
+			    } ); 
+		    } 
+		); 
+
 		function deletedata(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
 				$.post('<?php  echo site_url()?>/admin/slide/deleteSlidePro/'+btn.value ,function(data){
