@@ -15,11 +15,13 @@ class DaoPost extends CI_Model{
 				'title'              =>    	$p->getTitle(),
 				'shortdescription'   =>	   	$p->getShortdescription(),
 				'longdescription'    =>		$p->getLongdescription(),
-				'postdate'			 =>		$p->getPostDate(),
+			//	'postdate'			 =>		NOW(),
 				'thumbnailurl'       =>     $p->getThumbnailurl(),
 				'userid'             =>     $p->getUserid()
 		);
-		$result = $this->db->insert('posts',$data);
+		
+		$this->db->set('postdate', 'NOW()', FALSE);
+		$this->db->insert('posts',$data);
 	}
 	
 	
