@@ -135,7 +135,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Demo Image</label>
 									<div class="col-lg-6">
-										<img src="" class="img-responsive" id="myimagedemo"/>
+										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
 								</div>
 								<div class="form-group">
@@ -186,7 +186,8 @@
 				
 				<script>
 					function myimagechange(){
-						alert("change");
+						
+						$("#myimagedemo").attr("src", $("#txtimage").val() );
 					}
 
 				</script>
