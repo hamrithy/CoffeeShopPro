@@ -46,17 +46,15 @@
 
 		
 		
-		/* public function deletePostPro($id){
+		public function deletePost($id){
 			$this->load->model("dao/DaoPost");
 			$this->load->model("dto/DtoPost");
-			$dao = new DaoPost();
-			$dto = new DtoPost();
-			$dto->setPostid($id);
-			$dao->deletePost($dto);
-			redirect("testpost");
+			
+			$this->DtoPost->setPostid($id);
+			$this->DaoPost->deletePost($this->DtoPost);
+			$this->index();
 		}
-		
-		 */
+		 
 	}
 
 ?>
