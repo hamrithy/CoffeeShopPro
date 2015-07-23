@@ -27,6 +27,7 @@
 			$this->DtoPost->setThumbnailurl("Path");
 			$this->DtoPost->setUserid(1);
 			
+			
 			$this->DaoPost->addPost($this->DtoPost);
 			$this->index();
 		}
