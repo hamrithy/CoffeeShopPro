@@ -111,18 +111,18 @@
 							</thead>
 							<tbody>
 						
-							
+							<?php foreach ($listSlide as $s){ ?>
 								<tr>
-									<td>123</td>
-									<td>Slider1</td>
-									<td>Image</td>									
-									<td>1</td>
+									<td><?php echo $s->slideid; ?></td>
+									<td><?php echo $s->title; ?></td>
+									<td><?php echo $s->imageurl; ?></td>									
+									<td><?php echo $s->ordering; ?></td>
 									<td>
 										<button style="margin-right:3px" onclick="deletedata('#')" class="btn btn-danger">Delete</button>
 										<button onclick="window.location.href='#" class="btn btn-primary">Update</button>
 									</td>
 								</tr>
-							
+							<?php } ?>
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->

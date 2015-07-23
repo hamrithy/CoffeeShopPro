@@ -100,7 +100,7 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
+						<form id="frmpost" name="frmpost" method="post" action="addSlidePro" class="form-horizontal" role="form">
 							<fieldset>
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
@@ -112,20 +112,20 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Caption<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<textarea class="form-control" name="txtshortdescription" id="txtshortdescription"></textarea>
+										<textarea class="form-control" name="txtcaption" id="txtcaption"></textarea>
 									</div>
 								</div>								
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Link<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" name="txtlink" id="txtlink"/>
+										<input type="text" class="form-control" name="txtlinkto" id="txtlinkto"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Background Image<span class="required">*</span></label>
 									<div class="col-lg-5">
-										  <input type="text" value="" class="form-control" id="txtimage" name="txtimag" onchange="myimagechange()">
+										  <input type="text" value="" class="form-control" id="txtimage" name="txtimage" onchange="myimagechange()">
 									</div>
 									<div class="col-lg-1">
 										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
