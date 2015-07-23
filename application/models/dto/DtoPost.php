@@ -8,7 +8,16 @@ class DtoPost{
 	private $longdescription;
 	private $thumbnailurl;
 	private $userid;
+	private $postdate;
 
+	public function getPostDate(){
+		return $this->postdate;
+	}
+	
+	public function setPostDate($postdate){
+		$this->postdate = $postdate;
+	}
+	
 	public function getPostid(){
 		return $this->postid;
 	}
