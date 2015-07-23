@@ -30,8 +30,8 @@
 			$dto->setUserid(1);
 			
 			$data = $dao->addPost($dto);
-// 			redirect("testpost");
-			$this->index();
+			redirect("testpost");
+// 			$this->index();
 		}
 		
 		public function listPostPro(){
@@ -39,6 +39,17 @@
 			$dao = new DaoPost();
 			$data["lstPost"] = $dao->lstPost();
 			$this->load->view("admin-kh4it/listpost" , $data);
+		}
+		
+		
+		public function deletePostPro($id){
+			$this->load->model("dao/DaoPost");
+			$this->load->model("dto/DtoPost");
+			$dao = new DaoPost();
+			$dto = new DtoPost();
+			$dto->setPostid($id);
+			$dao->deletePost($dto);
+			redirect("testpost");
 		}
 		
 		
