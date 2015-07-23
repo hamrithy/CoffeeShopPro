@@ -54,6 +54,10 @@
 		<!--  CSS (REQUIRED ALL PAGE)-->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
+		
+			
+		
+		
 	</head>
  
 	<body class="tooltips">
@@ -69,18 +73,32 @@
 			<?php $this->load->view('admin-kh4it/_header') ?>
 			<!-- END TOP NAV -->
 			
-			
+			<script type="text/javascript">
+			$(document).ready(function() {
+
+						<?php
+						if($getPost != null ){
+							foreach($getPost as $v){
+							?>
+							$("#txtpostid").val("<?php echo $v->postid?>");
+							$("#txttitle").val("<?php echo $v->title?>");
+							$("#txtshortdescription").val("<?php echo $v->shortdescription?>");
+							$("#txtdescription").text("fasdf");
+							$("#txtfile").val("<?php echo $v->thumbnailurl?>");
+							$("#myimagedemo").fadeIn("fast").attr('src', '<?php echo $v->thumbnailurl ?>'  );
+							document.frmpost.action="<?php echo site_url();?>/admin/post/updatepost";
+							<?php
+							 }
+						}
+						 ?>
+			});
+		  	</script>
 			
 			<!-- BEGIN SIDEBAR LEFT -->
 			<?php $this->load->view('admin-kh4it/_sidebar') ?>
 			<!-- END SIDEBAR LEFT -->
 			
-			
-			
 	
-			
-			
-			
 			<!-- BEGIN PAGE CONTENT -->
 			<div class="page-content">
 				
@@ -106,6 +124,7 @@
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" required="required"/>
+										<input type="text" class="form-control" name="txtpostid" id="txtpostid" />
 									</div>
 								</div> 
 								
@@ -118,7 +137,16 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"></textarea>
+										<textarea class="form-control summernote-lg" name="txtdescription" id="txtdescription"> 
+												<?php  
+												/* if($getPost != null ){
+														foreach ($getPost as $v){ 
+															echo $v->longdescription; 
+														} 
+													}
+												*/
+												?>
+										</textarea>
 									</div>
 								</div>
 								
@@ -135,7 +163,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Demo Image</label>
 									<div class="col-lg-6">
-										<img src="<?php echo base_url(); ?>/public/upload/post-background.jpg" class="img-responsive" id="myimagedemo"/>
+										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
 								</div>
 								<script>
@@ -271,5 +299,9 @@
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 
+	
+	
+		
+		
 	</body>
 </html>

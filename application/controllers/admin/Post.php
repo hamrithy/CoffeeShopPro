@@ -60,7 +60,21 @@
 			
 			$this->DtoPost->setPostid($id);
 			$this->DaoPost->deletePost($this->DtoPost);
-			//$this->index();
+		}
+		
+		public function updatePost(){
+			$this->load->model("dao/DaoPost");
+			$this->load->model("dto/DtoPost");
+			
+			$this->DtoPost->setPostid($this->input->post('txtpostid'));
+			$this->DtoPost->setTitle($this->input->post('txttitle'));
+			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
+			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
+			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
+			$this->DtoPost->setUserid(1);
+			
+			$this->DaoPost->updatePost($this->DtoPost);
+			$this->index();
 		}
 		 
 	}

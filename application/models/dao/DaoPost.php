@@ -50,6 +50,21 @@ class DaoPost extends CI_Model{
 		$this->db->delete('POSTS');
 	}
 	
+	public function updatePost(DtoPost $p){
+		$data = array(
+				'title'              =>    	$p->getTitle(),
+				'shortdescription'   =>	   	$p->getShortdescription(),
+				'longdescription'    =>		$p->getLongdescription(),
+				'thumbnailurl'       =>     $p->getThumbnailurl(),
+				'userid'             =>     $p->getUserid()
+		);
+		$this->db->set('postdate', 'NOW()', FALSE);
+		$this->db->where('postid' , $p->getPostid());
+		$this->db->update('POSTS' , $data);
+	}
+	
+	
+	
 	
 	
 }
