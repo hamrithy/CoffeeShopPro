@@ -106,7 +106,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Username<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="username" />
+										<input type="text" class="form-control" name="username" id="USERNAME"/>
 									</div>
 								</div>
 
@@ -120,21 +120,21 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" />
+										<input type="password" class="form-control" name="password" id="PASSWORD"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" />
+										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD"/>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="usertype" />
+										<input type="text" class="form-control" name="usertype" id="USERTYPE"/>
 									</div>
 								</div>
 								
@@ -142,7 +142,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="status">
+										<select class="form-control" name="status" id="STATUS">
 											<option value="1">Active</option>
 											<option value="0">Inactive</option>
 										</select>
@@ -153,10 +153,10 @@
 
 							<div class="form-group">
 								<div class="col-lg-9 col-lg-offset-3">
-									<button type="submit" class="btn btn-success">Save</button>
+									<input type="button" class="btn btn-success" id="btnSave" value="Save"/>
 								</div>
 							</div>
-							
+							<div id="MESSAGE"></div>							
 						</form>
 					</div><!-- /.the-box -->
 						
@@ -255,6 +255,43 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#btnSave").click(function(){
+				$.ajax({
+					type: "POST",
+					url: '<?php  echo site_url()?>/admin/user/adduserpro',
+					dataType: 'json',
+					data: {
+						username: $("#USERNAME").val(), 
+						password: $("#PASSWORD").val(),
+						usertype: $("#USERTYPE").val(),
+						status: $("#STATUS").val()
+					},
+					success: function(data){
+						<?php if(isset($DUP_MSG)) {?>
+								<div class="alert alert-warning alert-bold-border fade in alert-dismissable"> 
+									<?php echo $DUP_MSG; ?>
+								</div>
+							<?php } ?>
+						console.log("DATA:",data);
+						if(data["ERROR"]==true){
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
+							$("#MESSAGE").fadeIn(1000);
+							$("#MESSAGE").fadeOut(5000);
+						}else{
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been inserted successfully.</div>');
+							$("#MESSAGE").fadeIn(1000);
+							$("#MESSAGE").fadeOut(5000,function(){
+								location.href= "<?php echo site_url('admin/user');?>";
+							});
+						}
+					}
+				});
+			});
+		});		
+
+	</script>
 
 	</body>
 </html>

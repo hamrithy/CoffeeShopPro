@@ -34,8 +34,14 @@
 			$user->setUsertype($this->input->post('usertype'));
 			$user->setActive($this->input->post("status"));
 			
-			$userDao->create_new_user($user);
-			$this->index();
+			if($userDao->check_duplicate_user_by_username($user->getUsername())>0){
+				$data["ERROR"] = true;
+				$data["ERR_MSG"] = "User already exist.";
+			}else{
+				$userDao->create_new_user($user);
+				$data["SUCCESS"] = true;
+			}
+			echo json_encode($data);
 		}
 
 		public function deleteUser($user_id){

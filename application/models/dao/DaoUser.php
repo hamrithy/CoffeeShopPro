@@ -24,6 +24,12 @@ class DaoUser extends CI_Model
 		return $this->db->get('USERS');
 	}
 
+	function check_duplicate_user_by_username($username){
+		$this->db->from('USERS');
+		$this->db->where('username', $username);
+		return $this->db->count_all_results();
+	}
+
 	function get_user_by_email($email){
 		$this->db->where('email', $email);
 		return $this->db->get('USERS');
