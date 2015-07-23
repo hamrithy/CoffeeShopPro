@@ -15,13 +15,20 @@
 		 
 		
 		public function addPost(){
-			
+
 			$this->load->model("dao/DaoPost");
 			$this->load->model("dto/DtoPost");
-			$dto = new DaoPost();
+			$dto = new DtoPost();
 			$dao = new DaoPost();
 			
+			$dto->setTitle($this->input->post('txttitle'));
+			$dto->setShortdescription($this->input->post('txtshortdescription'));
+			$dto->setLongdescription($this->input->post('txtdescription'));
+			$dto->setThumbnailurl("Path");
+			$dto->setUserid(1);
 			
+			$data = $dao->addPost($dto);
+			redirect("TestPost");
 			
 		
 		}
