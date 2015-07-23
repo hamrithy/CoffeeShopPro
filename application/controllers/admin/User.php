@@ -22,7 +22,6 @@
 		}
 
 		public function addUserPro(){
-			
 			$this->load->model("dao/DaoUser");
 			$this->load->model("dto/DtoUser");
 			
@@ -49,8 +48,29 @@
 		}
 
 		public function updateUser($user_id){
-			$data["result"] = get_user_by_id($user_id);
-			$this->load->view('admin-kh4it/updateuser');
+			$data["result"] = $this->DaoUser->get_user_by_id($user_id);
+			$this->load->view('admin-kh4it/updateuser', $data);
+		}
+
+		public function updateUserPro(){
+			$this->load->model("dao/DaoUser");
+			$this->load->model("dto/DtoUser");
+			
+			$user = new DtoUser();
+			$userDao = new DaoUser();
+			$user->setUserid($this->input->post('userid'));
+			$user->setUsername($this->input->post('username'));
+			$user->setPassword($this->input->post('password'));
+			$user->setUsertype($this->input->post('usertype'));
+			$user->setActive($this->input->post("status"));
+			
+			if($userDao->update_user($user)){
+				$data["ERROR"] = false;
+				$data["ERR_MSG"] = "Your user cannot update.";
+			}else{
+				$data["ERROR"] = true;
+			}
+			echo json_encode($data);
 		}
 
 		public function rest_users(){

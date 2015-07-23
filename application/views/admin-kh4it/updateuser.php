@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="author" content="Vuthea Chheang">
-		<title>Add User</title>
+		<title>Update User</title>
  
 	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -107,7 +107,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Username<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="username" id="USERNAME"/>
+										<input type="text" class="form-control" name="username" id="USERNAME" value="<?php echo $result->username;?>"/>
 									</div>
 								</div>
 
@@ -121,21 +121,21 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" id="PASSWORD"/>
+										<input type="password" class="form-control" name="password" id="PASSWORD" value="<?php echo md5($result->password);?>"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD"/>
+										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD" value="<?php echo md5($result->password);?>"/>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="usertype" id="USERTYPE"/>
+										<input type="text" class="form-control" name="usertype" id="USERTYPE" value="<?php echo $result->usertype;?>"/>
 									</div>
 								</div>
 								
@@ -144,8 +144,18 @@
 									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<select class="form-control" name="status" id="STATUS">
-											<option value="1">Active</option>
-											<option value="0">Inactive</option>
+											<?php 
+												if($result->active==1){?>
+													<option value="1" selected>Active</option>
+													<option value="0">Inactive</option>		
+												<?php
+												}else{?>
+													<option value="1">Active</option>
+													<option value="0" selected>Inactive</option>
+												<?php
+												 }
+											?>
+											
 										</select>
 									</div>
 								</div>
@@ -259,37 +269,35 @@
 	<script type="text/javascript">
 		$(function(){
 			$("#btnSave").click(function(){
-				alert("SAVE");
-				/*$.ajax({
+				if (confirm("Are you sure you want to update?") == false) {
+					return;
+				}
+				$.ajax({
 					type: "POST",
-					url: '<?php  echo site_url()?>/admin/user/adduserpro',
+					url: '<?php  echo site_url()?>/admin/user/updateuserpro',
 					dataType: 'json',
 					data: {
+						userid: '<?php echo $result->userid;?>',
 						username: $("#USERNAME").val(), 
 						password: $("#PASSWORD").val(),
 						usertype: $("#USERTYPE").val(),
 						status: $("#STATUS").val()
 					},
 					success: function(data){
-						<?php if(isset($DUP_MSG)) {?>
-								<div class="alert alert-warning alert-bold-border fade in alert-dismissable"> 
-									<?php echo $DUP_MSG; ?>
-								</div>
-							<?php } ?>
 						console.log("DATA:",data);
 						if(data["ERROR"]==true){
 							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
 							$("#MESSAGE").fadeIn(1000);
 							$("#MESSAGE").fadeOut(5000);
 						}else{
-							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been inserted successfully.</div>');
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been updated successfully.</div>');
 							$("#MESSAGE").fadeIn(1000);
 							$("#MESSAGE").fadeOut(5000,function(){
 								location.href= "<?php echo site_url('admin/user');?>";
 							});
 						}
 					}
-				});*/
+				});
 			});
 		});		
 

@@ -16,7 +16,8 @@ class DaoUser extends CI_Model
 
 	function get_user_by_id($user_id){
 		$this->db->where('userid', $user_id);
-		return $this->db->get('USERS');
+		$query = $this->db->get('USERS');
+		return $query->row();
 	}
 
 	function get_user_by_username($username){
@@ -45,15 +46,20 @@ class DaoUser extends CI_Model
 		return $this->db->insert('USERS', $data);
 	}
 
-	function update_user($user_id, $data){
+	function update_user(DtoUser $user){
 		$data = array(
 			"username" => $user->getUsername(),
 			"password" => $user->getpassword(),
 			"usertype" => $user->getUsertype(),
 			"active"   => $user->getActive()
 		);
-		$this->db->where('userid', $user_id);
-		return $this->db->update('USERS', $data);
+		$this->db->where('userid', $user->getUserid());
+		$this->db->update('USERS', $data);
+		if($this->db->affected_rows()==1){
+			return true;
+		}else{
+			return false;
+		}
 	}
 
 	function change_password($user_id, $new_pssword){

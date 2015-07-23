@@ -119,7 +119,7 @@
 										<?php
 											if($user->active==1){
 												echo('<a  href="javascript:;" class="btn btn-primary btnActive">Active</a>');
-											}else if($user->active==2){
+											}else if($user->active==0){
 												echo('<a  href="javascript:;" class="btn btn-danger btnInActive">Inactive</a>');
 											}
 										?>										
