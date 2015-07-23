@@ -61,6 +61,7 @@ class DaoUser extends CI_Model
 		$this -> db -> from('USERS');
 		$this -> db -> where('username', $user->getUsername());
 		$this -> db -> where('password', md5($user->getPassword()));
+		$this -> db -> where('active', 1);
 		$this -> db -> limit(1);
 
 		$query = $this -> db -> get();
