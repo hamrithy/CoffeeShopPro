@@ -111,18 +111,18 @@
 							</thead>
 							<tbody>
 						
-							
+							<?php foreach ($listPage as $p){ ?>
 								<tr>
-									<td>123</td>
-									<td>Manager</td>
-									<td>20-02-2015</td>									
-									<td>Vuthea</td>
+									<td><?php echo $p->pageid ?></td>
+									<td><?php echo $p->title ?></td>
+									<td><?php echo $p->createddate ?></td>									
+									<td><?php echo $p->username ?></td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
+										<button value="<?php  echo $p->pageid ?>" onclick='deleteData(this)' style="margin-right:3px"  class="btn btn-danger">Delete</button>
+										<a  href="<?php  echo site_url()?>/admin/page/getpage/<?php  echo $p->pageid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
-							
+							<?php } ?>
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->
@@ -216,17 +216,17 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
 		
-		function deletedata(url){
+	<script type="text/javascript">
+		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
+				$.post('<?php  echo site_url()?>/admin/page/deletepage/'+btn.value,function(){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
 				});
-			} 
-		}
+			}
+		}	
+	</script>	
 		
-		
-		</script>
 	</body>
 </html>

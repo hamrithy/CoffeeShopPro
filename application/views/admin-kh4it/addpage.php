@@ -70,6 +70,24 @@
 			<!-- END TOP NAV -->
 			
 			
+			<script type="text/javascript">
+			$(document).ready(function() {
+
+						<?php
+						if($getPage != null ){
+							foreach($getPage as $v){
+							?>
+							$("#txtpageid").val("<?php echo $v->pageid?>");
+							$("#txttitle").val("<?php echo $v->title?>");
+							$("#txtdescription").text('<?php echo $v->body ?>');
+							document.frmpage.action="<?php echo site_url();?>/admin/page/updatepage";
+							<?php
+							 }
+						}
+						 ?>
+			});
+		  	</script>
+		  	
 			
 			<!-- BEGIN SIDEBAR LEFT -->
 			<?php $this->load->view('admin-kh4it/_sidebar') ?>
@@ -100,12 +118,13 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmpost" name="frmpost" method="post" action="addpostpro" class="form-horizontal" role="form">
+						<form action="<?php echo site_url();?>/admin/page/addpagepro" id="frmpage" name="frmpage" method="post" class="form-horizontal" role="form">
 							<fieldset>
 								<div class="form-group">
 									<label class="col-lg-1 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-11">
 										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
+										<input type="hidden" class="form-control" name="txtpageid" id="txtpageid" value="" />
 									</div>
 								</div> 	
 								<div class="form-group">
@@ -123,7 +142,7 @@
 								<div class="col-lg-9 col-lg-offset-3">
 									
 									<input type="submit" id="btnsave" class="btn btn-info" value="Save"/>
-									<input type="reset" id="btncancel" class="btn btn-danger" value="Cancel"/>
+									
 								</div>
 							</div>
 							

@@ -14,7 +14,6 @@ class DaoPost extends CI_Model{
 				'title'              =>    	$p->getTitle(),
 				'shortdescription'   =>	   	$p->getShortdescription(),
 				'longdescription'    =>		$p->getLongdescription(),
-			//	'postdate'			 =>		NOW(),
 				'thumbnailurl'       =>     $p->getThumbnailurl(),
 				'userid'             =>     $p->getUserid()
 		);
