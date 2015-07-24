@@ -259,7 +259,7 @@
                         <ul class="clean-list post-meta-list border-top row">
                             <li class="no-padding">
                                 <a href="#" class="meta-link comments">1 comment</a> /
-                                <a class="text-red hover-text-dark-red author" href="#">By Jack Raulf</a> / 
+                                <a class="text-red hover-text-dark-red author" href="#">By {{= username}}</a> / 
                                 <div class="tag-list inline">
                                     <a href="#" rel="tag">food</a>, <a href="#" rel="tag">chicken</a>
                                 </div>
@@ -424,6 +424,7 @@
                 });
             }
             formatData = function(val){
+                console.log(val);
                 var postdate = new Date(val['postdate']);
                 val['postdate'] = moment(postdate).format("DD");
                 val['postdatemonth'] = moment(postdate).format("MMM");
