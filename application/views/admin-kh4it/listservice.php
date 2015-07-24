@@ -1,11 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
 		<meta name="author" content="Vuthea Chheang">
-		<title>Theme Editor</title>
+		<title>List Services</title>
  
 	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -54,31 +54,10 @@
 		<!--  CSS (REQUIRED ALL PAGE)-->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-		<!-- Code Mirror -->
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/lib/codemirror.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/style.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/addon/display/fullscreen.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/theme/eclipse.css">
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/lib/codemirror.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/xml/xml.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/display/fullscreen.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/edit/closetag.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/fold/xml-fold.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/javascript/javascript.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/css/css.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/php/php.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/htmlmixed/htmlmixed.js"></script>
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/addon/dialog/dialog.css">
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/dialog/dialog.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/search/searchcursor.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/search/search.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/edit/matchtags.js"></script>
-		
 	</head>
  
 	<body class="tooltips">
-		
-		
+	
 		
 		<!--
 		===========================================================
@@ -98,72 +77,60 @@
 			
 			
 			
-			
 			<!-- BEGIN PAGE CONTENT -->
 			<div class="page-content">
 				
 				
 				<div class="container-fluid">
-					<div id="getContent">
 					<br/>
 					<div class="panel panel-info">
 								  <div class="panel-heading">
 									<h1 class="panel-title">
 									<i class="fa fa-tasks"></i>
 										<a href="index.act"  >
-										Theme-Editor
+										List Services
 										
 										</a>
 									</h1>
 								  </div>
 									
 					</div><!-- /.panel panel-default -->
-					
-					
-					<div class="the-box no-border">
-						<form role="form" action="<?php  echo site_url()?>/admin/theme/edittheme/<?php echo $filepath; ?>" method="post">
-							<div class="row">
-								<div class="col-sm-10">
-									<div class="form-group">
-										<label id="title-editor">File Name : <?php echo $filename; ?></label>
-									</div>
-									<div class="form-group">
-										<textarea id="code" name="code"><?php echo $files; ?></textarea>
-    									
-									</div>
-									<div class="form-group">
 										
-										<input class="btn btn-success" type="submit" value="Update File"/>
-									</div>
-								</div><!-- /.col-sm-8 -->
-								<div class="col-sm-2">
-										<label>FrontEnd Page</label>					
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_footer">_footer.php</a></p>														
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_header">_header.php</a></p>															
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/index">index.php</a></p>														
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/blog">blog.php</a></p>								
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/buttons">buttons.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/chiefs">chiefs.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/contact">contact.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/menu">menu.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/post">post.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/recipe">recipe.php</a></p>
-										
-										<!-- <label>Backend Page</label>	
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfilestyle/screen">stylesheet.css</a></p>
-										<label>StyleSheet</label>	
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_footer.php">StyleSheet.CSS</a></p>
-										 -->
-								</div><!-- /.col-sm-4 -->
-							</div><!-- /.row -->
-						</form>
-					</div><!-- /.the-box no-border -->
+					<!-- BEGIN DATA TABLE -->
+					<div class="the-box">
+						<div class="table-responsive">
+						<table class="table table-striped table-hover" id="slidetable">
+							<thead class="the-box dark full">
+								<tr>
+									<th>ID</th>
+									<th>Titile</th>
+									<th>Image</th>	
+									<th>Link</th>								
+									<th>Order</th>
+									<th>Action</th>
+								</tr>
+							</thead>
+							<tbody>
+						
+							<?php foreach ($listService as $s){ ?>
+								<tr>
+									<td><?php echo $s->serviceid; ?></td>
+									<td><?php echo $s->title; ?></td>									
+									<td><img src="<?php echo $s->imageurl; ?>" class="img-responsive" style="height: 60px;"/></td>		
+									<td><?php echo $s->linkto; ?></td>							
+									<td><?php echo $s->ordering; ?></td>
+									<td>
+										<button value="<?php echo $s->serviceid ?>" onclick="deletedata(this)" class="btn btn-danger">Delete</button>
+										<a href="<?php  echo site_url()?>/admin/service/getService/<?php  echo $s->serviceid ?>" class="btn btn-primary" >Update</a>
+									</td>
+								</tr>
+							<?php } ?>
+							</tbody>
+						</table>
+						</div><!-- /.table-responsive -->
+					</div><!-- /.the-box .default -->
+					<!-- END DATA TABLE -->
 					
-					
-					
-				
-			</div>
-				
 				</div><!-- /.container-fluid -->
 				
 				
@@ -194,7 +161,7 @@
 		Placed at the end of the document so the pages load faster
 		===========================================================
 		-->
-		<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
+	<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
 	<script src="<?php echo base_url(); ?>/public/assets/js/jquery.min.js"></script>
 	<script src="<?php echo base_url(); ?>/public/assets/js/bootstrap.min.js"></script>
 	<script src="<?php echo base_url(); ?>/public/assets/plugins/retina/retina.min.js"></script>
@@ -251,31 +218,25 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js" ></script>
-	<script src="http://malsup.github.com/jquery.form.js" ></script>
-	<script src="<?php echo base_url(); ?>/public/js/fileUploadScript.js" ></script>
-	
 		<script>
-		    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-		      lineNumbers: true,
-		      theme: "eclipse",
-		      autoCloseTags: true,
-		      matchBrackets: true,
-		      mode: "application/x-httpd-php",
-		      indentUnit: 4,
-		      indentWithTabs: true,
-		      matchTags: {bothTags: true},
-		      extraKeys: {"Ctrl-J": "toMatchingTag"},
-		      extraKeys: {
-		        "F11": function(cm) {
-		          cm.setOption("fullScreen", !cm.getOption("fullScreen"));
-		        },
-		        "Esc": function(cm) {
-		          if (cm.getOption("fullScreen")) cm.setOption("fullScreen", false);
-		        }
-		      }
-		    });
-		  </script>
+		$(document).ready(function() 
+		    { 
+		       $('#slidetable').dataTable( {
+			        "order": [[ 0, "desc" ]]
+			    } ); 
+		    } 
+		); 
+
+		function deletedata(btn){
+			if (confirm("Are you sure you want to delete?") == true) {
+				$.post('<?php  echo site_url()?>/admin/service/deleteServicePro/'+btn.value ,function(data){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
+				});
+			} 
+		}
 		
+		
+		</script>
 	</body>
 </html>

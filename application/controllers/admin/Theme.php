@@ -27,6 +27,24 @@
 			$this->load->view('admin-kh4it/theme-editor', $data);
 		}
 
+		public function edittheme($fname){
+			$datafile = $this->input->post('code');
+			$path_to_view = get_view_path($fname); 
+
+			if ( ! write_file(''. $path_to_view .'', $datafile))
+			{
+			     echo 'Unable to write the file';
+
+			}
+			else
+			{
+			    $filename = $fname .".php";
+				$data= array("filename" => $filename, "files" => $datafile, "filepath" => $fname );
+				$this->load->view('admin-kh4it/theme-editor', $data);
+			}
+
+		}
+
 		
 	}
 
