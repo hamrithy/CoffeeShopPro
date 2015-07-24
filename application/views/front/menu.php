@@ -48,40 +48,37 @@
             
                 <div class="padding-10 margin-top">
                     <div class="background-white ovh filter-cats-wrap">
-                        <ul class="clean-list inline-list filter-cats center-me ">
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Appetizers</a></li>
-                            <li><a href="#">Salads</a></li>
-                            <li><a href="#">Meat</a></li>
-                            <li><a href="#">Seafood</a></li>
-                            <li><a href="#">Desserts</a></li>
+                        <ul class="clean-list inline-list filter-cats center-me" id="FOOD_CATEGORY">
+                            <li><a href="javascript:;">All</a></li>
+                            <?php foreach($categories as $category){
+                                echo '<li><a href="javascript:;">'.$category->title.'</a></li>';
+                            }?>
+                            <!-- <li><a href="javascript:;">All</a></li>
+                            <li><a href="javascript:;">Appetizers</a></li>
+                            <li><a href="javascript:;">Salads</a></li>
+                            <li><a href="javascript:;">Meat</a></li>
+                            <li><a href="javascript:;">Seafood</a></li>
+                            <li><a href="javascript:;">Desserts</a></li> -->
                         </ul> <!-- /.filter cats -->
                     </div>
                 </div>
 
                 <div class="background-white padding margin-top dishes-block">
                     <ul class="clean-list filter-items menu-items row">
-                        <li class="col-md-3 col-sm-6 col-xs-6 appetizers meat">
+                        <?php foreach($foods as $food){
+                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($category->title).'">
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                        <a href="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
-                                            <a href="<?php echo site_url()?>/front/recipe" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
+                                            <a href="<?php echo site_url()?>/front/recipe" title="'.$food->title.'">'.$food->title.'</a>
                                         </figcaption>
                                     </figure>
                                 </div><hr />
                                 <div class="filters-meta">
                                     <div class="tags-list aligncenter">(
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
-                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        '.$food->description.'
                                         )
                                     </div><hr /><hr />
                                     <div class="price aligncenter padding-half-top">
@@ -89,8 +86,18 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="col-md-3 col-sm-6 col-xs-6 desserts">
+                        </li>';
+                        }?>
+                   <!-- <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a> -->
+                       <!--  <li class="col-md-3 col-sm-6 col-xs-6 desserts">
                             <div>
                                 <div>
                                     <figure>
@@ -416,7 +423,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

@@ -5,10 +5,14 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->model('dao/DaoFoodType');
+			$this->load->model('dao/DaoFood');
 		}
 
 		public function index(){
-			$this->load->view('front/menu');
+			$data["categories"] = $this->DaoFoodType->getAllFoodTypes();
+			$data["foods"] = $this->DaoFood->getAllFoodItems();
+			$this->load->view('front/menu', $data);
 		}
 		
 	}
