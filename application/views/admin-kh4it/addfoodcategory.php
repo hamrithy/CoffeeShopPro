@@ -100,52 +100,26 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmadduser" method="post" action="adduserpro" class="form-horizontal">
+						<form id="frmfoodtype" name="frmfoodtype" method="post" action="<?php echo site_url("admin/foodcategory/actionaddfoodtype")?>" class="form-horizontal">
 							<fieldset>
-								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Username<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="username" />
+										<input type="text" class="form-control" name="title" id="title"/>
 									</div>
 								</div>
-
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Email<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<input type="text" class="form-control" name="email" />
-									</div>
-								</div>
-								
-								
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" />
+									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control summernote-lg" name="description" id="description"> </textarea>
 									</div>
 								</div>
 								
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" />
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
-											<option value="1">Active</option>
-											<option value="0">DeActive</option>
-										</select>
-									</div>
-								</div>
-							
 							</fieldset>
 
 							<div class="form-group">
 								<div class="col-lg-9 col-lg-offset-3">
-									<button type="submit" class="btn btn-success">Save</button>
+									<button type="submit" class="btn btn-success" id="btnsave">Save</button>
 								</div>
 							</div>
 							
@@ -176,7 +150,23 @@
 		
 		
 	
-		
+		<script>
+				<?php if($getFoodType !=null){ ?>
+				$(document).ready(function(){
+					<?php 
+						foreach ($getFoodType as $s){
+					?>
+						document.title = "Edit Slide";
+						$("#formtitle").text("Form Edit Food Category");
+						$("#btnsave").text("Edit");
+						$("#title").val("<?php echo $s->title ?>");
+						$("#description").val("<?php echo $s->description ?>");
+						document.frmfoodtype.action="<?php echo site_url();?>/admin/foodcategory/actionupdatefoodcategory/<?php echo $s->foodtypeid ?>";
+					<?php } ?>
+
+				});
+				<?php } ?>
+		</script>
 		
 		
 		<!--

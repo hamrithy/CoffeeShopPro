@@ -14,6 +14,9 @@
 		}
 
 		public function addfooditem(){
+			$this->load->model('DaoFoodType');
+			$this->load->model('DtoFoodType');
+			$data['foodTypes'] = $this->DaoFoodType->getAllFoodTypes();
 			$this->load->view('admin-kh4it/addfooditem');
 		}
 
