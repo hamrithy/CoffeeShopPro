@@ -19,6 +19,13 @@
 			$this->load->view("front/blog" , $data);
 		}
 		
+		public function listAllPosts(){
+			$limit  = $this->input->post('perPage');
+			$offset = $this->input->post('pageNo');
+			$data["posts"] = $this->DaoPost->listPostLimit($limit, $offset);
+			$data["total"] = $this->DaoPost->getAllPostCount();
+			echo json_encode($data);
+		}
 		
 	}
 

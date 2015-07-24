@@ -89,17 +89,12 @@
                                     </div>
                                 </li>
 								<?php } ?>
-
-
-                                
-
-                                 
                                 </ul>
                                 <div class="pagination margin-right-6">
                                     <ul class="page-numbers center-me clean-list ">
-                                        <li><span class="page-numbers current">1</span></li>
+                                        <!-- <li><span class="page-numbers current">1</span></li>
                                         <li><a href="#" class="page-numbers">2</a></li>
-                                        <li><a href="#" class="next page-numbers">Next</a></li>
+                                        <li><a href="#" class="next page-numbers">Next</a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -299,16 +294,14 @@
             currentPage: 1,
             perPage: 10,
             totalCount: 50,
-            init: function(currentPage,perPage,totalCount,callback){
+            init: function(currentPage, perPage, totalCount, callback){
                 this.currentPage = currentPage;
                 this.perPage = perPage;
                 this.totalCount = totalCount;
                 this.generate();
                 this.handlePageNumber();
-                if(callback){
-                   callback(this.perPage,this.offset());
-                }
             },
+
             totalPages: function(){
                 return Math.ceil(this.totalCount/this.perPage);
             },
@@ -387,28 +380,46 @@
                         $(this).find("a").addClass("current");   
                         _this.currentPage = $(this).find("a").html();
                     }
-                    _this.init(_this.currentPage,_this.perPage,_this.totalCount);
+                    //_this.init(_this.currentPage,_this.perPage,_this.totalCount);
+                    fillData(_this.currentPage);
                 });
             }
         };
-
-        pagination.init(1,15,300);
-
         
-/*        fillData = function(){
-            $.ajax({
-                type: "POST",
-                url: '<?php  echo site_url()?>/blog/updateuserstatuspro',
-                dataType: 'json',
-                data: {
-                    perPage: perPage,
-                    pageNo: pageNo
-                },
-                success: function(data){
-                    console.log("DATA:",data);                    
+
+       // pagination.init(1,15,300);                 
+       
+
+       $(function(){
+            var blog = {};
+            fillData = function(pageNo){
+                var _pageNo={}
+                if(pageNo=="" || pageNo==null || pageNo==undefined){
+                    _pageNo = 1;
+                }else{
+                    _pageNo=pageNo;
                 }
-            });
-        }*/
+                $.ajax({
+                    type: "GET",
+                    url: '<?php  echo site_url()?>/blog/listallposts',
+                    dataType: 'json',
+                    data: {
+                        perPage: 10,
+                        pageNo: _pageNo 
+                    },
+                    success: function(data){
+                        pagination.init(_pageNo,15,data.total);  
+                        console.log("DATA:",data); 
+                    },
+                    error: function(data){
+                        console.log("ERROR...");
+                        console.log(data);
+                    }
+                });
+            }
+            fillData();
+       });     
+       
     </script>
 </body>
 </html>
