@@ -332,7 +332,16 @@
                 if(this.hasPreviousPage()){
                    pages +='<li style="padding-right: 85px;"><a style="width:85px;"href="javascript:;" class="prev page-numbers">Previous</a></li>';
                 }
-                for(var i=1;i<=this.totalPages();i++){
+                var start = this.currentPage-4;
+                var end = parseInt(this.currentPage)+4;
+                if(start<=0){
+                    end-= start-1;
+                    start=1;
+                }
+                if(end>this.totalPages()){
+                    end = this.totalPages();
+                }
+                for(var i=start;i<=end;i++){
 
                     if(this.currentPage==i){
                         pages +='<li><a href="javascript:;" class="page-numbers current">'+ i +'</a></li>';
@@ -380,7 +389,7 @@
             }
         };
 
-        pagination.init(1,15,150);
+        pagination.init(1,15,300);
 
 
     </script>
