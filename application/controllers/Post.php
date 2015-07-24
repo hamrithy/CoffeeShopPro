@@ -5,6 +5,7 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->model("dao/DaoPost");
 		}
 		
 		public function index(){
@@ -30,6 +31,10 @@
 		public function addpage(){
 			$this->load->view('admin-kh4it/addpage');
 		}
+		
+
+		
+		
 	}
 
 ?>
