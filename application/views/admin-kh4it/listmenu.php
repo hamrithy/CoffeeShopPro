@@ -102,27 +102,27 @@
 						<table class="table table-striped table-hover" id="datatable-example">
 							<thead class="the-box dark full">
 								<tr>
-									<th>Page ID</th>
-									<th>Titile</th>
-									<th>Date</th>									
-									<th>Posted By</th>
+									<th>Title</th>
+									<th>Link To</th>									
+									<th>Ordering</th>
+									<th>Sub Of</th>
 									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
 						
-							
+							<?php foreach($listMenu as $v){ ?>
 								<tr>
-									<td>123</td>
-									<td>Manager</td>
-									<td>20-02-2015</td>									
-									<td>Vuthea</td>
+									<td><?php echo $v->title; ?></td>
+									<td><?php echo $v->linkto; ?></td>
+									<td><?php echo $v->ordering; ?></td>						
+									<td><?php echo $v->suboftitle; ?></td>
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
+										<button  value="<?php  echo $v->menuid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a  href="<?php  echo site_url()?>/admin/menu/getmenu/<?php  echo $v->menuid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
-							
+							<?php } ?>
 							</tbody>
 						</table>
 						</div><!-- /.table-responsive -->
@@ -218,10 +218,11 @@
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
 		
-		function deletedata(url){
+		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
+				$.post('<?php  echo site_url()?>/admin/menu/deletemenu/'+btn.value,function(){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
 				});
 			} 
 		}

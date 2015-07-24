@@ -100,43 +100,38 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmadduser" method="post" action="adduserpro" class="form-horizontal">
+						<form id="frmmenu" name="frmmenu" method="post" action="addmenupro" class="form-horizontal">
 							<fieldset>
-								
+								<input type="hidden" name="txtMenuid" id="txtMenuid" />
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Username<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="username" />
+										<input type="text" class="form-control" name="txtTitle" id="txtTitle" />
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Email<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Link To<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="email" />
+										<input type="text" class="form-control" name="txtLinkto" id="txtLinkto" />
 									</div>
 								</div>
 								
 								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Ordering<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" />
-									</div>
-								</div>
-								
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" />
+										<input type="text" class="form-control" name="txtOrdering" id="txtOrdering" />
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Status<span class="required">*</span></label>
+									<label class="col-lg-3 control-label">Sub Of<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
-											<option value="1">Active</option>
-											<option value="0">DeActive</option>
+										<select class="form-control" id="txtSubof" name="txtSubof">
+												<option value="">--</option>
+											<?php foreach($topMenu as $v){ ?>
+												<option value="<?php echo $v->menuid ?>"><?php echo $v->title ?></option>
+											<?php } ?>
 										</select>
 									</div>
 								</div>
@@ -247,6 +242,23 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
+
+	<script>
+		<?php 
+			if($menu!=null){
+				foreach ($menu as $v) {
+		?>
+			$("#txtMenuid").val("<?php echo $v->menuid?>");
+			$("#txtTitle").val("<?php echo $v->title?>");
+			$("#txtLinkto").val("<?php echo $v->linkto?>");
+			$("#txtOrdering").val("<?php echo $v->ordering?>");
+			$("#txtSubof").val("<?php echo $v->subof?>");
+			document.frmmenu.action="<?php echo site_url();?>/admin/menu/updatemenu";
+		<?php
+				}
+			}
+		?>
+	</script>
 
 	</body>
 </html>
