@@ -299,12 +299,15 @@
             currentPage: 1,
             perPage: 10,
             totalCount: 50,
-            init: function(currentPage,perPage,totalCount){
+            init: function(currentPage,perPage,totalCount,callback){
                 this.currentPage = currentPage;
                 this.perPage = perPage;
                 this.totalCount = totalCount;
                 this.generate();
                 this.handlePageNumber();
+                if(callback){
+                   callback(this.perPage,this.offset());
+                }
             },
             totalPages: function(){
                 return Math.ceil(this.totalCount/this.perPage);
@@ -391,7 +394,21 @@
 
         pagination.init(1,15,300);
 
-
+        
+/*        fillData = function(){
+            $.ajax({
+                type: "POST",
+                url: '<?php  echo site_url()?>/blog/updateuserstatuspro',
+                dataType: 'json',
+                data: {
+                    perPage: perPage,
+                    pageNo: pageNo
+                },
+                success: function(data){
+                    console.log("DATA:",data);                    
+                }
+            });
+        }*/
     </script>
 </body>
 </html>
