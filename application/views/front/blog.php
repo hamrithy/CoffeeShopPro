@@ -249,8 +249,9 @@
                 <div class="header-meta row no-margin">
                     <div class="col-md-2 col-sm-2 col-xs-2">
                         <span class="date center-me pre-line aligncenter margin-half-top">
-                            29
-                            Jun
+                        <br />
+                            {{= postdate}} <br />
+                            {{= postdatemonth}}
                         </span>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10">
@@ -282,6 +283,7 @@
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
@@ -408,6 +410,10 @@
                     success: function(data){
                         pagination.init(_pageNo,7,data.total);  
                         $("#BLOGS").html('');
+                        for(var i=0;i<data.posts.length;i++){
+                            data.posts[i]['postdatamonth']='';
+                            formatData(data.posts[i]);
+                        }
                         $("#blogTemp").tmpl(data.posts).appendTo("#BLOGS");
                         console.log("DATA:",data); 
                     },
@@ -416,6 +422,11 @@
                         console.log(data);
                     }
                 });
+            }
+            formatData = function(val){
+                var postdate = new Date(val['postdate']);
+                val['postdate'] = moment(postdate).format("DD");
+                val['postdatemonth'] = moment(postdate).format("MMM");
             }
             fillData();
        });     

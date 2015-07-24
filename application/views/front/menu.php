@@ -66,19 +66,19 @@
                 <div class="background-white padding margin-top dishes-block">
                     <ul class="clean-list filter-items menu-items row">
                         <?php foreach($foods as $food){
-                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($food->title).'">
+                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($food->foodtype_title).'" id="'.$this->encryption->encrypt($food->foodid).'">
                             <div>
                                 <div>
                                     <figure>
                                         <a href="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
-                                            <a href="'.site_url().'/front/recipe" title="'.$food->title.'">'.$food->title.'</a>
+                                            <a href="'.site_url().'/front/recipe/'.$this->encryption->encrypt($food->foodid).'" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
                                     </figure>
                                 </div><hr />
                                 <div class="filters-meta">
                                     <div class="tags-list aligncenter">(
-                                        '.$food->description.'
+                                        '.$food->food_description.'
                                         )
                                     </div><hr /><hr />
                                     <div class="price aligncenter padding-half-top">
