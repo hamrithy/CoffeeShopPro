@@ -53,7 +53,7 @@
                         <li class="slide">
                             <div class="container">
                                 <header class="aligncenter">
-                                    <h2 class="entry-title">*The Best F&amp;B Services*</h2>
+                                    <h2 class="entry-title">*The Best F&B Services*</h2>
                                     <h3 class="entry-title-secondary">Lunch Time</h3>
                                     <a href="<?php echo site_url()?>/front/menu" class="view center-me">View<i></i></a>
                                 </header>
@@ -249,7 +249,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -265,7 +265,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Mascarpone mousse with nuts & basil</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -314,7 +314,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Mascarpone mousse with nuts & basil</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -330,7 +330,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -362,7 +362,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -385,7 +385,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts &amp; basil">Spain Hot Latte</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Spain Hot Latte</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -401,7 +401,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Hot Choccalate</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Hot Choccalate</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -433,7 +433,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/hot4.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot4.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Cappuccino</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Cappuccino</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -449,7 +449,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Hot Choccalate</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Hot Choccalate</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -465,7 +465,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts &amp; basil">Spain Hot Latte</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Spain Hot Latte</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -490,7 +490,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/cold1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold1.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon &amp; sauce">Iced Latte</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Iced Latte</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -506,7 +506,7 @@
                                                             <figure>
                                                                 <a href="<?php echo base_url()?>public/style_front/images/dishes/cold2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold2.jpg" alt="menu item"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts &amp; basil">Coffee Frappe</a>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Coffee Frappe</a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>

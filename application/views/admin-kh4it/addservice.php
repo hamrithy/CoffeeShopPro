@@ -1,11 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
 		<meta name="author" content="Vuthea Chheang">
-		<title>Theme Editor</title>
+		<title>Add Service</title>
  
 	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -54,31 +54,10 @@
 		<!--  CSS (REQUIRED ALL PAGE)-->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-		<!-- Code Mirror -->
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/lib/codemirror.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/style.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/addon/display/fullscreen.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/theme/eclipse.css">
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/lib/codemirror.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/xml/xml.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/display/fullscreen.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/edit/closetag.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/fold/xml-fold.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/javascript/javascript.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/css/css.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/php/php.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/mode/htmlmixed/htmlmixed.js"></script>
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/public/assets/codemirror/addon/dialog/dialog.css">
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/dialog/dialog.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/search/searchcursor.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/search/search.js"></script>
-		<script src="<?php echo base_url(); ?>/public/assets/codemirror/addon/edit/matchtags.js"></script>
-		
 	</head>
  
 	<body class="tooltips">
-		
-		
+	
 		
 		<!--
 		===========================================================
@@ -96,6 +75,29 @@
 			<?php $this->load->view('admin-kh4it/_sidebar') ?>
 			<!-- END SIDEBAR LEFT -->
 			
+			<script>
+				<?php if($getService !=null){ ?>
+				$(document).ready(function(){
+					<?php 
+						foreach ($getService as $s){
+					?>
+						document.title = "Edit Service";
+						$("#formtitle").text("Form Edit Service");
+						$("#btnsave").val("Edit");
+						$("#txttitle").val("<?php echo $s->title ?>");
+						$("#txtdescription").val("<?php echo $s->description ?>");
+						$("#txtlinkto").val("<?php echo $s->linkto ?>");
+						$("#txtimage").val("<?php echo $s->imageurl ?>");
+						$("#txtorder").val("<?php echo $s->ordering ?>");
+						$("#myimagedemo").fadeIn("slow").attr('src', '<?php echo $s->imageurl ?>'  );
+						document.frmpost.action="<?php echo site_url();?>/admin/service/updateServicePro/<?php echo $s->serviceid ?>";
+					<?php } ?>
+
+				});
+				<?php } ?>
+			</script>
+			
+		
 			
 			
 			
@@ -104,74 +106,116 @@
 				
 				
 				<div class="container-fluid">
-					<div id="getContent">
-					<br/>
-					<div class="panel panel-info">
-								  <div class="panel-heading">
-									<h1 class="panel-title">
-									<i class="fa fa-tasks"></i>
-										<a href="index.act"  >
-										Theme-Editor
-										
-										</a>
-									</h1>
-								  </div>
+					
+				<br/>				
+					<div class="panel panel-danger">
+							  <div class="panel-heading">
+								<h3 class="panel-title" id="formtitle">Form Add Service </h3>
+							  </div>
+							  <div class="panel-body">
+					
+					
+					<div class="row">
+					
+					<div class="col-sm-12">
+					
+					<div>
+						<form id="frmpost" name="frmpost" method="post" action="addServicePro" class="form-horizontal" role="form">
+							
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Title<span class="required">*</span></label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
+									</div>
+								</div> 
+								
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Description<span class="required">*</span></label>
+									<div class="col-sm-10">
+										<textarea class="form-control" name="txtdescription" id="txtdescription"></textarea>
+									</div>
+								</div>								
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Link<span class="required">*</span></label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" name="txtlinkto" id="txtlinkto"/>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Background Image<span class="required">*</span></label>
+									<div class="col-sm-5">
+										  <input type="text" value="" class="form-control" id="txtimage" name="txtimage" onchange="myimagechange()">
+									</div>
+									<div class="col-sm-1">
+										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
+									</div>
 									
-					</div><!-- /.panel panel-default -->
-					
-					
-					<div class="the-box no-border">
-						<form role="form" action="<?php  echo site_url()?>/admin/theme/edittheme/<?php echo $filepath; ?>" method="post">
-							<div class="row">
-								<div class="col-sm-10">
-									<div class="form-group">
-										<label id="title-editor">File Name : <?php echo $filename; ?></label>
+								</div> 
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Demo Image</label>
+									<div class="col-sm-6">
+										<img src="<?php echo base_url(); ?>/public/upload/background-service.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
-									<div class="form-group">
-										<textarea id="code" name="code"><?php echo $files; ?></textarea>
-    									
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Order<span class="required">*</span></label>
+									<div class="col-sm-4">
+										<input type="text" id="txtorder" name="txtorder">
 									</div>
-									<div class="form-group">
-										
-										<input class="btn btn-success" type="submit" value="Update File"/>
-									</div>
-								</div><!-- /.col-sm-8 -->
-								<div class="col-sm-2">
-										<label>FrontEnd Page</label>					
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_footer">_footer.php</a></p>														
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_header">_header.php</a></p>															
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/index">index.php</a></p>														
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/blog">blog.php</a></p>								
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/buttons">buttons.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/chiefs">chiefs.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/contact">contact.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/menu">menu.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/post">post.php</a></p>
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/recipe">recipe.php</a></p>
-										
-										<!-- <label>Backend Page</label>	
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfilestyle/screen">stylesheet.css</a></p>
-										<label>StyleSheet</label>	
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_footer.php">StyleSheet.CSS</a></p>
-										 -->
-								</div><!-- /.col-sm-4 -->
-							</div><!-- /.row -->
+									
+								</div> 							
+							
+
+							<div class="form-group">
+							
+								<div class="col-sm-9 col-sm-offset-3">
+									
+									<input type="submit" id="btnsave" class="btn btn-info" value="Save"/>
+								</div>
+							</div>
+							
 						</form>
-					</div><!-- /.the-box no-border -->
-					
-					
-					
+
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog modal-lg">
+							  <div class="modal-content">
+							    <div class="modal-header">
+							      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							      <h4 class="modal-title">File Manager</h4>
+							    </div>
+							    <div class="modal-body">
+							      <iframe width="900" height="400" src="<?php echo base_url(); ?>/public/responsivefilemanager/filemanager/dialog.php?type=2&field_id=txtimage'&fldr=" frameborder="0" style="overflow: scroll; overflow-x: hidden; overflow-y: scroll; "></iframe>
+							    </div>
+							  </div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+
+
+					</div><!-- /.the-box -->
+						
+					</div><!-- /.col-sm-8 -->
+						
 				
-			</div>
+					</div><!-- /.row -->
+					</div>
+					</div>
+					
 				
 				</div><!-- /.container-fluid -->
 				
+				<script>
+					function myimagechange(){
+						
+						$("#myimagedemo").attr("src", $("#txtimage").val() );
+					}
+
+				</script>
 				
-				
-				<!-- BEGIN FOOTER -->
+			<!-- BEGIN FOOTER -->
 				<?php $this->load->view('admin-kh4it/_footer') ?>
 				
-				<!-- END FOOTER -->
+			<!-- END FOOTER -->
 				
 				
 			</div><!-- /.page-content -->
@@ -194,7 +238,7 @@
 		Placed at the end of the document so the pages load faster
 		===========================================================
 		-->
-		<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
+	<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
 	<script src="<?php echo base_url(); ?>/public/assets/js/jquery.min.js"></script>
 	<script src="<?php echo base_url(); ?>/public/assets/js/bootstrap.min.js"></script>
 	<script src="<?php echo base_url(); ?>/public/assets/plugins/retina/retina.min.js"></script>
@@ -251,31 +295,6 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js" ></script>
-	<script src="http://malsup.github.com/jquery.form.js" ></script>
-	<script src="<?php echo base_url(); ?>/public/js/fileUploadScript.js" ></script>
-	
-		<script>
-		    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-		      lineNumbers: true,
-		      theme: "eclipse",
-		      autoCloseTags: true,
-		      matchBrackets: true,
-		      mode: "application/x-httpd-php",
-		      indentUnit: 4,
-		      indentWithTabs: true,
-		      matchTags: {bothTags: true},
-		      extraKeys: {"Ctrl-J": "toMatchingTag"},
-		      extraKeys: {
-		        "F11": function(cm) {
-		          cm.setOption("fullScreen", !cm.getOption("fullScreen"));
-		        },
-		        "Esc": function(cm) {
-		          if (cm.getOption("fullScreen")) cm.setOption("fullScreen", false);
-		        }
-		      }
-		    });
-		  </script>
-		
+
 	</body>
 </html>

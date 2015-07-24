@@ -1,7 +1,7 @@
 <?php
 
 return array(
-
+	'kh_KH' => 'ភាសាខ្មែរ',
 	'az_AZ' => 'Azərbaycan dili',
 	'bg_BG' => 'български език',
 	'ca' => 'Català, valencià',
