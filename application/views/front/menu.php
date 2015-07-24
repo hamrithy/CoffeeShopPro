@@ -66,13 +66,13 @@
                 <div class="background-white padding margin-top dishes-block">
                     <ul class="clean-list filter-items menu-items row">
                         <?php foreach($foods as $food){
-                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($category->title).'">
+                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($food->title).'">
                             <div>
                                 <div>
                                     <figure>
                                         <a href="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
-                                            <a href="<?php echo site_url()?>/front/recipe" title="'.$food->title.'">'.$food->title.'</a>
+                                            <a href="'.site_url().'/front/recipe" title="'.$food->title.'">'.$food->title.'</a>
                                         </figcaption>
                                     </figure>
                                 </div><hr />

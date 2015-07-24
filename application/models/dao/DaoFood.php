@@ -7,7 +7,10 @@ class DaoFood extends CI_Model{
 	}
 
 	public function getAllFoodItems(){
-		$query = $this->db->get('FOODS');
+		$this->db->from("FOODS");
+		$this->db->join("FOODTYPES",'FOODS.foodtypeid=FOODTYPES.foodtypeid');
+		$query = $this->db->get();
+
 		return $query->result();
 	}
 
