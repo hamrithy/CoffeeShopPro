@@ -293,5 +293,96 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script type="text/javascript">
+        var pagination = {
+            id:'.pagination',
+            currentPage: 1,
+            perPage: 10,
+            totalCount: 50,
+            init: function(currentPage,perPage,totalCount){
+                this.currentPage = currentPage;
+                this.perPage = perPage;
+                this.totalCount = totalCount;
+                this.generate();
+                this.handlePageNumber();
+            },
+            totalPages: function(){
+                return Math.ceil(this.totalCount/this.perPage);
+            },
+            offset: function(){
+                return (this.currentPage - 1) * this.perPage;
+            },
+            previousPage: function(){
+                return this.currentPage - 1;
+            },
+            nextPage: function(){
+                return parseInt(this.currentPage) + 1;
+            },
+            hasPreviousPage: function(){
+                return this.previousPage() >=1 ? true : false;
+            },
+            hasNextPage: function(){
+                return this.nextPage() <= this.totalPages() ? true : false;
+            },
+            generate: function(){
+                var pages="";
+                if(this.hasPreviousPage()){
+                   pages +='<li style="padding-right: 50px;"><a style="width:60px;"href="javascript:;" class="first page-numbers">First</a></li>';
+                }
+                if(this.hasPreviousPage()){
+                   pages +='<li style="padding-right: 85px;"><a style="width:85px;"href="javascript:;" class="prev page-numbers">Previous</a></li>';
+                }
+                for(var i=1;i<=this.totalPages();i++){
+
+                    if(this.currentPage==i){
+                        pages +='<li><a href="javascript:;" class="page-numbers current">'+ i +'</a></li>';
+                    }else{
+                        pages +='<li><a href="javascript:;" class="page-numbers">'+ i +'</a></li>';
+                    }
+                }
+                if(this.hasNextPage()){
+                    pages +='<li><a href="javascript:;" class="next page-numbers">Next</a></li>';
+                }
+                if(this.hasNextPage()){
+                   pages +='<li style="padding-left: 20px;"><a style="width:50px;"href="javascript:;" class="last page-numbers">Last</a></li>';
+                }
+                $(this.id).html('');
+                $(this.id).html('<ul class="page-numbers center-me clean-list ">'+ pages +'</ul>');
+            },
+            handlePageNumber: function(){
+                _this = this;
+                $(this.id+' ul li').click(function(){
+                    if($(this).find("a").hasClass("prev")){
+                        if(_this.hasPreviousPage()){
+                            _this.currentPage--;
+                        }                        
+                    }else if($(this).find("a").hasClass("next")){
+                        if(_this.hasNextPage()){
+                            _this.currentPage++;
+                        }
+                    }else if($(this).find("a").hasClass("first")){
+                        if(_this.hasPreviousPage()){
+                            _this.currentPage = 1;
+                        }
+                    }else if($(this).find("a").hasClass("last")){
+                        if(_this.hasNextPage()){
+                            _this.currentPage = _this.totalPages();
+                        }
+                    }else if($(this).find("a").hasClass("current")){
+
+                    }else{
+                        $(this).parents("ul").find("a").removeClass("current");
+                        $(this).find("a").addClass("current");   
+                        _this.currentPage = $(this).find("a").html();
+                    }
+                    _this.init(_this.currentPage,_this.perPage,_this.totalCount);
+                });
+            }
+        };
+
+        pagination.init(1,15,150);
+
+
+    </script>
 </body>
 </html>
