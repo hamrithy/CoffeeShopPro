@@ -11,7 +11,6 @@ class DaoPost extends CI_Model{
 	
 	public function addPost(DtoPost $p){
 		$data = array(
-				'postid'             =>    	$p->getPostid(),
 				'title'              =>    	$p->getTitle(),
 				'shortdescription'   =>	   	$p->getShortdescription(),
 				'longdescription'    =>		$p->getLongdescription(),
