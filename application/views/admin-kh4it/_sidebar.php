@@ -118,7 +118,7 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-9">
 									  <div class="panel-body">
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfooditem");?>">List Food Item</a><br><br>
+										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/listfooditems");?>">List Food Item</a><br><br>
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/fooditem/addfooditem");?>">Add Item</a><br><br>
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/foodcategory/listfoodtype");?>">List Food Category</a><br><br>
 										<i ></i>&nbsp;<a href="<?php echo site_url("admin/foodcategory/addfoodcategory");?>">Add Food Cateogry</a><br><br>

@@ -5,6 +5,8 @@
 
 		public function __construct(){
 			parent::__construct();
+			$this->load->library('encryption');
+			$this->load->library('session');
 			$this->load->model('dto/DtoFood');
 			$this->load->model('dao/DaoFood');
 		}
@@ -14,10 +16,24 @@
 		}
 
 		public function addfooditem(){
-			$this->load->model('DaoFoodType');
-			$this->load->model('DtoFoodType');
+			$this->load->model('dao/DaoFoodType');
+			$this->load->model('dto/DtoFoodType');
 			$data['foodTypes'] = $this->DaoFoodType->getAllFoodTypes();
-			$this->load->view('admin-kh4it/addfooditem');
+			$this->load->view('admin-kh4it/addfooditem', $data);
+		}
+
+		public function actionAddFoodItem(){
+			$this->DtoFood->setTitle($this->input->post('title'));
+			$this->DtoFood->setPrice($this->input->post('price'));
+			$this->DtoFood->setPromotiontype($this->input->post('promotiontype'));
+			$this->DtoFood->setFoodtypeid($this->input->post('foodtypeid'));
+			$this->DtoFood->setSeotitle($this->input->post('seotitle'));
+			$this->DtoFood->setSeodescription($this->input->post('seodescription'));
+			$this->DtoFood->setDescription($this->input->post('description'));
+			$this->DtoFood->setThumbnailurl($this->input->post('thumbnailurl'));
+			$this->DtoFood->setUserid($this->encryption->decrypt($this->session->userdata('userid')));
+			$this->DaoFood->addFoodItem($this->DtoFood);
+			$this->index();
 		}
 
 		 public function listfooditems(){

@@ -9,6 +9,8 @@ class DtoFood{
 	private $price;
 	private $userid;
 	private $foodtypeid;
+	private $seotitle;
+	private $seodescription;
 	
 	public function getFoodid(){
 		return $this->foodid;
@@ -73,5 +75,20 @@ class DtoFood{
 	public function setFoodtypeid($foodtypeid){
 		$this->foodtypeid = $foodtypeid;
 	}
+
+	public function setSeotitle($seotitle){
+		$this->seotitle = $seotitle;
+	}
+
+	public function getSeotitle(){
+		return $this->seotitle;
+	}
 	
+	public function setSeodescription($seodescription){
+		$this->seoDescription = $seodescription;
+	}
+
+	public function getSeodescription(){
+		return $this->seodescription;
+	}
 }

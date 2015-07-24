@@ -10,13 +10,14 @@ class DaoFood extends CI_Model{
 		$this->db->from("FOODS");
 		$this->db->join("FOODTYPES",'FOODS.foodtypeid=FOODTYPES.foodtypeid');
 		$query = $this->db->get();
-
+		$this->db->order_by('foodid', 'desc');
+		$query = $this->db->get('FOODS');
 		return $query->result();
 	}
 
 	public function addFoodItem(DtoFood $food){
 		$data = array('title' 			=>  $food->getTitle(),
-					  'descriptioin'  	=>  $food->getDescription(),
+					  'description'  	=>  $food->getDescription(),
 					  'thumbnailurl'	=>	$food->getThumbnailurl(),
 					  'promotiontype'	=>	$food->getPromotiontype(),
 					  'price'			=>	$food->getPrice(),

@@ -100,7 +100,7 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmadduser" method="post" action="<?php echo site_url();?>/admin/post/actionaddfooditem" class="form-horizontal">
+						<form id="frmadduser" id="frmfooditem" method="post" action="<?php echo site_url();?>/admin/fooditem/actionaddfooditem" class="form-horizontal">
 							<fieldset>
 								
 								<div class="form-group">
@@ -119,7 +119,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Promotion<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
+										<select class="form-control" name="promotiontype">
 											<option value="0">Normal</option>
 											<option value="1">Best Offer</option>
 											<option value="2">Best Hot</option>
@@ -130,13 +130,25 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Food Category<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="txtstatus">
-											<option value="1">Active</option>
-											<option value="0">DeActive</option>
+										<select class="form-control" name="foodtypeid">
+											<?php foreach($foodTypes as $food){ ?>
+											<option value="<?php echo $food->foodtypeid ?>"><?php echo $food->title; ?></option>
+											<?php } ?>
 										</select>
 									</div>
 								</div>
-
+								<div class="form-group">
+									<label class="col-lg-3 control-label">SEO Title<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<input type="text" class="form-control" name="seotitle" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">SEO Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control" name="seodescription" id="seodescription"></textarea>
+									</div>
+								</div>	
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-10">
