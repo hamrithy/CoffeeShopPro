@@ -113,7 +113,7 @@
 							<?php foreach($foodItems as $row){ ?>
 								<tr>
 									<td><?php echo $row->foodid; ?></td>
-									<td><?php echo $row->title; ?></td>
+									<td><?php echo $row->food_title; ?></td>
 									<td><?php echo $row->price; ?></td>									
 									<td>
 										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
