@@ -125,27 +125,27 @@
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-sm-10">
-										<input type="text" class="form-control" name="txttitle" id="txttitle" value="" />
+										<input type="text" class="form-control" name="txttitle" id="txttitle" required />
 									</div>
 								</div> 
 								
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Caption<span class="required">*</span></label>
 									<div class="col-sm-10">
-										<textarea class="form-control" name="txtcaption" id="txtcaption"></textarea>
+										<textarea class="form-control" name="txtcaption" id="txtcaption" required></textarea>
 									</div>
 								</div>								
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Link<span class="required">*</span></label>
 									<div class="col-sm-10">
-										<input type="text" class="form-control" name="txtlinkto" id="txtlinkto"/>
+										<input type="text" class="form-control" name="txtlinkto" id="txtlinkto" required/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Background Image<span class="required">*</span></label>
 									<div class="col-sm-5">
-										  <input type="text" value="" class="form-control" id="txtimage" name="txtimage" onchange="myimagechange()">
+										  <input type="text" value="" class="form-control" id="txtimage" name="txtimage" onchange="myimagechange()" required>
 									</div>
 									<div class="col-sm-1">
 										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
@@ -159,7 +159,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-sm-2 control-label">Order<span class="required">*</span></label>
+									<label class="col-sm-2 control-label">Order<span class="required" required>*</span></label>
 									<div class="col-sm-4">
 										<input type="text" id="txtorder" name="txtorder">
 									</div>
