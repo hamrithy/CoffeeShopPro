@@ -43,52 +43,7 @@
                     <div class="row no-margin">
                         <div class="col-md-9 no-padding ">
                             <div class="margin-right-6">
-                                <ul class="clean-list background-white ">
-                              
-                              
-                              
-                                <?php foreach ($listPost as $p ){ ?>
-                                <li class="post padding ">
-                                    <header>
-                                        <figure>
-                                            <a href="post.html">
-                                                <img src="<?php echo $p->thumbnailurl?>" alt="Featured Image" />
-                                            </a>
-                                        </figure>
-
-                                        <div class="header-meta row no-margin">
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <span class="date center-me pre-line aligncenter margin-half-top">
-                                                    29
-                                                    Jun
-                                                </span>
-                                            </div>
-                                            <div class="col-md-10 col-sm-10 col-xs-10">
-                                                <h2 class="entry-title"><?php echo $p->title ?></h2>
-                                                <ul class="clean-list post-meta-list border-top row">
-                                                    <li class="no-padding">
-                                                        <a href="#" class="meta-link comments">1 comment</a> /
-                                                        <a class="text-red hover-text-dark-red author" href="#">By Jack Raulf</a> / 
-                                                        <div class="tag-list inline">
-                                                            <a href="#" rel="tag">food</a>, <a href="#" rel="tag">chicken</a>
-                                                        </div>
-
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </header>
-                                    <div class="entry-content border padding">
-                                        <p class="padding">
-                                            <?php echo $p->shortdescription ?>  
-                                        </p>
-                                    </div>
-                                    <div class="read-more half-padding border ovh">
-                                        <a href="post.html" class="alignright">Read More</a>
-                                    </div>
-                                </li>
-								<?php } ?>
+                                <ul class="clean-list background-white" id="BLOGS">           
                                 </ul>
                                 <div class="pagination margin-right-6">
                                     <ul class="page-numbers center-me clean-list ">
@@ -282,12 +237,55 @@
         
         
     </div>
-    
+    <script id="blogTemp" type="text/x-jquery-tmpl">
+        <li class="post padding ">
+            <header>
+                <figure>
+                    <a href="javascript:;">
+                        <img src="{{= thumbnailurl}}" alt="Featured Image">
+                    </a>
+                </figure>
+
+                <div class="header-meta row no-margin">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <span class="date center-me pre-line aligncenter margin-half-top">
+                            29
+                            Jun
+                        </span>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h2 class="entry-title">{{= title}}</h2>
+                        <ul class="clean-list post-meta-list border-top row">
+                            <li class="no-padding">
+                                <a href="#" class="meta-link comments">1 comment</a> /
+                                <a class="text-red hover-text-dark-red author" href="#">By Jack Raulf</a> / 
+                                <div class="tag-list inline">
+                                    <a href="#" rel="tag">food</a>, <a href="#" rel="tag">chicken</a>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </header>
+            <div class="entry-content border padding">
+                <p class="padding">
+                    {{= shortdescription}}  
+                </p>
+            </div>
+            <div class="read-more half-padding border ovh">
+                <a href="javascript:;" class="alignright">Read More</a>
+            </div>
+        </li>
+    </script>
+
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
     <script type="text/javascript">
         var pagination = {
             id:'.pagination',
@@ -400,15 +398,17 @@
                     _pageNo=pageNo;
                 }
                 $.ajax({
-                    type: "GET",
+                    type: "POST",
                     url: '<?php  echo site_url()?>/blog/listallposts',
                     dataType: 'json',
                     data: {
-                        perPage: 10,
+                        perPage: 7,
                         pageNo: _pageNo 
                     },
                     success: function(data){
-                        pagination.init(_pageNo,15,data.total);  
+                        pagination.init(_pageNo,7,data.total);  
+                        $("#BLOGS").html('');
+                        $("#blogTemp").tmpl(data.posts).appendTo("#BLOGS");
                         console.log("DATA:",data); 
                     },
                     error: function(data){

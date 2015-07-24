@@ -37,6 +37,7 @@ class DaoPost extends CI_Model{
 		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl , u.userid , u.username');
 		$this->db->from('POSTS p');
 		$this->db->join('USERS u', 'p.userid = u.userid');
+		log_message('debug',$limit.' '.$offset);
 		$this->db->limit($limit,$offset);
 		$this->db->order_by("postid", "desc");
 		$query = $this->db->get();
