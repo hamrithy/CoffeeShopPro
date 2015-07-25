@@ -86,7 +86,6 @@
 							$("#txtpostid").val("<?php echo $v->postid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
 							$("#txtshortdescription").val("<?php echo $v->shortdescription ?>");
-							//$("#txtdescription").html("<?php //echo $v->longdescription ?>");
 							$("#txtfile").val("<?php echo $v->thumbnailurl?>");
 							$("#myimagedemo").fadeIn("fast").attr('src', '<?php echo $v->thumbnailurl ?>'  );
 							document.frmpost.action="<?php echo site_url();?>/admin/post/updatepost";
