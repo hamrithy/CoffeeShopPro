@@ -72,7 +72,7 @@
                                     <figure>
                                         <a href="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                         <figcaption class="aligncenter">
-                                            <a href="'.site_url().'/front/recipe/'.$this->encryption->encrypt($food->foodid).'" title="'.$food->food_title.'">'.$food->food_title.'</a>
+                                            <a href="'.site_url().'/food/getfooddetails/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
                                     </figure>
                                 </div><hr />
@@ -82,7 +82,7 @@
                                         )
                                     </div><hr /><hr />
                                     <div class="price aligncenter padding-half-top">
-                                        <span>$15.00</span>
+                                        <span>$'.$food->price.'</span>
                                     </div>
                                 </div>
                             </div>

@@ -51,4 +51,15 @@ class DaoFood extends CI_Model{
 		return $query->result();
 	}
 
+	//TODO: To get the food details by id
+	public function getFoodDetails($foodId){
+		$this->db->select("A.foodid, A.title As food_title, A.description As food_description, A.thumbnailurl, A.promotiontype, A.price, A.userid, B.title As foodtype_title, B.description As footype_description");
+		$this->db->from("FOODS A");
+		$this->db->join("FOODTYPES B",'A.foodtypeid=B.foodtypeid');
+		$this->db->where("A.foodid", $foodId);
+		$query = $this->db->get();
+		log_message('debug',$query->num_rows());
+		return $query->row();
+	}
+
 }

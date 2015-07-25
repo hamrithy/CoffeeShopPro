@@ -10,6 +10,10 @@
 		}
 
 		public function index(){
+			$this->allFoods();
+		}
+
+		public function allFoods(){
 			$data["categories"] = $this->DaoFoodType->getAllFoodTypes();
 			$data["foods"] = $this->DaoFood->getAllFoodItems();
 			$this->load->view('front/menu', $data);
