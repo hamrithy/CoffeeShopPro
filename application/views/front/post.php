@@ -205,7 +205,7 @@
 
                                 <div class="widget widget-item widget_recent_entries">      
                                     <h3>Recent Posts</h3>       
-                                    <ul style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                    <ul style="width: 260px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
                                     	<?php foreach($recentPost as $v){  ?>
 	                                        <li >
 	                                            <a href="<?php echo base_url() ?>blog/detail/<?php echo $v->postid ?>"><?php echo $v->title ?></a>
@@ -227,8 +227,8 @@
                                                 </figure>
                                             </div>
                                             <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                   <!--  <time class="text-center" datetime="2014-07-24">24.07.2014</time>--> <a style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;" href="<?php echo site_url()?>food/getfooddetails/<?php echo $v->foodid?>" class="entry-title"><?php  echo $v->title?></a>
+                                                <div class="entry-content inline" style="height: 55px;overflow: HIDDEN;" >
+                                                   <!--  <time class="text-center" datetime="2014-07-24">24.07.2014</time>--> <a  href="<?php echo site_url()?>menu/food/<?php echo $v->foodid?>" class="entry-title"><?php  echo $v->title?></a>
                                                 </div>
                                             </div>
                                         </li>
