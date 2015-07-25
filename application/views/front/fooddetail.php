@@ -46,7 +46,7 @@
                 <div class="background-white margin-top-60 margin-bottom-120">
                     <header>
                         <figure>
-                            <img src="<?php echo base_url()?>public/style_front/images/recipe-featured.jpg" alt="Featured Image" />
+                            <img src="<?php echo $food->thumbnailurl ?>" alt="Featured Image" />
                             <figcaption>
                                 <h2 class="entry-title aligncenter margin-top-60"><?php echo $food->food_title ?></h2>
                             </figcaption>
