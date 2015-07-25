@@ -241,7 +241,7 @@
         <li class="post padding ">
             <header>
                 <figure>
-                    <a href="javascript:;">
+                    <a href="<?php echo base_url() ?>blog/detail/{{= postid}}">
                         <img src="{{= thumbnailurl}}" alt="Featured Image">
                     </a>
                 </figure>
@@ -255,7 +255,7 @@
                         </span>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10">
-                        <h2 class="entry-title">{{= title}}</h2>
+                        <h2 class="entry-title" style="cursor:pointer" onclick="location.href='<?php echo base_url() ?>blog/detail/{{= postid}}'" >{{= title}}</h2>
                         <ul class="clean-list post-meta-list border-top row">
                             <li class="no-padding">
                                 <a href="#" class="meta-link comments">1 comment</a> /

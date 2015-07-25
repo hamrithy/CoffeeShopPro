@@ -36,5 +36,16 @@
 			$this->load->view("front/post" , $data);
 		}
 		
+		
+		public function comment(){
+// 			$this->DtoComment->setTitle($this->input->post('txttitle'));
+// 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
+// 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
+// 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
+// 			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
+// 			$this->DaoPost->addPost($this->DtoPost);
+// 			$this->index();
+		}
+		
 	}
 ?>
