@@ -71,8 +71,8 @@
 
                                 <div class="widget widget-item widget_recent_entries">      
                                     <h3>Recent Posts</h3>       
-                                    <ul>
-                                        <li>
+                                    <ul id="recentPost" style="width: 260px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                        <!-- <li>
                                             <a href="#">Catch the Wave</a>
                                         </li>
                                         <li>
@@ -86,75 +86,15 @@
                                         </li>
                                         <li>
                                             <a href="#">Work Hard Or Go Home</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
 
                                 <div class="widget widget-item widget_recent_posts">
                                     <h3 >Recent News</h3>       
-                                    <ul class="clean-list ovh">
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="Сrispy Bacon sandwich" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-07-24">24.07.2014</time><a href="post.html" class="entry-title">Сrispy Bacon sandwich</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="Sandwiches Fried Bacon" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-11">11.08.2014</time><a href="post.html" class="entry-title">Sandwiches Fried Bacon</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="Mascarpone Mousse" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-15">15.08.2014</time><a href="post.html" class="entry-title">How To Cook Healthy Food</a>
-                                                </div>
-                                            </div>
-                                        </li>
+                                    <ul class="clean-list ovh" id="recentFood">
                                         
-                                        
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" alt="Icecream" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-16">16.08.2014</time><a href="post.html" class="entry-title">Icecream</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
+                                        <!--<li class="row no-margin">
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="post.html">
@@ -168,6 +108,8 @@
                                                 </div>
                                             </div>
                                         </li>
+                                         -->
+                                        
                                     </ul>
                                 </div>
 
@@ -238,6 +180,31 @@
         
         
     </div>
+    
+    <script type="text/x-jquery-tmpl" id="tmplRecentPost">
+		  <li>
+                <a href="<?php echo base_url() ?>blog/detail/{{= postid }}">{{= title}}</a>
+          </li>
+	</script>
+	
+	<script type="text/x-jquery-tmpl" id="tmplRecentFood">
+	
+									<li class="row no-margin">
+                                            <div class="col-md-3 no-padding">
+                                                <figure>
+                                                    <a href="<?php echo site_url()?>food/getfooddetails/{{= foodid}}">
+                                                        <img src="{{= thumbnailurl}}" alt="Donut with scrambled eggs" />
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                            <div class="col-md-9 no-padding" style="height: 55px;overflow: HIDDEN;">
+                                                <div class="entry-content inline">
+                                                    <!--<time class="text-center" datetime="2014-08-18">18.08.2014</time>--><a href="<?php echo site_url()?>food/getfooddetails/{{= foodid}}" class="entry-title">{{= title}}</a>
+                                                </div>
+                                            </div>
+                                        </li>
+	</script>
+    
     <script id="blogTemp" type="text/x-jquery-tmpl">
         <li class="post padding ">
             <header>
@@ -431,6 +398,27 @@
                 val['postdatemonth'] = moment(postdate).format("MMM");
             }
             fillData();
+
+
+
+            $.ajax({
+                type: "POST",
+                url: '<?php  echo site_url()?>/blog/rightSidePro',
+                dataType: 'json',
+                success: function(data){ 
+                    $("#recentPost").empty();
+                    $("#tmplRecentPost").tmpl(data.recentPost).appendTo("#recentPost");
+                    $("#recentFood").empty();
+                    $("#tmplRecentFood").tmpl(data.recentPost).appendTo("#recentFood");
+                    
+                    console.log("DATA:",data); 
+                },
+                error: function(data){
+                    console.log("ERROR...");
+                    console.log(data);
+                }
+            });
+            
        });     
        
     </script>

@@ -27,6 +27,9 @@
 			$offset = ($pageNo-1)*$limit;
 			$data["posts"] = $this->DaoPost->listPostLimit($limit, $offset);
 			$data["total"] = $this->DaoPost->getAllPostCount();
+			
+			
+			
 			echo json_encode($data);
 		}
 		
@@ -39,6 +42,13 @@
 			$data["recentFood"] = $this->DaoFood->listRecentFood(5);
 			$data["recentFoodType"] = $this->DaoFoodType->listRecentFoodType(5);
 			$this->load->view("front/post",$data);
+		}
+		
+		public function rightSidePro(){
+			$data["recentPost"] = $this->DaoPost->listPostLimit(5,0);
+			$data["recentFood"] = $this->DaoFood->listRecentFood(5);
+			$data["recentFoodType"] = $this->DaoFoodType->listRecentFoodType(5);
+			echo json_encode($data);
 		}
 	}
 ?>
