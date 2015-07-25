@@ -38,10 +38,5 @@
 			$data["recentFood"] = $this->DaoFood->listRecentFood(5);
 			$this->load->view("front/post",$data);
 		}
-		
-
-		
-
-		
 	}
 ?>

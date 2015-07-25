@@ -67,7 +67,7 @@ class DaoFood extends CI_Model{
 		$this->db->select('foodid,title, description,thumbnailurl,promotiontype,price');
 		$this->db->from('FOODS');
 		$this->db->limit($limit);
-		$this->db->order_by("foodid", "desc");
+		$this->db->order_by("foodid","desc");
 		$query = $this->db->get();
 		return $query->result();
 	}

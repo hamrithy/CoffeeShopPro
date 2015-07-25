@@ -217,7 +217,6 @@
                                 <div class="widget widget-item widget_recent_posts">
                                     <h3 >Recent News</h3>       
                                     <ul class="clean-list ovh" >
-                                    
                                     	<?php foreach($recentFood as $v){?>
                                         <li class="row no-margin">
                                             <div class="col-md-3 no-padding">
@@ -236,6 +235,7 @@
 										<?php } ?>                                        
                                     </ul>
                                 </div>
+
 
                                 <div class="widget widget-item widget_archive">
                                     <h3>Archives</h3>
