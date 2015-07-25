@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>TSD Web Template</title>
+    <title><?php echo $title;?></title>
     <meta name="description" content="Great theme for creative people">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
@@ -46,7 +46,7 @@
                                 <header class="aligncenter">
                                     <h2 class="entry-title">*Welcome to Cafe Chataeu*</h2>
                                     <h3 class="entry-title-secondary">Summer Menu</h3>
-                                    <a href="<?php echo site_url()?>/front/menu" class="view center-me">View<i></i></a>
+                                    <a href="<?php echo site_url()?>/menu" class="view center-me">View<i></i></a>
                                 </header>
                         </li>
 
@@ -55,7 +55,7 @@
                                 <header class="aligncenter">
                                     <h2 class="entry-title">*The Best F&B Services*</h2>
                                     <h3 class="entry-title-secondary">Lunch Time</h3>
-                                    <a href="<?php echo site_url()?>/front/menu" class="view center-me">View<i></i></a>
+                                    <a href="<?php echo site_url()?>/menu" class="view center-me">View<i></i></a>
                                 </header>
                             </div>
                         </li>
@@ -65,7 +65,7 @@
                                 <header class="aligncenter">
                                     <h2 class="entry-title">*Alex Food Court*</h2>
                                     <h3 class="entry-title-secondary">Food Guide</h3>
-                                    <a href="<?php echo site_url()?>/front/menu" class="view center-me">View<i></i></a>
+                                    <a href="<?php echo site_url()?>/menu" class="view center-me">View<i></i></a>
                                 </header>
                             </div>
                         </li>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Downtown - Developed with love by TeslaThemes.com</title>
+    <title><?php echo $title;?></title>
     <meta name="description" content="Great theme for creative people">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive helper -->
 
@@ -70,7 +70,7 @@
                             <div>
                                 <div>
                                     <figure>
-                                        <a href="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="'.base_url().'public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                        <a href="'.$food->thumbnailurl.'" class="zoom-image"><img src="'.$food->thumbnailurl.'" alt="menu item" style="min-height:252px;"></a>
                                         <figcaption class="aligncenter">
                                             <a href="'.site_url().'/food/getfooddetails/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
