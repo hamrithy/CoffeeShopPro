@@ -72,7 +72,7 @@
                                     <figure>
                                         <a href="'.$food->thumbnailurl.'" class="zoom-image"><img src="'.$food->thumbnailurl.'" alt="menu item" style="min-height:252px;"></a>
                                         <figcaption class="aligncenter">
-                                            <a href="'.site_url().'/food/getfooddetails/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a>
+                                            <a href="'.site_url().'/menu/food/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
                                     </figure>
                                 </div><hr />
