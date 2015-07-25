@@ -52,7 +52,7 @@
                                 <div class="post background-white padding">
                                         <header>
                                             <figure>
-                                                <img src="<?php echo base_url()?>public/style_front/images/beef-soup.jpg" alt="Featured Image" />
+                                                <img src="<?php echo $v->thumbnailurl ?>" alt="Featured Image" />
                                             </figure>
 
                                             <div class="header-meta row no-margin">
@@ -200,22 +200,12 @@
 
                                 <div class="widget widget-item widget_recent_entries">      
                                     <h3>Recent Posts</h3>       
-                                    <ul>
-                                        <li>
-                                            <a href="#">Catch the Wave</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Bicycle Is Cool</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">How To Cook Healthy Food</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Travel And Collect Impressions</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Work Hard Or Go Home</a>
-                                        </li>
+                                    <ul style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                    	<?php foreach($recentPost as $v){  ?>
+	                                        <li >
+	                                            <a href="<?php echo base_url() ?>blog/detail/<?php echo $v->postid ?>"><?php echo $v->title ?></a>
+	                                        </li>
+                                       <?php } ?>
                                     </ul>
                                 </div>
 
