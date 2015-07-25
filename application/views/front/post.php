@@ -110,20 +110,20 @@
                                     <div class="comments-area comments-block">
                                         <h4 class="entry-title border-bottom padding-double-top">2 comments</h4>
                                         <div id="respond" class="comment-respond">
-                                            <form class="comment-form" id="commentform" method="post" action="http://teslathemes.com/demo/wp/sportify/wp-comments-post.php">
+                                            <form  action="<?php echo base_url()?>blog/comment" class="comment-form" id="commentform" method="post">
                                             <div class="row">
-                                                <div class="col-md-4"><input type="text" aria-required="true" value="" placeholder="Enter your name" name="name" id="author" class="comments-line comments-line-1  margin-top"></div>
+                                                <div class="col-md-4"><input type="text" aria-required="true" value="" placeholder="Enter your name" name="commenter" id="commenter" class="comments-line comments-line-1  margin-top"></div>
                                                 
                                                 <div class="col-md-4"><input type="text" aria-required="true" value="" placeholder="Enter your e-mail adress" id="e-mail" name="email" class="comments-line comments-line-2  margin-top"></div>
                                             
                                                 <div class="col-md-4"><input type="text" value="" placeholder="Enter website" id="website" name="website" class="comments-line comments-line-3  margin-top"></div></div>
                                                 
-                                                <span class="line-limit"><textarea rows="6" class="comments-textarea margin-top" name="comment"></textarea></span>
+                                                <span class="line-limit"><textarea rows="6" class="comments-textarea margin-top" name="message" id="message"></textarea></span>
                                                     
                                                 <p class="form-submit margin-top">
                                                     <input type="submit" value="Send Comment" id="submit" name="submit">
-                                                    <input type="hidden" id="comment_post_ID" value="77" name="comment_post_ID">
-                                                    <input type="hidden" value="0" id="comment_parent" name="comment_parent">
+<!--                                                     <input type="hidden" id="comment_post_ID" value="77" name="comment_post_ID"> -->
+<!--                                                     <input type="hidden" value="0" id="comment_parent" name="comment_parent"> -->
                                                 </p>
                                             </form>
 
