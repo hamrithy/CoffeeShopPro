@@ -43,4 +43,15 @@ class DaoFoodType extends CI_Model{
 			return false;
 		}
 	}
+	
+	
+	
+	public function listRecentFoodType($limit){
+		$this->db->select('foodtypeid,title, description');
+		$this->db->from('FOODTYPES');
+		$this->db->limit($limit);
+		$this->db->order_by("foodtypeid","desc");
+		$query = $this->db->get();
+		return $query->result();
+	}
 }
