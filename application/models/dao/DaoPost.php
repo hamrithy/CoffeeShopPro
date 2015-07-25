@@ -12,7 +12,7 @@ class DaoPost extends CI_Model{
 	public function addPost(DtoPost $p){
 		$data = array(
 				'title'              =>    	$p->getTitle(),
-				'shortdescription'   =>	   	$p->getShortdescription(),
+				'shortdescription'   =>	   	 str_replace(array("\r", "\n"), " ", $p->getShortdescription()),
 				'longdescription'    =>		$p->getLongdescription(),
 				'thumbnailurl'       =>     $p->getThumbnailurl(),
 				'userid'             =>     $p->getUserid()

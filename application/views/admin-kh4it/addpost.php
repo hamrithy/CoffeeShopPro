@@ -85,7 +85,7 @@
 							$("#formtitle").text("Form Edit Post");
 							$("#txtpostid").val("<?php echo $v->postid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
-							$("#txtshortdescription").val("<?php echo $v->shortdescription?>");
+							$("#txtshortdescription").val("<?php echo $v->shortdescription ?>");
 							//$("#txtdescription").html("<?php //echo $v->longdescription ?>");
 							$("#txtfile").val("<?php echo $v->thumbnailurl?>");
 							$("#myimagedemo").fadeIn("fast").attr('src', '<?php echo $v->thumbnailurl ?>'  );
