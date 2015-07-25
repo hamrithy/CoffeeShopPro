@@ -8,7 +8,9 @@
 		}
 
 		public function index(){
-			$this->load->view('front/contact');
+			$data["page"] = "ContactUs";
+			$data["title"] = "Contact Us";
+			$this->load->view('front/contact', $data);
 		}
 
 		public function sendEmail(){

@@ -9,12 +9,12 @@
 		}
 
 		public function index(){
-			//$this->load->view('front/blog');
 			$this->listPostPro();
 		}
-
 		
 		public function listPostPro(){
+			$data["title"] = "Blog";
+			$data["page"] = "Blog";
 			$data["listPost"] = $this->DaoPost->listPost();
 			$this->load->view("front/blog" , $data);
 		}
@@ -29,6 +29,8 @@
 		}
 		
 		public function detail($id){
+			$data["title"] = "Blog Details";
+			$data["page"] = "Blog";
 			$this->DtoPost->setPostid($id);
 			$data["postDetail"] = $this->DaoPost->getPost($this->DtoPost);
 			$this->load->view("front/post" , $data);

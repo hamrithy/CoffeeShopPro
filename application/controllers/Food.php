@@ -8,6 +8,8 @@
 			$this->load->model('dao/DaoFood');
 		}
 		public function getFoodDetails($food_id){
+			$data["page"] = "Menu";
+			$data["title"] = "Food Details";
 			$data["food"] = $this->DaoFood->getFoodDetails($food_id);
 			$this->load->view("front/fooddetail", $data);
 		}

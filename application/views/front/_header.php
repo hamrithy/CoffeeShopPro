@@ -18,10 +18,10 @@
                     <div class="col-md-5 nav-wrap">
                         <nav class="main-nav to-right responsive-nav"> <!-- .mega-menu helper class ued as switcher -->
                             <ul class="clean-list clearfix"> <!-- .to-right, to-left, .center-me helper class-->
-                               <li class="current-menu-item">
+                               <li class="<?php if($page=="Home") echo 'current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/">Home</a>
                                 </li>
-                                <li class="menu-item-has-children">
+                                <li class="menu-item-has-children <?php if($page=="Menu") echo ' current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/menu">Menu</a>
                                     <ul>
                                         <li>
@@ -29,13 +29,13 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=="Booking") echo 'current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/booking">Reservation</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=="Blog") echo 'current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/blog">Blog</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=="ContactUs") echo 'current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/contact">Contact Us</a>
                                 </li>
                             </ul>

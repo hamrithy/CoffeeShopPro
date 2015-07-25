@@ -8,7 +8,9 @@
 		}
 
 		public function index(){
-			$this->load->view('front/index');
+			$data["title"] = "Home";
+			$data["page"] = "Home";
+			$this->load->view('front/index', $data);
 		}
 
 	}

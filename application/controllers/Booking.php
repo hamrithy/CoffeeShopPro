@@ -8,7 +8,9 @@
 		}
 
 		public function index(){
-			$this->load->view('front/booking');
+			$data["title"] = "Reservation";
+			$data["page"] = "Booking";
+			$this->load->view('front/booking',$data);
 		}
 
 	}

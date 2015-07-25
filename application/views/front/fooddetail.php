@@ -74,29 +74,29 @@
                                 <p>
                                     Rice pilaf: Heat 1 tablespoon canola oil in a large saucepan over medium-high heat. Add 1/2 cup chopped onion and 2 teaspoons grated peeled fresh ginger to pan; sauté 2 minutes. Stir in 1 cup water, 1/2 cup long-grain rice, and 1/4 teaspoon salt; bring to a boil. Cover, reduce heat, and simmer 12 minutes or until liquid is absorbed. Remove from heat; stir in 2 tablespoons chopped fresh cilantro.
                                 </p>
-
+                                -->
                                 <div class="clean-list share-links padding-top share-socials border-top clearfix">
                                     <ul class="clean-list socials inline">
                                         <li>
-                                            <a href="#">
+                                            <a href="javascript:;">
                                                 <span class="st_facebook_large">
                                                 </span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="javascript:;">
                                                 <span class="st_twitter_large">
                                                 </span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="javascript:;">
                                                 <span class="st_pinterest_large">
                                                 </span>
                                             </a>
                                         </li>
                                     </ul>
-                                </div>-->
+                                </div>
                             </div>
 
                         </div>
