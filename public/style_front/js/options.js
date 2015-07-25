@@ -187,26 +187,7 @@ var teslaThemes = {
 
   },
 
-  homeSlider: function() {
-    "use strict";
-    jQuery(document).ready(function() {
-      jQuery('#home_slider').sudoSlider({
-        numeric: false,
-        auto: true,
-        responsive: true,
-        vertical: true,
-        autoHeight: true,
-        moveCount: 1,
-        prevhtml: ' <a href="#" class="prev-nav"></a> ',
-        nexthtml: ' <a href="#" class="next-nav"></a> ',
-        controlsattr: 'id="home_controls" class="controls"',
-        numericattr: 'class="slider-nav"',
-        continuous: false,
-        animationZIndex: 10
-      });
-    });
-  },
-
+  
   pageSliders: function() {
     "use strict";
     jQuery(document).ready(function() {
