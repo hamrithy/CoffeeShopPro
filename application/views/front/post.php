@@ -268,11 +268,11 @@
 
                                 <div class="widget widget-item widget_categories">
                                     <h3>Categories</h3>
+                                    
                                     <ul>
-                                        <li class="cat-item cat-item-19"><a title="View all posts filed under Healty Food" href="http://teslathemes.com/demo/wp/sportify/?cat=19">Healty Food</a>
-                                        </li>
-                                        <li class="cat-item cat-item-1"><a title="View all posts filed under Sportify" href="http://teslathemes.com/demo/wp/sportify/?cat=1">Sportify</a>
-                                        </li>
+                                   		 <?php foreach($recentFoodType as $v){?>
+                                         <li class="cat-item cat-item-19"><a title="View all posts filed under Healty Food" href="<?php echo site_url()?>/menu"><?php echo $v->title ?></a> </li>
+                                      	 <?php } ?>
                                     </ul>
                                 </div>
 

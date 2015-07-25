@@ -7,6 +7,7 @@
 			parent::__construct();
 			$this->load->model("dao/DaoPost");
 			$this->load->model("dao/DaoFood");
+			$this->load->model("dao/DaoFoodType");
 		}
 
 		public function index(){
@@ -36,6 +37,7 @@
 			$data["postDetail"] = $this->DaoPost->getPost($this->DtoPost);
 			$data["recentPost"] = $this->DaoPost->listPostLimit(5,0);
 			$data["recentFood"] = $this->DaoFood->listRecentFood(5);
+			$data["recentFoodType"] = $this->DaoFoodType->listRecentFoodType(5);
 			$this->load->view("front/post",$data);
 		}
 	}
