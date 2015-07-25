@@ -100,26 +100,26 @@
 					<div class="col-sm-12">
 					
 					<div>
-						<form id="frmadduser" id="frmfooditem" method="post" action="<?php echo site_url();?>/admin/fooditem/actionaddfooditem" class="form-horizontal">
+						<form id="frmfooditem" name="frmfooditem" method="post" action="<?php echo site_url();?>/admin/fooditem/actionaddfooditem" class="form-horizontal">
 							<fieldset>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="title" />
+										<input type="text" class="form-control" required name="title" id="title"/>
 									</div>
 								</div>
 
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Price<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="price" />
+										<input type="text" class="form-control" required name="price" id="price"/>
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Promotion<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="promotiontype">
+										<select class="form-control" name="promotiontype" id="promotiontype">
 											<option value="0">Normal</option>
 											<option value="1">Best Offer</option>
 											<option value="2">Best Hot</option>
@@ -130,7 +130,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Food Category<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<select class="form-control" name="foodtypeid">
+										<select class="form-control" name="foodtypeid" id="foodtypeid">
 											<?php foreach($foodTypes as $food){ ?>
 											<option value="<?php echo $food->foodtypeid ?>"><?php echo $food->title; ?></option>
 											<?php } ?>
@@ -140,7 +140,7 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">SEO Title<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="seotitle" />
+										<input type="text" class="form-control" required name="seotitle" id="seotitle"/>
 									</div>
 								</div>
 								<div class="form-group">
@@ -159,7 +159,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Thumnail Image<span class="required">*</span></label>
 									<div class="col-lg-5">
-										  <input type="text" value="" class="form-control" id="thumbnailurl" name="thumbnailurl" onchange="myimagechange()">
+										  <input type="text" value="" required class="form-control" id="thumbnailurl" name="thumbnailurl" onchange="myimagechange()">
 									</div>
 									<div class="col-lg-1">
 										 <a type="button" class="btn btn-primary" data-target="#myModal" href="javascript:;" data-toggle="modal">Select</a>
@@ -197,7 +197,7 @@
 
 							<div class="form-group">
 								<div class="col-lg-9 col-lg-offset-3">
-									<button type="submit" class="btn btn-success">Save</button>
+									<button type="submit" class="btn btn-success" id="btnsave">Save</button>
 								</div>
 							</div>
 							
@@ -227,7 +227,31 @@
 		<!-- END PAGE CONTENT -->
 		
 		
-	
+		<script>
+				<?php if($foodItem !=null){ ?>
+				$(document).ready(function(){
+					<?php 
+						foreach ($foodItem as $s){
+					?>
+						document.title = "Edit Food Item";
+						$("#formtitle").text("Form Edit Food Item");
+						$("#btnsave").text("Edit");
+						$("#title").val("<?php echo $s->title ?>");
+						$("#price").val("<?php echo $s->price ?>");
+						$("#promotiontype").val("<?php echo $s->promotiontype ?>");
+						$("#foodtypeid").val("<?php echo $s->foodtypeid ?>");
+						$("#description").val("<?php echo $s->description ?>");
+						$("#seotitle").val("<?php echo $s->seotitle ?>");
+						$("#seodescription").val("<?php echo $s->seodescription ?>");
+						$("#thumbnailurl").val("<?php echo $s->thumbnailurl ?>");
+						$("#description").val("<?php echo $s->description ?>");
+						$("#myimagedemo").attr("src", $("#thumbnailurl").val() );
+						document.frmfooditem.action="<?php echo site_url();?>/admin/fooditem/actionupdatefooditem/<?php echo $s->foodid ?>";
+					<?php } ?>
+
+				});
+				<?php } ?>
+		</script>
 		
 		
 		

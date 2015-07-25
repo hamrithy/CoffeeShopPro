@@ -116,8 +116,8 @@
 									<td><?php echo $row->food_title; ?></td>
 									<td><?php echo $row->price; ?></td>									
 									<td>
-										<button style="margin-right:3px" onclick="deletedata('deletejob.act?jobid=<%=jobs.get(i).getJobid() %>')" class="btn btn-danger">Delete</button>
-										<button onclick="window.location.href='getjobupdate.act?jobid=<%=jobs.get(i).getJobid() %>'" class="btn btn-primary">Update</button>
+										<button  value="<?php  echo $row->foodid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a href='<?php  echo site_url()?>/admin/fooditem/getFood/<?php echo $row->foodid ?>' class='btn btn-primary'>Update</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -215,16 +215,14 @@
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
-		
-		function deletedata(url){
+		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.get(url ,function(data){
-					window.location.href="listjobs.act";
+				$.post('<?php  echo site_url()?>/admin/fooditem/deletefooditem/'+btn.value,function(){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
 				});
-			} 
-		}
-		
-		
+			}
+		}	
 		</script>
 	</body>
 </html>
