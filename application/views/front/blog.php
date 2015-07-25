@@ -276,7 +276,7 @@
                 </p>
             </div>
             <div class="read-more half-padding border ovh">
-                <a href="javascript:;" class="alignright">Read More</a>
+                <a href="<?php echo base_url() ?>blog/detail/{{= postid}}" class="alignright">Read More</a>
             </div>
         </li>
     </script>

@@ -45,6 +45,9 @@
                 <div class="margin-top padding-top">
                     <div class="row no-margin">
                         <div class="col-md-9 no-padding">
+                            
+                            <?php foreach ($postDetail as $v){?>
+                            
                             <div class="margin-right-6">
                                 <div class="post background-white padding">
                                         <header>
@@ -55,16 +58,15 @@
                                             <div class="header-meta row no-margin">
                                                 <div class="col-md-2 col-sm-2 col-xs-2">
                                                     <span class="date center-me pre-line aligncenter margin-half-top">
-                                                        29
-                                                        Jun
+                                                         <?php echo date("d", strtotime($v->postdate))."<br/>".date("M", strtotime($v->postdate));?> 
                                                     </span>
                                                 </div>
                                                 <div class="col-md-10 col-sm-10 col-xs-10">
-                                                    <h2 class="entry-title">Beef Soup</h2>
+                                                    <h2 class="entry-title"><?php echo $v->title ?></h2>
                                                     <ul class="clean-list post-meta-list border-top row">
                                                         <li class="no-padding">
                                                             <a href="#" class="meta-link comments">1 comment</a> /
-                                                            <a class="text-red hover-text-dark-red author" href="#">By Jack Raulf</a> / 
+                                                            <a class="text-red hover-text-dark-red author" href="#"><?php echo $v->username ?></a> / 
                                                             <div class="tag-list inline">
                                                                 <a href="#" rel="tag">food</a>, <a href="#" rel="tag">chicken</a>
                                                             </div>
@@ -75,16 +77,9 @@
                                                 </div>
                                             </div>
                                         </header>
-                                        <div class="entry-content border padding">
-                                            <p class="padding">
-                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
-                                            </p>
-                                            <p>
-                                                <img src="<?php echo base_url()?>public/style_front/images/eggs-bacon.jpg" alt="Eggs and Bacon" />
-                                            </p>
-                                            <p class="padding">
-                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
-                                            </p>
+                                        <div class="entry-content border padding" style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                           
+                                           <?php echo $v->longdescription ?>
 
                                             <div class="clean-list share-links padding-top share-socials clearfix border-top margin-double-top">
                                                 <ul class="clean-list socials ovh no-margin inline">
@@ -182,6 +177,12 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            <?php } ?>
+                            
+                            
+                            
+                            
                         </div>
                         <div class="col-md-3 no-padding">
                             <div class="main-sidebar sidebar-right">

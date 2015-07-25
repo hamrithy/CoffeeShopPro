@@ -27,5 +27,12 @@
 			$data["total"] = $this->DaoPost->getAllPostCount();
 			echo json_encode($data);
 		}
+		
+		public function detail($id){
+			$this->DtoPost->setPostid($id);
+			$data["postDetail"] = $this->DaoPost->getPost($this->DtoPost);
+			$this->load->view("front/post" , $data);
+		}
+		
 	}
 ?>
