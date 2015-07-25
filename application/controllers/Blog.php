@@ -6,6 +6,7 @@
 		public function __construct(){
 			parent::__construct();
 			$this->load->model("dao/DaoPost");
+			$this->load->model("dao/DaoFood");
 		}
 
 		public function index(){
@@ -34,6 +35,7 @@
 			$this->DtoPost->setPostid($id);
 			$data["postDetail"] = $this->DaoPost->getPost($this->DtoPost);
 			$data["recentPost"] = $this->DaoPost->listPostLimit(5,0);
+			$data["recentFood"] = $this->DaoFood->listRecentFood(5);
 			$this->load->view("front/post",$data);
 		}
 		

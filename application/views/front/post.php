@@ -46,9 +46,11 @@
                     <div class="row no-margin">
                         <div class="col-md-9 no-padding">
                             
-                            <?php foreach ($postDetail as $v){?>
+                           
                             
                             <div class="margin-right-6">
+                            
+                             <?php foreach ($postDetail as $v){?>
                                 <div class="post background-white padding">
                                         <header>
                                             <figure>
@@ -106,6 +108,9 @@
                                         </div>
                                 </div>
 
+							 <?php } ?>
+							 
+							 
                                 <div class="comments-wrap background-white">
                                     <div class="comments-area comments-block">
                                         <h4 class="entry-title border-bottom padding-double-top">2 comments</h4>
@@ -178,7 +183,7 @@
                                 </div>
                             </div>
                             
-                            <?php } ?>
+                           
                             
                             
                             
@@ -211,81 +216,24 @@
 
                                 <div class="widget widget-item widget_recent_posts">
                                     <h3 >Recent News</h3>       
-                                    <ul class="clean-list ovh">
+                                    <ul class="clean-list ovh" >
+                                    
+                                    	<?php foreach($recentFood as $v){?>
                                         <li class="row no-margin">
                                             <div class="col-md-3 no-padding">
                                                 <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="Сrispy Bacon sandwich" />
+                                                    <a href="<?php echo site_url()?>food/getfooddetails/<?php echo $v->foodid?>">
+                                                        <img src="<?php echo  $v->thumbnailurl ?>" alt="<?php  echo $v->title?>"/>
                                                     </a>
                                                 </figure>
                                             </div>
                                             <div class="col-md-9 no-padding">
                                                 <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-07-24">24.07.2014</time><a href="post.html" class="entry-title">Сrispy Bacon sandwich</a>
+                                                   <!--  <time class="text-center" datetime="2014-07-24">24.07.2014</time>--> <a style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;" href="<?php echo site_url()?>food/getfooddetails/<?php echo $v->foodid?>" class="entry-title"><?php  echo $v->title?></a>
                                                 </div>
                                             </div>
                                         </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="Sandwiches Fried Bacon" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-11">11.08.2014</time><a href="post.html" class="entry-title">Sandwiches Fried Bacon</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="Mascarpone Mousse" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-15">15.08.2014</time><a href="post.html" class="entry-title">How To Cook Healthy Food</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" alt="Icecream" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-16">16.08.2014</time><a href="post.html" class="entry-title">Icecream</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="row no-margin">
-                                            <div class="col-md-3 no-padding">
-                                                <figure>
-                                                    <a href="post.html">
-                                                        <img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="Donut with scrambled eggs" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-md-9 no-padding">
-                                                <div class="entry-content inline">
-                                                    <time class="text-center" datetime="2014-08-18">18.08.2014</time><a href="post.html" class="entry-title">Donut with scrambled eggs</a>
-                                                </div>
-                                            </div>
-                                        </li>
+										<?php } ?>                                        
                                     </ul>
                                 </div>
 
