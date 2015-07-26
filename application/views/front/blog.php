@@ -43,8 +43,17 @@
                     <div class="row no-margin">
                         <div class="col-md-9 no-padding ">
                             <div class="margin-right-6">
-                                <ul class="clean-list background-white" id="BLOGS">           
+                            		
+                   				<span id="top"></span>
+                        		<span  style="padding: 170px;display:none" id="loadingimg">
+                    				<img  src="<?php echo base_url() ?>public/style_front/images/loading.gif" alt="Featured Image" >
+                   				</span>
+               			
+                                <ul class="clean-list background-white" id="BLOGS">
+                                	
+                                           
                                 </ul>
+                                
                                 <div class="pagination margin-right-6">
                                     <ul class="page-numbers center-me clean-list ">
                                         <!-- <li><span class="page-numbers current">1</span></li>
@@ -211,6 +220,7 @@
                 <figure>
                     <a href="<?php echo base_url() ?>blog/detail/{{= postid}}">
                         <img src="{{= thumbnailurl}}" alt="Featured Image">
+ 						<img id="loadingimg" src="<?php echo base_url() ?>public/style_front/images/loading.gif" alt="Featured Image" style="padding: 170px;display:none">
                     </a>
                 </figure>
 
@@ -308,9 +318,9 @@
                 for(var i=start;i<=end;i++){
 
                     if(this.currentPage==i){
-                        pages +='<li><a href="javascript:;" class="page-numbers current">'+ i +'</a></li>';
+                        pages +='<li><a href="#top" class="page-numbers current">'+ i +'</a></li>';
                     }else{
-                        pages +='<li><a href="javascript:;" class="page-numbers">'+ i +'</a></li>';
+                        pages +='<li><a href="#top" class="page-numbers">'+ i +'</a></li>';
                     }
                 }
                 if(this.hasNextPage()){
@@ -367,7 +377,9 @@
                 }else{
                     _pageNo=pageNo;
                 }
-                $.ajax({
+				 $("#loadingimg").show();
+				 $("#BLOGS").empty();
+                 $.ajax({
                     type: "POST",
                     url: '<?php  echo site_url()?>/blog/listallposts',
                     dataType: 'json',
@@ -377,19 +389,21 @@
                     },
                     success: function(data){
                         pagination.init(_pageNo,7,data.total);  
-                        $("#BLOGS").html('');
+                        
                         for(var i=0;i<data.posts.length;i++){
                             data.posts[i]['postdatamonth']='';
                             formatData(data.posts[i]);
                         }
                         $("#blogTemp").tmpl(data.posts).appendTo("#BLOGS");
                         console.log("DATA:",data); 
+                        $("#loadingimg").hide();
                     },
                     error: function(data){
                         console.log("ERROR...");
                         console.log(data);
                     }
                 });
+                 
             }
             formatData = function(val){
                 console.log(val);
