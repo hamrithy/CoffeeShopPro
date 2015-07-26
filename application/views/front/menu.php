@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="<?php echo base_url()?>public/style_front/css/screen.css">
 
     <script src="<?php echo base_url()?>public/style_front/js/modernizr.js"></script>
+    <script>
+        var categoryType = '<?php echo "#".strtoupper($cat) ?>';
+    </script>
 </head>
 <body>
     <div class="page-content show-content">
@@ -51,7 +54,7 @@
                         <ul class="clean-list inline-list filter-cats center-me" id="FOOD_CATEGORY">
                             <li><a href="javascript:;">All</a></li>
                             <?php foreach($categories as $category){
-                                echo '<li><a href="javascript:;">'.$category->title.'</a></li>';
+                                echo '<li id="'.strtoupper($category->title).'"><a href="javascript:;">'.$category->title.'</a></li>';
                             }?>
                             <!-- <li><a href="javascript:;">All</a></li>
                             <li><a href="javascript:;">Appetizers</a></li>
@@ -444,13 +447,12 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
-    <script type="text/javascript">
-/*        $(function(){
-               $("nav.main-nav li").click(function(){
-                $(this).parent().children().removeClass("current-menu-item");
-                $(this).addClass("current-menu-item");
-            });
-        });*/
+    <script>
+        $(function(){
+            if(categoryType!="#"){
+                $("#FOOD_CATEGORY").find(categoryType).find("a").trigger('click');
+            }
+        });
     </script>
 </body>
 </html>
