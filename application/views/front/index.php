@@ -61,8 +61,48 @@
                         <!-- Best Hot -->    
                         <?php include_once '_besthot.php'; ?>
                         <!-- End Best Hot -->
-                            <div class="col-md-7">
+                            <div class="col-md-7" id="FOODS">
                                 <div class="content-sliders background-white padding" id="content_sliders">
+                                    <?php 
+                                        $count=0;
+                                        foreach($categories as $category){
+                                            $count++;
+                                            if($category->TOTL==0){
+                                                continue;
+                                            }
+                                    ?>
+                                    <div class="relative <?php if($count>1) echo 'margin-top padding-top border-top';?>">
+                                        <h2 class="entry-title no-margin"><?php echo $category->title?></h2>
+                                        <div class='slider <?php echo str_replace(" ","",strtolower($category->title))?>-slider' id='<?php echo str_replace(" ","",strtolower($category->title))?>'>
+                                            <ul class="slidesContainer clean-list row">
+                                               <?php foreach($foods as $food){ 
+                                                        if($food->foodtypeid == $category->foodtypeid){
+                                                ?>
+                                               <li class="">
+                                                    <div>
+                                                        <div>
+                                                            <figure>
+                                                                <a href="<?php echo $food->thumbnailurl ?>" class="zoom-image"><img src="<?php echo $food->thumbnailurl ?>" alt="<?php echo $food->food_title ?>"></a>
+                                                                <figcaption>
+                                                                    <a href="<?php echo site_url()?>/front/post" title="Donut with scrambled eggs and bacon"><?php echo $food->food_title ?></a>
+                                                                </figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="price padding-half-top">
+                                                            <span><?php echo $food->price ?></span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <?php   } 
+                                                    }
+                                                ?>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+  <!--                               <div class="content-sliders background-white padding" id="content_sliders">
                                     <div class="relative">
                                         <h2 class="entry-title no-margin">Snack</h2>
                                         <div class="slider breakfast-slider" id="breakfast">
@@ -422,7 +462,7 @@
 
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> -->
 
 
                                 </div>
@@ -451,5 +491,59 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            pageSliders = function() {
+              "use strict";
+              jQuery(document).ready(function() {
+
+                var slider_breakfast = jQuery('#FOODS .slider').sudoSlider({
+                  numeric: false,
+                  responsive: true,
+                  vertical: false,
+                  autoHeight: true,
+                  moveCount: 4,
+                  prevhtml: ' <a href="#" class="prev-nav"></a> ',
+                  nexthtml: ' <a href="#" class="next-nav"></a> ',
+                  controlsattr: 'id="breakfast_controls" class="controls"',
+                  numericattr: 'class="slider-nav"',
+                  slideCount: 4,
+                  continuous: false,
+                  animationZIndex: 10
+                });
+
+                if (jQuery('#breakfast').length) {
+                  if (jQuery(window).width() < 990 && jQuery(window).width() > 468) {
+                    slider_breakfast.setOption('slideCount', 3);
+                    slider_breakfast.setOption('moveCount', 3);
+                  } else if (jQuery(window).width() < 468) {
+                    slider_breakfast.setOption('slideCount', 2);
+                    slider_breakfast.setOption('moveCount', 2);
+                  } else {
+                    slider_breakfast.setOption('slideCount', 4);
+                    slider_breakfast.setOption('moveCount', 4);
+                  }
+
+                  jQuery(window).resize(function() {
+                    if (jQuery(window).width() < 990 && jQuery(window).width() > 468) {
+                      slider_breakfast.setOption('slideCount', 3);
+                      slider_breakfast.setOption('moveCount', 3);
+                    } else if (jQuery(window).width() < 468) {
+                      slider_breakfast.setOption('slideCount', 2);
+                      slider_breakfast.setOption('moveCount', 2);
+                    } else {
+                      slider_breakfast.setOption('slideCount', 4);
+                      slider_breakfast.setOption('moveCount', 4);
+                    }
+                  });
+                }
+
+              });
+            }
+            pageSliders();
+        });
+
+    </script>
 </body>
 </html>

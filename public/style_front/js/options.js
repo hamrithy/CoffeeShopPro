@@ -26,7 +26,7 @@ var teslaThemes = {
     this.portfolioFilter();
     this.menu();
     this.tabs();
-    this.pageSliders();
+    //this.pageSliders();
     this.zoomImage();
     this.izotopeList();
     this.contactForm();
