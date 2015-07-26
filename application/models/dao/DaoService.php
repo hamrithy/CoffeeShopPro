@@ -24,7 +24,7 @@
 			$this->db->select('s.serviceid , s.title, s.description, s.linkto , s.imageurl, s.ordering');
 			$this->db->from('SERVICES s');
 			
-			//$this->db->order_by('slideid', 'desc');
+			$this->db->order_by('s.ordering', 'desc');
 			$query = $this->db->get();
 			return $query->result();
 		}
