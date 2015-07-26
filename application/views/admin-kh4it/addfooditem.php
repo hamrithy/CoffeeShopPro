@@ -104,22 +104,22 @@
 							<fieldset>
 								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
-									<div class="col-lg-5">
+									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
+									<div class="col-lg-10">
 										<input type="text" class="form-control" required name="title" id="title"/>
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Price<span class="required">*</span></label>
-									<div class="col-lg-5">
+									<label class="col-lg-2 control-label">Price<span class="required">*</span></label>
+									<div class="col-lg-10">
 										<input type="text" class="form-control" required name="price" id="price"/>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Promotion<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<select class="form-control" name="promotiontype" id="promotiontype">
+									<label class="col-lg-2 control-label">Promotion<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<select class="form-control" name="promotiontype" id="promotiontype" required>
 											<option value="0">Normal</option>
 											<option value="1">Best Offer</option>
 											<option value="2">Best Hot</option>
@@ -128,9 +128,9 @@
 								</div>
 								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Food Category<span class="required">*</span></label>
-									<div class="col-lg-5">
-										<select class="form-control" name="foodtypeid" id="foodtypeid">
+									<label class="col-lg-2 control-label">Food Category<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<select class="form-control" name="foodtypeid" id="foodtypeid" required>
 											<?php foreach($foodTypes as $food){ ?>
 											<option value="<?php echo $food->foodtypeid ?>"><?php echo $food->title; ?></option>
 											<?php } ?>
@@ -138,8 +138,8 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">SEO Title<span class="required">*</span></label>
-									<div class="col-lg-5">
+									<label class="col-lg-2 control-label">SEO Title<span class="required">*</span></label>
+									<div class="col-lg-10">
 										<input type="text" class="form-control" required name="seotitle" id="seotitle"/>
 									</div>
 								</div>
