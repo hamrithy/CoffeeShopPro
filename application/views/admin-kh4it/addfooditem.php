@@ -101,7 +101,7 @@
 					
 					<div>
 						<form id="frmfooditem" name="frmfooditem" method="post" action="<?php echo site_url();?>/admin/fooditem/actionaddfooditem" class="form-horizontal">
-							<fieldset>
+							
 								
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
@@ -169,7 +169,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Demo Image</label>
 									<div class="col-lg-6">
-										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
+										<img src="<?php echo base_url(); ?>/public/upload/fooddemo.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
 								</div>
 								<script>
@@ -193,7 +193,7 @@
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
 								</div><!-- /.modal -->	
-							</fieldset>
+						
 
 							<div class="form-group">
 								<div class="col-lg-9 col-lg-offset-3">
