@@ -3,13 +3,13 @@
 
 	class Page extends CI_Controller{
 
-		public function __construct(){
-			parent::__construct();
+		public function __construct (){
+	        parent::__construct();
 		}
 
 		public function index($page){
-			$data['page']  = '';
-			$data['title'] ='';
+			$data['page']  = $page;
+			$data['title'] = $page;
 			$this->load->view('front/page', $data);
 		}
 
