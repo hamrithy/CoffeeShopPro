@@ -84,7 +84,7 @@
                                            <?php echo $v->longdescription ?>
 
                                             <div class="clean-list share-links padding-top share-socials clearfix border-top margin-double-top">
-                                                <ul class="clean-list socials ovh no-margin inline">
+                                                <!-- <ul class="clean-list socials ovh no-margin inline">
                                                     <li>
                                                         <a href="#">
                                                             <span class="st_facebook_large">
@@ -103,7 +103,11 @@
                                                             </span>
                                                         </a>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
+                                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5291b47f21c49656" async="async"></script>
+                                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                                <div class="addthis_sharing_toolbox"></div>
                                             </div>
                                         </div>
                                 </div>
@@ -113,72 +117,19 @@
 							 
                                 <div class="comments-wrap background-white">
                                     <div class="comments-area comments-block">
-                                        <h4 class="entry-title border-bottom padding-double-top">2 comments</h4>
-                                        <div id="respond" class="comment-respond">
-                                            <form  action="<?php echo base_url()?>blog/comment" class="comment-form" id="commentform" method="post">
-                                            <div class="row">
-                                                <div class="col-md-4"><input type="text" aria-required="true" value="" placeholder="Enter your name" name="commenter" id="commenter" class="comments-line comments-line-1  margin-top"></div>
+                                        <div id="disqus_thread" style="padding: 10px;"></div>
+                                            <script type="text/javascript">
+                                                /* * * CONFIGURATION VARIABLES * * */
+                                                var disqus_shortname = 'cafechateau';
                                                 
-                                                <div class="col-md-4"><input type="text" aria-required="true" value="" placeholder="Enter your e-mail adress" id="e-mail" name="email" class="comments-line comments-line-2  margin-top"></div>
-                                            
-                                                <div class="col-md-4"><input type="text" value="" placeholder="Enter website" id="website" name="website" class="comments-line comments-line-3  margin-top"></div></div>
-                                                
-                                                <span class="line-limit"><textarea rows="6" class="comments-textarea margin-top" name="message" id="message"></textarea></span>
-                                                    
-                                                <p class="form-submit margin-top">
-                                                    <input type="submit" value="Send Comment" id="submit" name="submit">
-<!--                                                     <input type="hidden" id="comment_post_ID" value="77" name="comment_post_ID"> -->
-<!--                                                     <input type="hidden" value="0" id="comment_parent" name="comment_parent"> -->
-                                                </p>
-                                            </form>
-
-                                            <ul class="comment-list clean-list border-top margin-top-100 padding-top">
-                                                <li>
-                                                    <div class="tt-comment">
-                                                        <span class="tt-avatar"><img src="<?php echo base_url()?>public/style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
-                                                        <div class="comment-block">
-                                                            <div class="comment-meta">
-                                                                John Doe
-                                                                <span class="comment-info">
-                                                                    29.08.2014
-                                                                </span>
-                                                            </div>
-                                                            <div class="comment-text">
-                                                                <p>
-                                                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
-                                                                </p>
-                                                            </div>
-                                                            <span class="comment-reply">
-                                                                <a href="#" class="comment-reply-link">Reply</a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="children">
-                                                        <li class="comment comment-author-tesla odd alt depth-2">
-                                                            <div class="tt-comment">
-                                                                <span class="tt-avatar"><img src="<?php echo base_url()?>public/style_front/images/avatar64x64.jpg" alt="Avatar" /></span>
-                                                                <div class="comment-block">
-                                                                    <div class="comment-meta">
-                                                                        John Doe
-                                                                        <span class="comment-info">
-                                                                            29.08.2014
-                                                                        </span>
-                                                                    </div>
-                                                                    <div class="comment-text">
-                                                                        <p>
-                                                                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
-                                                                        </p>
-                                                                    </div>
-                                                                    <span class="comment-reply">
-                                                                        <a href="#" class="comment-reply-link">Reply</a>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                                /* * * DON'T EDIT BELOW THIS LINE * * */
+                                                (function() {
+                                                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                                })();
+                                            </script>
+                                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
                                     </div>
                                 </div>
                             </div>
