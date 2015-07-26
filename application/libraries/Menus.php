@@ -90,6 +90,7 @@ class Menus{
 	}
 
 	function isParent($id){
+		$this->CI->db->select('menuid');
 		$this->CI->db->from($this->tableName);
 		$this->CI->db->where('subof', $id);
 		$query = $this->CI->db->get();
