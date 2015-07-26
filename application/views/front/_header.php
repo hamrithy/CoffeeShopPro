@@ -18,7 +18,7 @@
                     <div class="col-md-5 nav-wrap"><!-- .mega-menu helper class ued as switcher --> <!-- .to-right, to-left, .center-me helper class-->
 
                         <?php 
-                            echo $this->menu->generateMenu($page); 
+                            echo $this->menus->generateMenu($page); 
                         ?>
                         <!-- <nav class="main-nav to-right responsive-nav"> 
                             <ul class="clean-list clearfix"> 

@@ -1,6 +1,6 @@
 <?php
 
-class Menu{
+class Menus{
 
 	private $CI;
 	private $menuId 	= 'id="main_navigation_bar" class="main-nav to-right responsive-nav"';
