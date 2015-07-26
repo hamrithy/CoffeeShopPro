@@ -15,9 +15,13 @@
                     </div>
                     
 
-                    <div class="col-md-5 nav-wrap">
-                        <nav class="main-nav to-right responsive-nav"> <!-- .mega-menu helper class ued as switcher -->
-                            <ul class="clean-list clearfix"> <!-- .to-right, to-left, .center-me helper class-->
+                    <div class="col-md-5 nav-wrap"><!-- .mega-menu helper class ued as switcher --> <!-- .to-right, to-left, .center-me helper class-->
+
+                        <?php 
+                            echo $this->menu->generateMenu($page); 
+                        ?>
+                        <!-- <nav class="main-nav to-right responsive-nav"> 
+                            <ul class="clean-list clearfix"> 
                                <li class="<?php if($page=="Home") echo 'current-menu-item' ?>">
                                     <a href="<?php echo site_url()?>/">Home</a>
                                 </li>
@@ -39,7 +43,8 @@
                                     <a href="<?php echo site_url()?>/contact">Contact Us</a>
                                 </li>
                             </ul>
-                        </nav><!-- /.main-nav -->
+                        </nav>-->
+                        <!-- /.main-nav -->
                     </div>
                 </div>
             </div>

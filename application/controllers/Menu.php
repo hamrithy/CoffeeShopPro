@@ -14,10 +14,10 @@
 		}
 
 		public function allFoods(){
-			$data["title"] = "Menu";
-			$data["page"] = "Menu";
 			$data["categories"] = $this->DaoFoodType->getAllFoodTypes();
 			$data["foods"] = $this->DaoFood->getAllFoodItems();
+			$data["title"] = "Menu";
+			$data["page"] = "Menu";
 			$this->load->view('front/menu', $data);
 		}
 

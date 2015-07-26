@@ -9,7 +9,7 @@
 
 		public function index(){
 			$data["title"] = "Reservation";
-			$data["page"] = "Booking";
+			$data["page"] = "Reservation";
 			$this->load->view('front/booking',$data);
 		}
 
