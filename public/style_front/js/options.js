@@ -21,7 +21,7 @@ var teslaThemes = {
   module: function() {
     "use strict";
     this.queryLoader();
-    this.homeSlider();
+    //this.homeSlider();
     this.simpleSlider();
     this.portfolioFilter();
     this.menu();
