@@ -26,4 +26,4 @@
                     <p class="aligncenter no-margin">Copyright &copy; 2015 TSD.  <a href="http://tsdsolution.com/" target="_blank">Designed by Technology Soluton Development</a></p>
                 </div>
             </div><!-- / small footer -->
-        </footer><!-- /.main-footer -->
+</footer><!-- /.main-footer -->

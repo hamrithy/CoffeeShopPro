@@ -50,7 +50,7 @@
 
                 <div class="contact-form-wrap padding">
                     <h3 class="entry-title">Drop Us a Line</h3><hr />
-
+                    <!-- Form -->
                      <form class="tt-form contact-form margin-top padding-top" id="contact_form" action="<?php  echo site_url('contact/sendemail')?>" method="POST" novalidate>
          
                         <div class="row form-row"><!-- Start Row -->
@@ -76,7 +76,8 @@
                         <div class="row form-row"><!-- Start Row -->
                             <div class="col-md-12 column"><!-- Start Column -->
                                 <div class="input-cover input-cover-text">
-                                    <textarea class="contact-form-area" placeholder="" name="message" id="MESSAGE"></textarea>
+                                    <input type="text" placeholder="Message" name="message" id="MESSAGE" style="height: 200px;"/>
+                                    
                                 </div>                              <!-- End Element -->
                             </div><!-- End Column -->
                         </div><!-- End Row -->
@@ -88,7 +89,7 @@
                         </div><!-- End Row -->
                         <input type="hidden" value="contact" name="id">
                     </form>
-
+                    <!-- Form -->
                     <div class="border-top margin-top-60 contact-info-block contact-info">
                         <div class="row">
                             <div class="col-md-4">
@@ -112,7 +113,7 @@
                 </div>
             </div>
         </section>
-        
+       <!-- Google Map --> 
         <div class="section section-map">
             <div class="gmap-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.0735697958407!2d104.90781285!3d11.54658025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511db3ecf735%3A0x5cf67bd86b8a5463!2sAmerican+International+School!5e0!3m2!1sen!2s!4v1433996719629" height="480" style="border:0"></iframe>

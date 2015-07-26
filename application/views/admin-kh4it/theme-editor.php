@@ -139,7 +139,10 @@
 								<div class="col-sm-2">
 										<label>FrontEnd Page</label>					
 										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_footer">_footer.php</a></p>														
-										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_header">_header.php</a></p>															
+										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_header">_header.php</a></p>	
+										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_slideshow">_slideshow.php</a></p>
+										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_service">_service.php</a></p>
+										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/_visitus">_visitus.php</a></p>														
 										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/index">index.php</a></p>														
 										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/blog">blog.php</a></p>								
 										<p><a href="<?php  echo site_url()?>/admin/theme/showfile/buttons">buttons.php</a></p>
