@@ -12,7 +12,7 @@
 			$data = array(
 				'slideid'          	=> $s->getSlideid(),
 				'title'				=> $s->getTitle(),
-				'caption'			=> $s->getCaption(),
+				'caption'			=> str_replace(array("\r", "\n"), " ", $s->getCaption()),
 				'linkto'			=> $s->getLinkto(),
 				'imageurl'			=> $s->getImageurl(),
 				'ordering'			=> $s->getOrdering(),
@@ -49,7 +49,7 @@
 		public function updateSlide(DtoSlide $s){
 			$data = array(
 				'title'				=> $s->getTitle(),
-				'caption'			=> $s->getCaption(),
+				'caption'			=> str_replace(array("\r", "\n"), " ", $s->getCaption()),
 				'linkto'			=> $s->getLinkto(),
 				'imageurl'			=> $s->getImageurl(),
 				'ordering'			=> $s->getOrdering(),
