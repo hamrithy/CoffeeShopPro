@@ -7,7 +7,7 @@
 			parent::__construct();
 		}
 
-		public function index(){
+		public function index($page){
 			$data['page']  = '';
 			$data['title'] ='';
 			$this->load->view('front/page', $data);

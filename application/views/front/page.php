@@ -41,131 +41,256 @@
         
         <!-- End Header -->
 
-        <section class="wood-background recipe-content">
+ <section class="section section-chiefs">
             <div class="container ">
-                <div class="background-white margin-top-60 margin-bottom-120">
-                    <header>
+                <header class="entry-header aligncenter section-header section-contact-header margin-top padding-top">
+                    <h2 class="entry-title">
+                        Meet Our Chiefs
+                    </h2>
+                    <h3 class="entry-title-desc">
+                        About
+                    </h3>   
+                </header>
+
+                <div class="our-chiefs our-chiefs-block section-block">
+                    <div class="featured featured-content">
                         <figure>
-                            <img src="<?php echo base_url()?>public/style_front/images/recipe-featured.jpg" alt="Featured Image" />
-                            <figcaption>
-                                <h2 class="entry-title aligncenter margin-top-60">The Hot Lovers Description Page</h2>
+                            <a href="#" class="">
+                                <img src="<?php echo base_url()?>public/style_front/images/our-chiefs.jpg" alt="Our Chiefs" />
+                            </a>
+
+                            <figcaption class="aligncenter margin-top padding-top">
+                                Chef<span> Bill HUSTON</span>
                             </figcaption>
                         </figure>
-                    </header>
 
-                    <div class="row no-margin padding-right">
-                        <div class="col-md-9 no-padding">
-                            <div class="entry-content padding padding-double">
-                                <h3 class="entry-title">Description</h3>
-                                <p>
-                                   1. Combine 1 tablespoon soy sauce, sherry, 2 teaspoons cornstarch, and chicken in a large bowl; toss well to coat. Combine remaining 2 tablespoons soy sauce, remaining 2 teaspoons cornstarch, broth, oyster sauce, and honey in a small bowl.     
-                                </p>
-                                <p>
-                                    <img src="<?php echo base_url()?>public/style_front/images/chicken-recipe.jpg" alt="Grilled Chicken Legs" />
-                                </p>
-                                <p>
-                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment       
-                                </p>
-                                <p>
-                                    2. Heat 1 teaspoon oil in a large nonstick skillet over medium-high heat. Add chicken mixture to pan; sauté 3 minutes. Remove from pan. Heat remaining 1 teaspoon oil in pan. Add onion, celery, and bell pepper to pan; sauté 2 minutes. Add ginger and garlic; sauté 1 minute. Return chicken mixture to pan; sauté 1 minute. Stir in broth mixture. Bring to a boil; cook 1 minute, stirring constantly. Remove from heat. Sprinkle with green onions and cashews.
-                                </p>
-                                <p>
-                                    Rice pilaf: Heat 1 tablespoon canola oil in a large saucepan over medium-high heat. Add 1/2 cup chopped onion and 2 teaspoons grated peeled fresh ginger to pan; sauté 2 minutes. Stir in 1 cup water, 1/2 cup long-grain rice, and 1/4 teaspoon salt; bring to a boil. Cover, reduce heat, and simmer 12 minutes or until liquid is absorbed. Remove from heat; stir in 2 tablespoons chopped fresh cilantro.
-                                </p>
-
-                                <div class="clean-list share-links padding-top share-socials border-top clearfix">
-                                    <ul class="clean-list socials inline">
-                                        <li>
-                                            <a href="#">
-                                                <span class="st_facebook_large">
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="st_twitter_large">
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="st_pinterest_large">
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="chiefs-socials center-me margin-top">
+                            <ul class="clean-list social-links clearfix">
+                                <li class="i-facebook">
+                                    <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                </li>
+                                <li class="i-twitter">
+                                    <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                </li>
+                                <li class="i-pinterest">
+                                    <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                </li>
+                                <li class="i-instagram">
+                                    <a title="instagram" href="#"><i class="instagram"></i></a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-3 no-padding">
-                            <div class="aside background-white">
-                                <div class="recipe-block border padding margin-top-100">
-                                    <h3 class="entry-title margin-left padding-bottom">Ingridients</h3>    
-                                    <ol class="clean-list recipe-list margin-left">
-                                        <li>beef - 500gr</li>
-                                        <li>noodles - 150 gr</li>
-                                        <li>carrots - 1</li>
-                                        <li>onions - 2</li>
-                                        <li>celery - 100 gr</li>
-                                        <li>tomatoes - 2</li>
-                                        <li>salt</li>
-                                         <li>pepper</li>
-                                        <li>basil</li>
-                                    </ol>
-                                </div>
-                                <div class="most-popular ">
-                                    <h3 class="entry-title margin-double-top">Most Popular</h3>
-                                    <ul class="clean-list">
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <figure>
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/barbecue-salmon.jpg" alt="Barbecue from salmon with vegetables" />
-                                                        </a>
-                                                    </figure>
-                                                </div> 
-                                                <div class="col-md-7">
-                                                    <h4 class="entry-title"><a href="#">Barbecue from salmon with vegetables</a></h4>
-                                                </div> 
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <figure>
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/cookies-with-honey.jpg" alt="Cookies with honey cream and bananas" />
-                                                        </a>
-                                                    </figure>
-                                                </div> 
-                                                <div class="col-md-7">
-                                                    <h4 class="entry-title"><a href="#">Cookies with honey cream and bananas</a></h4>
-                                                </div> 
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <figure>
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url()?>public/style_front/images/popular/barbecue-cassoulet.jpg" alt="Barbecue cassoulet" />
-                                                        </a>
-                                                    </figure>
-                                                </div> 
-                                                <div class="col-md-7">
-                                                    <h4 class="entry-title"><a href="#">Barbecue cassoulet</a></h4>
-                                                </div> 
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
+                        <div class="two-columns padding margin-half-top">
+                            <p>
+                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power
+                            </p>
                         </div>
                     </div>
+                
+                    <h2 class="entry-title aligncenter">Those who cook with us</h2>
+                    <ul class="clean-list chiefs-list chiefs-socials row">
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/john-stone.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/john-stone.jpg" alt="John Stone" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">John Stone<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/alex-webber.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/alex-webber.jpg" alt="Alex Webber" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">Alex Webber<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/boris-baker.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/boris-baker.jpg" alt="Boris Baker" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">Boris Baker<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/jessica-alba.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/jessica-alba.jpg" alt="Jessica Alba" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">Jessica Alba<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/bill-murrey.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/bill-murrey.jpg" alt="Bill Murrey" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">Bill Murrey<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-md-6 col-sm-6">
+                            <div>
+                                <figure class="alignleft margin-top">
+                                    <div class="shape-round">
+                                        <a href="<?php echo base_url()?>public/style_front/images/chiefs/alex-warren.jpg" class="zoom-image">
+                                            <img src="<?php echo base_url()?>public/style_front/images/chiefs/alex-warren.jpg" alt="Alex Warren" />
+                                        </a>
+                                    </div>
+                                </figure>
+                                <div>
+                                   <h3 class="entry-title">Alex Warren<span>Chief Cook</span></h3>
+                                   <p>
+                                       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot  mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot
+                                   </p>
+                                </div>
+
+                                <ul class="clean-list social-links clearfix">
+                                    <li class="i-facebook">
+                                        <a title="facebook" href="https://www.facebook.com/TeslaThemes"><i class="facebook"></i></a>
+                                    </li>
+                                    <li class="i-twitter">
+                                        <a title="twitter" href="https://twitter.com/teslathemes"><i class="twitter"></i></a>
+                                    </li>
+                                    <li class="i-pinterest">
+                                        <a title="pinterest" href="#"><i class="pinterest"></i></a>
+                                    </li>
+                                    <li class="i-instagram">
+                                        <a title="instagram" href="#"><i class="instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
+        
+        <div class="section section-map">
+            <div class="gmap-container"></div>
+        </div>
 
         <!--  Footer -->
         

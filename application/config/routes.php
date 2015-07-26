@@ -53,3 +53,4 @@ $route['default_controller'] = 'home';
 $route['admin'] = 'admin/auth';
 $route['404_override'] = 'ERROR_404';
 $route['translate_uri_dashes'] = FALSE;
+$route['page/(:any)'] = 'page/index/$1/$2';
