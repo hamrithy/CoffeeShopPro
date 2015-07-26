@@ -811,7 +811,7 @@ section hr{
     position: relative;
 }
 
-.section-slider li{
+/*.section-slider li{
     background: url("../images/slider-background2.jpg") no-repeat 0 0 transparent;
     background-size: cover;
 }
@@ -825,7 +825,7 @@ section hr{
     background: url("../images/slider-background.jpg") no-repeat 0 0 transparent;
     background-size: cover;
 }
-
+*/
 .section-slider ul li{
     min-height: 650px;
     color: #fff;

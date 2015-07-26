@@ -21,23 +21,27 @@ class DaoFood extends CI_Model{
 					  'promotiontype'	=>	$food->getPromotiontype(),
 					  'price'			=>	$food->getPrice(),
 					  'userid'			=>	$food->getUserid(),
-					  'foodtypeid'		=>	$food->getFoodTypeid()
+					  'foodtypeid'		=>	$food->getFoodTypeid(),
+					  'seotitle'		=>	$food->getSeotitle(),
+					  'seodescription'	=>	$food->getSeodescription()
 					);
 		return $this->db->insert('FOODS', $data);
 	}
 
 	public function updateFoodItem(DtoFood $food){
 		$data = array('title' 			=> 	$food->getTitle(),
-					  'desciption'		=>	$food->getDescription(),
+					  'description'		=>	$food->getDescription(),
 					  'thumbnailurl' 	=>	$food->getThumbnailurl(),
 					  'promotiontype'	=>	$food->getPromotiontype(),
 					  'price'			=>	$food->getPrice(),
 					  'userid'			=>	$food->getUserid(),
 					  'foodtypeid'		=>	$food->getFoodtypeid(),
-					  'foodid'			=>	$food->getFoodid()
+					  'foodid'			=>	$food->getFoodid(),
+					  'seotitle'		=>	$food->getSeotitle(),
+					  'seodescription'	=>	$food->getSeodescription()
 			);
-		$this->db->where('foodid', $this->$food->getFoodid());
-		return $this->db->update('FOODS', $data);
+		$this->db->where('foodid',$food->getFoodid());
+		$this->db->update('FOODS', $data);
 	}
 
 	public function deleteFoodItem($id){
@@ -46,7 +50,7 @@ class DaoFood extends CI_Model{
 	}
 
 	public function getFoodItem($id){
-		$this->db->where('foodid', $id);
+		$this->db->where('foodid',$id);
 		$query = $this->db->get('FOODS');
 		return $query->result();
 	}

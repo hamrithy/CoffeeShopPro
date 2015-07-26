@@ -85,7 +85,7 @@ class DtoFood{
 	}
 	
 	public function setSeodescription($seodescription){
-		$this->seoDescription = $seodescription;
+		$this->seodescription = $seodescription;
 	}
 
 	public function getSeodescription(){
