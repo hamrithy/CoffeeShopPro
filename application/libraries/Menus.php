@@ -38,7 +38,7 @@ class Menus{
 		foreach($navigation as $menu){
 			if(is_array($menu)){
 				if($menu['status'] && $menu['subof']==0) {
-					if($currentSelected==$menu['title']){
+					if(str_replace(" ","",strtolower($currentSelected))==str_replace(" ","",strtolower($menu['title']))){
 						$strClassCurrent = "current-menu-item";
 					}else{
 						$strClassCurrent = "";

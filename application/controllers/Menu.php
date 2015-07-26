@@ -10,14 +10,15 @@
 		}
 
 		public function index(){
-			$this->allFoods();
+			$this->foods();
 		}
 
-		public function allFoods(){
+		public function foods($category=''){
 			$data["title"] = "Menu";
 			$data["page"] = "Menu";
 			$data["categories"] = $this->DaoFoodType->getAllFoodTypes();
 			$data["foods"] = $this->DaoFood->getAllFoodItems();
+			$data["cat"] = $category;
 			$this->load->view('front/menu', $data);
 		}
 
