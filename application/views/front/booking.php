@@ -53,7 +53,7 @@
                 <div class="booking-form-wrap padding">
                     <h3 class="entry-title">Choose the Date</h3><hr />
 
-                     <form class="tt-form booking-form margin-top padding-top" data-parsley-validate="" action="http://teslathemes.com/demo/html/downtown/contact_form_send_message" method="POST" novalidate>
+                     <form class="tt-form booking-form margin-top padding-top" data-parsley-validate="" id="booking_form" action="<?php  echo site_url('booking/sendemail')?>" method="POST" novalidate>
          
                         <div class="row form-row"><!-- Start Row -->
 
@@ -145,13 +145,13 @@
                         <div class="row form-row"><!-- Start Row -->
                                 <div class="col-md-4 column no-padding"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="Name" name="Name" data-parsley-id="1240"><ul class="parsley-errors-list" id="parsley-id-1240"></ul>
+                                        <input type="text" class="contact-form-line" id="NAME" placeholder="Name" name="Name" data-parsley-id="1240"><ul class="parsley-errors-list" id="parsley-id-1240"></ul>
                                     </div>
                                 </div><!-- End Column -->
                              
                                 <div class="col-md-4 column no-padding"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" data-parsley-required="true" data-parsley-type="email" value="" placeholder="E-Mail" name="E-Mail" data-parsley-id="9294"><ul class="parsley-errors-list" id="parsley-id-9294"></ul>
+                                        <input type="text" class="contact-form-line" id="EMAIL" data-parsley-required="true" data-parsley-type="email" placeholder="E-Mail" name="E-Mail" data-parsley-id="9294"><ul class="parsley-errors-list" id="parsley-id-9294"></ul>
                                     </div>
                                 </div><!-- End Column -->
                              
@@ -171,14 +171,14 @@
                         <div class="row form-row"><!-- Start Row -->
                             <div class="col-md-12 column"><!-- Start Column -->
                                 <div class="input-cover input-cover-text">
-                                    <textarea class="contact-form-area" placeholder="" name="Message" data-parsley-id="9027">Message</textarea><ul class="parsley-errors-list" id="parsley-id-9027"></ul>
+                                    <textarea class="contact-form-area" placeholder="" id="MESSAGE" name="Message" data-parsley-id="9027">Message</textarea><ul class="parsley-errors-list" id="parsley-id-9027"></ul>
                                 </div>                              <!-- End Element -->
                             </div><!-- End Column -->
                         </div><!-- End Row -->
                      
                         <div class="row form-row"><!-- Start Row -->
                             <div class="col-md-12 column"><!-- Start Column -->
-                                <input type="submit" data-sent="Message Successfully Sent" data-sending="Sending Message" class="form-send margin-top" value="Confirm">
+                                <input type="submit" id="btnSubmit" data-sent="Message Successfully Sent" data-sending="Sending Message" class="form-send margin-top" value="Confirm">
                             </div><!-- End Column -->
                         </div><!-- End Row -->
                         <input type="hidden" value="contact" name="id">
@@ -207,5 +207,27 @@
     <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#btnSubmit').click(function(){
+                alert($("#booking_form").attr("action"));
+                alert($("#EMAIL").val());
+                $.ajax({
+                    type: "POST",
+                    url: $("#booking_form").attr("action"),
+                    dataType: 'json',
+                    data: {
+                        name: $("#NAME").val(),
+                        email: $("#EMAIL").val(), 
+                        message: $("#MESSAGE").val(),
+                    },
+                    success: function(data){
+                        console.log("DATA:",data);
+                        alert("Your email has been sent.");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
