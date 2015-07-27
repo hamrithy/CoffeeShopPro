@@ -86,6 +86,8 @@
 							$("#txtpostid").val("<?php echo $v->postid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
 							$("#txtshortdescription").val("<?php echo $v->shortdescription ?>");
+							$("#txtseodescription").val("<?php echo $v->seodescription ?>");
+							$("#txtseotitle").val("<?php echo $v->seotitle ?>");
 							$("#txtfile").val("<?php echo $v->thumbnailurl?>");
 							$("#myimagedemo").fadeIn("fast").attr('src', '<?php echo $v->thumbnailurl ?>'  );
 							document.frmpost.action="<?php echo site_url();?>/admin/post/updatepost";
@@ -148,6 +150,20 @@
 												}
 											?>
 										 </textarea>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">SEO Title<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" name="txtseotitle" id="txtseotitle" value="" required="required"/>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">SEO Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control" name="txtseodescription" id="txtseodescription"></textarea>
 									</div>
 								</div>
 								

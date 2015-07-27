@@ -32,6 +32,8 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
+			$this->DtoPost->setSeotitle($this->input->post("txtseotitle"));
+			$this->DtoPost->setSeodescription($this->input->post("txtseodescription"));
 			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			$this->DaoPost->addPost($this->DtoPost);
 			$this->index();
@@ -59,6 +61,8 @@
 			$this->DtoPost->setShortdescription($this->input->post('txtshortdescription'));
 			$this->DtoPost->setLongdescription($this->input->post('txtdescription'));
 			$this->DtoPost->setThumbnailurl($this->input->post("txtfile"));
+			$this->DtoPost->setSeotitle($this->input->post("txtseotitle"));
+			$this->DtoPost->setSeodescription($this->input->post("txtseodescription"));
 			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			$this->DaoPost->updatePost($this->DtoPost);
 			$this->index();	

@@ -82,6 +82,8 @@
 							$("#formtitle").text("Form Edit Page");
 							$("#txtpageid").val("<?php echo $v->pageid?>");
 							$("#txttitle").val("<?php echo $v->title?>");
+							$("#txtseodescription").val("<?php echo $v->seodescription ?>");
+							$("#txtseotitle").val("<?php echo $v->seotitle ?>");
 							//$("#txtdescription").text('<?php //echo $v->body ?>');
 							document.frmpage.action="<?php echo site_url();?>/admin/page/updatepage";
 							<?php
@@ -145,6 +147,19 @@
 									</div>
 								</div>
 								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">SEO Title<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" name="txtseotitle" id="txtseotitle" value="" required="required"/>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">SEO Description<span class="required">*</span></label>
+									<div class="col-lg-10">
+										<textarea class="form-control" name="txtseodescription" id="txtseodescription"></textarea>
+									</div>
+								</div>
 								
 							
 

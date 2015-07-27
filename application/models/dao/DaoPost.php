@@ -12,10 +12,12 @@ class DaoPost extends CI_Model{
 	public function addPost(DtoPost $p){
 		$data = array(
 				'title'              =>    	$p->getTitle(),
-				'shortdescription'   =>	   	 str_replace(array("\r", "\n"), " ", $p->getShortdescription()),
+				'shortdescription'   =>	   	str_replace(array("\r", "\n"), " ", $p->getShortdescription()),
 				'longdescription'    =>		$p->getLongdescription(),
 				'thumbnailurl'       =>     $p->getThumbnailurl(),
-				'userid'             =>     $p->getUserid()
+				'userid'             =>     $p->getUserid(),
+				'seotitle'           =>    	$p->getSeotitle(),
+				'seodescription'     =>	   	str_replace(array("\r", "\n"), " ", $p->getSeodescription())
 		);
 		
 		$this->db->set('postdate', 'NOW()', FALSE);
@@ -45,7 +47,7 @@ class DaoPost extends CI_Model{
 	}
 
 	public function getAllPostCount(){
-		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl , u.userid , u.username');
+		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl ,  u.userid , u.username');
 		$this->db->from('POSTS p');
 		$this->db->join('USERS u', 'p.userid = u.userid');
 		$this->db->order_by("postid", "desc");
@@ -54,7 +56,7 @@ class DaoPost extends CI_Model{
 	}
 	
 	public function getPost(DtoPost $p){
-		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl , u.userid , u.username');
+		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription  ,p.seotitle,p.seodescription, p.postdate , p.thumbnailurl , u.userid , u.username');
 		$this->db->from('POSTS p');
 		$this->db->join('USERS u', 'p.userid = u.userid');
 		$this->db->where('postid',$p->getPostid());
@@ -74,7 +76,9 @@ class DaoPost extends CI_Model{
 				'shortdescription'   =>	   	$p->getShortdescription(),
 				'longdescription'    =>		$p->getLongdescription(),
 				'thumbnailurl'       =>     $p->getThumbnailurl(),
-				'userid'             =>     $p->getUserid()
+				'userid'             =>     $p->getUserid(),
+				'seotitle'           =>    	$p->getSeotitle(),
+				'seodescription'     =>	   	str_replace(array("\r", "\n"), " ", $p->getSeodescription())
 		);
 		$this->db->set('postdate', 'NOW()', FALSE);
 		$this->db->where('postid' , $p->getPostid());

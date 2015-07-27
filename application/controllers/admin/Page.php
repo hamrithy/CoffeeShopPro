@@ -27,6 +27,8 @@
 			$this->DtoPage->setTitle($this->input->post('txttitle'));
 			$this->DtoPage->setBody($this->input->post('txtdescription'));
 			$this->DtoPage->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
+			$this->DtoPage->setSeotitle($this->input->post("txtseotitle"));
+			$this->DtoPage->setSeodescription($this->input->post("txtseodescription"));
 			$this->DaoPage->addPage($this->DtoPage);
 			$this->index();
 		}
@@ -51,6 +53,8 @@
 			$this->DtoPage->setPageid($this->input->post('txtpageid'));
 			$this->DtoPage->setTitle($this->input->post('txttitle'));
 			$this->DtoPage->setBody($this->input->post('txtdescription'));
+			$this->DtoPage->setSeotitle($this->input->post("txtseotitle"));
+			$this->DtoPage->setSeodescription($this->input->post("txtseodescription"));
 			$this->DtoPage->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			$this->DaoPage->updatePage($this->DtoPage);
 			$this->index();

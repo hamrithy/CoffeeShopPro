@@ -6,7 +6,24 @@ class DtoPage {
 	private $body;
 	private $createddate;
 	private $userid;
+	private $seotitle;
+	private $seodescription;
 	
+	public function setSeotitle($seotitle){
+		$this->seotitle = $seotitle;
+	}
+	
+	public function getSeotitle(){
+		return $this->seotitle;
+	}
+	
+	public function setSeodescription($seodescription){
+		$this->seodescription = $seodescription;
+	}
+	
+	public function getSeodescription(){
+		return $this->seodescription;
+	}
 	
 	public function getPageid(){
 		return $this->pageid;

@@ -9,7 +9,24 @@ class DtoPost{
 	private $thumbnailurl;
 	private $userid;
 	private $postdate;
-
+	private $seotitle;
+	private $seodescription;
+	
+	public function setSeotitle($seotitle){
+		$this->seotitle = $seotitle;
+	}
+	
+	public function getSeotitle(){
+		return $this->seotitle;
+	}
+	
+	public function setSeodescription($seodescription){
+		$this->seodescription = $seodescription;
+	}
+	
+	public function getSeodescription(){
+		return $this->seodescription;
+	}
 	public function getPostDate(){
 		return $this->postdate;
 	}

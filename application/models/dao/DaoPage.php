@@ -13,7 +13,9 @@ class DaoPage extends CI_Model{
 		$data = array(
 				'title'              =>    	$p->getTitle(),
 				'body'  			 =>	   	$p->getBody(),
-				'userid'             =>     $p->getUserid()
+				'userid'             =>     $p->getUserid(),
+				'seotitle'           =>    	$p->getSeotitle(),
+				'seodescription'     =>	   	str_replace(array("\r", "\n"), " ", $p->getSeodescription())
 		);
 		$this->db->set('createddate', 'NOW()', FALSE);
 		$this->db->insert('PAGES',$data);
@@ -30,7 +32,7 @@ class DaoPage extends CI_Model{
 	}
 	
 	public function getPage(DtoPage $p){
-		$this->db->select('p.pageid , p.title , p.body , u.userid , u.username');
+		$this->db->select('p.pageid , p.title , p.body , p.seotitle,p.seodescription, u.userid , u.username');
 		$this->db->from('PAGES p');
 		$this->db->join('USERS u', 'p.userid = u.userid');
 		$this->db->where('pageid',$p->getPageid());
@@ -57,7 +59,9 @@ class DaoPage extends CI_Model{
 		$data = array(
 				'title'              =>    	$p->getTitle(),
 				'body'  			 =>	   	$p->getBody(),
-				'userid'             =>     $p->getUserid()
+				'userid'             =>     $p->getUserid(),
+				'seotitle'           =>    	$p->getSeotitle(),
+				'seodescription'     =>	   	str_replace(array("\r", "\n"), " ", $p->getSeodescription())
 		);
 		$this->db->set('createddate', 'NOW()', FALSE);
 		$this->db->where('pageid' , $p->getPageid());
