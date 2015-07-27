@@ -56,7 +56,12 @@
                             <?php foreach($categories as $category){
                                 echo '<li id="'.strtoupper($category->title).'"><a href="javascript:;">'.$category->title.'</a></li>';
                             }?>
-                          
+                            <!-- <li><a href="javascript:;">All</a></li>
+                            <li><a href="javascript:;">Appetizers</a></li>
+                            <li><a href="javascript:;">Salads</a></li>
+                            <li><a href="javascript:;">Meat</a></li>
+                            <li><a href="javascript:;">Seafood</a></li>
+                            <li><a href="javascript:;">Desserts</a></li> -->
                         </ul> <!-- /.filter cats -->
                     </div>
                 </div>
@@ -70,15 +75,15 @@
                                     <figure>
                                         <a href="'.$food->thumbnailurl.'" class="zoom-image"><img src="'.$food->thumbnailurl.'" alt="menu item" style="min-height:252px;"></a>
                                         <figcaption class="aligncenter">
-                                           
-                                           <!-- <a href="'.site_url().'/menu/food/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a> -->
-                                        <a herf="#" style="cursor:pointer" onclick="showdetailpopup('.$food->foodid.')" title="'.$food->food_title.'">'.$food->food_title.'</a>
+                                            <a href="'.site_url().'/menu/food/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
                                     </figure>
-                                </div> <!-- <hr /> -->
+                                </div><hr />
                                 <div class="filters-meta">
-                                    <!-- <div class="tags-list aligncenter">'.$food->food_description.'
-                                     </div> --><hr /><hr />
+                                    <div class="tags-list aligncenter">(
+                                        '.$food->food_description.'
+                                        )
+                                    </div><hr /><hr />
                                     <div class="price aligncenter padding-half-top">
                                         <span>$'.$food->price.'</span>
                                     </div>
@@ -89,43 +94,350 @@
             }else{
                 echo '<div class="background-white padding margin-top dishes-block background-green"><span class="center-me" style="font-weight:bold; color:white;">NO CATEGORY</span></div>';
             }?>
+                   <!-- <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a> -->
+                       <!--  <li class="col-md-3 col-sm-6 col-xs-6 desserts">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$1.70</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 meat">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/pizza-with-mozzarella.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/pizza-with-mozzarella.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Pizza with mozzarella &amp; salami">Pizza with mozzarella 
+                                            &amp; salami</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$15.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 appetizers meat">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$7.50</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 desserts">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$14.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 seafood">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sauce-seafood.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sauce-seafood.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Sauce with seafood">Sauce with 
+                                            seafood</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$12.50</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 appetizers meat">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/crispy-bacon-sandwich.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Crispy bacon sandwich with mascarpone">Crispy bacon sandwich with mascarpone</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$14.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 appetizers meat">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-fried-bacon.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Sandwiches with fried bacon">Sandwiches with 
+                                            fried bacon</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$11.20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 seafood">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/barbecue-salmon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/barbecue-salmon.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Barbecue from salmon with vegetables">Barbecue from salmon 
+                                            with vegetables</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$11.20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 meat">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/barbecue-cassoulet.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/barbecue-cassoulet.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="Barbecue cassoulet">Barbecue 
+                                            cassoulet</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$18.20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3 col-sm-6 col-xs-6 desserts">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/icecream.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="icecream">Mint 
+                                            Icecream</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$05.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
-
+                        <li class="col-md-3 col-sm-6 col-xs-6 salads">
+                            <div>
+                                <div>
+                                    <figure>
+                                        <a href="<?php echo base_url()?>public/style_front/images/dishes/vegetables.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/vegetables.jpg" alt="menu item"></a>
+                                        <figcaption class="aligncenter">
+                                            <a href="<?php echo site_url()?>/front/recipe" title="vegetables">Vegetables
+                                            Mix</a>
+                                        </figcaption>
+                                    </figure>
+                                </div><hr />
+                                <div class="filters-meta">
+                                    <div class="tags-list aligncenter">(
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">onions</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">celery</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">tomatoes</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">salt</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">pepper</a>, 
+                                        <a rel="tag" href="<?php echo site_url()?>/front/recipe">basil</a>
+                                        )
+                                    </div><hr /><hr />
+                                    <div class="price aligncenter padding-half-top">
+                                        <span>$05.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
 
         <!--  Footer -->
-        <!-- pop up box -->
-                        <div class="modal fade" id="myModal" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                  <h2 class="entry-title" id="fooditemtitle"</h2>
-                                </div>
-                                <div class="modal-body" style="height: 450px;">
-                                        <div class="col-sm-6">
-                                           <div style="padding: 0 0 0 0;" class="content-dish-day relative">                             
-                                                <figure>                                        
-                                                    <a href="#"><img alt="portfolio item" src="" id="fooditemimage"></a>                                                                        
-                                                </figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div>
-                                               <h2 class="entry-title" id="fooditemdetail"></h2>
-                                            </div>
-                                            
-                                            <button style="font-family: Grand Hotel; font-size: 30px; width: 80px;" class="btn btn-primary" id="fooditemprice"></button>
-                                            
-                                        </div>
-                                </div>
-                              </div><!-- /.modal-content -->
-                            </div><!-- /.modal-dialog -->
-                        </div><!-- /.modal -->
-        <!-- End Pop up box -->
+        
+        
         <?php include_once '_footer.php';?>
         
         <!--  End Footer -->
@@ -144,19 +456,6 @@
                 $("#FOOD_CATEGORY").find(categoryType).find("a").trigger('click');
             }
         });
-
-        function showdetailpopup(id){
-            $.post("<?php echo base_url()?>menu/getfood",{id: id}, function(data){
-                $("#fooditemtitle").text(data.food_title);
-                $("#fooditemprice").text("$"+data.price);
-                $("#fooditemdetail").html(data.food_description);
-                $("#fooditemimage").attr("src",""+data.thumbnailurl+"");
-                $('#myModal').modal('show');
-            });
-            
-        }
-         
-
     </script>
 </body>
 </html>
