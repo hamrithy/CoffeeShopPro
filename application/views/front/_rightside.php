@@ -135,6 +135,7 @@
                                         </li>
 	</script>
 	
+	
 	<script type="text/x-jquery-tmpl" id="tmplRecentFoodType">
 			<li class="cat-item cat-item-19">
 					<a title="View all posts filed under Healty Food" href="<?php echo site_url()?>/menu>{{= title}}</a> 
