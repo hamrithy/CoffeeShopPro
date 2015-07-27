@@ -24,6 +24,12 @@ class DaoFoodType extends CI_Model{
 		return $query->result();
 	}
 
+	public function getAllFoodTypesOrderByTitle(){
+		$this->db->order_by('title', 'ASC');
+		$query = $this->db->get('FOODTYPES');
+		return $query->result();
+	}
+
 	public function getFoodType($id){
 		$this->db->where('foodtypeid',$id);
 		$query = $this->db->get('FOODTYPES');

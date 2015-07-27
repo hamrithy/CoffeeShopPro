@@ -54,3 +54,4 @@ $route['admin'] = 'admin/auth';
 $route['404_override'] = 'ERROR_404';
 $route['translate_uri_dashes'] = FALSE;
 $route['page/(:any)'] = 'page/index/$1/$2';
+$route['page_no_found'] = 'ERROR_404/index';
