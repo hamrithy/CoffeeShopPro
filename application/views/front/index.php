@@ -94,7 +94,7 @@
                                                             </figure>
                                                         </div>
                                                         <div class="price padding-half-top">
-                                                            <span><?php echo $food->price ?></span>
+                                                            <span><?php echo '$ '.$food->price ?></span>
                                                         </div>
                                                     </div>
                                                 </li>
