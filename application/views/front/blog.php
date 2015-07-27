@@ -234,9 +234,17 @@
                 });
             }
         };
-       // pagination.init(1,15,300);                 
-       
 
+        <?php 
+				$search = "";
+				if (!empty($_GET)) {
+					$search = $_GET["search"]; 
+				}
+		?>
+
+		
+       // pagination.init(1,15,300);                 
+      	
        $(function(){
             var blog = {};
             fillData = function(pageNo){
@@ -254,7 +262,8 @@
                     dataType: 'json',
                     data: {
                         perPage: 7,
-                        pageNo: _pageNo 
+                        pageNo: _pageNo,
+                        search:'<?php echo $search ?>'
                     },
                     success: function(data){
                         pagination.init(_pageNo,7,data.total);  
@@ -282,8 +291,8 @@
             }
             fillData();
 
-
-
+			
+			
             
             
        });     
@@ -291,3 +300,4 @@
     </script>
 </body>
 </html>
+			

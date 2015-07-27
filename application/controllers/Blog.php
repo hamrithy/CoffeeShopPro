@@ -24,8 +24,9 @@
 		public function listAllPosts(){
 			$limit  = $this->input->post('perPage');
 			$pageNo = $this->input->post('pageNo');
+			$search = $this->input->post('search');
 			$offset = ($pageNo-1)*$limit;
-			$data["posts"] = $this->DaoPost->listPostLimit($limit, $offset);
+			$data["posts"] = $this->DaoPost->listPostLimit($limit, $offset , $search);
 			$data["total"] = $this->DaoPost->getAllPostCount();
 			echo json_encode($data);
 		}

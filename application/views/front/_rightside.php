@@ -1,12 +1,13 @@
 				<div class="main-sidebar sidebar-right">
 
                                 <div class="widget widget-item widget_search">
-                                    <form class="search-form" action="http://localhost/downtown/" role="search" method="get">
-                                        <div class="submit-wrap">
+                                	
+                                    <form class="search-form" action="<?php echo site_url()?>/blog" role="search" method="get">
+                                        <div class="submit-wrap1" style="content: ''">
                                             <input type="submit" class="search-button search-submit submit" value="">
                                         </div>
                                         <div class="search-wrap ovh">
-                                           <input type="text" placeholder="Search" name="s" class="search-line opacity">
+                                           <input type="text" placeholder="Search" required="required" name="search" class="search-line opacity">
                                         </div>
                                     </form>
                                 </div>
@@ -122,14 +123,14 @@
 									<li class="row no-margin">
                                             <div class="col-md-3 no-padding">
                                                 <figure>
-                                                    <a href="<?php echo site_url()?>/food/ge{{= foodid}}">
+                                                    <a href="<?php echo site_url()?>/menu/food/{{= foodid}}">
                                                         <img src="{{= thumbnailurl}}" alt="Donut with scrambled eggs" />
                                                     </a>
                                                 </figure>
                                             </div>
                                             <div class="col-md-9 no-padding" style="height: 55px;overflow: HIDDEN;">
                                                 <div class="entry-content inline">
-                                                    <!--<time class="text-center" datetime="2014-08-18">18.08.2014</time>--><a href="<?php echo site_url()?>/food/{{= foodid}}" class="entry-title">{{= title}}</a>
+                                                    <!--<time class="text-center" datetime="2014-08-18">18.08.2014</time>--><a href="<?php echo site_url()?>/menu/food/{{= foodid}}" class="entry-title">{{= title}}</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -140,4 +141,13 @@
 			<li class="cat-item cat-item-19">
 					<a title="View all posts filed under Healty Food" href="<?php echo site_url()?>/menu">{{= title}}</a> 
 			</li>
+	</script>
+	
+	
+	<script type="text/javascript">
+	 $(function(){ 
+			$("#btSearch").click(function(){
+					alert(1);
+			});
+	 });
 	</script>
