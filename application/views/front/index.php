@@ -32,6 +32,9 @@
         .imgSize{
             min-height: 133.25px;
         }
+        #fooditemdetail{
+          word-break: break-word;
+        }
     </style>
 
 </head>
