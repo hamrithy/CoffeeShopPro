@@ -48,7 +48,7 @@
 
         <div class="dishes-filters wood-background">
             <div class="container">
-            
+            <?php if(count($categories)>0){ ?>
                 <div class="padding-10 margin-top">
                     <div class="background-white ovh filter-cats-wrap">
                         <ul class="clean-list inline-list filter-cats center-me" id="FOOD_CATEGORY">
@@ -90,7 +90,10 @@
                                 </div>
                             </div>
                         </li>';
-                        }?>
+                        }
+            }else{
+                echo '<div class="background-white padding margin-top dishes-block background-green"><span class="center-me" style="font-weight:bold; color:white;">NO CATEGORY</span></div>';
+            }?>
                    <!-- <a rel="tag" href="<?php echo site_url()?>/front/recipe">beef</a>, 
                         <a rel="tag" href="<?php echo site_url()?>/front/recipe">noodles</a>, 
                         <a rel="tag" href="<?php echo site_url()?>/front/recipe">carrots</a>, 

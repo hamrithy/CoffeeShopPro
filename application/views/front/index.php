@@ -89,7 +89,7 @@
                                                             <figure>
                                                                 <a href="<?php echo $food->thumbnailurl ?>" class="zoom-image"><img src="<?php echo $food->thumbnailurl ?>" class="imgSize" alt="<?php echo $food->food_title ?>"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Donut with scrambled eggs and bacon"><?php echo $food->food_title ?></a>
+                                                                    <a href="<?php echo site_url('/menu/food/'.$food->foodid)?>" title="Donut with scrambled eggs and bacon"><?php echo $food->food_title ?></a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
