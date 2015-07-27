@@ -419,7 +419,7 @@ var teslaThemes = {
         if (!validate_email(t_values['e-mail']))
           t_result.val('Please provide a valid e-mail.');
         else
-          jQuery.post("php/contacts.php", t.serialize(), function(result) {
+          jQuery.post("contact/sendemail", t.serialize(), function(result) {
             t_result.val(result);
           });
         clearTimeout(t_timeout);
