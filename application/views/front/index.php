@@ -89,7 +89,7 @@
                                                             <figure>
                                                                 <a href="<?php echo $food->thumbnailurl ?>" class="zoom-image"><img src="<?php echo $food->thumbnailurl ?>" class="imgSize" alt="<?php echo $food->food_title ?>"></a>
                                                                 <figcaption>
-                                                                    <a href="<?php echo site_url('/menu/food/'.$food->foodid)?>" title="Donut with scrambled eggs and bacon"><?php echo $food->food_title ?></a>
+                                                                    <a onclick="showdetailpopup(<?php echo $food->foodid ?>)" href="#" title="<?php echo $food->food_title ?>"><?php echo $food->food_title ?></a>
                                                                 </figcaption>
                                                             </figure>
                                                         </div>
@@ -107,367 +107,48 @@
                                     <?php } ?>
                                 </div>
                             </div>
-  <!--                               <div class="content-sliders background-white padding" id="content_sliders">
-                                    <div class="relative">
-                                        <h2 class="entry-title no-margin">Snack</h2>
-                                        <div class="slider breakfast-slider" id="breakfast">
-                                            <ul class="slidesContainer clean-list row">
-                                               <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$11.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$07.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$10.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Mascarpone mousse with nuts & basil</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$14.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$07.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-
-                                                <li  class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$11.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>                                                
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Mascarpone mousse with nuts & basil</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$14.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$10.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$07.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Sandwiches with fried bacon & sauce</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$10.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+<!-- pop up box -->
+                        <div class="modal fade" id="myModal" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                  <h2 class="entry-title" id="fooditemtitle"</h2>
+                                </div>
+                                <div class="modal-body" style="height: 450px;">
+                                        <div class="col-sm-6">
+                                           <div style="padding: 0 0 0 0;" class="content-dish-day relative">                             
+                                                <figure>                                        
+                                                    <a href="#"><img alt="portfolio item" src="" id="fooditemimage"></a>                                                                        
+                                                </figure>
+                                            </div>
                                         </div>
-                                    </div>
-
-                                    <div class="relative margin-top padding-top border-top">
-                                        <h2 class="entry-title no-margin">Hot</h2>
-                                        <div class="slider lunch-slider" id="lunch">
-                                            <ul class="slidesContainer clean-list row">
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Spain Hot Latte</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Hot Choccalate</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot3.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot3.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Hazelnut latte</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$04.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot4.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot4.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Cappuccino</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$4.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot2.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Hot Choccalate</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/hot1.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Spain Hot Latte</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                            </ul>
+                                        <div class="col-sm-6">
+                                            <div>
+                                               <h2 class="entry-title" id="fooditemdetail"></h2>
+                                            </div>
+                                            
+                                            <button style="font-family: Grand Hotel; font-size: 30px; width: 80px;" class="btn btn-primary" id="fooditemprice"></button>
+                                            
                                         </div>
-                                    </div>
-
-                                    <div class="relative margin-top padding-top border-top">
-                                        <h2 class="entry-title no-margin">Cold</h2>
-                                        <div class="slider lunch-slider" id="dinner">
-                                            <ul class="slidesContainer clean-list row">
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cold1.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold1.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Sandwiches with fried bacon & sauce">Iced Latte</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$4.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cold2.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold2.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Mascarpone mousse with nuts & basil">Coffee Frappe</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$4.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cold3.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold3.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Mocha Coffee</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li  class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cold4.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold4.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Donut with scrambled eggs and bacon">Iced Caramel Macchiato</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$3.00</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="">
-                                                    <div>
-                                                        <div>
-                                                            <figure>
-                                                                <a href="<?php echo base_url()?>public/style_front/images/dishes/cold5.jpg" class="zoom-image"><img src="<?php echo base_url()?>public/style_front/images/dishes/cold5.jpg" alt="menu item"></a>
-                                                                <figcaption>
-                                                                    <a href="<?php echo site_url()?>/front/post" title="Cookies with honey cream and bananas">Ice Condensed Milk Coffee</a>
-                                                                </figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="price padding-half-top">
-                                                            <span>$03.50</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div> -->
+                                </div>
+                              </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+        <script>
+            function showdetailpopup(id){
+            $.post("<?php echo base_url()?>menu/getfood",{id: id}, function(data){
+                $("#fooditemtitle").text(data.food_title);
+                $("#fooditemprice").text("$"+data.price);
+                $("#fooditemdetail").html(data.food_description);
+                $("#fooditemimage").attr("src",""+data.thumbnailurl+"");
+                $('#myModal').modal('show');
+            });
+            
+        }
+         
+        </script>
+        <!-- End Pop up box -->
 
 
                                 </div>
