@@ -44,6 +44,7 @@
         <section class="wood-background recipe-content">
             <div class="container ">
                 <div class="background-white margin-top-60 margin-bottom-120">
+                    <?php if($food!=null){?>
                     <header>
                         <figure>
                             <img src="<?php echo $food->thumbnailurl ?>" alt="Featured Image" />
@@ -166,6 +167,10 @@
                             </div>
                         </div>
                     </div>
+                    <?php
+                    }else{
+                        echo '<div class="background-white padding margin-top dishes-block background-green"><span class="center-me" style="font-weight:bold; color:white;">FOOD NOT FOUND.</span></div>';
+                    }?>
                 </div>
             </div>
         </section>
