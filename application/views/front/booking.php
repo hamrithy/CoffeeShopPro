@@ -210,8 +210,6 @@
     <script type="text/javascript">
         $(function(){
             $('#btnSubmit').click(function(){
-                alert($("#booking_form").attr("action"));
-                alert($("#EMAIL").val());
                 $.ajax({
                     type: "POST",
                     url: $("#booking_form").attr("action"),
@@ -222,8 +220,11 @@
                         message: $("#MESSAGE").val(),
                     },
                     success: function(data){
-                        console.log("DATA:",data);
-                        alert("Your email has been sent.");
+                        if(data["ERROR"]==false){
+                            alert("Your email has been sent.");
+                        }else{
+                            alert("Your email has not been sent.");
+                        }
                     }
                 });
             });
