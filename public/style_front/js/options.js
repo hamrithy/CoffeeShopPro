@@ -29,7 +29,7 @@ var teslaThemes = {
     //this.pageSliders();
     this.zoomImage();
     this.izotopeList();
-    this.contactForm();
+    //this.contactForm();
   },
 
 
