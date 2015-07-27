@@ -238,13 +238,13 @@
 						$("#btnsave").text("Edit");
 						$("#title").val("<?php echo $s->title ?>");
 						$("#price").val("<?php echo $s->price ?>");
-						$("#promotiontype").val("<?php echo $s->promotiontype ?>");
-						$("#foodtypeid").val("<?php echo $s->foodtypeid ?>");
-						$("#description").val("<?php echo $s->description ?>");
-						$("#seotitle").val("<?php echo $s->seotitle ?>");
-						$("#seodescription").val("<?php echo $s->seodescription ?>");
-						$("#thumbnailurl").val("<?php echo $s->thumbnailurl ?>");
-						$("#description").val("<?php echo $s->description ?>");
+						$("#promotiontype").val('<?php echo $s->promotiontype ?>');
+						$("#foodtypeid").val('<?php echo $s->foodtypeid ?>');
+						$("#description").val('<?php echo $s->description ?>');
+						$("#seotitle").val('<?php echo $s->seotitle ?>');
+						$("#seodescription").val('<?php echo $s->seodescription ?>');
+						$("#thumbnailurl").val('<?php echo $s->thumbnailurl ?>');
+						$("#description").val('<?php echo $s->description ?>');
 						$("#myimagedemo").attr("src", $("#thumbnailurl").val() );
 						document.frmfooditem.action="<?php echo site_url();?>/admin/fooditem/actionupdatefooditem/<?php echo $s->foodid ?>";
 					<?php } ?>
