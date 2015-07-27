@@ -71,10 +71,10 @@
                                     <?php 
                                         $count=0;
                                         foreach($categories as $category){
-                                            $count++;
                                             if($category->TOTL==0){
                                                 continue;
                                             }
+                                            $count++;
                                     ?>
                                     <div class="relative <?php if($count>1) echo 'margin-top padding-top border-top';?>">
                                         <h2 class="entry-title no-margin"><?php echo $category->title?></h2>
