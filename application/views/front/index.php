@@ -518,7 +518,7 @@
                   animationZIndex: 10
                 });
 
-                if (jQuery('#breakfast').length) {
+                if (jQuery('#FOODS .slider').length) {
                   if (jQuery(window).width() < 990 && jQuery(window).width() > 468) {
                     slider_breakfast.setOption('slideCount', 3);
                     slider_breakfast.setOption('moveCount', 3);

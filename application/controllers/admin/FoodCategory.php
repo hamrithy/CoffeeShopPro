@@ -44,6 +44,17 @@
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
 			$this->DaoFoodType->addFoodType($this->DtoFoodType);
+
+			// ADD TO MENU
+			$this->load->model('dao/DaoMenu');
+			$this->load->model('dto/DtoMenu');
+
+			$this->DtoMenu->setTitle($this->input->post('title'));
+			$this->DtoMenu->setLinkto("/menu/foods/".str_replace(" ","",strtolower($this->input->post('title'))));
+			$this->DtoMenu->setOrdering("1");
+			$this->DtoMenu->setSubof("3");
+			$this->DaoMenu->addMenu($this->DtoMenu);
+			
 			$this->index();
 		}
 
