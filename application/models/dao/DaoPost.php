@@ -86,8 +86,14 @@ class DaoPost extends CI_Model{
 		$this->db->update('POSTS' , $data);
 	}
 	
+	public function countPost(){
+		return $this->db->count_all('POSTS');
+	}
 	
-	
-	
+	public function getRecentPost(){
+		$this->db->limit(5);
+		$query = $this->db->get('POSTS');
+		return $query->result();
+	}
 	
 }

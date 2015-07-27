@@ -104,7 +104,8 @@
 								<tr>
 									<th>Food ID</th>
 									<th>Titile</th>
-									<th>Price</th>									
+									<th>Price</th>		
+									<th>Promotion Type</th>							
 									<th>Action</th>
 								</tr>
 							</thead>
@@ -114,7 +115,18 @@
 								<tr>
 									<td><?php echo $row->foodid; ?></td>
 									<td><?php echo $row->food_title; ?></td>
-									<td><?php echo $row->price; ?></td>									
+									<td><?php echo $row->price; ?></td>	
+									<td>
+										<?php 
+											if($row->promotiontype == 0){
+												echo 'Normal';
+											}elseif ($row->promotiontype == 1) {
+												echo 'Best Offer';
+											}else{
+												echo 'Best Hot';
+											}
+										?>
+									</td>								
 									<td>
 										<button  value="<?php  echo $row->foodid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
 										<a href='<?php  echo site_url()?>/admin/fooditem/getFood/<?php echo $row->foodid ?>' class='btn btn-primary'>Update</a>

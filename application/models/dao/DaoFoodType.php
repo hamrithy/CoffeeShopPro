@@ -8,7 +8,7 @@ class DaoFoodType extends CI_Model{
 
 	public function addFoodType(DtoFoodType $foodType){
 		$data = array("title" 		 => 	$foodType->getTitle(),
-					  "description"  =>		$foodType->getDescription()
+					  "description"  =>		str_replace(array("\r", "\n"), " ", $foodType->getDescription())
 			);
 		return $this->db->insert('FOODTYPES', $data);
 	}
@@ -43,9 +43,9 @@ class DaoFoodType extends CI_Model{
 	}
 
 	public function updateFoodType(DtoFoodType $foodType){
-		$data = array('title' 		=> $this->DtoFoodType->getTitle(),
-					  'description' => $this->DtoFoodType->getDescription(),
-					  'foodtypeid' 	=> $this->DtoFoodType->getFoodtypeid()
+		$data = array('title' 		=> $foodType->getTitle(),
+					  'description' => str_replace(array("\r", "\n"), " ", $foodType->getDescription()),
+					  'foodtypeid' 	=> $foodType->getFoodtypeid()
 		 );
 		$this->db->where('foodtypeid', $this->DtoFoodType->getFoodtypeid());
 		$this->db->update('FOODTYPES', $data);
@@ -56,8 +56,6 @@ class DaoFoodType extends CI_Model{
 		}
 	}
 	
-	
-	
 	public function listRecentFoodType($limit){
 		$this->db->select('foodtypeid,title, description');
 		$this->db->from('FOODTYPES');
@@ -65,5 +63,9 @@ class DaoFoodType extends CI_Model{
 		$this->db->order_by("foodtypeid","desc");
 		$query = $this->db->get();
 		return $query->result();
+	}
+
+	public function countFoodType(){
+		return $this->db->count_all('FOODTYPES');
 	}
 }
