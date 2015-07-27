@@ -38,5 +38,9 @@
 			$data["postDetail"] = $this->DaoPost->getPost($this->DtoPost);
 			$this->load->view("front/post",$data);
 		}
+		
+		
+		
+		
 	}
 ?>

@@ -16,4 +16,7 @@
 			$data["recentFoodType"] = $this->DaoFoodType->listRecentFoodType(5);
 			echo json_encode($data);
 		}
+		
+		
+		
 	}
