@@ -290,11 +290,6 @@
                 val['postdatemonth'] = moment(postdate).format("MMM");
             }
             fillData();
-
-			
-			
-            
-            
        });     
        
     </script>

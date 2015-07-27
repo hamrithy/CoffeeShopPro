@@ -86,8 +86,4 @@ class DaoPost extends CI_Model{
 		$this->db->update('POSTS' , $data);
 	}
 	
-	
-	
-	
-	
 }
