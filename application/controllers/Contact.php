@@ -18,8 +18,8 @@
 					  'protocol'  => 'smtp', 
 					  'smtp_host' => 'ssl://smtp.googlemail.com', 
 					  'smtp_port' => 465, 
-					  'smtp_user' => 'darapenhchet@gmail.com', 
-					  'smtp_pass' => '', ); 
+					  'smtp_user' => 'oiminho2015@gmail.com', 
+					  'smtp_pass' => 'vuthea@2014' ); 
 
 		  	$this->load->library('email', $config); 
 		  	$this->email->set_newline("\r\n");
@@ -30,9 +30,9 @@
 			$message = $this->input->post('message');
 
 			$this->email->from($email, $name);
-			$this->email->to('darapenhchet@gmail.com'); 
-			$this->email->subject('Email Tesing');
-			$this->email->message($message);	
+			$this->email->to('admin@kh4it.com'); 
+			$this->email->subject('Email from website contact us');
+			$this->email->message('Name: '.$name. ' Email: '.$email.' Website: '.$website.' Description: '.$message);	
 
 			if (!$this->email->send()) {
 			    log_message('debug',$this->email->print_debugger()); 
