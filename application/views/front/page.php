@@ -54,6 +54,11 @@
         
         
     </div>
+        <!-- Scripts -->
+   
+    <script src="<?php echo base_url()?>public/style_front/js/bootstrap.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/plugins.js"></script>
+    <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
 
 </body>
 </html>
