@@ -58,25 +58,9 @@
             <div class="container">
                 <div class="section-block dishes-block">
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="content-dish-day relative">
-                                   <header class="round-offer">
-                                        <div class="shape-round background-green dish-icon">
-                                                <h2 class="entry-title center-me">dish of 
-                                                the day</h2>
-                                        </div>
-                                   </header>
-
-                                   <figure>
-                                        <a href="<?php echo site_url()?>/front/post"><img src="<?php echo base_url()?>public/style_front/images/dish-of-day.jpg" alt="portfolio item"></a>
-                                        <figcaption class="background-white">
-                                            <h2 class="entry-title no-margin aligncenter padding-top">Best Hot</h2>
-                                            <div class="price center-me background-orange half-padding">$ 2.30</div>
-                                        </figcaption>
-                                    </figure>
-                               </div>
-                            </div>
-
+                        <!-- Best Hot -->    
+                        <?php include_once '_besthot.php'; ?>
+                        <!-- End Best Hot -->
                             <div class="col-md-7">
                                 <div class="content-sliders background-white padding" id="content_sliders">
                                     <div class="relative">

@@ -76,4 +76,14 @@ class DaoFood extends CI_Model{
 		return $query->result();
 	}
 
+	public function listBestoffer($type){
+		$this->db->select("A.foodid, A.title , A.description , A.thumbnailurl, A.promotiontype, A.price, A.userid");
+		$this->db->from("FOODS A");
+		$this->db->where('A.promotiontype',$type);
+		$this->db->order_by('A.foodid', 'desc');
+		$this->db->limit(1);
+		$query = $this->db->get();
+		return $query->result();
+	}
+
 }

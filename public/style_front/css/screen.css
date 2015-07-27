@@ -1122,11 +1122,11 @@ section hr{
 .offer-block{
 }
 
-.offer-block .offer-background{
+/*.offer-block .offer-background{
     background: url("../images/offer-background.jpg") no-repeat 50% 50% transparent;
     background-size: 100% auto;
     min-height: 570px;
-}
+}*/
 
 .section-offer header .entry-title{
     font-size: 54px;
