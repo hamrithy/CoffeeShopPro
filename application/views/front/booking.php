@@ -59,18 +59,19 @@
 
                             <div class="col-md-2 column no-padding"><!-- Start Column -->
                                 <div class="input-cover contact-line">
-                                    <select class="select" name="select">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
+                                    <select class="select" name="select" id="DAY">
+                                        <?php 
+                                            for($i=1;$i<=31;$i++){
+                                                echo '<option value="'.$i.'">'.$i.'</option>';
+                                            }
+                                        ?>
                                     </select>
                                 </div>                                                                    
                             </div>
 
                             <div class="col-md-2 column no-padding"><!-- Start Column -->
                                 <div class="input-cover contact-line">
-                                    <select class="select" name="select">
+                                    <select class="select" name="select" id="MONTH">
                                         <option value="January">January</option>
                                         <option value="February">February</option>
                                         <option value="March">March</option>
@@ -89,16 +90,18 @@
 
                             <div class="col-md-2 column no-padding"><!-- Start Column -->
                                 <div class="input-cover contact-line">
-                                    <select class="select" name="select">
+                                    <select class="select" name="select" id="YEAR">
                                         <option value="2014">2014</option>
                                         <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
                                     </select>
                                 </div>                                                                    
                             </div>
 
                             <div class="col-md-2 column no-padding"><!-- Start Column -->
                                 <div class="input-cover contact-line">
-                                    <select class="select" name="select">
+                                    <select class="select" id="TIME" name="select">
                                         <option value="00:00">00:00</option>
                                         <option value="01:00">01:00</option>
                                         <option value="02:00">02:00</option>
@@ -129,7 +132,7 @@
 
                             <div class="col-md-4 column no-padding"><!-- Start Column -->
                                 <div class="input-cover contact-line">
-                                    <select class="select" name="select">
+                                    <select class="select" name="select" id="GUEST">
                                         <option value="cousine">Guests</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -157,7 +160,7 @@
                              
                                 <div class="col-md-4 column no-padding"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <select class="select" name="select">
+                                        <select class="select" name="select" id="TYPE">
                                             <option value="cousine">Cousine</option>
                                             <option value="kosher">Kosher</option>
                                             <option value="vegetarian">Vegetarian</option>
@@ -209,7 +212,8 @@
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
     <script type="text/javascript">
         $(function(){
-            $('#btnSubmit').click(function(){
+            $('#booking_form').submit(function(e){
+                e.preventDefault();
                 $.ajax({
                     type: "POST",
                     url: $("#booking_form").attr("action"),
@@ -218,6 +222,12 @@
                         name: $("#NAME").val(),
                         email: $("#EMAIL").val(), 
                         message: $("#MESSAGE").val(),
+                        time: $("#TIME").val(),
+                        year: $("#YEAR").val(),
+                        month: $("#MONTH").val(),
+                        day: $("#DAY").val(),
+                        guest: $("#GUEST").val(),
+                        type: $("#TYPE").val()
                     },
                     success: function(data){
                         if(data["ERROR"]==false){
@@ -225,6 +235,9 @@
                         }else{
                             alert("Your email has not been sent.");
                         }
+                    },
+                    error: function(data){
+                        console.log(data);
                     }
                 });
             });

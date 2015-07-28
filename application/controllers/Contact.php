@@ -22,6 +22,7 @@
 					  'smtp_pass' => 'vuthea@2014' ); 
 
 		  	$this->load->library('email', $config); 
+		  	$this->email->set_mailtype('html');
 		  	$this->email->set_newline("\r\n");
 
 			$name = $this->input->post('name');
@@ -32,7 +33,7 @@
 			$this->email->from($email, $name);
 			$this->email->to('admin@kh4it.com'); 
 			$this->email->subject('Email from website contact us');
-			$this->email->message('Name: '.$name. ' Email: '.$email.' Website: '.$website.' Description: '.$message);	
+			$this->email->message('<br/><br/>Name: '.$name. '<br/><br/> Email: '.$email.'<br/><br/> Website: '.$website.'<br/><br/> Description: '.$message);	
 
 			if (!$this->email->send()) {
 			    log_message('debug',$this->email->print_debugger()); 
