@@ -246,20 +246,12 @@
                 });
             }
         };
-
-        <?php 
-				$search = "";
-				if (!empty($_GET)) {
-					$search = $_GET["search"]; 
-				}
-		?>
-
 		
        // pagination.init(1,15,300);                 
       	
        $(function(){
             var blog = {};
-            fillData = function(pageNo){
+            fillData = function(pageNo,searchWord){
                 var _pageNo={}
                 if(pageNo=="" || pageNo==null || pageNo==undefined){
                     _pageNo = 1;
@@ -275,7 +267,7 @@
                     data: {
                         perPage: 7,
                         pageNo: _pageNo,
-                        search:'<?php echo $search ?>'
+                        search: searchWord
                     },
                     success: function(data){
                         pagination.init(_pageNo,7,data.total);  
@@ -290,13 +282,15 @@
                         $("#loadingimg").hide();
                         if(data.posts.length == 0){
                         	$("#isNotFound").show();	
+                        }else{
+                            $("#isNotFound").hide();
                         }
                        
                     },
                     error: function(data){
                         console.log("ERROR...");
                         console.log(data);
-                    }
+                        $("#loadingimg").hide();                    }
                 });
                  
             }
@@ -307,6 +301,11 @@
                 val['postdatemonth'] = moment(postdate).format("MMM");
             }
             fillData();
+
+            $("#search-form").submit(function(e){
+                e.preventDefault();
+                fillData(1,$("#SEARCHWORD").val());
+            });
        });     
 
 
