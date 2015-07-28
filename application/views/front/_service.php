@@ -27,6 +27,9 @@
                 var str= "";
                 str +='<ul class="clean-list services-list featured-items row">';
                 for(var i=0; i<3; i++){
+                    if(data[i].linkto=="#"){
+                        data[i].linkto = "javascript:;";
+                    }
                     str += '<li class="col-md-4 col-sm-4">'+
                     '        <div>'+
                     '            <figure class="ovh">'+

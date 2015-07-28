@@ -44,8 +44,8 @@
 			$userDao = new DaoUser();
 			$this->load->library('form_validation');
 
-			$this->form_validation->set_rules('username', 'Username', 'required');
-			$this->form_validation->set_rules('password', 'Password', 'required');
+			$this->form_validation->set_rules('username', 'Username', 'required|xss_clean');
+			$this->form_validation->set_rules('password', 'Password', 'required|xss_clean');
 					
 			if ($this->form_validation->run() == FALSE){
 				log_message('debug', "FALSE");

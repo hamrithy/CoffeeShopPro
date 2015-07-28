@@ -17,6 +17,9 @@
             var str= "";
             str += '<ul class="clean-list slidesContainer">';
                     for(var i=0; i<data.length; i++){
+                        if(data[i].linkto=="#"){
+                            data[i].linkto = "javascript:;";
+                        }
                         str+= '<li class="slide" style="background: url(\''+ data[i].imageurl +'\') no-repeat 0 0 transparent;background-size: cover;">'+
                                 '<header class="aligncenter">'+
                                     '<h2 class="entry-title">'+ data[i].title +'</h2>'+
@@ -37,8 +40,8 @@
                 vertical: true,
                 autoHeight: true,
                 moveCount: 1,
-                prevhtml: ' <a href="#" class="prev-nav"></a> ',
-                nexthtml: ' <a href="#" class="next-nav"></a> ',
+                prevhtml: ' <a href="javscript:;" class="prev-nav"></a> ',
+                nexthtml: ' <a href="javscript:;" class="next-nav"></a> ',
                 controlsattr: 'id="home_controls" class="controls"',
                 numericattr: 'class="slider-nav"',
                 continuous: false,
