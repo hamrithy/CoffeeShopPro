@@ -38,7 +38,7 @@
                     '                </a>'+
                     '            </figure>'+
                     '            <div class="content-block background-white border-top-orange best-cousine-icon service-icon">'+
-                    '                <h4 class="entry-title pre-line padding" style="width: 360px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><a href="'+ data[i].linkto +'">'+ data[i].title +'</a></h4><hr />'+
+                    '                <h4 class="entry-title pre-line padding"  style="width: 360px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><a href="'+ data[i].linkto +'">'+ data[i].title +'</a></h4><hr />'+
                     '                <div class="content padding">'+
                     '                    <p>'+
                                            data[i].description
