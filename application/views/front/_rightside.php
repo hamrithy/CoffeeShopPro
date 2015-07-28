@@ -88,7 +88,7 @@
                            $(function(){ 
 	                            $.ajax({
 					                type: "POST",
-					                url: '<?php  echo site_url()?>/_public/rightSidePro',
+					                url: '<?php  echo site_url()?>/blog/rightSidePro',
 					                dataType: 'json',
 					                success: function(data){ 
 					                    $("#recentPost").empty();
