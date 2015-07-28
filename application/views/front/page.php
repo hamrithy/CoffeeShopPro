@@ -38,11 +38,14 @@
          <!-- Header -->
         <?php include_once '_header.php';?>
         <!-- End Header -->
+        <div class"row" style="padding-top: 30px;">
 
+        </div>
+        <div class="container">
         <!-- CONTENT -->
         <?php echo $PAGE_REC->body; ?>
         <!-- CONTENT -->
-
+         </div>
         <div class="section section-map">
             <div class="gmap-container"></div>
         </div>
