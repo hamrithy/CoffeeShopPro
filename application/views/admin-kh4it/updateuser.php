@@ -136,8 +136,19 @@
 									<label class="col-lg-3 control-label">User Type<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<select class="form-control" name="usertype" id="USERTYPE">
-											<option value="0">Admin</option>
-											<option value="1">User</option>
+											<?php 
+												if($result->usertype==1){?>
+													<option value="1" selected>Admin</option>
+													<option value="2">User</option>		
+												<?php
+												}else{?>
+													<option value="1">Admin</option>
+													<option value="2" selected>User</option>
+												<?php
+												 }
+											?>
+											<option value="1">Admin</option>
+											<option value="2">User</option>
 										</select>
 									</div>
 								</div>
@@ -275,32 +286,45 @@
 				if (confirm("Are you sure you want to update?") == false) {
 					return;
 				}
-				$.ajax({
-					type: "POST",
-					url: '<?php  echo site_url()?>/admin/user/updateuserpro',
-					dataType: 'json',
-					data: {
-						userid: '<?php echo $result->userid;?>',
-						username: $("#USERNAME").val(), 
-						password: $("#PASSWORD").val(),
-						usertype: $("#USERTYPE").val(),
-						status: $("#STATUS").val()
-					},
-					success: function(data){
-						console.log("DATA:",data);
-						if(data["ERROR"]==true){
-							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
+				if($("#PASSWORD").val()!=$("#CONFIRM_PASSWORD").val()){
+					$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">Your password are mismatch. Please enter again.</div>');
+					$("#MESSAGE").fadeIn(1000);
+					$("#MESSAGE").fadeOut(5000);
+					return;
+				}else{
+					$.ajax({
+						type: "POST",
+						url: '<?php  echo site_url()?>/admin/user/updateuserpro',
+						dataType: 'json',
+						data: {
+							userid: '<?php echo $result->userid;?>',
+							username: $("#USERNAME").val(), 
+							password: $("#PASSWORD").val(),
+							confirm_password: $("#CONFIRM_PASSWORD").val(),
+							usertype: $("#USERTYPE").val(),
+							status: $("#STATUS").val()
+						},
+						success: function(data){
+							console.log("DATA:",data);
+							if(data["ERROR"]==true){
+								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
+								$("#MESSAGE").fadeIn(1000);
+								$("#MESSAGE").fadeOut(5000);
+							}else{
+								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been updated successfully.</div>');
+								$("#MESSAGE").fadeIn(1000);
+								$("#MESSAGE").fadeOut(5000,function(){
+									location.href= "<?php echo site_url('admin/user');?>";
+								});
+							}
+						},
+						error: function(data){
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data.statusText+'</div>');
 							$("#MESSAGE").fadeIn(1000);
 							$("#MESSAGE").fadeOut(5000);
-						}else{
-							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been updated successfully.</div>');
-							$("#MESSAGE").fadeIn(1000);
-							$("#MESSAGE").fadeOut(5000,function(){
-								location.href= "<?php echo site_url('admin/user');?>";
-							});
 						}
-					}
-				});
+					});
+				}
 			});
 		});		
 
