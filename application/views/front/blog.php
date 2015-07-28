@@ -277,8 +277,7 @@
                             formatData(data.posts[i]);
                         }
                         $("#blogTemp").tmpl(data.posts).appendTo("#BLOGS");
-                        console.log("DATA:",data); 
-                        
+
                         $("#loadingimg").hide();
                         if(data.posts.length == 0){
                         	$("#isNotFound").show();	
@@ -288,14 +287,11 @@
                        
                     },
                     error: function(data){
-                        console.log("ERROR...");
-                        console.log(data);
                         $("#loadingimg").hide();                    }
                 });
                  
             }
             formatData = function(val){
-                console.log(val);
                 var postdate = new Date(val['postdate']);
                 val['postdate'] = moment(postdate).format("DD");
                 val['postdatemonth'] = moment(postdate).format("MMM");
