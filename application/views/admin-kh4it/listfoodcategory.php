@@ -195,13 +195,20 @@
 
 		function deletedata(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.post("<?php echo site_url()?>/admin/foodcategory/actionDeleteFoodType/"+btn.value ,function(data){
-					if(data == "success"){
-						showRecords();
-					}else{
-						alert('Can not delete cause of problem!');
+				$.ajax({
+					type: "POST",
+					url: '<?php echo site_url()?>/admin/foodcategory/actionDeleteFoodType/'+btn.value,
+					dataType: 'json',
+					success: function(data){
+						if(data == "success"){
+							showRecords();
+						}else{
+							alert('Can not delete cause of problem!');
+						}
+					},
+					error: function(data){
+						alert( "Your food category cannot delete. If you want to delete it please delete the food first in that food category." );
 					}
-
 				});
 			} 
 		}
