@@ -22,16 +22,13 @@ class DaoFoodType extends CI_Model{
 		$this->db->where('foodtypeid',$id);
 		if($this->db->delete('FOODTYPES')){
 			//REMOVE FROM MENU that has that food type
-			if($this->DaoMenu->deleteMenuByTitle($query->row()->title)){
+			if($this->DaoMenu->deleteMenuByTitle(str_replace(" ","",strtolower($query->row()->title)))){
 				$this->db->trans_commit();
-				//return true;
 			}else{
 				$this->db->trans_rollback();
-				//return false;
 			}
 		}else{
 			$this->db->trans_rollback();
-			//return false;
 		}
 		$this->db->trans_complete();
 	}

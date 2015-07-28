@@ -59,7 +59,7 @@ class DaoMenu extends CI_Model{
 	}
 
 	public function deleteMenuByTitle($mTitle){
-		$this->db->where('title', $mTitle);
+		$this->db->where("replace(LOWER(title),' ','')=", $mTitle);
 		if($this->db->delete('MENUS')){
 			return true;
 		}else{
