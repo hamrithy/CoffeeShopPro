@@ -41,13 +41,25 @@
             <div class="container ">
                 <div class="margin-top padding-top">
                     <div class="row no-margin">
+                    
+                 			   
+                   				
+                   				
                         <div class="col-md-9 no-padding ">
+                      	  
+                       		 <span id="top"></span>
+                        
+                        	<div id="loadingimg" style="background-color: white;width:99%;display: none" >
+                    			<center><img style="width: 50%" src="<?php echo base_url() ?>public/style_front/images/loader.gif" alt="Featured Image" ></center>
+                   			</div>	
+                   			
+                   			<div id="isNotFound" style="display: none">
+                           			 <h3 style="color:wheat;font-size: 50px;">Search not found</h3>
+                            </div>
                             <div class="margin-right-6">
                             		
-                   				<span id="top"></span>
-                        		<span  style="padding: 170px;display:none" id="loadingimg">
-                    				<img  src="<?php echo base_url() ?>public/style_front/images/loading.gif" alt="Featured Image" >
-                   				</span>
+                   				
+                        		
                			
                                 <ul class="clean-list background-white" id="BLOGS">
                                 	
@@ -91,7 +103,7 @@
                 <figure>
                     <a href="<?php echo base_url() ?>blog/detail/{{= postid}}">
                         <img src="{{= thumbnailurl}}" alt="Featured Image">
- 						<img id="loadingimg" src="<?php echo base_url() ?>public/style_front/images/loading.gif" alt="Featured Image" style="padding: 170px;display:none">
+ 						<img id="loadingimg" src="<?php echo base_url() ?>public/style_front/images/loader.gif" alt="Featured Image" style="padding: 170px;display:none">
                     </a>
                 </figure>
 
@@ -274,7 +286,12 @@
                         }
                         $("#blogTemp").tmpl(data.posts).appendTo("#BLOGS");
                         console.log("DATA:",data); 
+                        
                         $("#loadingimg").hide();
+                        if(data.posts.length == 0){
+                        	$("#isNotFound").show();	
+                        }
+                       
                     },
                     error: function(data){
                         console.log("ERROR...");

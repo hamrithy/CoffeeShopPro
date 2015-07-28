@@ -139,15 +139,9 @@
 	
 	<script type="text/x-jquery-tmpl" id="tmplRecentFoodType">
 			<li class="cat-item cat-item-19">
-					<a title="View all posts filed under Healty Food" href="<?php echo site_url()?>/menu">{{= title}}</a> 
+					<a title="View all posts filed under Healty Food" href="<?php echo site_url()?>/menu/foods/{{= title}}">{{= title}}</a> 
 			</li>
 	</script>
 	
 	
-	<script type="text/javascript">
-	 $(function(){ 
-			$("#btSearch").click(function(){
-					alert(1);
-			});
-	 });
-	</script>
+	
