@@ -14,8 +14,26 @@ class DaoFoodType extends CI_Model{
 	}
 
 	public function deleteFoodType($id){
+		$this->load->model('dao/DaoMenu');
+		$this->db->trans_start();
 		$this->db->where('foodtypeid',$id);
-		return $this->db->delete('FOODTYPES');
+		$query = $this->db->get('FOODTYPES');
+
+		$this->db->where('foodtypeid',$id);
+		if($this->db->delete('FOODTYPES')){
+			//REMOVE FROM MENU that has that food type
+			if($this->DaoMenu->deleteMenuByTitle($query->row()->title)){
+				$this->db->trans_commit();
+				//return true;
+			}else{
+				$this->db->trans_rollback();
+				//return false;
+			}
+		}else{
+			$this->db->trans_rollback();
+			//return false;
+		}
+		$this->db->trans_complete();
 	}
 
 	public function getAllFoodTypes(){
