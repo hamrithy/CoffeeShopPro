@@ -98,8 +98,24 @@
 										
 					<!-- BEGIN DATA TABLE -->
 					<div class="the-box">
-						<div class="table-responsive" id="showFoodTypes">
-
+						<div class="table-responsive">
+							<table class='table table-striped table-hover' id='datatable-example'>
+								<tr>
+									<td>Id</td>
+									<td>Title</td>
+									<td>Action</td>
+								</tr>
+								<?php foreach($listFoodTypes as $row){ ?>
+								<tr>
+									<td><?php echo $row->foodtypeid; ?></td>
+									<td><?php echo $row->title; ?></td>
+									<td>
+										<button  value="<?php  echo $row->foodtypeid; ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a href='<?php  echo site_url()?>/admin/foodcategory/actionGetFoodType/"++"' class='btn btn-primary' >Update</a>
+									</td>
+								</tr>
+								<?php } ?>
+							</table>
 						</div><!-- /.table-responsive -->
 					</div><!-- /.the-box .default -->
 					<!-- END DATA TABLE -->
@@ -192,50 +208,14 @@
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		<script>
-
-		function deletedata(btn){
+		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
-				$.post("<?php echo site_url()?>/admin/foodcategory/actionDeleteFoodType/"+btn.value ,function(data){
-					if(data == "success"){
-						showRecords();
-					}else{
-						alert('Can not delete cause of problem!');
-					}
-
+				$.post('<?php  echo site_url()?>/admin/foodcategory/actiondeleteFoodtype/'+btn.value, function(){
+					var row = btn.parentNode.parentNode;
+					row.parentNode.removeChild(row);
 				});
-			} 
-		}
-		showRecords();
-		function showRecords(){
-			$.get("<?php echo site_url('admin/foodcategory/actionListFoodCategories')?>",function(foodType){
-				$("#showFoodTypes").html(showFoodTypes(foodType));
-			});
-		}
-		function showFoodTypes(data){
-			var table = "<table class='table table-striped table-hover' id='datatable-example'>"+
-							"<thead class='the-box dark full'>"+
-								"<tr>"+
-									"<th>Id</th>"+
-									"<th>Titile</th>"+
-									"<th>Action</th>"+
-								"</tr>"+
-							"</thead>"+
-							"<tbody>";
-						 	for(var i=0;i<data.length;i++){	
-						 		table += "<tr>"+
-									"<td>"+data[i].foodtypeid+"</td>"+
-									"<td>"+data[i].title+"</td>"+
-									"<td>"+
-										"<button style='margin-right:3px' value="+data[i].foodtypeid+" onclick=\"deletedata(this)\" class='btn btn-danger'>Delete</button>"+
-										"<a href='<?php  echo site_url()?>/admin/foodcategory/actionGetFoodType/"+data[i].foodtypeid+"' class='btn btn-primary' >Update</a>"+
-									"</td>"+
-								"</tr>";
-							}
-						
-							table +="</tbody></table>";
-			return table;
-						
-		}
+			}
+		}	
 		</script>
 	</body>
 </html>

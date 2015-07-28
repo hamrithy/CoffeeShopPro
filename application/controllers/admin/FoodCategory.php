@@ -15,7 +15,7 @@
 		}
 
 		public function listFoodType(){
-			$this->load->view('admin-kh4it/listfoodcategory');
+			$this->actionListFoodCategories();
 		}
 
 		public function listfoodcategory(){
@@ -27,17 +27,12 @@
 		}
 
 		public function actionListFoodCategories(){
-			$result = $this->DaoFoodType->getAllFoodTypes();
-			header('Content-Type:application/json' );
-			echo json_encode($result);
+			$data['listFoodTypes'] = $this->DaoFoodType->getAllFoodTypes();
+			$this->load->view('admin-kh4it/listfoodcategory', $data);
 		}
 
 		public function actionDeleteFoodType($id){
-			if($this->DaoFoodType->deleteFoodType($id)){
-				echo 'success';
-			}else{
-				echo 'error';
-			}
+			$this->DaoFoodType->deleteFoodType($id);
 		}
 		
 		public function actionAddFoodType(){
