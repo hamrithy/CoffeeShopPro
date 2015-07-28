@@ -4687,3 +4687,1127 @@ INFO - 2015-07-28 06:53:02 --> Controller Class Initialized
 INFO - 2015-07-28 06:53:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
 INFO - 2015-07-28 06:53:06 --> Final output sent to browser
 DEBUG - 2015-07-28 06:53:06 --> Total execution time: 5.7443
+INFO - 2015-07-28 06:55:46 --> Config Class Initialized
+INFO - 2015-07-28 06:55:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:55:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:55:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:55:46 --> URI Class Initialized
+INFO - 2015-07-28 06:55:46 --> Router Class Initialized
+INFO - 2015-07-28 06:55:46 --> Output Class Initialized
+INFO - 2015-07-28 06:55:46 --> Security Class Initialized
+DEBUG - 2015-07-28 06:55:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:55:46 --> Input Class Initialized
+INFO - 2015-07-28 06:55:46 --> Language Class Initialized
+INFO - 2015-07-28 06:55:46 --> Loader Class Initialized
+INFO - 2015-07-28 06:55:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:55:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:55:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:55:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:55:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:55:47 --> Encryption Class Initialized
+INFO - 2015-07-28 06:55:47 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:55:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:55:47 --> Model Class Initialized
+INFO - 2015-07-28 06:55:47 --> Model Class Initialized
+INFO - 2015-07-28 06:55:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:55:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:55:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:55:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:55:47 --> Final output sent to browser
+DEBUG - 2015-07-28 06:55:47 --> Total execution time: 1.7417
+INFO - 2015-07-28 06:55:48 --> Config Class Initialized
+INFO - 2015-07-28 06:55:48 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:55:48 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:55:48 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:55:48 --> URI Class Initialized
+INFO - 2015-07-28 06:55:48 --> Router Class Initialized
+INFO - 2015-07-28 06:55:48 --> Output Class Initialized
+INFO - 2015-07-28 06:55:48 --> Security Class Initialized
+DEBUG - 2015-07-28 06:55:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:55:48 --> Input Class Initialized
+INFO - 2015-07-28 06:55:48 --> Language Class Initialized
+INFO - 2015-07-28 06:55:48 --> Loader Class Initialized
+INFO - 2015-07-28 06:55:48 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:55:48 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:55:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:55:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:55:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:55:49 --> Encryption Class Initialized
+INFO - 2015-07-28 06:55:49 --> Controller Class Initialized
+INFO - 2015-07-28 06:55:53 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:55:53 --> Final output sent to browser
+DEBUG - 2015-07-28 06:55:53 --> Total execution time: 5.0223
+INFO - 2015-07-28 06:55:53 --> Config Class Initialized
+INFO - 2015-07-28 06:55:53 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:55:53 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:55:53 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:55:53 --> URI Class Initialized
+INFO - 2015-07-28 06:55:53 --> Router Class Initialized
+INFO - 2015-07-28 06:55:53 --> Output Class Initialized
+INFO - 2015-07-28 06:55:53 --> Security Class Initialized
+DEBUG - 2015-07-28 06:55:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:55:53 --> Input Class Initialized
+INFO - 2015-07-28 06:55:53 --> Language Class Initialized
+INFO - 2015-07-28 06:55:53 --> Loader Class Initialized
+INFO - 2015-07-28 06:55:53 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:55:53 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:55:53 --> Config Class Initialized
+INFO - 2015-07-28 06:55:53 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:55:53 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:55:53 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:55:53 --> URI Class Initialized
+INFO - 2015-07-28 06:55:53 --> Router Class Initialized
+INFO - 2015-07-28 06:55:53 --> Output Class Initialized
+INFO - 2015-07-28 06:55:53 --> Security Class Initialized
+DEBUG - 2015-07-28 06:55:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:55:53 --> Input Class Initialized
+INFO - 2015-07-28 06:55:53 --> Language Class Initialized
+INFO - 2015-07-28 06:55:53 --> Loader Class Initialized
+INFO - 2015-07-28 06:55:53 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:55:53 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:55:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:55:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:55:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:55:54 --> Encryption Class Initialized
+INFO - 2015-07-28 06:55:54 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:55:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:55:54 --> Model Class Initialized
+INFO - 2015-07-28 06:55:54 --> Model Class Initialized
+INFO - 2015-07-28 06:55:54 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:55:54 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:55:54 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+ERROR - 2015-07-28 06:55:54 --> Severity: Notice --> Undefined variable: getFoodType C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it\addfoodcategory.php 154
+INFO - 2015-07-28 06:55:54 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addfoodcategory.php
+INFO - 2015-07-28 06:55:54 --> Final output sent to browser
+DEBUG - 2015-07-28 06:55:54 --> Total execution time: 1.4081
+INFO - 2015-07-28 06:55:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:55:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:55:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:55:54 --> Encryption Class Initialized
+INFO - 2015-07-28 06:55:54 --> Controller Class Initialized
+INFO - 2015-07-28 06:55:54 --> Config Class Initialized
+INFO - 2015-07-28 06:55:54 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:55:54 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:55:54 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:55:54 --> URI Class Initialized
+INFO - 2015-07-28 06:55:54 --> Router Class Initialized
+INFO - 2015-07-28 06:55:54 --> Output Class Initialized
+INFO - 2015-07-28 06:55:54 --> Security Class Initialized
+DEBUG - 2015-07-28 06:55:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:55:54 --> Input Class Initialized
+INFO - 2015-07-28 06:55:54 --> Language Class Initialized
+INFO - 2015-07-28 06:55:54 --> Loader Class Initialized
+INFO - 2015-07-28 06:55:54 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:55:54 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:55:58 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:55:58 --> Final output sent to browser
+DEBUG - 2015-07-28 06:55:58 --> Total execution time: 5.4523
+INFO - 2015-07-28 06:55:58 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:55:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:55:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:55:58 --> Encryption Class Initialized
+INFO - 2015-07-28 06:55:58 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:02 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:02 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:02 --> Total execution time: 7.7344
+INFO - 2015-07-28 06:56:02 --> Config Class Initialized
+INFO - 2015-07-28 06:56:02 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:02 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:02 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:02 --> URI Class Initialized
+INFO - 2015-07-28 06:56:02 --> Router Class Initialized
+INFO - 2015-07-28 06:56:02 --> Output Class Initialized
+INFO - 2015-07-28 06:56:02 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:02 --> Input Class Initialized
+INFO - 2015-07-28 06:56:02 --> Language Class Initialized
+INFO - 2015-07-28 06:56:02 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:02 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:02 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:03 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:03 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:05 --> Config Class Initialized
+INFO - 2015-07-28 06:56:05 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:05 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:05 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:05 --> URI Class Initialized
+INFO - 2015-07-28 06:56:05 --> Router Class Initialized
+INFO - 2015-07-28 06:56:05 --> Output Class Initialized
+INFO - 2015-07-28 06:56:05 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:05 --> Input Class Initialized
+INFO - 2015-07-28 06:56:05 --> Language Class Initialized
+INFO - 2015-07-28 06:56:05 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:05 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:08 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:08 --> Total execution time: 5.7373
+INFO - 2015-07-28 06:56:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:08 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:08 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:56:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:56:08 --> Model Class Initialized
+INFO - 2015-07-28 06:56:08 --> Model Class Initialized
+INFO - 2015-07-28 06:56:08 --> Model Class Initialized
+INFO - 2015-07-28 06:56:09 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:56:09 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:56:09 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:56:09 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:56:09 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:09 --> Total execution time: 4.1012
+INFO - 2015-07-28 06:56:09 --> Config Class Initialized
+INFO - 2015-07-28 06:56:09 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:09 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:09 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:09 --> URI Class Initialized
+INFO - 2015-07-28 06:56:09 --> Router Class Initialized
+INFO - 2015-07-28 06:56:09 --> Output Class Initialized
+INFO - 2015-07-28 06:56:09 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:09 --> Input Class Initialized
+INFO - 2015-07-28 06:56:09 --> Language Class Initialized
+INFO - 2015-07-28 06:56:09 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:09 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:09 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:10 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:10 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:14 --> Config Class Initialized
+INFO - 2015-07-28 06:56:14 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:14 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:14 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:14 --> URI Class Initialized
+INFO - 2015-07-28 06:56:14 --> Router Class Initialized
+INFO - 2015-07-28 06:56:14 --> Output Class Initialized
+INFO - 2015-07-28 06:56:14 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:14 --> Input Class Initialized
+INFO - 2015-07-28 06:56:14 --> Language Class Initialized
+INFO - 2015-07-28 06:56:14 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:14 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:14 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:15 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:15 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:15 --> Total execution time: 5.8823
+INFO - 2015-07-28 06:56:15 --> Config Class Initialized
+INFO - 2015-07-28 06:56:15 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:15 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:15 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:15 --> URI Class Initialized
+INFO - 2015-07-28 06:56:15 --> Router Class Initialized
+INFO - 2015-07-28 06:56:15 --> Output Class Initialized
+INFO - 2015-07-28 06:56:15 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:15 --> Input Class Initialized
+INFO - 2015-07-28 06:56:15 --> Language Class Initialized
+INFO - 2015-07-28 06:56:15 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:15 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:15 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:16 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:16 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:56:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2015-07-28 06:56:16 --> Encryption class already loaded. Second attempt ignored.
+DEBUG - 2015-07-28 06:56:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:56:16 --> Model Class Initialized
+INFO - 2015-07-28 06:56:16 --> Model Class Initialized
+INFO - 2015-07-28 06:56:16 --> Model Class Initialized
+INFO - 2015-07-28 06:56:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:56:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:56:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+ERROR - 2015-07-28 06:56:16 --> Severity: Notice --> Undefined variable: foodItem C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it\addfooditem.php 231
+INFO - 2015-07-28 06:56:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addfooditem.php
+INFO - 2015-07-28 06:56:16 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:16 --> Total execution time: 1.5451
+INFO - 2015-07-28 06:56:16 --> Config Class Initialized
+INFO - 2015-07-28 06:56:16 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:16 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:16 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:16 --> URI Class Initialized
+INFO - 2015-07-28 06:56:16 --> Router Class Initialized
+INFO - 2015-07-28 06:56:16 --> Output Class Initialized
+INFO - 2015-07-28 06:56:16 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:16 --> Input Class Initialized
+INFO - 2015-07-28 06:56:16 --> Language Class Initialized
+INFO - 2015-07-28 06:56:16 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:16 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:16 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:16 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:16 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:21 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:21 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:21 --> Total execution time: 6.0253
+INFO - 2015-07-28 06:56:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:21 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:21 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:26 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:26 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:26 --> Total execution time: 9.4575
+INFO - 2015-07-28 06:56:26 --> Config Class Initialized
+INFO - 2015-07-28 06:56:26 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:26 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:26 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:26 --> URI Class Initialized
+INFO - 2015-07-28 06:56:26 --> Router Class Initialized
+INFO - 2015-07-28 06:56:26 --> Output Class Initialized
+INFO - 2015-07-28 06:56:26 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:26 --> Input Class Initialized
+INFO - 2015-07-28 06:56:26 --> Language Class Initialized
+INFO - 2015-07-28 06:56:26 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:26 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:26 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:27 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:27 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:30 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:30 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:30 --> Total execution time: 4.9243
+INFO - 2015-07-28 06:56:40 --> Config Class Initialized
+INFO - 2015-07-28 06:56:40 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:40 --> URI Class Initialized
+INFO - 2015-07-28 06:56:40 --> Router Class Initialized
+INFO - 2015-07-28 06:56:40 --> Output Class Initialized
+INFO - 2015-07-28 06:56:40 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:40 --> Input Class Initialized
+INFO - 2015-07-28 06:56:40 --> Language Class Initialized
+INFO - 2015-07-28 06:56:40 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:40 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:41 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:41 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:56:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:56:41 --> Model Class Initialized
+INFO - 2015-07-28 06:56:41 --> Model Class Initialized
+INFO - 2015-07-28 06:56:42 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:56:42 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:56:42 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:56:42 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:56:42 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:42 --> Total execution time: 1.7261
+INFO - 2015-07-28 06:56:42 --> Config Class Initialized
+INFO - 2015-07-28 06:56:42 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:42 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:42 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:42 --> URI Class Initialized
+INFO - 2015-07-28 06:56:42 --> Router Class Initialized
+INFO - 2015-07-28 06:56:42 --> Output Class Initialized
+INFO - 2015-07-28 06:56:42 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:42 --> Input Class Initialized
+INFO - 2015-07-28 06:56:42 --> Language Class Initialized
+INFO - 2015-07-28 06:56:42 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:42 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:42 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:43 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:43 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:43 --> Controller Class Initialized
+INFO - 2015-07-28 06:56:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:56:47 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:47 --> Total execution time: 5.5773
+INFO - 2015-07-28 06:56:54 --> Config Class Initialized
+INFO - 2015-07-28 06:56:54 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:54 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:54 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:54 --> URI Class Initialized
+INFO - 2015-07-28 06:56:54 --> Router Class Initialized
+INFO - 2015-07-28 06:56:54 --> Output Class Initialized
+INFO - 2015-07-28 06:56:54 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:54 --> Input Class Initialized
+INFO - 2015-07-28 06:56:54 --> Language Class Initialized
+INFO - 2015-07-28 06:56:54 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:54 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:54 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:56 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:56 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:56:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2015-07-28 06:56:56 --> Encryption class already loaded. Second attempt ignored.
+DEBUG - 2015-07-28 06:56:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:56:56 --> Model Class Initialized
+INFO - 2015-07-28 06:56:56 --> Model Class Initialized
+INFO - 2015-07-28 06:56:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:56:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:56:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:56:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfooditem.php
+INFO - 2015-07-28 06:56:57 --> Final output sent to browser
+DEBUG - 2015-07-28 06:56:57 --> Total execution time: 2.3471
+INFO - 2015-07-28 06:56:57 --> Config Class Initialized
+INFO - 2015-07-28 06:56:57 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:56:57 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:56:57 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:56:57 --> URI Class Initialized
+INFO - 2015-07-28 06:56:57 --> Router Class Initialized
+INFO - 2015-07-28 06:56:57 --> Output Class Initialized
+INFO - 2015-07-28 06:56:57 --> Security Class Initialized
+DEBUG - 2015-07-28 06:56:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:56:57 --> Input Class Initialized
+INFO - 2015-07-28 06:56:57 --> Language Class Initialized
+INFO - 2015-07-28 06:56:57 --> Loader Class Initialized
+INFO - 2015-07-28 06:56:57 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:56:57 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:56:58 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:56:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:56:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:56:58 --> Encryption Class Initialized
+INFO - 2015-07-28 06:56:58 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:02 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:02 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:02 --> Total execution time: 5.3063
+INFO - 2015-07-28 06:57:02 --> Config Class Initialized
+INFO - 2015-07-28 06:57:02 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:02 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:02 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:02 --> URI Class Initialized
+INFO - 2015-07-28 06:57:02 --> Router Class Initialized
+INFO - 2015-07-28 06:57:02 --> Output Class Initialized
+INFO - 2015-07-28 06:57:02 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:02 --> Input Class Initialized
+INFO - 2015-07-28 06:57:02 --> Language Class Initialized
+INFO - 2015-07-28 06:57:02 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:02 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:02 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:03 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:03 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:04 --> Config Class Initialized
+INFO - 2015-07-28 06:57:04 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:04 --> URI Class Initialized
+INFO - 2015-07-28 06:57:04 --> Router Class Initialized
+INFO - 2015-07-28 06:57:04 --> Output Class Initialized
+INFO - 2015-07-28 06:57:04 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:04 --> Input Class Initialized
+INFO - 2015-07-28 06:57:04 --> Language Class Initialized
+INFO - 2015-07-28 06:57:04 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:08 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:08 --> Total execution time: 5.5623
+INFO - 2015-07-28 06:57:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:08 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:08 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:57:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:57:08 --> Model Class Initialized
+INFO - 2015-07-28 06:57:08 --> Model Class Initialized
+INFO - 2015-07-28 06:57:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:57:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:57:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:57:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:57:08 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:08 --> Total execution time: 3.7342
+INFO - 2015-07-28 06:57:08 --> Config Class Initialized
+INFO - 2015-07-28 06:57:08 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:08 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:08 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:08 --> URI Class Initialized
+INFO - 2015-07-28 06:57:08 --> Router Class Initialized
+INFO - 2015-07-28 06:57:08 --> Output Class Initialized
+INFO - 2015-07-28 06:57:08 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:08 --> Input Class Initialized
+INFO - 2015-07-28 06:57:08 --> Language Class Initialized
+INFO - 2015-07-28 06:57:08 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:08 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:08 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:10 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:10 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:14 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:14 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:14 --> Total execution time: 6.1404
+INFO - 2015-07-28 06:57:14 --> Config Class Initialized
+INFO - 2015-07-28 06:57:14 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:14 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:14 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:14 --> URI Class Initialized
+INFO - 2015-07-28 06:57:14 --> Router Class Initialized
+INFO - 2015-07-28 06:57:14 --> Output Class Initialized
+INFO - 2015-07-28 06:57:14 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:14 --> Input Class Initialized
+INFO - 2015-07-28 06:57:14 --> Language Class Initialized
+INFO - 2015-07-28 06:57:14 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:14 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:14 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:16 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:16 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:21 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:21 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:21 --> Total execution time: 6.5154
+INFO - 2015-07-28 06:57:27 --> Config Class Initialized
+INFO - 2015-07-28 06:57:27 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:27 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:27 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:27 --> URI Class Initialized
+INFO - 2015-07-28 06:57:27 --> Router Class Initialized
+INFO - 2015-07-28 06:57:27 --> Output Class Initialized
+INFO - 2015-07-28 06:57:27 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:27 --> Input Class Initialized
+INFO - 2015-07-28 06:57:27 --> Language Class Initialized
+INFO - 2015-07-28 06:57:27 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:27 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:27 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:28 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:28 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:57:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:57:28 --> Model Class Initialized
+INFO - 2015-07-28 06:57:28 --> Model Class Initialized
+INFO - 2015-07-28 06:57:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:57:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:57:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:57:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:57:29 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:29 --> Total execution time: 1.6303
+INFO - 2015-07-28 06:57:29 --> Config Class Initialized
+INFO - 2015-07-28 06:57:29 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:29 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:29 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:29 --> URI Class Initialized
+INFO - 2015-07-28 06:57:29 --> Router Class Initialized
+INFO - 2015-07-28 06:57:29 --> Output Class Initialized
+INFO - 2015-07-28 06:57:29 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:29 --> Input Class Initialized
+INFO - 2015-07-28 06:57:29 --> Language Class Initialized
+INFO - 2015-07-28 06:57:29 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:29 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:29 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:30 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:30 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:30 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:35 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:35 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:35 --> Total execution time: 5.6653
+INFO - 2015-07-28 06:57:35 --> Config Class Initialized
+INFO - 2015-07-28 06:57:35 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:57:35 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:57:35 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:57:35 --> URI Class Initialized
+INFO - 2015-07-28 06:57:35 --> Router Class Initialized
+INFO - 2015-07-28 06:57:35 --> Output Class Initialized
+INFO - 2015-07-28 06:57:35 --> Security Class Initialized
+DEBUG - 2015-07-28 06:57:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:57:35 --> Input Class Initialized
+INFO - 2015-07-28 06:57:35 --> Language Class Initialized
+INFO - 2015-07-28 06:57:35 --> Loader Class Initialized
+INFO - 2015-07-28 06:57:35 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:57:35 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:57:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:57:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:57:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:57:36 --> Encryption Class Initialized
+INFO - 2015-07-28 06:57:36 --> Controller Class Initialized
+INFO - 2015-07-28 06:57:40 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:57:40 --> Final output sent to browser
+DEBUG - 2015-07-28 06:57:40 --> Total execution time: 5.4593
+INFO - 2015-07-28 06:58:44 --> Config Class Initialized
+INFO - 2015-07-28 06:58:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:58:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:58:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:58:44 --> URI Class Initialized
+INFO - 2015-07-28 06:58:44 --> Router Class Initialized
+INFO - 2015-07-28 06:58:44 --> Output Class Initialized
+INFO - 2015-07-28 06:58:44 --> Security Class Initialized
+DEBUG - 2015-07-28 06:58:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:58:44 --> Input Class Initialized
+INFO - 2015-07-28 06:58:44 --> Language Class Initialized
+INFO - 2015-07-28 06:58:44 --> Loader Class Initialized
+INFO - 2015-07-28 06:58:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:58:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:58:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:58:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:58:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:58:45 --> Encryption Class Initialized
+INFO - 2015-07-28 06:58:45 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:58:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:58:45 --> Model Class Initialized
+INFO - 2015-07-28 06:58:45 --> Model Class Initialized
+INFO - 2015-07-28 06:58:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:58:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:58:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:58:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:58:46 --> Final output sent to browser
+DEBUG - 2015-07-28 06:58:46 --> Total execution time: 1.6643
+INFO - 2015-07-28 06:58:46 --> Config Class Initialized
+INFO - 2015-07-28 06:58:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:58:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:58:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:58:46 --> URI Class Initialized
+INFO - 2015-07-28 06:58:46 --> Router Class Initialized
+INFO - 2015-07-28 06:58:46 --> Output Class Initialized
+INFO - 2015-07-28 06:58:46 --> Security Class Initialized
+DEBUG - 2015-07-28 06:58:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:58:46 --> Input Class Initialized
+INFO - 2015-07-28 06:58:46 --> Language Class Initialized
+INFO - 2015-07-28 06:58:46 --> Loader Class Initialized
+INFO - 2015-07-28 06:58:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:58:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:58:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:58:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:58:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:58:47 --> Encryption Class Initialized
+INFO - 2015-07-28 06:58:47 --> Controller Class Initialized
+INFO - 2015-07-28 06:58:49 --> Config Class Initialized
+INFO - 2015-07-28 06:58:49 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:58:49 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:58:49 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:58:49 --> URI Class Initialized
+INFO - 2015-07-28 06:58:49 --> Router Class Initialized
+INFO - 2015-07-28 06:58:49 --> Output Class Initialized
+INFO - 2015-07-28 06:58:49 --> Security Class Initialized
+DEBUG - 2015-07-28 06:58:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:58:49 --> Input Class Initialized
+INFO - 2015-07-28 06:58:49 --> Language Class Initialized
+INFO - 2015-07-28 06:58:49 --> Loader Class Initialized
+INFO - 2015-07-28 06:58:49 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:58:49 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:58:51 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:58:51 --> Final output sent to browser
+DEBUG - 2015-07-28 06:58:51 --> Total execution time: 5.4343
+INFO - 2015-07-28 06:58:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:58:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:58:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:58:51 --> Encryption Class Initialized
+INFO - 2015-07-28 06:58:51 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:58:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:58:51 --> Model Class Initialized
+INFO - 2015-07-28 06:58:51 --> Model Class Initialized
+INFO - 2015-07-28 06:58:51 --> Config Class Initialized
+INFO - 2015-07-28 06:58:51 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:58:51 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:58:51 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:58:51 --> URI Class Initialized
+INFO - 2015-07-28 06:58:51 --> Router Class Initialized
+INFO - 2015-07-28 06:58:51 --> Output Class Initialized
+INFO - 2015-07-28 06:58:51 --> Security Class Initialized
+DEBUG - 2015-07-28 06:58:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:58:51 --> Input Class Initialized
+INFO - 2015-07-28 06:58:51 --> Language Class Initialized
+INFO - 2015-07-28 06:58:51 --> Loader Class Initialized
+INFO - 2015-07-28 06:58:51 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:58:51 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:58:52 --> Final output sent to browser
+DEBUG - 2015-07-28 06:58:52 --> Total execution time: 2.6552
+INFO - 2015-07-28 06:58:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:58:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:58:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:58:53 --> Encryption Class Initialized
+INFO - 2015-07-28 06:58:53 --> Controller Class Initialized
+INFO - 2015-07-28 06:58:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:58:57 --> Final output sent to browser
+DEBUG - 2015-07-28 06:58:57 --> Total execution time: 5.4913
+INFO - 2015-07-28 06:58:58 --> Config Class Initialized
+INFO - 2015-07-28 06:58:58 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:58:58 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:58:58 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:58:58 --> URI Class Initialized
+INFO - 2015-07-28 06:58:58 --> Router Class Initialized
+INFO - 2015-07-28 06:58:58 --> Output Class Initialized
+INFO - 2015-07-28 06:58:58 --> Security Class Initialized
+DEBUG - 2015-07-28 06:58:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:58:58 --> Input Class Initialized
+INFO - 2015-07-28 06:58:58 --> Language Class Initialized
+INFO - 2015-07-28 06:58:58 --> Loader Class Initialized
+INFO - 2015-07-28 06:58:58 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:58:58 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:58:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:58:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:58:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:58:59 --> Encryption Class Initialized
+INFO - 2015-07-28 06:58:59 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:58:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:58:59 --> Model Class Initialized
+INFO - 2015-07-28 06:58:59 --> Model Class Initialized
+INFO - 2015-07-28 06:59:00 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:59:00 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:59:00 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:59:00 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:59:00 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:00 --> Total execution time: 1.7303
+INFO - 2015-07-28 06:59:00 --> Config Class Initialized
+INFO - 2015-07-28 06:59:00 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:00 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:00 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:00 --> URI Class Initialized
+INFO - 2015-07-28 06:59:00 --> Router Class Initialized
+INFO - 2015-07-28 06:59:00 --> Output Class Initialized
+INFO - 2015-07-28 06:59:00 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:00 --> Input Class Initialized
+INFO - 2015-07-28 06:59:00 --> Language Class Initialized
+INFO - 2015-07-28 06:59:00 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:00 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:00 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:01 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:01 --> Controller Class Initialized
+INFO - 2015-07-28 06:59:02 --> Config Class Initialized
+INFO - 2015-07-28 06:59:02 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:02 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:02 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:02 --> URI Class Initialized
+INFO - 2015-07-28 06:59:02 --> Router Class Initialized
+INFO - 2015-07-28 06:59:02 --> Output Class Initialized
+INFO - 2015-07-28 06:59:02 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:02 --> Input Class Initialized
+INFO - 2015-07-28 06:59:02 --> Language Class Initialized
+INFO - 2015-07-28 06:59:02 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:02 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:02 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:59:06 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:06 --> Total execution time: 5.9873
+INFO - 2015-07-28 06:59:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:06 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:06 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:59:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:59:06 --> Config Class Initialized
+INFO - 2015-07-28 06:59:06 --> Hooks Class Initialized
+INFO - 2015-07-28 06:59:06 --> Model Class Initialized
+INFO - 2015-07-28 06:59:06 --> Model Class Initialized
+DEBUG - 2015-07-28 06:59:06 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:06 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:06 --> URI Class Initialized
+INFO - 2015-07-28 06:59:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:59:06 --> Router Class Initialized
+INFO - 2015-07-28 06:59:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:59:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:59:06 --> Output Class Initialized
+ERROR - 2015-07-28 06:59:06 --> Severity: Notice --> Undefined variable: getFoodType C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it\addfoodcategory.php 154
+INFO - 2015-07-28 06:59:06 --> Security Class Initialized
+INFO - 2015-07-28 06:59:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addfoodcategory.php
+DEBUG - 2015-07-28 06:59:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:06 --> Input Class Initialized
+INFO - 2015-07-28 06:59:06 --> Language Class Initialized
+INFO - 2015-07-28 06:59:06 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:06 --> Total execution time: 3.8862
+INFO - 2015-07-28 06:59:06 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:06 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:06 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:06 --> Config Class Initialized
+INFO - 2015-07-28 06:59:06 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:06 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:06 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:06 --> URI Class Initialized
+INFO - 2015-07-28 06:59:06 --> Router Class Initialized
+INFO - 2015-07-28 06:59:06 --> Output Class Initialized
+INFO - 2015-07-28 06:59:06 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:06 --> Input Class Initialized
+INFO - 2015-07-28 06:59:06 --> Language Class Initialized
+INFO - 2015-07-28 06:59:06 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:06 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:06 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:07 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:07 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:07 --> Controller Class Initialized
+INFO - 2015-07-28 06:59:11 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:59:11 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:11 --> Total execution time: 5.2983
+INFO - 2015-07-28 06:59:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:11 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:11 --> Controller Class Initialized
+INFO - 2015-07-28 06:59:14 --> Config Class Initialized
+INFO - 2015-07-28 06:59:14 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:14 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:14 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:14 --> URI Class Initialized
+INFO - 2015-07-28 06:59:14 --> Router Class Initialized
+INFO - 2015-07-28 06:59:14 --> Output Class Initialized
+INFO - 2015-07-28 06:59:14 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:14 --> Input Class Initialized
+INFO - 2015-07-28 06:59:14 --> Language Class Initialized
+INFO - 2015-07-28 06:59:14 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:14 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:14 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:15 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:59:15 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:15 --> Total execution time: 9.2525
+INFO - 2015-07-28 06:59:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:15 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:15 --> Controller Class Initialized
+DEBUG - 2015-07-28 06:59:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 06:59:15 --> Model Class Initialized
+INFO - 2015-07-28 06:59:15 --> Model Class Initialized
+INFO - 2015-07-28 06:59:15 --> Config Class Initialized
+INFO - 2015-07-28 06:59:15 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:15 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:15 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:15 --> URI Class Initialized
+INFO - 2015-07-28 06:59:15 --> Router Class Initialized
+INFO - 2015-07-28 06:59:15 --> Output Class Initialized
+INFO - 2015-07-28 06:59:15 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:15 --> Input Class Initialized
+INFO - 2015-07-28 06:59:15 --> Language Class Initialized
+INFO - 2015-07-28 06:59:15 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:15 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:15 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:15 --> Model Class Initialized
+INFO - 2015-07-28 06:59:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 06:59:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 06:59:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 06:59:16 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 06:59:16 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:16 --> Total execution time: 2.1991
+INFO - 2015-07-28 06:59:16 --> Config Class Initialized
+INFO - 2015-07-28 06:59:16 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:16 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:16 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:16 --> URI Class Initialized
+INFO - 2015-07-28 06:59:16 --> Router Class Initialized
+INFO - 2015-07-28 06:59:16 --> Output Class Initialized
+INFO - 2015-07-28 06:59:16 --> Security Class Initialized
+DEBUG - 2015-07-28 06:59:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 06:59:16 --> Input Class Initialized
+INFO - 2015-07-28 06:59:16 --> Language Class Initialized
+INFO - 2015-07-28 06:59:16 --> Loader Class Initialized
+INFO - 2015-07-28 06:59:16 --> Helper loaded: url_helper
+INFO - 2015-07-28 06:59:16 --> Database Driver Class Initialized
+INFO - 2015-07-28 06:59:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:16 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:16 --> Controller Class Initialized
+INFO - 2015-07-28 06:59:19 --> Config Class Initialized
+INFO - 2015-07-28 06:59:19 --> Hooks Class Initialized
+DEBUG - 2015-07-28 06:59:19 --> UTF-8 Support Enabled
+INFO - 2015-07-28 06:59:19 --> Utf8 Class Initialized
+INFO - 2015-07-28 06:59:21 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:59:21 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:21 --> Total execution time: 5.5124
+INFO - 2015-07-28 06:59:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 06:59:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 06:59:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 06:59:21 --> Encryption Class Initialized
+INFO - 2015-07-28 06:59:21 --> Controller Class Initialized
+INFO - 2015-07-28 06:59:25 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 06:59:25 --> Final output sent to browser
+DEBUG - 2015-07-28 06:59:25 --> Total execution time: 8.8742
+INFO - 2015-07-28 07:00:21 --> Config Class Initialized
+INFO - 2015-07-28 07:00:21 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:21 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:21 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:21 --> URI Class Initialized
+INFO - 2015-07-28 07:00:21 --> Router Class Initialized
+INFO - 2015-07-28 07:00:21 --> Output Class Initialized
+INFO - 2015-07-28 07:00:21 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:21 --> Input Class Initialized
+INFO - 2015-07-28 07:00:21 --> Language Class Initialized
+INFO - 2015-07-28 07:00:21 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:21 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:21 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:25 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:25 --> Controller Class Initialized
+DEBUG - 2015-07-28 07:00:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 07:00:25 --> Model Class Initialized
+INFO - 2015-07-28 07:00:25 --> Model Class Initialized
+INFO - 2015-07-28 07:00:25 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 07:00:25 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 07:00:25 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 07:00:25 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 07:00:25 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:25 --> Total execution time: 4.5509
+INFO - 2015-07-28 07:00:25 --> Config Class Initialized
+INFO - 2015-07-28 07:00:25 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:25 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:25 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:25 --> URI Class Initialized
+INFO - 2015-07-28 07:00:25 --> Router Class Initialized
+INFO - 2015-07-28 07:00:25 --> Output Class Initialized
+INFO - 2015-07-28 07:00:25 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:25 --> Input Class Initialized
+INFO - 2015-07-28 07:00:25 --> Language Class Initialized
+INFO - 2015-07-28 07:00:25 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:25 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:25 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:27 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:27 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:30 --> Config Class Initialized
+INFO - 2015-07-28 07:00:30 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:30 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:30 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:30 --> URI Class Initialized
+INFO - 2015-07-28 07:00:30 --> Router Class Initialized
+INFO - 2015-07-28 07:00:30 --> Output Class Initialized
+INFO - 2015-07-28 07:00:30 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:30 --> Input Class Initialized
+INFO - 2015-07-28 07:00:30 --> Language Class Initialized
+INFO - 2015-07-28 07:00:30 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:30 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:30 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:31 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:31 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:31 --> Total execution time: 5.7483
+INFO - 2015-07-28 07:00:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:31 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:31 --> Controller Class Initialized
+DEBUG - 2015-07-28 07:00:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 07:00:31 --> Model Class Initialized
+INFO - 2015-07-28 07:00:31 --> Config Class Initialized
+INFO - 2015-07-28 07:00:31 --> Hooks Class Initialized
+INFO - 2015-07-28 07:00:31 --> Model Class Initialized
+DEBUG - 2015-07-28 07:00:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:31 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:31 --> URI Class Initialized
+INFO - 2015-07-28 07:00:31 --> Router Class Initialized
+INFO - 2015-07-28 07:00:31 --> Output Class Initialized
+INFO - 2015-07-28 07:00:31 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:31 --> Input Class Initialized
+INFO - 2015-07-28 07:00:31 --> Language Class Initialized
+INFO - 2015-07-28 07:00:31 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:31 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 07:00:31 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 07:00:31 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 07:00:31 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addfoodcategory.php
+INFO - 2015-07-28 07:00:31 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:31 --> Total execution time: 1.6071
+INFO - 2015-07-28 07:00:32 --> Config Class Initialized
+INFO - 2015-07-28 07:00:32 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:32 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:32 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:32 --> URI Class Initialized
+INFO - 2015-07-28 07:00:32 --> Router Class Initialized
+INFO - 2015-07-28 07:00:32 --> Output Class Initialized
+INFO - 2015-07-28 07:00:32 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:32 --> Input Class Initialized
+INFO - 2015-07-28 07:00:32 --> Language Class Initialized
+INFO - 2015-07-28 07:00:32 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:32 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:32 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:32 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:32 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:32 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:32 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:32 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:36 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:36 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:36 --> Total execution time: 5.3313
+INFO - 2015-07-28 07:00:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:36 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:36 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:38 --> Config Class Initialized
+INFO - 2015-07-28 07:00:38 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:38 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:38 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:38 --> URI Class Initialized
+INFO - 2015-07-28 07:00:38 --> Router Class Initialized
+INFO - 2015-07-28 07:00:38 --> Output Class Initialized
+INFO - 2015-07-28 07:00:38 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:38 --> Input Class Initialized
+INFO - 2015-07-28 07:00:38 --> Language Class Initialized
+INFO - 2015-07-28 07:00:38 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:38 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:38 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:40 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:40 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:40 --> Total execution time: 8.7525
+INFO - 2015-07-28 07:00:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:40 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:40 --> Controller Class Initialized
+DEBUG - 2015-07-28 07:00:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 07:00:40 --> Model Class Initialized
+INFO - 2015-07-28 07:00:40 --> Model Class Initialized
+INFO - 2015-07-28 07:00:40 --> Config Class Initialized
+INFO - 2015-07-28 07:00:40 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:40 --> URI Class Initialized
+INFO - 2015-07-28 07:00:40 --> Router Class Initialized
+INFO - 2015-07-28 07:00:40 --> Output Class Initialized
+INFO - 2015-07-28 07:00:40 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:40 --> Input Class Initialized
+INFO - 2015-07-28 07:00:40 --> Language Class Initialized
+INFO - 2015-07-28 07:00:40 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:40 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:41 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 07:00:41 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 07:00:41 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 07:00:41 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/listfoodcategory.php
+INFO - 2015-07-28 07:00:41 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:41 --> Total execution time: 3.1812
+INFO - 2015-07-28 07:00:41 --> Config Class Initialized
+INFO - 2015-07-28 07:00:41 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:41 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:41 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:41 --> URI Class Initialized
+INFO - 2015-07-28 07:00:41 --> Router Class Initialized
+INFO - 2015-07-28 07:00:41 --> Output Class Initialized
+INFO - 2015-07-28 07:00:41 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:41 --> Input Class Initialized
+INFO - 2015-07-28 07:00:41 --> Language Class Initialized
+INFO - 2015-07-28 07:00:41 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:41 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:41 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:41 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:41 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:43 --> Config Class Initialized
+INFO - 2015-07-28 07:00:43 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:43 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:43 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:43 --> URI Class Initialized
+INFO - 2015-07-28 07:00:43 --> Router Class Initialized
+INFO - 2015-07-28 07:00:43 --> Output Class Initialized
+INFO - 2015-07-28 07:00:43 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:43 --> Input Class Initialized
+INFO - 2015-07-28 07:00:43 --> Language Class Initialized
+INFO - 2015-07-28 07:00:43 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:43 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:43 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:46 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:46 --> Total execution time: 6.0623
+INFO - 2015-07-28 07:00:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:46 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:46 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:50 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:50 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:50 --> Total execution time: 9.1095
+INFO - 2015-07-28 07:00:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:50 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:50 --> Controller Class Initialized
+DEBUG - 2015-07-28 07:00:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2015-07-28 07:00:50 --> Model Class Initialized
+INFO - 2015-07-28 07:00:50 --> Config Class Initialized
+INFO - 2015-07-28 07:00:50 --> Model Class Initialized
+INFO - 2015-07-28 07:00:50 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:50 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:50 --> URI Class Initialized
+INFO - 2015-07-28 07:00:50 --> Router Class Initialized
+INFO - 2015-07-28 07:00:50 --> Output Class Initialized
+INFO - 2015-07-28 07:00:50 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:50 --> Input Class Initialized
+INFO - 2015-07-28 07:00:50 --> Language Class Initialized
+INFO - 2015-07-28 07:00:50 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:50 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_header.php
+INFO - 2015-07-28 07:00:50 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_sidebar.php
+INFO - 2015-07-28 07:00:50 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/_footer.php
+INFO - 2015-07-28 07:00:50 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\admin-kh4it/addfoodcategory.php
+INFO - 2015-07-28 07:00:50 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:50 --> Total execution time: 7.8274
+INFO - 2015-07-28 07:00:51 --> Config Class Initialized
+INFO - 2015-07-28 07:00:51 --> Hooks Class Initialized
+DEBUG - 2015-07-28 07:00:51 --> UTF-8 Support Enabled
+INFO - 2015-07-28 07:00:51 --> Utf8 Class Initialized
+INFO - 2015-07-28 07:00:51 --> URI Class Initialized
+INFO - 2015-07-28 07:00:51 --> Router Class Initialized
+INFO - 2015-07-28 07:00:51 --> Output Class Initialized
+INFO - 2015-07-28 07:00:51 --> Security Class Initialized
+DEBUG - 2015-07-28 07:00:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 07:00:51 --> Input Class Initialized
+INFO - 2015-07-28 07:00:51 --> Language Class Initialized
+INFO - 2015-07-28 07:00:51 --> Loader Class Initialized
+INFO - 2015-07-28 07:00:51 --> Helper loaded: url_helper
+INFO - 2015-07-28 07:00:51 --> Database Driver Class Initialized
+INFO - 2015-07-28 07:00:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:51 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:51 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:55 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:55 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:55 --> Total execution time: 4.6563
+INFO - 2015-07-28 07:00:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 07:00:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 07:00:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 07:00:55 --> Encryption Class Initialized
+INFO - 2015-07-28 07:00:55 --> Controller Class Initialized
+INFO - 2015-07-28 07:00:58 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 07:00:58 --> Final output sent to browser
+DEBUG - 2015-07-28 07:00:58 --> Total execution time: 7.8171

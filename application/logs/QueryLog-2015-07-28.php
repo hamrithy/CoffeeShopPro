@@ -5909,3 +5909,1977 @@ FROM `MENUS`
 WHERE `subof` = '12' 
  Execution Time:0.36001992225647
 
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.38302206993103
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.34701991081238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.32701802253723
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.3390200138092
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.29901695251465
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.31901812553406
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.30101799964905
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.28801608085632
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.34802007675171
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.28301596641541
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.27701592445374
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.3090181350708
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.32901906967163
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.3350191116333
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.34301996231079
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.32101798057556
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.32201910018921
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.31801819801331
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.33401894569397
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.35001993179321
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.35802102088928
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.36002087593079
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.29901695251465
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.32501912117004
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.30901718139648
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.32301902770996
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.34302020072937
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.29101610183716
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.31601881980896
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.31901788711548
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33301901817322
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.32501888275146
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.32101798057556
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.32301902770996
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.29701709747314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.29701709747314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.32001805305481
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.31901788711548
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.86604905128479
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.29701685905457
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.33201789855957
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.34601902961731
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33601999282837
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.33001899719238
+
+INSERT INTO `FOODTYPES` (`title`, `description`) VALUES ('Drink', '<p>I need a drink</p>  ') 
+ Execution Time:0.35601997375488
+
+INSERT INTO `MENUS` (`title`, `linkto`, `ordering`, `subof`) VALUES ('Drink', '/menu/foods/drink', '1', '3') 
+ Execution Time:0.35902094841003
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.35001993179321
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.33801889419556
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34801888465881
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.34401893615723
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.36802101135254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.32901787757874
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.35402083396912
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.34701991081238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.33901882171631
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.34301996231079
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.33401894569397
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.32301878929138
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.31001687049866
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.32801914215088
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.34602022171021
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.30101704597473
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.26901507377625
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.31301808357239
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.31001806259155
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.25801515579224
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.2980170249939
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.31601786613464
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.33101916313171
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.34302020072937
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.85604906082153
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.34101986885071
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.3370189666748
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34701991081238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.35301995277405
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.35202097892761
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.36802101135254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.34301900863647
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.38202118873596
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.32001900672913
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.31901812553406
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.38402199745178
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.33101916313171
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.38202214241028
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.38702201843262
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.30801677703857
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.28701710700989
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.28901600837708
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.28801584243774
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.29101705551147
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.30901694297791
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.30501699447632
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.2810161113739
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.26501512527466
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.26401495933533
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.22401309013367
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.27801585197449
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.36602091789246
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.35102009773254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34301996231079
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.29301595687866
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.31501793861389
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.29501700401306
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.30201697349548
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.30401682853699
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.31001710891724
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.32701897621155
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.32501888275146
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.32901906967163
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33601903915405
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.33701920509338
+
+INSERT INTO `FOODS` (`title`, `description`, `thumbnailurl`, `promotiontype`, `price`, `userid`, `foodtypeid`, `seotitle`, `seodescription`) VALUES ('Meal', '<p>test</p>  ', 'http://localhost/coffeeshoppro/public/upload/sandwiches-fried-bacon.jpg', '2', '12.2', '1', '33', 'test', 'test') 
+ Execution Time:0.38302206993103
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.37702202796936
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.32601809501648
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.33801913261414
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.31501793861389
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.32001900672913
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.32701802253723
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.2810161113739
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.29001688957214
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.29101586341858
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.2980170249939
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.30101704597473
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.30601716041565
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.31201791763306
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.35302090644836
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34301900863647
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.31101703643799
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.34402012825012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.32401895523071
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.35102009773254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.35102009773254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.34402012825012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.26701498031616
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.28601717948914
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.29201602935791
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.29201602935791
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.31801795959473
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.3650209903717
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.37502217292786
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.3520200252533
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.34402012825012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.35901999473572
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.35902094841003
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.36102104187012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.3650209903717
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.37102103233337
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.35201978683472
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.35902094841003
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33201885223389
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.33301901817322
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.54603099822998
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:1.0510601997375
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.26401495933533
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.27301502227783
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.29701685905457
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.33201885223389
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.33101916313171
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.34701991081238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.36802101135254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.30301809310913
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.34501910209656
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.35702085494995
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.32401895523071
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.35301995277405
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34402012825012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.30001711845398
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.31601810455322
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.30501818656921
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.3110179901123
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.3240180015564
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.35602116584778
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.3260178565979
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.35701990127563
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.31801795959473
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.3260190486908
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.31201791763306
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.30301785469055
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34001898765564
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.3390200138092
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.30501699447632
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.34902000427246
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.30301785469055
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.32901883125305
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.2980170249939
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.30801820755005
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.30801701545715
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.31801819801331
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33001804351807
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.34001898765564
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.34201908111572
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.30501794815063
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.32301902770996
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.28001594543457
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.30501699447632
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.32101893424988
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.32501816749573
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.33101892471313
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.34201979637146
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.33901882171631
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.30901718139648
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.2980170249939
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.29701709747314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.28901696205139
+
+DELETE FROM `FOODTYPES`
+WHERE `foodtypeid` = '33' 
+ Execution Time:0.35202097892761
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.3240180015564
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.3370189666748
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.33101892471313
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.31201791763306
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.33401894569397
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.33501887321472
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.27301597595215
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.27801585197449
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.26701593399048
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.2980170249939
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.33101892471313
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.33301901817322
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.31901884078979
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.3370201587677
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.35502004623413
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.3260190486908
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.33201909065247
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.35301995277405
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.34402012825012
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.36802101135254
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.37002110481262
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.35502004623413
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.37102103233337
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.3630211353302
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.37402105331421
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.36601996421814
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.25001406669617
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.28001618385315
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.28901696205139
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.33001899719238
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.31001806259155
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.30901789665222
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.3240180015564
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.31401801109314
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.31701803207397
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.32701778411865
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.34701991081238
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.35702013969421
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.27701616287231
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.28801703453064
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.27701616287231
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.27701497077942
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.27601504325867
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.31501793861389
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.37502098083496
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.3650209903717
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.27701592445374
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.29501676559448
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.34502005577087
+
+INSERT INTO `FOODTYPES` (`title`, `description`) VALUES ('Drink', '<p>Yeah i need it.</p>  ') 
+ Execution Time:0.26001501083374
+
+INSERT INTO `MENUS` (`title`, `linkto`, `ordering`, `subof`) VALUES ('Drink', '/menu/foods/drink', '1', '3') 
+ Execution Time:0.26001501083374
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.26001501083374
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.28401589393616
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.27601504325867
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.277015209198
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.27701616287231
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.31801891326904
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.27601504325867
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.27701497077942
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.34800696372986
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.31260395050049
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.28080105781555
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.37440013885498
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.35880088806152
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.26520109176636
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.31200003623962
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.24960088729858
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.31200003623962
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.29640102386475
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.28080010414124
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.24960088729858
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.26520013809204
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.3626070022583
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.35880088806152
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.31400012969971
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.32760095596313
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.35879993438721
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.31200098991394
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.26301503181458
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.34101915359497
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.34202003479004
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.30301713943481
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.35502004623413
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.3260190486908
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.32001805305481
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.35402011871338
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.31701803207397
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.30201721191406
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.30701684951782
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.30901789665222
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.27701592445374
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.32301902770996
+
+SELECT *
+FROM `FOODTYPES`
+WHERE `foodtypeid` = '34' 
+ Execution Time:0.30501794815063
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.30501794815063
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.28601598739624
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.2480149269104
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.29301595687866
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.29401588439941
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.26301503181458
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.29401612281799
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.30801796913147
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.29401707649231
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.29301714897156
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.30301713943481
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.29001712799072
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.29201698303223
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.30501699447632
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.28301596641541
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.2810161113739
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.23301315307617
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.30201816558838
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.28301620483398
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.2810161113739
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.23201298713684
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.27701497077942
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.28801584243774
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.32101798057556
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.2740159034729
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.29001712799072
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.23201298713684
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.23301386833191
+
+UPDATE `FOODTYPES` SET `title` = 'Drink', `description` = '<p>Yeah i need it very much.</p>  ', `foodtypeid` = '34'
+WHERE `foodtypeid` = '34' 
+ Execution Time:0.32001805305481
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC 
+ Execution Time:0.29501700401306
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:1.0650610923767
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.33901906013489
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.34001994132996
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.27601599693298
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.30601716041565
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.28601717948914
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.25901484489441
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.30301690101624
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.29101705551147
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.26201510429382
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.25901508331299
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.31001806259155
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.30901718139648
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.25901508331299
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.25801515579224
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.28801703453064
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.29401707649231
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.25701522827148
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.29201602935791
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.25701498985291
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.27201581001282
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.25901508331299
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.25601410865784
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.25601387023926
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.25701498985291
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.25601506233215
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.25701498985291
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.25701403617859
+
+SELECT *
+FROM `FOODTYPES`
+WHERE `foodtypeid` = '34' 
+ Execution Time:0.27701592445374
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.25501394271851
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.25401401519775
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.25401520729065
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.25401401519775
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.2550151348114
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.25401520729065
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.25501394271851
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.25401401519775
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.25501489639282
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.25401401519775
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.25401496887207
+
+SELECT *
+FROM `MENUS` 
+ Execution Time:0.25501489639282
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '2' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '3' 
+ Execution Time:0.25601387023926
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '16' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '17' 
+ Execution Time:0.25401496887207
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '18' 
+ Execution Time:0.25380301475525
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '19' 
+ Execution Time:0.24960088729858
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '20' 
+ Execution Time:0.24959993362427
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '21' 
+ Execution Time:0.25160098075867
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '22' 
+ Execution Time:0.24959993362427
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '4' 
+ Execution Time:0.24959993362427
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '5' 
+ Execution Time:0.26520109176636
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '6' 
+ Execution Time:0.24959993362427
+
+SELECT `menuid`
+FROM `MENUS`
+WHERE `subof` = '12' 
+ Execution Time:0.24960088729858
+

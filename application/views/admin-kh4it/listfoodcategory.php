@@ -111,7 +111,7 @@
 									<td><?php echo $row->title; ?></td>
 									<td>
 										<button  value="<?php  echo $row->foodtypeid; ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
-										<a href='<?php  echo site_url()?>/admin/foodcategory/actionGetFoodType/"++"' class='btn btn-primary' >Update</a>
+										<a href='<?php  echo site_url()?>/admin/foodcategory/actionGetFoodType/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>
 									</td>
 								</tr>
 								<?php } ?>
@@ -213,20 +213,6 @@
 				$.post('<?php  echo site_url()?>/admin/foodcategory/actiondeleteFoodtype/'+btn.value, function(){
 					var row = btn.parentNode.parentNode;
 					row.parentNode.removeChild(row);
-				$.ajax({
-					type: "POST",
-					url: '<?php echo site_url()?>/admin/foodcategory/actionDeleteFoodType/'+btn.value,
-					dataType: 'json',
-					success: function(data){
-						if(data == "success"){
-							showRecords();
-						}else{
-							alert('Can not delete cause of problem!');
-						}
-					},
-					error: function(data){
-						alert( "Your food category cannot delete. If you want to delete it please delete the food first in that food category." );
-					}
 				});
 			}
 		}	
