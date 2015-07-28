@@ -105,13 +105,13 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<input type="text" required class="form-control" name="title" id="title"/>
+										<input type="text" required class="form-control" required name="title" id="title"/>
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Description<span class="required">*</span></label>
 									<div class="col-lg-10">
-										<textarea class="form-control" name="description" id="description"></textarea>
+										<textarea class="form-control" name="description" required id="description"></textarea>
 									</div>
 								</div>
 								

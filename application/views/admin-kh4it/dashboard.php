@@ -105,7 +105,7 @@
 					<div class="row">
 						<div class="col-xs-6">
 							<div class="tiles facebook-tile text-center">
-								<i class="fa fa-user icon-lg-size"></i>
+								<i class="fa fa-cutlery icon-lg-size"></i>
 								<h4>
 									<a href="#"><?php echo $countFoods; ?> Foods</a>
 								</h4>
@@ -115,7 +115,7 @@
 						<!-- /.col-xs-6 -->
 						<div class="col-xs-6">
 							<div class="tiles twitter-tile text-center">
-								<i class="fa fa-toggle-right icon-lg-size"></i>
+								<i class="fa fa-dashboard icon-lg-size"></i>
 								<h4>
 									<a href="#"><?php echo $countFoodCategories; ?> Categories</a>
 								</h4>
@@ -135,7 +135,7 @@
 						<!-- /.col-xs-6 -->
 						<div class="col-xs-6">
 							<div class="tiles linkedin-tile text-center">
-								<i class="fa fa-film icon-lg-size"></i>
+								<i class="fa fa-credit-card icon-lg-size"></i>
 								<h4>
 									<a href="#"><?php echo $countPages; ?> Pages</a>
 								</h4>
@@ -149,7 +149,7 @@
 
 
 					<h4 class="small-title">
-						<strong><i class="fa fa-users"></i>Recent Post</strong>
+						<strong><i class="fa  fa-cutlery"></i>Recent Post</strong>
 					</h4>
 
 				

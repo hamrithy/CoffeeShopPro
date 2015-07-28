@@ -49,8 +49,7 @@
 			$this->DtoMenu->setOrdering("1");
 			$this->DtoMenu->setSubof("3");
 			$this->DaoMenu->addMenu($this->DtoMenu);
-			
-			$this->index();
+			$this->listFoodType();
 		}
 
 		public function actionGetFoodType($id){
