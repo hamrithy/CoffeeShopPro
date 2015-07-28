@@ -7883,3 +7883,363 @@ FROM `MENUS`
 WHERE `subof` = '12' 
  Execution Time:0.24960088729858
 
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `title` ASC 
+ Execution Time:0.29830098152161
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.29143190383911
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.29006886482239
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid`
+WHERE `A`.`foodid` = '8' 
+ Execution Time:0.30693292617798
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.29077816009521
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.27841711044312
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.264976978302
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.23362898826599
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.24314379692078
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.28354620933533
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '1'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.28650498390198
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid`
+WHERE `A`.`foodid` = '7' 
+ Execution Time:0.24115490913391
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid`
+WHERE `A`.`foodid` = '8' 
+ Execution Time:0.22580289840698
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.28962397575378
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.31999206542969
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.31927084922791
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.26716589927673
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '1'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.26334691047668
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.3212878704071
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.32740998268127
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.32766509056091
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.23721694946289
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.25219011306763
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.26227188110352
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.27368497848511
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '1'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.27851390838623
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.28996992111206
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.33605694770813
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.25943183898926
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.25794196128845
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.25553011894226
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.22573804855347
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.25964117050171
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.25493597984314
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '1'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.27685379981995
+
+SELECT *
+FROM `FOODTYPES`
+ORDER BY `title` ASC 
+ Execution Time:0.27611207962036
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.28842401504517
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.27621793746948
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.30830693244934
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.25870609283447
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.25819110870361
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.24097418785095
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.28436398506165
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.26524901390076
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.25456500053406
+
+SELECT `p`.`pageid`, `p`.`title`, `p`.`body`, `u`.`userid`, `u`.`username`
+FROM `PAGES` `p`
+JOIN `USERS` `u` ON `p`.`userid` = `u`.`userid`
+WHERE replace(LOWER(p.title),' ','') = 'aboutus'
+ LIMIT 1 
+ Execution Time:0.27882790565491
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.27969408035278
+
+SELECT `p`.`postid`, `p`.`title`, `p`.`shortdescription`, `p`.`longdescription`, `p`.`postdate`, `p`.`thumbnailurl`, `u`.`userid`, `u`.`username`
+FROM `POSTS` `p`
+JOIN `USERS` `u` ON `p`.`userid` = `u`.`userid`
+ORDER BY `postid` DESC 
+ Execution Time:0.32006788253784
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.28955721855164
+
+SELECT `p`.`postid`, `p`.`title`, `p`.`shortdescription`, `p`.`longdescription`, `p`.`postdate`, `p`.`thumbnailurl`, `u`.`userid`, `u`.`username`
+FROM `POSTS` `p`
+JOIN `USERS` `u` ON `p`.`userid` = `u`.`userid`
+WHERE `p`.`title` LIKE '%%' ESCAPE '!'
+ORDER BY `postid` DESC
+ LIMIT 5 
+ Execution Time:0.28634691238403
+
+SELECT `foodid`, `title`, `description`, `thumbnailurl`, `promotiontype`, `price`
+FROM `FOODS`
+ORDER BY `foodid` DESC
+ LIMIT 5 
+ Execution Time:0.26225805282593
+
+SELECT `foodtypeid`, `title`, `description`
+FROM `FOODTYPES`
+ORDER BY `foodtypeid` DESC
+ LIMIT 5 
+ Execution Time:0.28847289085388
+
+SELECT `p`.`postid`, `p`.`title`, `p`.`shortdescription`, `p`.`longdescription`, `p`.`postdate`, `p`.`thumbnailurl`, `u`.`userid`, `u`.`username`
+FROM `POSTS` `p`
+JOIN `USERS` `u` ON `p`.`userid` = `u`.`userid`
+WHERE `p`.`title` LIKE '%%' ESCAPE '!'
+ORDER BY `postid` DESC
+ LIMIT 7 
+ Execution Time:0.25659203529358
+
+SELECT `p`.`postid`, `p`.`title`, `p`.`shortdescription`, `p`.`longdescription`, `p`.`postdate`, `p`.`thumbnailurl`, `u`.`userid`, `u`.`username`
+FROM `POSTS` `p`
+JOIN `USERS` `u` ON `p`.`userid` = `u`.`userid`
+ORDER BY `postid` DESC 
+ Execution Time:0.2619800567627
+
+SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title 
+ Execution Time:0.23438405990601
+
+SELECT `A`.`foodid`, `A`.`title` As `food_title`, `A`.`description` As `food_description`, `A`.`foodtypeid`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`, `B`.`title` As `foodtype_title`, `B`.`description` As `footype_description`
+FROM `FOODS` `A`
+JOIN `FOODTYPES` `B` ON `A`.`foodtypeid`=`B`.`foodtypeid` 
+ Execution Time:0.23407506942749
+
+SELECT DISTINCT(A.menuid),A.title, A.linkto, A.ordering, A.subof, A.status,(CASE WHEN B.menuid IS NOT NULL THEN 1 ELSE 0 END) AS parent 
+			    FROM MENUS A 
+				LEFT JOIN (SELECT menuid, subof FROM MENUS) B 
+				ON A.menuid = B.subof
+				ORDER BY A.subof,A.ordering 
+ Execution Time:0.23372602462769
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '1'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.28674387931824
+
+SELECT `s`.`serviceid`, `s`.`title`, `s`.`description`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`
+FROM `SERVICES` `s`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.26333808898926
+
+SELECT `s`.`slideid`, `s`.`title`, `s`.`caption`, `s`.`linkto`, `s`.`imageurl`, `s`.`ordering`, `u`.`userid`, `u`.`username`
+FROM `SLIDES` `s`
+JOIN `USERS` `u` ON `s`.`userid` = `u`.`userid`
+ORDER BY `s`.`ordering` DESC 
+ Execution Time:0.25527095794678
+
+SELECT `A`.`foodid`, `A`.`title`, `A`.`description`, `A`.`thumbnailurl`, `A`.`promotiontype`, `A`.`price`, `A`.`userid`
+FROM `FOODS` `A`
+WHERE `A`.`promotiontype` = '2'
+ORDER BY `A`.`foodid` DESC
+ LIMIT 1 
+ Execution Time:0.24746012687683
+

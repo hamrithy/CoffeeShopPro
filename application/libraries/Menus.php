@@ -6,7 +6,7 @@ class Menus{
 	private $menuId 	= 'id="main_navigation_bar" class="main-nav to-right responsive-nav"';
 	private $classMenu  = 'clean-list clearfix';
 	private $classParent= '';
-	private $tableName = 'MENUS';
+	//private $tableName = 'MENUS';
 
 	function __construct(){
 		$this->CI = & get_instance();
