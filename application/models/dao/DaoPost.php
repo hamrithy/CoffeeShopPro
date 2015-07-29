@@ -47,10 +47,11 @@ class DaoPost extends CI_Model{
 		return $query->result();
 	}
 
-	public function getAllPostCount(){
+	public function getAllPostCount($search=''){
 		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription , p.postdate , p.thumbnailurl ,  u.userid , u.username');
 		$this->db->from('POSTS p');
 		$this->db->join('USERS u', 'p.userid = u.userid');
+		$this->db->like('p.title', $search);
 		$this->db->order_by("postid", "desc");
 		$query = $this->db->get();
 		return $query->num_rows();
@@ -64,6 +65,16 @@ class DaoPost extends CI_Model{
 		$this->db->order_by("postid", "desc");
 		$query = $this->db->get();
 		return $query->result();
+	}
+
+	public function getPostById(DtoPost $p){
+		$this->db->select('p.postid , p.title , p.shortdescription , p.longdescription  ,p.seotitle,p.seodescription, p.postdate , p.thumbnailurl , u.userid , u.username');
+		$this->db->from('POSTS p');
+		$this->db->join('USERS u', 'p.userid = u.userid');
+		$this->db->where('postid',$p->getPostid());
+		$this->db->order_by("postid", "desc");
+		$query = $this->db->get();
+		return $query->row();
 	}
 	
 	public function deletePost(DtoPost $p){
