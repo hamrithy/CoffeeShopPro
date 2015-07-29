@@ -216,21 +216,6 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
 		
-		function deleteData(btn){
-			if (confirm("Are you sure you want to delete?") == true) {
-				btn.disabled = true;
-				btn.previousElementSibling.style.display = 'inline';
-				btn.nextElementSibling.setAttribute("disabled", "disabled");
-				$.post('<?php  echo site_url()?>/admin/menu/deletemenu/'+btn.value,function(){
-					var row = btn.parentNode.parentNode;
-					row.parentNode.removeChild(row);
-				});
-			} 
-		}
-		
-		
-		</script>
 	</body>
 </html>

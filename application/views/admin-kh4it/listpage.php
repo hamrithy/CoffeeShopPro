@@ -217,19 +217,7 @@
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 		
-	<script type="text/javascript">
-		function deleteData(btn){
-			if (confirm("Are you sure you want to delete?") == true) {
-				btn.disabled = true;
-				btn.previousElementSibling.style.display = 'inline';
-				btn.nextElementSibling.setAttribute("disabled", "disabled");
-				$.post('<?php  echo site_url()?>/admin/page/deletepage/'+btn.value,function(){
-					var row = btn.parentNode.parentNode;
-					row.parentNode.removeChild(row);
-				});
-			}
-		}	
-	</script>	
+
 		
 	</body>
 </html>

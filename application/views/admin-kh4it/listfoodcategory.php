@@ -207,15 +207,6 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		<script>
-		function deleteData(btn){
-			if (confirm("Are you sure you want to delete?") == true) {
-				$.post('<?php  echo site_url()?>/admin/foodcategory/actiondeleteFoodtype/'+btn.value, function(){
-					var row = btn.parentNode.parentNode;
-					row.parentNode.removeChild(row);
-				});
-			}
-		}	
-		</script>
+		
 	</body>
 </html>

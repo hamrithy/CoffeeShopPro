@@ -226,17 +226,6 @@
 			    } ); 
 		    } 
 		); 
-
-		function deletedata(btn){
-			if (confirm("Are you sure you want to delete?") == true) {
-				$.post('<?php  echo site_url()?>/admin/service/deleteServicePro/'+btn.value ,function(data){
-					var row = btn.parentNode.parentNode;
-					row.parentNode.removeChild(row);
-				});
-			} 
-		}
-		
-		
 		</script>
 	</body>
 </html>
