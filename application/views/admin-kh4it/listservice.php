@@ -120,7 +120,7 @@
 									<td><?php echo $s->linkto; ?></td>							
 									<td><?php echo $s->ordering; ?></td>
 									<td>
-										<a  href="<?php echo site_url()?>/admin/service/deleteservicepro/<?php echo $s->serviceid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> 
+										<a href="<?php echo site_url()?>/admin/service/deleteservicepro/<?php echo $s->serviceid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> 
 										<a href="<?php  echo site_url()?>/admin/service/getService/<?php  echo $s->serviceid ?>" class="btn btn-primary" >Update</a>
 									</td>
 								</tr>
