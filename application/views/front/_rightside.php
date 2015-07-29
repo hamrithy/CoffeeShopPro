@@ -2,12 +2,13 @@
 
                                 <div class="widget widget-item widget_search">
                                 	
-                                    <form class="search-form" id="search-form" action="<?php echo site_url()?>/blog" role="search" method="get">
+                                    <!-- <form class="search-form" id="search-form" action="<?php echo site_url()?>/blog" role="search" method="get"> -->
+                                    <form class="search-form" action="<?php echo site_url()?>/blog" role="search" method="get">
                                         <div class="submit-wrap1" style="content: ''">
                                             <input type="submit" class="search-button search-submit submit" id="btnSubmit" value="">
                                         </div>
                                         <div class="search-wrap ovh">
-                                           <input type="text" placeholder="Search" name="search" id="SEARCHWORD" class="search-line opacity">
+                                            <input type="text" placeholder="Search" required="required" name="search" class="search-line opacity">
                                         </div>
                                     </form>
                                 </div>

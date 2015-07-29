@@ -42,10 +42,8 @@
                 <div class="margin-top padding-top">
                     <div class="row no-margin">
                     
-                 			   
-                   				
-                   				
-                        <div class="col-md-9 no-padding ">
+                                   				
+                        <div class="col-md-9 no-padding " id="CONTENT">
                       	  
                        		 <span id="top"></span>
                         
@@ -246,6 +244,13 @@
                 });
             }
         };
+        
+        <?php 
+                $search = "";
+                if (!empty($_GET)) {
+                    $search = $_GET["search"]; 
+                }
+        ?>
 		
        // pagination.init(1,15,300);                 
       	
@@ -267,7 +272,7 @@
                     data: {
                         perPage: 7,
                         pageNo: _pageNo,
-                        search: searchWord
+                        search: '<?php echo $search ?>'
                     },
                     success: function(data){
                         pagination.init(_pageNo,7,data.total);  
@@ -298,10 +303,10 @@
             }
             fillData();
 
-            $("#search-form").submit(function(e){
+            /*$("#search-form").submit(function(e){
                 e.preventDefault();
                 fillData(1,$("#SEARCHWORD").val());
-            });
+            });*/
        });     
 
 
