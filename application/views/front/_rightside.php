@@ -8,7 +8,7 @@
                                             <input type="submit" class="search-button search-submit submit" id="btnSubmit" value="">
                                         </div>
                                         <div class="search-wrap ovh">
-                                            <input type="text" placeholder="Search" required="required" name="search" class="search-line opacity">
+                                            <input type="text" placeholder="Search"  name="search" class="search-line opacity">
                                         </div>
                                     </form>
                                 </div>
