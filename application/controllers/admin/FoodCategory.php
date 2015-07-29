@@ -33,6 +33,7 @@
 
 		public function actionDeleteFoodType($id){
 			$this->DaoFoodType->deleteFoodType($id);
+			redirect("admin/foodcategory");
 		}
 		
 		public function actionAddFoodType(){
@@ -49,7 +50,7 @@
 			$this->DtoMenu->setOrdering("1");
 			$this->DtoMenu->setSubof("3");
 			$this->DaoMenu->addMenu($this->DtoMenu);
-			$this->listFoodType();
+			redirect("admin/foodcategory");
 		}
 
 		public function actionGetFoodType($id){
@@ -62,7 +63,7 @@
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
 			$status = $this->DaoFoodType->updateFoodType($this->DtoFoodType);
-			$this->index();
+			redirect("admin/foodcategory");
 		}
 	}
 

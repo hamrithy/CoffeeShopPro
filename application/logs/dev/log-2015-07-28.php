@@ -6785,3 +6785,2998 @@ INFO - 2015-07-28 09:07:01 --> Model Class Initialized
 INFO - 2015-07-28 09:07:01 --> Model Class Initialized
 INFO - 2015-07-28 09:07:01 --> Final output sent to browser
 DEBUG - 2015-07-28 09:07:01 --> Total execution time: 3.3544
+INFO - 2015-07-28 18:02:06 --> Config Class Initialized
+INFO - 2015-07-28 18:02:06 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:02:06 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:06 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:02:06 --> URI Class Initialized
+DEBUG - 2015-07-28 18:02:06 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:02:06 --> Router Class Initialized
+INFO - 2015-07-28 18:02:06 --> Output Class Initialized
+INFO - 2015-07-28 18:02:06 --> Security Class Initialized
+DEBUG - 2015-07-28 18:02:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:06 --> Input Class Initialized
+INFO - 2015-07-28 18:02:06 --> Language Class Initialized
+INFO - 2015-07-28 18:02:06 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:06 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:06 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:02:23 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:02:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:02:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:02:23 --> Encryption Class Initialized
+INFO - 2015-07-28 18:02:23 --> Controller Class Initialized
+INFO - 2015-07-28 18:02:23 --> Model Class Initialized
+INFO - 2015-07-28 18:02:23 --> Model Class Initialized
+INFO - 2015-07-28 18:02:23 --> Model Class Initialized
+INFO - 2015-07-28 18:02:24 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:02:24 --> Final output sent to browser
+DEBUG - 2015-07-28 18:02:24 --> Total execution time: 17.8472
+INFO - 2015-07-28 18:02:25 --> Config Class Initialized
+INFO - 2015-07-28 18:02:25 --> Config Class Initialized
+INFO - 2015-07-28 18:02:25 --> Hooks Class Initialized
+INFO - 2015-07-28 18:02:25 --> Hooks Class Initialized
+INFO - 2015-07-28 18:02:25 --> Config Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:25 --> Hooks Class Initialized
+INFO - 2015-07-28 18:02:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:25 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:02:25 --> URI Class Initialized
+INFO - 2015-07-28 18:02:25 --> Config Class Initialized
+INFO - 2015-07-28 18:02:25 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:25 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:02:25 --> Router Class Initialized
+INFO - 2015-07-28 18:02:25 --> URI Class Initialized
+INFO - 2015-07-28 18:02:25 --> Output Class Initialized
+INFO - 2015-07-28 18:02:25 --> URI Class Initialized
+INFO - 2015-07-28 18:02:25 --> Router Class Initialized
+INFO - 2015-07-28 18:02:25 --> Security Class Initialized
+INFO - 2015-07-28 18:02:25 --> Output Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:25 --> Input Class Initialized
+INFO - 2015-07-28 18:02:25 --> Router Class Initialized
+INFO - 2015-07-28 18:02:25 --> Language Class Initialized
+INFO - 2015-07-28 18:02:25 --> Security Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:25 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:02:25 --> Output Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:25 --> Input Class Initialized
+INFO - 2015-07-28 18:02:25 --> URI Class Initialized
+INFO - 2015-07-28 18:02:25 --> Language Class Initialized
+INFO - 2015-07-28 18:02:25 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:25 --> Router Class Initialized
+INFO - 2015-07-28 18:02:25 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:25 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:25 --> Output Class Initialized
+INFO - 2015-07-28 18:02:25 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:25 --> Security Class Initialized
+INFO - 2015-07-28 18:02:25 --> Security Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:25 --> Input Class Initialized
+DEBUG - 2015-07-28 18:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:25 --> Input Class Initialized
+INFO - 2015-07-28 18:02:25 --> Language Class Initialized
+INFO - 2015-07-28 18:02:25 --> Language Class Initialized
+INFO - 2015-07-28 18:02:25 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:02:25 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:25 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:25 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:02:25 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:25 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:25 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:02:25 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:02:35 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:02:35 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:02:35 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:02:35 --> Encryption Class Initialized
+INFO - 2015-07-28 18:02:35 --> Controller Class Initialized
+INFO - 2015-07-28 18:02:35 --> Model Class Initialized
+INFO - 2015-07-28 18:02:35 --> Model Class Initialized
+INFO - 2015-07-28 18:02:35 --> Final output sent to browser
+DEBUG - 2015-07-28 18:02:35 --> Total execution time: 10.3860
+INFO - 2015-07-28 18:02:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:02:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:02:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:02:38 --> Encryption Class Initialized
+INFO - 2015-07-28 18:02:38 --> Controller Class Initialized
+INFO - 2015-07-28 18:02:38 --> Model Class Initialized
+INFO - 2015-07-28 18:02:38 --> Model Class Initialized
+INFO - 2015-07-28 18:02:39 --> Final output sent to browser
+DEBUG - 2015-07-28 18:02:39 --> Total execution time: 14.0765
+INFO - 2015-07-28 18:02:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:02:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:02:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:02:39 --> Encryption Class Initialized
+INFO - 2015-07-28 18:02:39 --> Controller Class Initialized
+INFO - 2015-07-28 18:02:39 --> Model Class Initialized
+INFO - 2015-07-28 18:02:39 --> Model Class Initialized
+INFO - 2015-07-28 18:02:40 --> Final output sent to browser
+DEBUG - 2015-07-28 18:02:40 --> Total execution time: 14.7106
+INFO - 2015-07-28 18:02:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:02:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:02:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:02:41 --> Encryption Class Initialized
+INFO - 2015-07-28 18:02:41 --> Controller Class Initialized
+INFO - 2015-07-28 18:02:41 --> Model Class Initialized
+INFO - 2015-07-28 18:02:41 --> Model Class Initialized
+INFO - 2015-07-28 18:02:42 --> Final output sent to browser
+DEBUG - 2015-07-28 18:02:42 --> Total execution time: 16.6371
+INFO - 2015-07-28 18:02:44 --> Config Class Initialized
+INFO - 2015-07-28 18:02:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:02:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:02:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:02:44 --> URI Class Initialized
+INFO - 2015-07-28 18:02:44 --> Router Class Initialized
+INFO - 2015-07-28 18:02:44 --> Output Class Initialized
+INFO - 2015-07-28 18:02:44 --> Security Class Initialized
+DEBUG - 2015-07-28 18:02:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:02:44 --> Input Class Initialized
+INFO - 2015-07-28 18:02:44 --> Language Class Initialized
+INFO - 2015-07-28 18:02:44 --> Loader Class Initialized
+INFO - 2015-07-28 18:02:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:02:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:03:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:03:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:03:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:03:06 --> Encryption Class Initialized
+INFO - 2015-07-28 18:03:06 --> Controller Class Initialized
+INFO - 2015-07-28 18:03:06 --> Model Class Initialized
+INFO - 2015-07-28 18:03:06 --> Model Class Initialized
+INFO - 2015-07-28 18:03:06 --> Model Class Initialized
+INFO - 2015-07-28 18:03:06 --> Model Class Initialized
+INFO - 2015-07-28 18:03:07 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:03:07 --> Final output sent to browser
+DEBUG - 2015-07-28 18:03:07 --> Total execution time: 22.4792
+INFO - 2015-07-28 18:03:08 --> Config Class Initialized
+INFO - 2015-07-28 18:03:08 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:03:08 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:03:08 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:03:08 --> URI Class Initialized
+INFO - 2015-07-28 18:03:08 --> Config Class Initialized
+INFO - 2015-07-28 18:03:08 --> Hooks Class Initialized
+INFO - 2015-07-28 18:03:08 --> Router Class Initialized
+DEBUG - 2015-07-28 18:03:08 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:03:08 --> Output Class Initialized
+INFO - 2015-07-28 18:03:08 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:03:08 --> URI Class Initialized
+INFO - 2015-07-28 18:03:08 --> Security Class Initialized
+INFO - 2015-07-28 18:03:08 --> Router Class Initialized
+DEBUG - 2015-07-28 18:03:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:03:08 --> Input Class Initialized
+INFO - 2015-07-28 18:03:08 --> Language Class Initialized
+INFO - 2015-07-28 18:03:08 --> Output Class Initialized
+INFO - 2015-07-28 18:03:08 --> Security Class Initialized
+INFO - 2015-07-28 18:03:08 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:03:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:03:08 --> Input Class Initialized
+INFO - 2015-07-28 18:03:08 --> Language Class Initialized
+INFO - 2015-07-28 18:03:08 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:03:08 --> Loader Class Initialized
+INFO - 2015-07-28 18:03:08 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:03:08 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:03:08 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:03:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:03:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:03:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:03:14 --> Encryption Class Initialized
+INFO - 2015-07-28 18:03:14 --> Controller Class Initialized
+INFO - 2015-07-28 18:03:14 --> Model Class Initialized
+INFO - 2015-07-28 18:03:14 --> Model Class Initialized
+INFO - 2015-07-28 18:03:14 --> Model Class Initialized
+INFO - 2015-07-28 18:03:14 --> Model Class Initialized
+DEBUG - 2015-07-28 18:03:14 --> 7 0
+INFO - 2015-07-28 18:03:15 --> Final output sent to browser
+DEBUG - 2015-07-28 18:03:15 --> Total execution time: 6.9053
+INFO - 2015-07-28 18:03:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:03:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:03:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:03:15 --> Encryption Class Initialized
+INFO - 2015-07-28 18:03:15 --> Controller Class Initialized
+INFO - 2015-07-28 18:03:15 --> Model Class Initialized
+INFO - 2015-07-28 18:03:15 --> Model Class Initialized
+INFO - 2015-07-28 18:03:15 --> Model Class Initialized
+INFO - 2015-07-28 18:03:15 --> Model Class Initialized
+DEBUG - 2015-07-28 18:03:15 --> 5 0
+INFO - 2015-07-28 18:03:16 --> Final output sent to browser
+DEBUG - 2015-07-28 18:03:16 --> Total execution time: 8.3405
+INFO - 2015-07-28 18:03:21 --> Config Class Initialized
+INFO - 2015-07-28 18:03:21 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:03:21 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:03:21 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:03:21 --> URI Class Initialized
+INFO - 2015-07-28 18:03:21 --> Router Class Initialized
+INFO - 2015-07-28 18:03:21 --> Output Class Initialized
+INFO - 2015-07-28 18:03:21 --> Security Class Initialized
+DEBUG - 2015-07-28 18:03:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:03:21 --> Input Class Initialized
+INFO - 2015-07-28 18:03:21 --> Language Class Initialized
+INFO - 2015-07-28 18:03:21 --> Loader Class Initialized
+INFO - 2015-07-28 18:03:21 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:03:21 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:03:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:03:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:03:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:03:27 --> Encryption Class Initialized
+INFO - 2015-07-28 18:03:27 --> Controller Class Initialized
+INFO - 2015-07-28 18:03:27 --> Model Class Initialized
+INFO - 2015-07-28 18:03:27 --> Model Class Initialized
+INFO - 2015-07-28 18:03:27 --> Model Class Initialized
+INFO - 2015-07-28 18:03:27 --> Model Class Initialized
+INFO - 2015-07-28 18:03:28 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/post.php
+INFO - 2015-07-28 18:03:28 --> Final output sent to browser
+DEBUG - 2015-07-28 18:03:28 --> Total execution time: 7.0391
+INFO - 2015-07-28 18:03:28 --> Config Class Initialized
+INFO - 2015-07-28 18:03:28 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:03:28 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:03:28 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:03:29 --> URI Class Initialized
+INFO - 2015-07-28 18:03:29 --> Router Class Initialized
+INFO - 2015-07-28 18:03:29 --> Output Class Initialized
+INFO - 2015-07-28 18:03:29 --> Security Class Initialized
+DEBUG - 2015-07-28 18:03:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:03:29 --> Input Class Initialized
+INFO - 2015-07-28 18:03:29 --> Language Class Initialized
+INFO - 2015-07-28 18:03:29 --> Loader Class Initialized
+INFO - 2015-07-28 18:03:29 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:03:29 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:03:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:03:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:03:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:03:38 --> Encryption Class Initialized
+INFO - 2015-07-28 18:03:38 --> Controller Class Initialized
+INFO - 2015-07-28 18:03:38 --> Model Class Initialized
+INFO - 2015-07-28 18:03:38 --> Model Class Initialized
+INFO - 2015-07-28 18:03:38 --> Model Class Initialized
+INFO - 2015-07-28 18:03:38 --> Model Class Initialized
+DEBUG - 2015-07-28 18:03:38 --> 5 0
+INFO - 2015-07-28 18:03:39 --> Final output sent to browser
+DEBUG - 2015-07-28 18:03:39 --> Total execution time: 10.5921
+INFO - 2015-07-28 18:03:53 --> Config Class Initialized
+INFO - 2015-07-28 18:03:53 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:03:53 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:03:53 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:03:53 --> URI Class Initialized
+INFO - 2015-07-28 18:03:53 --> Router Class Initialized
+INFO - 2015-07-28 18:03:53 --> Output Class Initialized
+INFO - 2015-07-28 18:03:53 --> Security Class Initialized
+DEBUG - 2015-07-28 18:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:03:53 --> Input Class Initialized
+INFO - 2015-07-28 18:03:53 --> Language Class Initialized
+INFO - 2015-07-28 18:03:53 --> Loader Class Initialized
+INFO - 2015-07-28 18:03:53 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:03:53 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:04:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:04:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:04:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:04:10 --> Encryption Class Initialized
+INFO - 2015-07-28 18:04:10 --> Controller Class Initialized
+INFO - 2015-07-28 18:04:10 --> Model Class Initialized
+INFO - 2015-07-28 18:04:10 --> Model Class Initialized
+INFO - 2015-07-28 18:04:10 --> Model Class Initialized
+INFO - 2015-07-28 18:04:10 --> Model Class Initialized
+INFO - 2015-07-28 18:04:12 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:04:12 --> Final output sent to browser
+DEBUG - 2015-07-28 18:04:12 --> Total execution time: 18.6151
+INFO - 2015-07-28 18:04:12 --> Config Class Initialized
+INFO - 2015-07-28 18:04:12 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:04:12 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:04:12 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:04:12 --> Config Class Initialized
+INFO - 2015-07-28 18:04:12 --> Hooks Class Initialized
+INFO - 2015-07-28 18:04:12 --> URI Class Initialized
+INFO - 2015-07-28 18:04:12 --> Router Class Initialized
+DEBUG - 2015-07-28 18:04:12 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:04:12 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:04:12 --> Output Class Initialized
+INFO - 2015-07-28 18:04:12 --> URI Class Initialized
+INFO - 2015-07-28 18:04:12 --> Security Class Initialized
+INFO - 2015-07-28 18:04:12 --> Router Class Initialized
+DEBUG - 2015-07-28 18:04:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:04:12 --> Input Class Initialized
+INFO - 2015-07-28 18:04:12 --> Output Class Initialized
+INFO - 2015-07-28 18:04:12 --> Language Class Initialized
+INFO - 2015-07-28 18:04:12 --> Security Class Initialized
+DEBUG - 2015-07-28 18:04:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:04:12 --> Loader Class Initialized
+INFO - 2015-07-28 18:04:12 --> Input Class Initialized
+INFO - 2015-07-28 18:04:12 --> Language Class Initialized
+INFO - 2015-07-28 18:04:12 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:04:12 --> Loader Class Initialized
+INFO - 2015-07-28 18:04:12 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:04:12 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:04:12 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:04:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:04:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:04:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:04:28 --> Encryption Class Initialized
+INFO - 2015-07-28 18:04:28 --> Controller Class Initialized
+INFO - 2015-07-28 18:04:28 --> Model Class Initialized
+INFO - 2015-07-28 18:04:28 --> Model Class Initialized
+INFO - 2015-07-28 18:04:28 --> Model Class Initialized
+INFO - 2015-07-28 18:04:28 --> Model Class Initialized
+DEBUG - 2015-07-28 18:04:28 --> 7 0
+INFO - 2015-07-28 18:04:28 --> Final output sent to browser
+DEBUG - 2015-07-28 18:04:28 --> Total execution time: 16.2829
+INFO - 2015-07-28 18:04:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:04:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:04:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:04:29 --> Encryption Class Initialized
+INFO - 2015-07-28 18:04:29 --> Controller Class Initialized
+INFO - 2015-07-28 18:04:29 --> Model Class Initialized
+INFO - 2015-07-28 18:04:29 --> Model Class Initialized
+INFO - 2015-07-28 18:04:29 --> Model Class Initialized
+INFO - 2015-07-28 18:04:29 --> Model Class Initialized
+DEBUG - 2015-07-28 18:04:29 --> 5 0
+INFO - 2015-07-28 18:04:30 --> Final output sent to browser
+DEBUG - 2015-07-28 18:04:30 --> Total execution time: 18.0155
+INFO - 2015-07-28 18:04:47 --> Config Class Initialized
+INFO - 2015-07-28 18:04:47 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:04:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:04:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:04:47 --> URI Class Initialized
+INFO - 2015-07-28 18:04:47 --> Router Class Initialized
+INFO - 2015-07-28 18:04:47 --> Output Class Initialized
+INFO - 2015-07-28 18:04:47 --> Security Class Initialized
+DEBUG - 2015-07-28 18:04:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:04:47 --> Input Class Initialized
+INFO - 2015-07-28 18:04:47 --> Language Class Initialized
+INFO - 2015-07-28 18:04:47 --> Loader Class Initialized
+INFO - 2015-07-28 18:04:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:04:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:05:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:05:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:05:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:05:02 --> Encryption Class Initialized
+INFO - 2015-07-28 18:05:02 --> Controller Class Initialized
+INFO - 2015-07-28 18:05:02 --> Model Class Initialized
+INFO - 2015-07-28 18:05:02 --> Model Class Initialized
+INFO - 2015-07-28 18:05:02 --> Model Class Initialized
+INFO - 2015-07-28 18:05:02 --> Model Class Initialized
+DEBUG - 2015-07-28 18:05:02 --> 7 0
+INFO - 2015-07-28 18:05:02 --> Final output sent to browser
+DEBUG - 2015-07-28 18:05:02 --> Total execution time: 15.1273
+INFO - 2015-07-28 18:05:08 --> Config Class Initialized
+INFO - 2015-07-28 18:05:08 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:05:08 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:05:08 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:05:08 --> URI Class Initialized
+INFO - 2015-07-28 18:05:08 --> Router Class Initialized
+INFO - 2015-07-28 18:05:08 --> Output Class Initialized
+INFO - 2015-07-28 18:05:08 --> Security Class Initialized
+DEBUG - 2015-07-28 18:05:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:05:08 --> Input Class Initialized
+INFO - 2015-07-28 18:05:08 --> Language Class Initialized
+INFO - 2015-07-28 18:05:08 --> Loader Class Initialized
+INFO - 2015-07-28 18:05:08 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:05:08 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:05:19 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:05:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:05:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:05:19 --> Encryption Class Initialized
+INFO - 2015-07-28 18:05:19 --> Controller Class Initialized
+INFO - 2015-07-28 18:05:19 --> Model Class Initialized
+INFO - 2015-07-28 18:05:19 --> Model Class Initialized
+INFO - 2015-07-28 18:05:19 --> Model Class Initialized
+INFO - 2015-07-28 18:05:19 --> Model Class Initialized
+DEBUG - 2015-07-28 18:05:19 --> 7 0
+INFO - 2015-07-28 18:05:20 --> Final output sent to browser
+DEBUG - 2015-07-28 18:05:20 --> Total execution time: 12.2763
+INFO - 2015-07-28 18:05:33 --> Config Class Initialized
+INFO - 2015-07-28 18:05:33 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:05:33 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:05:33 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:05:33 --> URI Class Initialized
+INFO - 2015-07-28 18:05:33 --> Router Class Initialized
+INFO - 2015-07-28 18:05:33 --> Output Class Initialized
+INFO - 2015-07-28 18:05:33 --> Security Class Initialized
+DEBUG - 2015-07-28 18:05:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:05:33 --> Input Class Initialized
+INFO - 2015-07-28 18:05:33 --> Language Class Initialized
+INFO - 2015-07-28 18:05:33 --> Loader Class Initialized
+INFO - 2015-07-28 18:05:33 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:05:33 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:05:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:05:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:05:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:05:45 --> Encryption Class Initialized
+INFO - 2015-07-28 18:05:45 --> Controller Class Initialized
+INFO - 2015-07-28 18:05:45 --> Model Class Initialized
+INFO - 2015-07-28 18:05:45 --> Model Class Initialized
+INFO - 2015-07-28 18:05:45 --> Model Class Initialized
+INFO - 2015-07-28 18:05:45 --> Model Class Initialized
+INFO - 2015-07-28 18:05:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:05:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:05:46 --> Total execution time: 12.2949
+INFO - 2015-07-28 18:05:46 --> Config Class Initialized
+INFO - 2015-07-28 18:05:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:05:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:05:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:05:46 --> URI Class Initialized
+INFO - 2015-07-28 18:05:46 --> Router Class Initialized
+INFO - 2015-07-28 18:05:46 --> Config Class Initialized
+INFO - 2015-07-28 18:05:46 --> Hooks Class Initialized
+INFO - 2015-07-28 18:05:46 --> Output Class Initialized
+INFO - 2015-07-28 18:05:46 --> Security Class Initialized
+DEBUG - 2015-07-28 18:05:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:05:46 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:05:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:05:46 --> Input Class Initialized
+INFO - 2015-07-28 18:05:46 --> URI Class Initialized
+INFO - 2015-07-28 18:05:46 --> Language Class Initialized
+INFO - 2015-07-28 18:05:46 --> Router Class Initialized
+INFO - 2015-07-28 18:05:46 --> Output Class Initialized
+INFO - 2015-07-28 18:05:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:05:46 --> Security Class Initialized
+INFO - 2015-07-28 18:05:46 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:05:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:05:46 --> Input Class Initialized
+INFO - 2015-07-28 18:05:46 --> Language Class Initialized
+INFO - 2015-07-28 18:05:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:05:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:05:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:05:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:05:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:05:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:05:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:05:54 --> Encryption Class Initialized
+INFO - 2015-07-28 18:05:54 --> Controller Class Initialized
+INFO - 2015-07-28 18:05:54 --> Model Class Initialized
+INFO - 2015-07-28 18:05:54 --> Model Class Initialized
+INFO - 2015-07-28 18:05:54 --> Model Class Initialized
+INFO - 2015-07-28 18:05:54 --> Model Class Initialized
+DEBUG - 2015-07-28 18:05:54 --> 5 0
+INFO - 2015-07-28 18:05:55 --> Final output sent to browser
+DEBUG - 2015-07-28 18:05:55 --> Total execution time: 9.2789
+INFO - 2015-07-28 18:05:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:05:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:05:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:05:55 --> Encryption Class Initialized
+INFO - 2015-07-28 18:05:55 --> Controller Class Initialized
+INFO - 2015-07-28 18:05:55 --> Model Class Initialized
+INFO - 2015-07-28 18:05:55 --> Model Class Initialized
+INFO - 2015-07-28 18:05:55 --> Model Class Initialized
+INFO - 2015-07-28 18:05:55 --> Model Class Initialized
+DEBUG - 2015-07-28 18:05:55 --> 7 0
+INFO - 2015-07-28 18:05:56 --> Final output sent to browser
+DEBUG - 2015-07-28 18:05:56 --> Total execution time: 10.1033
+INFO - 2015-07-28 18:06:04 --> Config Class Initialized
+INFO - 2015-07-28 18:06:04 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:06:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:06:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:06:04 --> URI Class Initialized
+INFO - 2015-07-28 18:06:04 --> Router Class Initialized
+INFO - 2015-07-28 18:06:04 --> Output Class Initialized
+INFO - 2015-07-28 18:06:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:06:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:06:04 --> Input Class Initialized
+INFO - 2015-07-28 18:06:04 --> Language Class Initialized
+INFO - 2015-07-28 18:06:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:06:05 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:06:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:06:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:06:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:06:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:06:14 --> Encryption Class Initialized
+INFO - 2015-07-28 18:06:14 --> Controller Class Initialized
+INFO - 2015-07-28 18:06:14 --> Model Class Initialized
+INFO - 2015-07-28 18:06:14 --> Model Class Initialized
+INFO - 2015-07-28 18:06:14 --> Model Class Initialized
+INFO - 2015-07-28 18:06:14 --> Model Class Initialized
+INFO - 2015-07-28 18:06:15 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/post.php
+INFO - 2015-07-28 18:06:15 --> Final output sent to browser
+DEBUG - 2015-07-28 18:06:15 --> Total execution time: 10.1886
+INFO - 2015-07-28 18:06:15 --> Config Class Initialized
+INFO - 2015-07-28 18:06:15 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:06:15 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:06:15 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:06:15 --> URI Class Initialized
+INFO - 2015-07-28 18:06:15 --> Router Class Initialized
+INFO - 2015-07-28 18:06:15 --> Output Class Initialized
+INFO - 2015-07-28 18:06:15 --> Security Class Initialized
+DEBUG - 2015-07-28 18:06:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:06:15 --> Input Class Initialized
+INFO - 2015-07-28 18:06:15 --> Language Class Initialized
+INFO - 2015-07-28 18:06:15 --> Loader Class Initialized
+INFO - 2015-07-28 18:06:15 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:06:15 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:06:30 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:06:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:06:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:06:30 --> Encryption Class Initialized
+INFO - 2015-07-28 18:06:30 --> Controller Class Initialized
+INFO - 2015-07-28 18:06:30 --> Model Class Initialized
+INFO - 2015-07-28 18:06:30 --> Model Class Initialized
+INFO - 2015-07-28 18:06:30 --> Model Class Initialized
+INFO - 2015-07-28 18:06:30 --> Model Class Initialized
+DEBUG - 2015-07-28 18:06:30 --> 5 0
+INFO - 2015-07-28 18:06:31 --> Final output sent to browser
+DEBUG - 2015-07-28 18:06:31 --> Total execution time: 15.8412
+INFO - 2015-07-28 18:06:46 --> Config Class Initialized
+INFO - 2015-07-28 18:06:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:06:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:06:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:06:46 --> URI Class Initialized
+INFO - 2015-07-28 18:06:46 --> Router Class Initialized
+INFO - 2015-07-28 18:06:46 --> Output Class Initialized
+INFO - 2015-07-28 18:06:46 --> Security Class Initialized
+DEBUG - 2015-07-28 18:06:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:06:46 --> Input Class Initialized
+INFO - 2015-07-28 18:06:46 --> Language Class Initialized
+INFO - 2015-07-28 18:06:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:06:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:06:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:07:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:07:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:07:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:07:03 --> Encryption Class Initialized
+INFO - 2015-07-28 18:07:03 --> Controller Class Initialized
+INFO - 2015-07-28 18:07:03 --> Model Class Initialized
+INFO - 2015-07-28 18:07:03 --> Model Class Initialized
+INFO - 2015-07-28 18:07:03 --> Model Class Initialized
+INFO - 2015-07-28 18:07:03 --> Model Class Initialized
+INFO - 2015-07-28 18:07:04 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:07:04 --> Final output sent to browser
+DEBUG - 2015-07-28 18:07:04 --> Total execution time: 17.2749
+INFO - 2015-07-28 18:07:04 --> Config Class Initialized
+INFO - 2015-07-28 18:07:04 --> Hooks Class Initialized
+INFO - 2015-07-28 18:07:04 --> Config Class Initialized
+DEBUG - 2015-07-28 18:07:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:07:04 --> Hooks Class Initialized
+INFO - 2015-07-28 18:07:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:07:04 --> URI Class Initialized
+DEBUG - 2015-07-28 18:07:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:07:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:07:04 --> Router Class Initialized
+INFO - 2015-07-28 18:07:04 --> URI Class Initialized
+INFO - 2015-07-28 18:07:04 --> Output Class Initialized
+INFO - 2015-07-28 18:07:04 --> Router Class Initialized
+INFO - 2015-07-28 18:07:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:07:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:07:04 --> Output Class Initialized
+INFO - 2015-07-28 18:07:04 --> Input Class Initialized
+INFO - 2015-07-28 18:07:04 --> Language Class Initialized
+INFO - 2015-07-28 18:07:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:07:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:07:04 --> Input Class Initialized
+INFO - 2015-07-28 18:07:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:07:04 --> Language Class Initialized
+INFO - 2015-07-28 18:07:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:07:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:07:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:07:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:07:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:07:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:07:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:07:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:07:11 --> Encryption Class Initialized
+INFO - 2015-07-28 18:07:11 --> Controller Class Initialized
+INFO - 2015-07-28 18:07:11 --> Model Class Initialized
+INFO - 2015-07-28 18:07:11 --> Model Class Initialized
+INFO - 2015-07-28 18:07:11 --> Model Class Initialized
+INFO - 2015-07-28 18:07:11 --> Model Class Initialized
+DEBUG - 2015-07-28 18:07:11 --> 5 0
+INFO - 2015-07-28 18:07:13 --> Final output sent to browser
+DEBUG - 2015-07-28 18:07:13 --> Total execution time: 8.6054
+INFO - 2015-07-28 18:07:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:07:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:07:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:07:17 --> Encryption Class Initialized
+INFO - 2015-07-28 18:07:17 --> Controller Class Initialized
+INFO - 2015-07-28 18:07:17 --> Model Class Initialized
+INFO - 2015-07-28 18:07:17 --> Model Class Initialized
+INFO - 2015-07-28 18:07:17 --> Model Class Initialized
+INFO - 2015-07-28 18:07:17 --> Model Class Initialized
+DEBUG - 2015-07-28 18:07:17 --> 7 0
+INFO - 2015-07-28 18:07:18 --> Final output sent to browser
+DEBUG - 2015-07-28 18:07:18 --> Total execution time: 14.0638
+INFO - 2015-07-28 18:08:19 --> Config Class Initialized
+INFO - 2015-07-28 18:08:19 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:08:19 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:08:19 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:08:19 --> URI Class Initialized
+INFO - 2015-07-28 18:08:19 --> Router Class Initialized
+INFO - 2015-07-28 18:08:19 --> Output Class Initialized
+INFO - 2015-07-28 18:08:19 --> Security Class Initialized
+DEBUG - 2015-07-28 18:08:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:08:19 --> Input Class Initialized
+INFO - 2015-07-28 18:08:19 --> Language Class Initialized
+INFO - 2015-07-28 18:08:19 --> Loader Class Initialized
+INFO - 2015-07-28 18:08:19 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:08:19 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:08:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:08:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:08:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:08:28 --> Encryption Class Initialized
+INFO - 2015-07-28 18:08:28 --> Controller Class Initialized
+INFO - 2015-07-28 18:08:28 --> Model Class Initialized
+INFO - 2015-07-28 18:08:28 --> Model Class Initialized
+INFO - 2015-07-28 18:08:28 --> Model Class Initialized
+INFO - 2015-07-28 18:08:28 --> Model Class Initialized
+DEBUG - 2015-07-28 18:08:28 --> 7 0
+INFO - 2015-07-28 18:08:29 --> Final output sent to browser
+DEBUG - 2015-07-28 18:08:29 --> Total execution time: 10.5358
+INFO - 2015-07-28 18:10:10 --> Config Class Initialized
+INFO - 2015-07-28 18:10:10 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:10:10 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:10:10 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:10:10 --> URI Class Initialized
+INFO - 2015-07-28 18:10:10 --> Router Class Initialized
+INFO - 2015-07-28 18:10:10 --> Output Class Initialized
+INFO - 2015-07-28 18:10:10 --> Security Class Initialized
+DEBUG - 2015-07-28 18:10:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:10:11 --> Input Class Initialized
+INFO - 2015-07-28 18:10:11 --> Language Class Initialized
+INFO - 2015-07-28 18:10:11 --> Loader Class Initialized
+INFO - 2015-07-28 18:10:11 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:10:11 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:10:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:10:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:10:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:10:18 --> Encryption Class Initialized
+INFO - 2015-07-28 18:10:18 --> Controller Class Initialized
+INFO - 2015-07-28 18:10:18 --> Model Class Initialized
+INFO - 2015-07-28 18:10:18 --> Model Class Initialized
+INFO - 2015-07-28 18:10:18 --> Model Class Initialized
+INFO - 2015-07-28 18:10:18 --> Model Class Initialized
+INFO - 2015-07-28 18:10:20 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:10:20 --> Final output sent to browser
+DEBUG - 2015-07-28 18:10:20 --> Total execution time: 9.7135
+INFO - 2015-07-28 18:10:20 --> Config Class Initialized
+INFO - 2015-07-28 18:10:20 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:10:20 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:10:20 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:10:20 --> Config Class Initialized
+INFO - 2015-07-28 18:10:20 --> Hooks Class Initialized
+INFO - 2015-07-28 18:10:20 --> URI Class Initialized
+INFO - 2015-07-28 18:10:20 --> Router Class Initialized
+DEBUG - 2015-07-28 18:10:20 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:10:20 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:10:20 --> Output Class Initialized
+INFO - 2015-07-28 18:10:20 --> URI Class Initialized
+INFO - 2015-07-28 18:10:20 --> Security Class Initialized
+INFO - 2015-07-28 18:10:20 --> Router Class Initialized
+DEBUG - 2015-07-28 18:10:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:10:20 --> Input Class Initialized
+INFO - 2015-07-28 18:10:20 --> Language Class Initialized
+INFO - 2015-07-28 18:10:20 --> Output Class Initialized
+INFO - 2015-07-28 18:10:20 --> Security Class Initialized
+INFO - 2015-07-28 18:10:20 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:10:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:10:20 --> Input Class Initialized
+INFO - 2015-07-28 18:10:20 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:10:20 --> Language Class Initialized
+INFO - 2015-07-28 18:10:20 --> Loader Class Initialized
+INFO - 2015-07-28 18:10:20 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:10:20 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:10:20 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:10:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:10:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:10:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:10:31 --> Encryption Class Initialized
+INFO - 2015-07-28 18:10:31 --> Controller Class Initialized
+INFO - 2015-07-28 18:10:31 --> Model Class Initialized
+INFO - 2015-07-28 18:10:31 --> Model Class Initialized
+INFO - 2015-07-28 18:10:31 --> Model Class Initialized
+INFO - 2015-07-28 18:10:31 --> Model Class Initialized
+DEBUG - 2015-07-28 18:10:31 --> 5 0
+INFO - 2015-07-28 18:10:33 --> Final output sent to browser
+DEBUG - 2015-07-28 18:10:33 --> Total execution time: 13.0274
+INFO - 2015-07-28 18:10:33 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:10:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:10:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:10:33 --> Encryption Class Initialized
+INFO - 2015-07-28 18:10:33 --> Controller Class Initialized
+INFO - 2015-07-28 18:10:33 --> Model Class Initialized
+INFO - 2015-07-28 18:10:33 --> Model Class Initialized
+INFO - 2015-07-28 18:10:33 --> Model Class Initialized
+INFO - 2015-07-28 18:10:33 --> Model Class Initialized
+DEBUG - 2015-07-28 18:10:33 --> 7 0
+INFO - 2015-07-28 18:10:38 --> Final output sent to browser
+DEBUG - 2015-07-28 18:10:38 --> Total execution time: 17.1459
+INFO - 2015-07-28 18:10:39 --> Config Class Initialized
+INFO - 2015-07-28 18:10:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:10:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:10:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:10:39 --> URI Class Initialized
+INFO - 2015-07-28 18:10:39 --> Router Class Initialized
+INFO - 2015-07-28 18:10:39 --> Output Class Initialized
+INFO - 2015-07-28 18:10:39 --> Security Class Initialized
+DEBUG - 2015-07-28 18:10:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:10:39 --> Input Class Initialized
+INFO - 2015-07-28 18:10:39 --> Language Class Initialized
+INFO - 2015-07-28 18:10:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:10:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:10:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:10:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:10:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:10:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:10:50 --> Encryption Class Initialized
+INFO - 2015-07-28 18:10:50 --> Controller Class Initialized
+INFO - 2015-07-28 18:10:50 --> Model Class Initialized
+INFO - 2015-07-28 18:10:50 --> Model Class Initialized
+INFO - 2015-07-28 18:10:50 --> Model Class Initialized
+INFO - 2015-07-28 18:10:50 --> Model Class Initialized
+INFO - 2015-07-28 18:10:51 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/post.php
+INFO - 2015-07-28 18:10:51 --> Final output sent to browser
+DEBUG - 2015-07-28 18:10:51 --> Total execution time: 12.0028
+INFO - 2015-07-28 18:10:52 --> Config Class Initialized
+INFO - 2015-07-28 18:10:52 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:10:52 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:10:52 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:10:52 --> URI Class Initialized
+INFO - 2015-07-28 18:10:52 --> Router Class Initialized
+INFO - 2015-07-28 18:10:52 --> Output Class Initialized
+INFO - 2015-07-28 18:10:52 --> Security Class Initialized
+DEBUG - 2015-07-28 18:10:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:10:52 --> Input Class Initialized
+INFO - 2015-07-28 18:10:52 --> Language Class Initialized
+INFO - 2015-07-28 18:10:52 --> Loader Class Initialized
+INFO - 2015-07-28 18:10:52 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:10:52 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:11:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:11:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:11:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:11:08 --> Encryption Class Initialized
+INFO - 2015-07-28 18:11:08 --> Controller Class Initialized
+INFO - 2015-07-28 18:11:08 --> Model Class Initialized
+INFO - 2015-07-28 18:11:08 --> Model Class Initialized
+INFO - 2015-07-28 18:11:08 --> Model Class Initialized
+INFO - 2015-07-28 18:11:08 --> Model Class Initialized
+DEBUG - 2015-07-28 18:11:08 --> 5 0
+INFO - 2015-07-28 18:11:09 --> Final output sent to browser
+DEBUG - 2015-07-28 18:11:09 --> Total execution time: 17.0666
+INFO - 2015-07-28 18:14:18 --> Config Class Initialized
+INFO - 2015-07-28 18:14:18 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:14:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:14:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:14:18 --> URI Class Initialized
+INFO - 2015-07-28 18:14:18 --> Router Class Initialized
+INFO - 2015-07-28 18:14:18 --> Output Class Initialized
+INFO - 2015-07-28 18:14:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:14:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:14:18 --> Input Class Initialized
+INFO - 2015-07-28 18:14:18 --> Language Class Initialized
+INFO - 2015-07-28 18:14:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:14:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:14:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:14:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:14:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:14:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:14:31 --> Encryption Class Initialized
+INFO - 2015-07-28 18:14:31 --> Controller Class Initialized
+INFO - 2015-07-28 18:14:31 --> Model Class Initialized
+INFO - 2015-07-28 18:14:31 --> Model Class Initialized
+INFO - 2015-07-28 18:14:31 --> Model Class Initialized
+INFO - 2015-07-28 18:14:31 --> Model Class Initialized
+INFO - 2015-07-28 18:14:32 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:14:32 --> Final output sent to browser
+DEBUG - 2015-07-28 18:14:32 --> Total execution time: 14.2168
+INFO - 2015-07-28 18:14:32 --> Config Class Initialized
+INFO - 2015-07-28 18:14:32 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:14:32 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:14:32 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:14:32 --> Config Class Initialized
+INFO - 2015-07-28 18:14:32 --> Hooks Class Initialized
+INFO - 2015-07-28 18:14:32 --> URI Class Initialized
+INFO - 2015-07-28 18:14:32 --> Router Class Initialized
+DEBUG - 2015-07-28 18:14:32 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:14:32 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:14:32 --> URI Class Initialized
+INFO - 2015-07-28 18:14:32 --> Output Class Initialized
+INFO - 2015-07-28 18:14:32 --> Security Class Initialized
+INFO - 2015-07-28 18:14:32 --> Router Class Initialized
+DEBUG - 2015-07-28 18:14:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:14:32 --> Input Class Initialized
+INFO - 2015-07-28 18:14:32 --> Output Class Initialized
+INFO - 2015-07-28 18:14:32 --> Language Class Initialized
+INFO - 2015-07-28 18:14:32 --> Security Class Initialized
+INFO - 2015-07-28 18:14:32 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:14:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:14:32 --> Input Class Initialized
+INFO - 2015-07-28 18:14:32 --> Language Class Initialized
+INFO - 2015-07-28 18:14:32 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:14:32 --> Loader Class Initialized
+INFO - 2015-07-28 18:14:32 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:14:32 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:14:32 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:14:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:14:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:14:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:14:39 --> Encryption Class Initialized
+INFO - 2015-07-28 18:14:39 --> Controller Class Initialized
+INFO - 2015-07-28 18:14:39 --> Model Class Initialized
+INFO - 2015-07-28 18:14:39 --> Model Class Initialized
+INFO - 2015-07-28 18:14:39 --> Model Class Initialized
+INFO - 2015-07-28 18:14:39 --> Model Class Initialized
+DEBUG - 2015-07-28 18:14:39 --> 5 0
+INFO - 2015-07-28 18:14:40 --> Final output sent to browser
+DEBUG - 2015-07-28 18:14:40 --> Total execution time: 8.2717
+INFO - 2015-07-28 18:14:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:14:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:14:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:14:41 --> Encryption Class Initialized
+INFO - 2015-07-28 18:14:41 --> Controller Class Initialized
+INFO - 2015-07-28 18:14:41 --> Model Class Initialized
+INFO - 2015-07-28 18:14:41 --> Model Class Initialized
+INFO - 2015-07-28 18:14:41 --> Model Class Initialized
+INFO - 2015-07-28 18:14:41 --> Model Class Initialized
+DEBUG - 2015-07-28 18:14:41 --> 7 0
+INFO - 2015-07-28 18:14:42 --> Final output sent to browser
+DEBUG - 2015-07-28 18:14:42 --> Total execution time: 9.5821
+INFO - 2015-07-28 18:15:13 --> Config Class Initialized
+INFO - 2015-07-28 18:15:13 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:15:13 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:15:13 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:15:13 --> URI Class Initialized
+INFO - 2015-07-28 18:15:13 --> Router Class Initialized
+INFO - 2015-07-28 18:15:13 --> Output Class Initialized
+INFO - 2015-07-28 18:15:13 --> Security Class Initialized
+DEBUG - 2015-07-28 18:15:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:15:13 --> Input Class Initialized
+INFO - 2015-07-28 18:15:13 --> Language Class Initialized
+INFO - 2015-07-28 18:15:13 --> Loader Class Initialized
+INFO - 2015-07-28 18:15:13 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:15:13 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:15:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:15:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:15:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:15:29 --> Encryption Class Initialized
+INFO - 2015-07-28 18:15:29 --> Controller Class Initialized
+INFO - 2015-07-28 18:15:29 --> Model Class Initialized
+INFO - 2015-07-28 18:15:29 --> Model Class Initialized
+INFO - 2015-07-28 18:15:29 --> Model Class Initialized
+INFO - 2015-07-28 18:15:29 --> Model Class Initialized
+INFO - 2015-07-28 18:15:30 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/post.php
+INFO - 2015-07-28 18:15:30 --> Final output sent to browser
+DEBUG - 2015-07-28 18:15:30 --> Total execution time: 16.6276
+INFO - 2015-07-28 18:15:30 --> Config Class Initialized
+INFO - 2015-07-28 18:15:30 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:15:30 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:15:30 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:15:30 --> URI Class Initialized
+INFO - 2015-07-28 18:15:30 --> Router Class Initialized
+INFO - 2015-07-28 18:15:30 --> Output Class Initialized
+INFO - 2015-07-28 18:15:30 --> Security Class Initialized
+DEBUG - 2015-07-28 18:15:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:15:30 --> Input Class Initialized
+INFO - 2015-07-28 18:15:30 --> Language Class Initialized
+INFO - 2015-07-28 18:15:30 --> Loader Class Initialized
+INFO - 2015-07-28 18:15:30 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:15:30 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:15:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:15:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:15:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:15:41 --> Encryption Class Initialized
+INFO - 2015-07-28 18:15:41 --> Controller Class Initialized
+INFO - 2015-07-28 18:15:41 --> Model Class Initialized
+INFO - 2015-07-28 18:15:41 --> Model Class Initialized
+INFO - 2015-07-28 18:15:41 --> Model Class Initialized
+INFO - 2015-07-28 18:15:41 --> Model Class Initialized
+DEBUG - 2015-07-28 18:15:41 --> 5 0
+INFO - 2015-07-28 18:15:42 --> Final output sent to browser
+DEBUG - 2015-07-28 18:15:42 --> Total execution time: 12.3672
+INFO - 2015-07-28 18:23:50 --> Config Class Initialized
+INFO - 2015-07-28 18:23:50 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:23:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:23:50 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:23:50 --> URI Class Initialized
+DEBUG - 2015-07-28 18:23:50 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:23:50 --> Router Class Initialized
+INFO - 2015-07-28 18:23:50 --> Output Class Initialized
+INFO - 2015-07-28 18:23:50 --> Security Class Initialized
+DEBUG - 2015-07-28 18:23:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:23:50 --> Input Class Initialized
+INFO - 2015-07-28 18:23:50 --> Language Class Initialized
+INFO - 2015-07-28 18:23:50 --> Loader Class Initialized
+INFO - 2015-07-28 18:23:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:23:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:24:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:24:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:24:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:24:03 --> Encryption Class Initialized
+INFO - 2015-07-28 18:24:03 --> Controller Class Initialized
+INFO - 2015-07-28 18:24:03 --> Model Class Initialized
+INFO - 2015-07-28 18:24:03 --> Model Class Initialized
+INFO - 2015-07-28 18:24:03 --> Model Class Initialized
+INFO - 2015-07-28 18:24:04 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:24:04 --> Final output sent to browser
+DEBUG - 2015-07-28 18:24:04 --> Total execution time: 14.6385
+INFO - 2015-07-28 18:24:05 --> Config Class Initialized
+INFO - 2015-07-28 18:24:05 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:24:05 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:24:05 --> Config Class Initialized
+INFO - 2015-07-28 18:24:05 --> Hooks Class Initialized
+INFO - 2015-07-28 18:24:05 --> URI Class Initialized
+INFO - 2015-07-28 18:24:05 --> Router Class Initialized
+INFO - 2015-07-28 18:24:05 --> Config Class Initialized
+INFO - 2015-07-28 18:24:05 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:24:05 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:24:05 --> URI Class Initialized
+INFO - 2015-07-28 18:24:05 --> Output Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:24:05 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:24:05 --> Security Class Initialized
+INFO - 2015-07-28 18:24:05 --> Router Class Initialized
+INFO - 2015-07-28 18:24:05 --> URI Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:24:05 --> Input Class Initialized
+INFO - 2015-07-28 18:24:05 --> Output Class Initialized
+INFO - 2015-07-28 18:24:05 --> Router Class Initialized
+INFO - 2015-07-28 18:24:05 --> Language Class Initialized
+INFO - 2015-07-28 18:24:05 --> Security Class Initialized
+INFO - 2015-07-28 18:24:05 --> Output Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:24:05 --> Input Class Initialized
+INFO - 2015-07-28 18:24:05 --> Loader Class Initialized
+INFO - 2015-07-28 18:24:05 --> Security Class Initialized
+INFO - 2015-07-28 18:24:05 --> Language Class Initialized
+INFO - 2015-07-28 18:24:05 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:24:05 --> Input Class Initialized
+INFO - 2015-07-28 18:24:05 --> Language Class Initialized
+INFO - 2015-07-28 18:24:05 --> Loader Class Initialized
+INFO - 2015-07-28 18:24:05 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:24:05 --> Loader Class Initialized
+INFO - 2015-07-28 18:24:05 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:24:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:24:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:24:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:24:05 --> Config Class Initialized
+INFO - 2015-07-28 18:24:05 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:24:05 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:24:05 --> URI Class Initialized
+INFO - 2015-07-28 18:24:05 --> Router Class Initialized
+INFO - 2015-07-28 18:24:05 --> Output Class Initialized
+INFO - 2015-07-28 18:24:05 --> Security Class Initialized
+DEBUG - 2015-07-28 18:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:24:05 --> Input Class Initialized
+INFO - 2015-07-28 18:24:05 --> Language Class Initialized
+INFO - 2015-07-28 18:24:05 --> Loader Class Initialized
+INFO - 2015-07-28 18:24:05 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:24:05 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:24:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:24:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:24:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:24:14 --> Encryption Class Initialized
+INFO - 2015-07-28 18:24:14 --> Controller Class Initialized
+INFO - 2015-07-28 18:24:14 --> Model Class Initialized
+INFO - 2015-07-28 18:24:14 --> Model Class Initialized
+INFO - 2015-07-28 18:24:14 --> Final output sent to browser
+DEBUG - 2015-07-28 18:24:14 --> Total execution time: 9.7895
+INFO - 2015-07-28 18:24:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:24:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:24:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:24:14 --> Encryption Class Initialized
+INFO - 2015-07-28 18:24:14 --> Controller Class Initialized
+INFO - 2015-07-28 18:24:14 --> Model Class Initialized
+INFO - 2015-07-28 18:24:14 --> Model Class Initialized
+INFO - 2015-07-28 18:24:15 --> Final output sent to browser
+DEBUG - 2015-07-28 18:24:15 --> Total execution time: 10.1646
+INFO - 2015-07-28 18:24:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:24:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:24:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:24:17 --> Encryption Class Initialized
+INFO - 2015-07-28 18:24:17 --> Controller Class Initialized
+INFO - 2015-07-28 18:24:17 --> Model Class Initialized
+INFO - 2015-07-28 18:24:17 --> Model Class Initialized
+INFO - 2015-07-28 18:24:17 --> Final output sent to browser
+DEBUG - 2015-07-28 18:24:17 --> Total execution time: 12.3910
+INFO - 2015-07-28 18:24:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:24:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:24:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:24:18 --> Encryption Class Initialized
+INFO - 2015-07-28 18:24:18 --> Controller Class Initialized
+INFO - 2015-07-28 18:24:18 --> Model Class Initialized
+INFO - 2015-07-28 18:24:18 --> Model Class Initialized
+INFO - 2015-07-28 18:24:18 --> Final output sent to browser
+DEBUG - 2015-07-28 18:24:18 --> Total execution time: 13.2723
+INFO - 2015-07-28 18:37:06 --> Config Class Initialized
+INFO - 2015-07-28 18:37:06 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:37:06 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:37:06 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:37:06 --> URI Class Initialized
+INFO - 2015-07-28 18:37:06 --> Router Class Initialized
+INFO - 2015-07-28 18:37:06 --> Output Class Initialized
+INFO - 2015-07-28 18:37:06 --> Security Class Initialized
+DEBUG - 2015-07-28 18:37:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:37:06 --> Input Class Initialized
+INFO - 2015-07-28 18:37:06 --> Language Class Initialized
+INFO - 2015-07-28 18:37:06 --> Loader Class Initialized
+INFO - 2015-07-28 18:37:06 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:37:06 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:37:22 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:37:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:37:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:37:22 --> Encryption Class Initialized
+INFO - 2015-07-28 18:37:22 --> Controller Class Initialized
+INFO - 2015-07-28 18:37:22 --> Model Class Initialized
+INFO - 2015-07-28 18:37:22 --> Model Class Initialized
+INFO - 2015-07-28 18:37:22 --> Model Class Initialized
+INFO - 2015-07-28 18:37:22 --> Model Class Initialized
+INFO - 2015-07-28 18:37:23 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:37:23 --> Final output sent to browser
+DEBUG - 2015-07-28 18:37:23 --> Total execution time: 16.9456
+INFO - 2015-07-28 18:37:23 --> Config Class Initialized
+INFO - 2015-07-28 18:37:23 --> Hooks Class Initialized
+INFO - 2015-07-28 18:37:23 --> Config Class Initialized
+INFO - 2015-07-28 18:37:23 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:37:23 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:37:23 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:37:23 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:37:23 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:37:23 --> URI Class Initialized
+INFO - 2015-07-28 18:37:23 --> URI Class Initialized
+INFO - 2015-07-28 18:37:23 --> Router Class Initialized
+INFO - 2015-07-28 18:37:23 --> Router Class Initialized
+INFO - 2015-07-28 18:37:23 --> Output Class Initialized
+INFO - 2015-07-28 18:37:23 --> Output Class Initialized
+INFO - 2015-07-28 18:37:23 --> Security Class Initialized
+INFO - 2015-07-28 18:37:23 --> Security Class Initialized
+DEBUG - 2015-07-28 18:37:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:37:23 --> Input Class Initialized
+DEBUG - 2015-07-28 18:37:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:37:23 --> Input Class Initialized
+INFO - 2015-07-28 18:37:23 --> Language Class Initialized
+INFO - 2015-07-28 18:37:23 --> Language Class Initialized
+INFO - 2015-07-28 18:37:23 --> Loader Class Initialized
+INFO - 2015-07-28 18:37:23 --> Loader Class Initialized
+INFO - 2015-07-28 18:37:23 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:37:23 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:37:23 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:37:23 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:37:30 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:37:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:37:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:37:30 --> Encryption Class Initialized
+INFO - 2015-07-28 18:37:30 --> Controller Class Initialized
+INFO - 2015-07-28 18:37:30 --> Model Class Initialized
+INFO - 2015-07-28 18:37:30 --> Model Class Initialized
+INFO - 2015-07-28 18:37:30 --> Model Class Initialized
+INFO - 2015-07-28 18:37:30 --> Model Class Initialized
+DEBUG - 2015-07-28 18:37:30 --> 5 0
+INFO - 2015-07-28 18:37:31 --> Final output sent to browser
+DEBUG - 2015-07-28 18:37:31 --> Total execution time: 7.7210
+INFO - 2015-07-28 18:37:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:37:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:37:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:37:36 --> Encryption Class Initialized
+INFO - 2015-07-28 18:37:36 --> Controller Class Initialized
+INFO - 2015-07-28 18:37:36 --> Model Class Initialized
+INFO - 2015-07-28 18:37:36 --> Model Class Initialized
+INFO - 2015-07-28 18:37:36 --> Model Class Initialized
+INFO - 2015-07-28 18:37:36 --> Model Class Initialized
+DEBUG - 2015-07-28 18:37:36 --> 7 0
+INFO - 2015-07-28 18:37:37 --> Final output sent to browser
+DEBUG - 2015-07-28 18:37:37 --> Total execution time: 13.8001
+INFO - 2015-07-28 18:40:58 --> Config Class Initialized
+INFO - 2015-07-28 18:40:58 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:40:58 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:40:58 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:40:58 --> URI Class Initialized
+INFO - 2015-07-28 18:40:58 --> Router Class Initialized
+INFO - 2015-07-28 18:40:58 --> Output Class Initialized
+INFO - 2015-07-28 18:40:58 --> Security Class Initialized
+DEBUG - 2015-07-28 18:40:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:40:58 --> Input Class Initialized
+INFO - 2015-07-28 18:40:58 --> Language Class Initialized
+INFO - 2015-07-28 18:40:58 --> Loader Class Initialized
+INFO - 2015-07-28 18:40:58 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:40:58 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:08 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:08 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:08 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:41:08 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:08 --> Total execution time: 10.1521
+INFO - 2015-07-28 18:41:27 --> Config Class Initialized
+INFO - 2015-07-28 18:41:27 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:41:27 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:27 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:41:27 --> URI Class Initialized
+DEBUG - 2015-07-28 18:41:27 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:41:27 --> Router Class Initialized
+INFO - 2015-07-28 18:41:27 --> Output Class Initialized
+INFO - 2015-07-28 18:41:27 --> Security Class Initialized
+DEBUG - 2015-07-28 18:41:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:27 --> Input Class Initialized
+INFO - 2015-07-28 18:41:27 --> Language Class Initialized
+INFO - 2015-07-28 18:41:27 --> Loader Class Initialized
+INFO - 2015-07-28 18:41:27 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:41:27 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:42 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:42 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:42 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:42 --> Model Class Initialized
+INFO - 2015-07-28 18:41:42 --> Model Class Initialized
+INFO - 2015-07-28 18:41:42 --> Model Class Initialized
+INFO - 2015-07-28 18:41:43 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:41:43 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:43 --> Total execution time: 16.0940
+INFO - 2015-07-28 18:41:44 --> Config Class Initialized
+INFO - 2015-07-28 18:41:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:41:44 --> URI Class Initialized
+INFO - 2015-07-28 18:41:44 --> Router Class Initialized
+INFO - 2015-07-28 18:41:44 --> Output Class Initialized
+INFO - 2015-07-28 18:41:44 --> Security Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:44 --> Input Class Initialized
+INFO - 2015-07-28 18:41:44 --> Language Class Initialized
+INFO - 2015-07-28 18:41:44 --> Loader Class Initialized
+INFO - 2015-07-28 18:41:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:41:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:44 --> Config Class Initialized
+INFO - 2015-07-28 18:41:44 --> Hooks Class Initialized
+INFO - 2015-07-28 18:41:44 --> Config Class Initialized
+INFO - 2015-07-28 18:41:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:44 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:41:44 --> URI Class Initialized
+INFO - 2015-07-28 18:41:44 --> URI Class Initialized
+INFO - 2015-07-28 18:41:44 --> Router Class Initialized
+INFO - 2015-07-28 18:41:44 --> Router Class Initialized
+INFO - 2015-07-28 18:41:44 --> Output Class Initialized
+INFO - 2015-07-28 18:41:44 --> Security Class Initialized
+INFO - 2015-07-28 18:41:44 --> Config Class Initialized
+INFO - 2015-07-28 18:41:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:44 --> Input Class Initialized
+INFO - 2015-07-28 18:41:44 --> Output Class Initialized
+INFO - 2015-07-28 18:41:44 --> Language Class Initialized
+INFO - 2015-07-28 18:41:44 --> Config Class Initialized
+INFO - 2015-07-28 18:41:44 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:44 --> Security Class Initialized
+INFO - 2015-07-28 18:41:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:41:44 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:44 --> URI Class Initialized
+INFO - 2015-07-28 18:41:44 --> Input Class Initialized
+INFO - 2015-07-28 18:41:44 --> Language Class Initialized
+INFO - 2015-07-28 18:41:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:41:44 --> Router Class Initialized
+INFO - 2015-07-28 18:41:44 --> Output Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:41:44 --> Loader Class Initialized
+INFO - 2015-07-28 18:41:44 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:41:44 --> Security Class Initialized
+INFO - 2015-07-28 18:41:44 --> URI Class Initialized
+INFO - 2015-07-28 18:41:44 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:41:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:44 --> Input Class Initialized
+INFO - 2015-07-28 18:41:44 --> Language Class Initialized
+INFO - 2015-07-28 18:41:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:44 --> Router Class Initialized
+INFO - 2015-07-28 18:41:44 --> Loader Class Initialized
+INFO - 2015-07-28 18:41:44 --> Output Class Initialized
+INFO - 2015-07-28 18:41:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:41:44 --> Security Class Initialized
+DEBUG - 2015-07-28 18:41:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:41:44 --> Input Class Initialized
+INFO - 2015-07-28 18:41:44 --> Language Class Initialized
+INFO - 2015-07-28 18:41:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:44 --> Loader Class Initialized
+INFO - 2015-07-28 18:41:44 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:41:44 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:41:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:52 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:52 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:53 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:41:53 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:53 --> Total execution time: 9.0357
+INFO - 2015-07-28 18:41:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:53 --> Model Class Initialized
+INFO - 2015-07-28 18:41:53 --> Model Class Initialized
+INFO - 2015-07-28 18:41:53 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:53 --> Total execution time: 9.2751
+INFO - 2015-07-28 18:41:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:54 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:54 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:54 --> Model Class Initialized
+INFO - 2015-07-28 18:41:54 --> Model Class Initialized
+INFO - 2015-07-28 18:41:54 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:54 --> Total execution time: 10.4335
+INFO - 2015-07-28 18:41:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:56 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:56 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:56 --> Model Class Initialized
+INFO - 2015-07-28 18:41:56 --> Model Class Initialized
+INFO - 2015-07-28 18:41:56 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:56 --> Total execution time: 12.1519
+INFO - 2015-07-28 18:41:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:41:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:41:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:41:56 --> Encryption Class Initialized
+INFO - 2015-07-28 18:41:56 --> Controller Class Initialized
+INFO - 2015-07-28 18:41:56 --> Model Class Initialized
+INFO - 2015-07-28 18:41:56 --> Model Class Initialized
+INFO - 2015-07-28 18:41:56 --> Final output sent to browser
+DEBUG - 2015-07-28 18:41:56 --> Total execution time: 12.5381
+INFO - 2015-07-28 18:42:38 --> Config Class Initialized
+INFO - 2015-07-28 18:42:38 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:38 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:38 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:38 --> URI Class Initialized
+DEBUG - 2015-07-28 18:42:38 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:42:38 --> Router Class Initialized
+INFO - 2015-07-28 18:42:38 --> Output Class Initialized
+INFO - 2015-07-28 18:42:38 --> Security Class Initialized
+DEBUG - 2015-07-28 18:42:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:38 --> Input Class Initialized
+INFO - 2015-07-28 18:42:38 --> Language Class Initialized
+INFO - 2015-07-28 18:42:38 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:38 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:38 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:44 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:44 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:44 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:44 --> Model Class Initialized
+INFO - 2015-07-28 18:42:44 --> Model Class Initialized
+INFO - 2015-07-28 18:42:44 --> Model Class Initialized
+INFO - 2015-07-28 18:42:45 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:42:45 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:45 --> Total execution time: 7.2193
+INFO - 2015-07-28 18:42:45 --> Config Class Initialized
+INFO - 2015-07-28 18:42:45 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:45 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:45 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:45 --> URI Class Initialized
+INFO - 2015-07-28 18:42:45 --> Router Class Initialized
+INFO - 2015-07-28 18:42:45 --> Output Class Initialized
+INFO - 2015-07-28 18:42:45 --> Security Class Initialized
+DEBUG - 2015-07-28 18:42:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:45 --> Input Class Initialized
+INFO - 2015-07-28 18:42:45 --> Language Class Initialized
+INFO - 2015-07-28 18:42:45 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:45 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:45 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:45 --> Config Class Initialized
+INFO - 2015-07-28 18:42:45 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:45 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:45 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:45 --> URI Class Initialized
+INFO - 2015-07-28 18:42:45 --> Router Class Initialized
+INFO - 2015-07-28 18:42:46 --> Output Class Initialized
+INFO - 2015-07-28 18:42:46 --> Security Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:46 --> Input Class Initialized
+INFO - 2015-07-28 18:42:46 --> Language Class Initialized
+INFO - 2015-07-28 18:42:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:46 --> Config Class Initialized
+INFO - 2015-07-28 18:42:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:46 --> URI Class Initialized
+INFO - 2015-07-28 18:42:46 --> Config Class Initialized
+INFO - 2015-07-28 18:42:46 --> Hooks Class Initialized
+INFO - 2015-07-28 18:42:46 --> Router Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:46 --> URI Class Initialized
+INFO - 2015-07-28 18:42:46 --> Config Class Initialized
+INFO - 2015-07-28 18:42:46 --> Hooks Class Initialized
+INFO - 2015-07-28 18:42:46 --> Router Class Initialized
+INFO - 2015-07-28 18:42:46 --> Output Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:46 --> Security Class Initialized
+INFO - 2015-07-28 18:42:46 --> URI Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:46 --> Input Class Initialized
+INFO - 2015-07-28 18:42:46 --> Output Class Initialized
+INFO - 2015-07-28 18:42:46 --> Language Class Initialized
+INFO - 2015-07-28 18:42:46 --> Router Class Initialized
+INFO - 2015-07-28 18:42:46 --> Security Class Initialized
+INFO - 2015-07-28 18:42:46 --> Output Class Initialized
+INFO - 2015-07-28 18:42:46 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:46 --> Security Class Initialized
+INFO - 2015-07-28 18:42:46 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:42:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:46 --> Input Class Initialized
+INFO - 2015-07-28 18:42:46 --> Input Class Initialized
+INFO - 2015-07-28 18:42:46 --> Language Class Initialized
+INFO - 2015-07-28 18:42:46 --> Language Class Initialized
+INFO - 2015-07-28 18:42:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:46 --> Config Class Initialized
+INFO - 2015-07-28 18:42:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:46 --> URI Class Initialized
+INFO - 2015-07-28 18:42:46 --> Router Class Initialized
+INFO - 2015-07-28 18:42:46 --> Output Class Initialized
+INFO - 2015-07-28 18:42:46 --> Security Class Initialized
+DEBUG - 2015-07-28 18:42:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:46 --> Input Class Initialized
+INFO - 2015-07-28 18:42:46 --> Language Class Initialized
+INFO - 2015-07-28 18:42:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:52 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:52 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:52 --> Model Class Initialized
+INFO - 2015-07-28 18:42:52 --> Model Class Initialized
+INFO - 2015-07-28 18:42:52 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:52 --> Total execution time: 6.4700
+INFO - 2015-07-28 18:42:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:53 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:42:53 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:53 --> Total execution time: 8.1173
+INFO - 2015-07-28 18:42:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:53 --> Model Class Initialized
+INFO - 2015-07-28 18:42:54 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:54 --> Total execution time: 7.9051
+INFO - 2015-07-28 18:42:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:54 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:54 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:54 --> Model Class Initialized
+INFO - 2015-07-28 18:42:54 --> Model Class Initialized
+INFO - 2015-07-28 18:42:54 --> Config Class Initialized
+INFO - 2015-07-28 18:42:54 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:42:54 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:54 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:42:54 --> URI Class Initialized
+INFO - 2015-07-28 18:42:54 --> Router Class Initialized
+INFO - 2015-07-28 18:42:54 --> Config Class Initialized
+INFO - 2015-07-28 18:42:54 --> Hooks Class Initialized
+INFO - 2015-07-28 18:42:54 --> Output Class Initialized
+INFO - 2015-07-28 18:42:54 --> Security Class Initialized
+DEBUG - 2015-07-28 18:42:54 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:42:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:42:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:54 --> Input Class Initialized
+INFO - 2015-07-28 18:42:54 --> URI Class Initialized
+INFO - 2015-07-28 18:42:54 --> Language Class Initialized
+INFO - 2015-07-28 18:42:54 --> Router Class Initialized
+INFO - 2015-07-28 18:42:54 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:54 --> Output Class Initialized
+INFO - 2015-07-28 18:42:54 --> Security Class Initialized
+INFO - 2015-07-28 18:42:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:42:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:42:54 --> Input Class Initialized
+INFO - 2015-07-28 18:42:54 --> Language Class Initialized
+INFO - 2015-07-28 18:42:54 --> Loader Class Initialized
+INFO - 2015-07-28 18:42:54 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:54 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:42:54 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:42:54 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:54 --> Total execution time: 8.2856
+INFO - 2015-07-28 18:42:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:55 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:55 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:55 --> Model Class Initialized
+INFO - 2015-07-28 18:42:55 --> Model Class Initialized
+INFO - 2015-07-28 18:42:56 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:56 --> Total execution time: 9.7215
+INFO - 2015-07-28 18:42:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:42:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:42:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:42:56 --> Encryption Class Initialized
+INFO - 2015-07-28 18:42:56 --> Controller Class Initialized
+INFO - 2015-07-28 18:42:56 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:42:56 --> Final output sent to browser
+DEBUG - 2015-07-28 18:42:56 --> Total execution time: 10.9619
+INFO - 2015-07-28 18:43:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:43:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:43:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:43:03 --> Encryption Class Initialized
+INFO - 2015-07-28 18:43:03 --> Controller Class Initialized
+INFO - 2015-07-28 18:43:03 --> Model Class Initialized
+INFO - 2015-07-28 18:43:03 --> Model Class Initialized
+INFO - 2015-07-28 18:43:03 --> Model Class Initialized
+INFO - 2015-07-28 18:43:03 --> Model Class Initialized
+DEBUG - 2015-07-28 18:43:03 --> 5 0
+INFO - 2015-07-28 18:43:04 --> Final output sent to browser
+DEBUG - 2015-07-28 18:43:04 --> Total execution time: 9.8946
+INFO - 2015-07-28 18:43:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:43:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:43:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:43:06 --> Encryption Class Initialized
+INFO - 2015-07-28 18:43:06 --> Controller Class Initialized
+INFO - 2015-07-28 18:43:06 --> Model Class Initialized
+INFO - 2015-07-28 18:43:06 --> Model Class Initialized
+INFO - 2015-07-28 18:43:06 --> Model Class Initialized
+INFO - 2015-07-28 18:43:06 --> Model Class Initialized
+DEBUG - 2015-07-28 18:43:06 --> 7 0
+INFO - 2015-07-28 18:43:07 --> Final output sent to browser
+DEBUG - 2015-07-28 18:43:07 --> Total execution time: 13.1139
+INFO - 2015-07-28 18:43:18 --> Config Class Initialized
+INFO - 2015-07-28 18:43:18 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:43:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:43:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:43:18 --> URI Class Initialized
+INFO - 2015-07-28 18:43:18 --> Router Class Initialized
+INFO - 2015-07-28 18:43:18 --> Output Class Initialized
+INFO - 2015-07-28 18:43:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:43:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:43:18 --> Input Class Initialized
+INFO - 2015-07-28 18:43:18 --> Language Class Initialized
+INFO - 2015-07-28 18:43:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:43:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:43:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:43:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:43:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:43:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:43:29 --> Encryption Class Initialized
+INFO - 2015-07-28 18:43:29 --> Controller Class Initialized
+INFO - 2015-07-28 18:43:30 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:43:30 --> Final output sent to browser
+DEBUG - 2015-07-28 18:43:30 --> Total execution time: 11.5994
+INFO - 2015-07-28 18:48:56 --> Config Class Initialized
+INFO - 2015-07-28 18:48:56 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:48:56 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:48:56 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:48:56 --> URI Class Initialized
+DEBUG - 2015-07-28 18:48:56 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:48:56 --> Router Class Initialized
+INFO - 2015-07-28 18:48:56 --> Output Class Initialized
+INFO - 2015-07-28 18:48:56 --> Security Class Initialized
+DEBUG - 2015-07-28 18:48:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:48:56 --> Input Class Initialized
+INFO - 2015-07-28 18:48:56 --> Language Class Initialized
+INFO - 2015-07-28 18:48:56 --> Loader Class Initialized
+INFO - 2015-07-28 18:48:56 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:48:56 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:49:05 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:05 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:05 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:05 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:05 --> Model Class Initialized
+INFO - 2015-07-28 18:49:05 --> Model Class Initialized
+INFO - 2015-07-28 18:49:05 --> Model Class Initialized
+INFO - 2015-07-28 18:49:06 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:49:06 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:06 --> Total execution time: 10.6932
+INFO - 2015-07-28 18:49:07 --> Config Class Initialized
+INFO - 2015-07-28 18:49:07 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:49:07 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:49:07 --> URI Class Initialized
+INFO - 2015-07-28 18:49:07 --> Router Class Initialized
+INFO - 2015-07-28 18:49:07 --> Output Class Initialized
+INFO - 2015-07-28 18:49:07 --> Security Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:49:07 --> Input Class Initialized
+INFO - 2015-07-28 18:49:07 --> Language Class Initialized
+INFO - 2015-07-28 18:49:07 --> Loader Class Initialized
+INFO - 2015-07-28 18:49:07 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:49:07 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:49:07 --> Config Class Initialized
+INFO - 2015-07-28 18:49:07 --> Hooks Class Initialized
+INFO - 2015-07-28 18:49:07 --> Config Class Initialized
+INFO - 2015-07-28 18:49:07 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:49:07 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:49:07 --> URI Class Initialized
+INFO - 2015-07-28 18:49:07 --> Config Class Initialized
+INFO - 2015-07-28 18:49:07 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:49:07 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:49:07 --> Router Class Initialized
+INFO - 2015-07-28 18:49:07 --> URI Class Initialized
+INFO - 2015-07-28 18:49:07 --> Output Class Initialized
+INFO - 2015-07-28 18:49:07 --> Router Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:49:07 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:49:07 --> Security Class Initialized
+INFO - 2015-07-28 18:49:07 --> Output Class Initialized
+INFO - 2015-07-28 18:49:07 --> URI Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:49:07 --> Input Class Initialized
+INFO - 2015-07-28 18:49:07 --> Security Class Initialized
+INFO - 2015-07-28 18:49:07 --> Language Class Initialized
+INFO - 2015-07-28 18:49:07 --> Router Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:49:07 --> Input Class Initialized
+INFO - 2015-07-28 18:49:07 --> Output Class Initialized
+INFO - 2015-07-28 18:49:07 --> Language Class Initialized
+INFO - 2015-07-28 18:49:07 --> Loader Class Initialized
+INFO - 2015-07-28 18:49:07 --> Security Class Initialized
+INFO - 2015-07-28 18:49:07 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:49:07 --> Input Class Initialized
+INFO - 2015-07-28 18:49:07 --> Loader Class Initialized
+INFO - 2015-07-28 18:49:07 --> Language Class Initialized
+INFO - 2015-07-28 18:49:07 --> Config Class Initialized
+INFO - 2015-07-28 18:49:07 --> Hooks Class Initialized
+INFO - 2015-07-28 18:49:07 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:49:07 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:49:07 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:49:07 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:49:07 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:49:07 --> URI Class Initialized
+INFO - 2015-07-28 18:49:07 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:49:07 --> Router Class Initialized
+INFO - 2015-07-28 18:49:07 --> Output Class Initialized
+INFO - 2015-07-28 18:49:07 --> Security Class Initialized
+INFO - 2015-07-28 18:49:07 --> Database Driver Class Initialized
+DEBUG - 2015-07-28 18:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:49:07 --> Input Class Initialized
+INFO - 2015-07-28 18:49:07 --> Language Class Initialized
+INFO - 2015-07-28 18:49:07 --> Loader Class Initialized
+INFO - 2015-07-28 18:49:07 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:49:07 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:49:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:18 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:18 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:18 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:49:18 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:18 --> Total execution time: 11.8261
+INFO - 2015-07-28 18:49:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:18 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:18 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:18 --> Model Class Initialized
+INFO - 2015-07-28 18:49:18 --> Model Class Initialized
+INFO - 2015-07-28 18:49:19 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:19 --> Total execution time: 11.7939
+INFO - 2015-07-28 18:49:19 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:19 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:19 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:19 --> Model Class Initialized
+INFO - 2015-07-28 18:49:19 --> Model Class Initialized
+INFO - 2015-07-28 18:49:19 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:19 --> Total execution time: 12.2033
+INFO - 2015-07-28 18:49:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:21 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:21 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:21 --> Model Class Initialized
+INFO - 2015-07-28 18:49:21 --> Model Class Initialized
+INFO - 2015-07-28 18:49:21 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:21 --> Total execution time: 14.0437
+INFO - 2015-07-28 18:49:22 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:49:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:49:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:49:22 --> Encryption Class Initialized
+INFO - 2015-07-28 18:49:22 --> Controller Class Initialized
+INFO - 2015-07-28 18:49:22 --> Model Class Initialized
+INFO - 2015-07-28 18:49:22 --> Model Class Initialized
+INFO - 2015-07-28 18:49:22 --> Final output sent to browser
+DEBUG - 2015-07-28 18:49:22 --> Total execution time: 15.4189
+INFO - 2015-07-28 18:52:55 --> Config Class Initialized
+INFO - 2015-07-28 18:52:55 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:52:55 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:52:55 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:52:55 --> URI Class Initialized
+INFO - 2015-07-28 18:52:55 --> Router Class Initialized
+INFO - 2015-07-28 18:52:55 --> Output Class Initialized
+INFO - 2015-07-28 18:52:55 --> Security Class Initialized
+DEBUG - 2015-07-28 18:52:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:52:55 --> Input Class Initialized
+INFO - 2015-07-28 18:52:55 --> Language Class Initialized
+INFO - 2015-07-28 18:52:55 --> Loader Class Initialized
+INFO - 2015-07-28 18:52:55 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:52:55 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:52:56 --> Config Class Initialized
+INFO - 2015-07-28 18:52:56 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:52:56 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:52:56 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:52:56 --> URI Class Initialized
+DEBUG - 2015-07-28 18:52:56 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:52:56 --> Router Class Initialized
+INFO - 2015-07-28 18:52:56 --> Output Class Initialized
+INFO - 2015-07-28 18:52:56 --> Security Class Initialized
+DEBUG - 2015-07-28 18:52:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:52:56 --> Input Class Initialized
+INFO - 2015-07-28 18:52:56 --> Language Class Initialized
+INFO - 2015-07-28 18:52:56 --> Loader Class Initialized
+INFO - 2015-07-28 18:52:56 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:52:56 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:02 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:02 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:02 --> Model Class Initialized
+INFO - 2015-07-28 18:53:02 --> Model Class Initialized
+INFO - 2015-07-28 18:53:02 --> Model Class Initialized
+INFO - 2015-07-28 18:53:03 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:53:03 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:03 --> Total execution time: 7.0169
+INFO - 2015-07-28 18:53:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:03 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:03 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:03 --> Model Class Initialized
+INFO - 2015-07-28 18:53:03 --> Model Class Initialized
+INFO - 2015-07-28 18:53:03 --> Model Class Initialized
+INFO - 2015-07-28 18:53:03 --> Model Class Initialized
+INFO - 2015-07-28 18:53:03 --> Config Class Initialized
+INFO - 2015-07-28 18:53:03 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:03 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:03 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:03 --> URI Class Initialized
+INFO - 2015-07-28 18:53:03 --> Router Class Initialized
+INFO - 2015-07-28 18:53:03 --> Output Class Initialized
+INFO - 2015-07-28 18:53:03 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:03 --> Input Class Initialized
+INFO - 2015-07-28 18:53:03 --> Language Class Initialized
+INFO - 2015-07-28 18:53:03 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:03 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:03 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:03 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:53:03 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:03 --> Total execution time: 8.7958
+INFO - 2015-07-28 18:53:04 --> Config Class Initialized
+INFO - 2015-07-28 18:53:04 --> Hooks Class Initialized
+INFO - 2015-07-28 18:53:04 --> Config Class Initialized
+INFO - 2015-07-28 18:53:04 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:04 --> URI Class Initialized
+INFO - 2015-07-28 18:53:04 --> Router Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:04 --> Output Class Initialized
+INFO - 2015-07-28 18:53:04 --> URI Class Initialized
+INFO - 2015-07-28 18:53:04 --> Security Class Initialized
+INFO - 2015-07-28 18:53:04 --> Router Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:04 --> Input Class Initialized
+INFO - 2015-07-28 18:53:04 --> Language Class Initialized
+INFO - 2015-07-28 18:53:04 --> Output Class Initialized
+INFO - 2015-07-28 18:53:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:04 --> Input Class Initialized
+INFO - 2015-07-28 18:53:04 --> Language Class Initialized
+INFO - 2015-07-28 18:53:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:04 --> Config Class Initialized
+INFO - 2015-07-28 18:53:04 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:04 --> URI Class Initialized
+INFO - 2015-07-28 18:53:04 --> Router Class Initialized
+INFO - 2015-07-28 18:53:04 --> Output Class Initialized
+INFO - 2015-07-28 18:53:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:04 --> Input Class Initialized
+INFO - 2015-07-28 18:53:04 --> Language Class Initialized
+INFO - 2015-07-28 18:53:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:04 --> Config Class Initialized
+INFO - 2015-07-28 18:53:04 --> Hooks Class Initialized
+INFO - 2015-07-28 18:53:04 --> Database Driver Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:04 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:04 --> URI Class Initialized
+INFO - 2015-07-28 18:53:04 --> Router Class Initialized
+INFO - 2015-07-28 18:53:04 --> Output Class Initialized
+INFO - 2015-07-28 18:53:04 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:04 --> Input Class Initialized
+INFO - 2015-07-28 18:53:04 --> Language Class Initialized
+INFO - 2015-07-28 18:53:04 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:04 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:04 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:10 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:10 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:10 --> Model Class Initialized
+INFO - 2015-07-28 18:53:10 --> Model Class Initialized
+INFO - 2015-07-28 18:53:11 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:11 --> Total execution time: 7.1326
+INFO - 2015-07-28 18:53:12 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:12 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:12 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:12 --> Model Class Initialized
+INFO - 2015-07-28 18:53:12 --> Model Class Initialized
+INFO - 2015-07-28 18:53:12 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:12 --> Total execution time: 8.3019
+INFO - 2015-07-28 18:53:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:14 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:14 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:15 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:53:15 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:15 --> Total execution time: 11.6216
+INFO - 2015-07-28 18:53:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:17 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:17 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:17 --> Model Class Initialized
+INFO - 2015-07-28 18:53:17 --> Model Class Initialized
+INFO - 2015-07-28 18:53:17 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:17 --> Total execution time: 13.1030
+INFO - 2015-07-28 18:53:20 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:20 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:20 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:20 --> Model Class Initialized
+INFO - 2015-07-28 18:53:20 --> Model Class Initialized
+INFO - 2015-07-28 18:53:20 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:20 --> Total execution time: 16.1070
+INFO - 2015-07-28 18:53:31 --> Config Class Initialized
+INFO - 2015-07-28 18:53:31 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:31 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:31 --> URI Class Initialized
+DEBUG - 2015-07-28 18:53:31 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:53:31 --> Router Class Initialized
+INFO - 2015-07-28 18:53:31 --> Output Class Initialized
+INFO - 2015-07-28 18:53:31 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:31 --> Input Class Initialized
+INFO - 2015-07-28 18:53:31 --> Language Class Initialized
+INFO - 2015-07-28 18:53:31 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:38 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:38 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:38 --> Model Class Initialized
+INFO - 2015-07-28 18:53:38 --> Model Class Initialized
+INFO - 2015-07-28 18:53:38 --> Model Class Initialized
+INFO - 2015-07-28 18:53:39 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:53:39 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:39 --> Total execution time: 7.8925
+INFO - 2015-07-28 18:53:39 --> Config Class Initialized
+INFO - 2015-07-28 18:53:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:39 --> URI Class Initialized
+INFO - 2015-07-28 18:53:39 --> Router Class Initialized
+INFO - 2015-07-28 18:53:39 --> Output Class Initialized
+INFO - 2015-07-28 18:53:39 --> Security Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:39 --> Input Class Initialized
+INFO - 2015-07-28 18:53:39 --> Language Class Initialized
+INFO - 2015-07-28 18:53:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:39 --> Config Class Initialized
+INFO - 2015-07-28 18:53:39 --> Hooks Class Initialized
+INFO - 2015-07-28 18:53:39 --> Config Class Initialized
+INFO - 2015-07-28 18:53:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> UTF-8 Support Enabled
+DEBUG - 2015-07-28 18:53:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:39 --> Config Class Initialized
+INFO - 2015-07-28 18:53:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:39 --> Hooks Class Initialized
+INFO - 2015-07-28 18:53:39 --> URI Class Initialized
+INFO - 2015-07-28 18:53:39 --> URI Class Initialized
+INFO - 2015-07-28 18:53:39 --> Router Class Initialized
+INFO - 2015-07-28 18:53:39 --> Router Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:39 --> Output Class Initialized
+INFO - 2015-07-28 18:53:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:39 --> Config Class Initialized
+INFO - 2015-07-28 18:53:39 --> URI Class Initialized
+INFO - 2015-07-28 18:53:39 --> Security Class Initialized
+INFO - 2015-07-28 18:53:39 --> Output Class Initialized
+INFO - 2015-07-28 18:53:39 --> Hooks Class Initialized
+INFO - 2015-07-28 18:53:39 --> Router Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:39 --> Security Class Initialized
+INFO - 2015-07-28 18:53:39 --> Input Class Initialized
+INFO - 2015-07-28 18:53:39 --> Output Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:39 --> Input Class Initialized
+INFO - 2015-07-28 18:53:39 --> Language Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:53:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:53:39 --> Language Class Initialized
+INFO - 2015-07-28 18:53:39 --> Security Class Initialized
+INFO - 2015-07-28 18:53:39 --> URI Class Initialized
+INFO - 2015-07-28 18:53:39 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:53:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:39 --> Input Class Initialized
+INFO - 2015-07-28 18:53:39 --> Router Class Initialized
+INFO - 2015-07-28 18:53:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:39 --> Language Class Initialized
+INFO - 2015-07-28 18:53:39 --> Output Class Initialized
+INFO - 2015-07-28 18:53:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:39 --> Security Class Initialized
+INFO - 2015-07-28 18:53:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:39 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:53:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:53:39 --> Input Class Initialized
+INFO - 2015-07-28 18:53:39 --> Language Class Initialized
+INFO - 2015-07-28 18:53:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:53:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:53:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:53:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:45 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:45 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:45 --> Model Class Initialized
+INFO - 2015-07-28 18:53:45 --> Model Class Initialized
+INFO - 2015-07-28 18:53:45 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:45 --> Total execution time: 5.7795
+INFO - 2015-07-28 18:53:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:45 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:45 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:53:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:46 --> Total execution time: 6.5644
+INFO - 2015-07-28 18:53:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:46 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:46 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:46 --> Model Class Initialized
+INFO - 2015-07-28 18:53:46 --> Model Class Initialized
+INFO - 2015-07-28 18:53:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:46 --> Total execution time: 7.1477
+INFO - 2015-07-28 18:53:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:47 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:47 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:47 --> Model Class Initialized
+INFO - 2015-07-28 18:53:47 --> Model Class Initialized
+INFO - 2015-07-28 18:53:47 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:47 --> Total execution time: 7.5612
+INFO - 2015-07-28 18:53:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:53:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:53:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:53:47 --> Encryption Class Initialized
+INFO - 2015-07-28 18:53:47 --> Controller Class Initialized
+INFO - 2015-07-28 18:53:47 --> Model Class Initialized
+INFO - 2015-07-28 18:53:47 --> Model Class Initialized
+INFO - 2015-07-28 18:53:47 --> Final output sent to browser
+DEBUG - 2015-07-28 18:53:47 --> Total execution time: 7.8771
+INFO - 2015-07-28 18:54:39 --> Config Class Initialized
+INFO - 2015-07-28 18:54:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:54:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:39 --> URI Class Initialized
+DEBUG - 2015-07-28 18:54:39 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:54:39 --> Router Class Initialized
+INFO - 2015-07-28 18:54:39 --> Output Class Initialized
+INFO - 2015-07-28 18:54:39 --> Security Class Initialized
+DEBUG - 2015-07-28 18:54:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:39 --> Input Class Initialized
+INFO - 2015-07-28 18:54:39 --> Language Class Initialized
+INFO - 2015-07-28 18:54:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:54:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:54:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:45 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:45 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:45 --> Model Class Initialized
+INFO - 2015-07-28 18:54:45 --> Model Class Initialized
+INFO - 2015-07-28 18:54:45 --> Model Class Initialized
+INFO - 2015-07-28 18:54:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:54:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:46 --> Total execution time: 7.1459
+INFO - 2015-07-28 18:54:46 --> Config Class Initialized
+INFO - 2015-07-28 18:54:46 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:54:46 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:46 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:46 --> URI Class Initialized
+INFO - 2015-07-28 18:54:46 --> Router Class Initialized
+INFO - 2015-07-28 18:54:46 --> Output Class Initialized
+INFO - 2015-07-28 18:54:46 --> Security Class Initialized
+DEBUG - 2015-07-28 18:54:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:46 --> Input Class Initialized
+INFO - 2015-07-28 18:54:46 --> Language Class Initialized
+INFO - 2015-07-28 18:54:46 --> Loader Class Initialized
+INFO - 2015-07-28 18:54:46 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:54:46 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:47 --> Config Class Initialized
+INFO - 2015-07-28 18:54:47 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:47 --> URI Class Initialized
+INFO - 2015-07-28 18:54:47 --> Config Class Initialized
+INFO - 2015-07-28 18:54:47 --> Hooks Class Initialized
+INFO - 2015-07-28 18:54:47 --> Router Class Initialized
+INFO - 2015-07-28 18:54:47 --> Output Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:47 --> Security Class Initialized
+INFO - 2015-07-28 18:54:47 --> URI Class Initialized
+INFO - 2015-07-28 18:54:47 --> Config Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:47 --> Input Class Initialized
+INFO - 2015-07-28 18:54:47 --> Router Class Initialized
+INFO - 2015-07-28 18:54:47 --> Language Class Initialized
+INFO - 2015-07-28 18:54:47 --> Hooks Class Initialized
+INFO - 2015-07-28 18:54:47 --> Output Class Initialized
+INFO - 2015-07-28 18:54:47 --> Security Class Initialized
+INFO - 2015-07-28 18:54:47 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:47 --> Input Class Initialized
+INFO - 2015-07-28 18:54:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:54:47 --> Language Class Initialized
+INFO - 2015-07-28 18:54:47 --> Loader Class Initialized
+INFO - 2015-07-28 18:54:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:54:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:47 --> URI Class Initialized
+INFO - 2015-07-28 18:54:47 --> Router Class Initialized
+INFO - 2015-07-28 18:54:47 --> Output Class Initialized
+INFO - 2015-07-28 18:54:47 --> Security Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:47 --> Input Class Initialized
+INFO - 2015-07-28 18:54:47 --> Language Class Initialized
+INFO - 2015-07-28 18:54:47 --> Config Class Initialized
+INFO - 2015-07-28 18:54:47 --> Hooks Class Initialized
+INFO - 2015-07-28 18:54:47 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:54:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:54:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:54:47 --> URI Class Initialized
+INFO - 2015-07-28 18:54:47 --> Router Class Initialized
+INFO - 2015-07-28 18:54:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:47 --> Output Class Initialized
+INFO - 2015-07-28 18:54:47 --> Security Class Initialized
+DEBUG - 2015-07-28 18:54:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:54:47 --> Input Class Initialized
+INFO - 2015-07-28 18:54:47 --> Language Class Initialized
+INFO - 2015-07-28 18:54:47 --> Loader Class Initialized
+INFO - 2015-07-28 18:54:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:54:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:54:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:53 --> Model Class Initialized
+INFO - 2015-07-28 18:54:53 --> Model Class Initialized
+INFO - 2015-07-28 18:54:53 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:53 --> Total execution time: 6.4481
+INFO - 2015-07-28 18:54:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:53 --> Model Class Initialized
+INFO - 2015-07-28 18:54:53 --> Model Class Initialized
+INFO - 2015-07-28 18:54:53 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:53 --> Total execution time: 6.8563
+INFO - 2015-07-28 18:54:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:55 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:55 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:55 --> Model Class Initialized
+INFO - 2015-07-28 18:54:55 --> Model Class Initialized
+INFO - 2015-07-28 18:54:55 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:55 --> Total execution time: 8.2031
+INFO - 2015-07-28 18:54:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:55 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:55 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:55 --> Model Class Initialized
+INFO - 2015-07-28 18:54:55 --> Model Class Initialized
+INFO - 2015-07-28 18:54:55 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:55 --> Total execution time: 8.5136
+INFO - 2015-07-28 18:54:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:54:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:54:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:54:57 --> Encryption Class Initialized
+INFO - 2015-07-28 18:54:57 --> Controller Class Initialized
+INFO - 2015-07-28 18:54:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:54:57 --> Final output sent to browser
+DEBUG - 2015-07-28 18:54:57 --> Total execution time: 10.9817
+INFO - 2015-07-28 18:56:18 --> Config Class Initialized
+INFO - 2015-07-28 18:56:18 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:56:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:56:18 --> URI Class Initialized
+DEBUG - 2015-07-28 18:56:18 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:56:18 --> Router Class Initialized
+INFO - 2015-07-28 18:56:18 --> Output Class Initialized
+INFO - 2015-07-28 18:56:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:56:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:18 --> Input Class Initialized
+INFO - 2015-07-28 18:56:18 --> Language Class Initialized
+INFO - 2015-07-28 18:56:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:28 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:28 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:28 --> Model Class Initialized
+INFO - 2015-07-28 18:56:28 --> Model Class Initialized
+INFO - 2015-07-28 18:56:28 --> Model Class Initialized
+INFO - 2015-07-28 18:56:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:56:29 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:29 --> Total execution time: 11.6000
+INFO - 2015-07-28 18:56:30 --> Config Class Initialized
+INFO - 2015-07-28 18:56:30 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:56:30 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:30 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:56:30 --> URI Class Initialized
+INFO - 2015-07-28 18:56:30 --> Router Class Initialized
+INFO - 2015-07-28 18:56:30 --> Output Class Initialized
+INFO - 2015-07-28 18:56:30 --> Security Class Initialized
+DEBUG - 2015-07-28 18:56:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:30 --> Input Class Initialized
+INFO - 2015-07-28 18:56:30 --> Language Class Initialized
+INFO - 2015-07-28 18:56:30 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:30 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:30 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:31 --> Config Class Initialized
+INFO - 2015-07-28 18:56:31 --> Hooks Class Initialized
+INFO - 2015-07-28 18:56:31 --> Config Class Initialized
+INFO - 2015-07-28 18:56:31 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:31 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:56:31 --> URI Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:31 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:56:31 --> URI Class Initialized
+INFO - 2015-07-28 18:56:31 --> Config Class Initialized
+INFO - 2015-07-28 18:56:31 --> Hooks Class Initialized
+INFO - 2015-07-28 18:56:31 --> Router Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:31 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:56:31 --> Output Class Initialized
+INFO - 2015-07-28 18:56:31 --> Router Class Initialized
+INFO - 2015-07-28 18:56:31 --> URI Class Initialized
+INFO - 2015-07-28 18:56:31 --> Output Class Initialized
+INFO - 2015-07-28 18:56:31 --> Security Class Initialized
+INFO - 2015-07-28 18:56:31 --> Security Class Initialized
+INFO - 2015-07-28 18:56:31 --> Router Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:31 --> Input Class Initialized
+INFO - 2015-07-28 18:56:31 --> Config Class Initialized
+INFO - 2015-07-28 18:56:31 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:31 --> Input Class Initialized
+INFO - 2015-07-28 18:56:31 --> Language Class Initialized
+INFO - 2015-07-28 18:56:31 --> Language Class Initialized
+INFO - 2015-07-28 18:56:31 --> Output Class Initialized
+INFO - 2015-07-28 18:56:31 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:31 --> Security Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:56:31 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:31 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:31 --> Input Class Initialized
+INFO - 2015-07-28 18:56:31 --> Language Class Initialized
+INFO - 2015-07-28 18:56:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:31 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:31 --> URI Class Initialized
+INFO - 2015-07-28 18:56:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:31 --> Router Class Initialized
+INFO - 2015-07-28 18:56:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:31 --> Output Class Initialized
+INFO - 2015-07-28 18:56:31 --> Security Class Initialized
+DEBUG - 2015-07-28 18:56:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:56:31 --> Input Class Initialized
+INFO - 2015-07-28 18:56:31 --> Language Class Initialized
+INFO - 2015-07-28 18:56:31 --> Loader Class Initialized
+INFO - 2015-07-28 18:56:31 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:56:31 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:56:42 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:42 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:42 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:42 --> Model Class Initialized
+INFO - 2015-07-28 18:56:42 --> Model Class Initialized
+INFO - 2015-07-28 18:56:42 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:42 --> Total execution time: 11.3763
+INFO - 2015-07-28 18:56:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:46 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:46 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:47 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:56:47 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:47 --> Total execution time: 16.9319
+INFO - 2015-07-28 18:56:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:47 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:47 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:47 --> Model Class Initialized
+INFO - 2015-07-28 18:56:47 --> Model Class Initialized
+INFO - 2015-07-28 18:56:48 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:48 --> Total execution time: 16.6815
+INFO - 2015-07-28 18:56:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:48 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:48 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:48 --> Model Class Initialized
+INFO - 2015-07-28 18:56:48 --> Model Class Initialized
+INFO - 2015-07-28 18:56:48 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:48 --> Total execution time: 17.1060
+INFO - 2015-07-28 18:56:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:56:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:56:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:56:48 --> Encryption Class Initialized
+INFO - 2015-07-28 18:56:48 --> Controller Class Initialized
+INFO - 2015-07-28 18:56:48 --> Model Class Initialized
+INFO - 2015-07-28 18:56:48 --> Model Class Initialized
+INFO - 2015-07-28 18:56:49 --> Final output sent to browser
+DEBUG - 2015-07-28 18:56:49 --> Total execution time: 17.6044
+INFO - 2015-07-28 18:57:11 --> Config Class Initialized
+INFO - 2015-07-28 18:57:11 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:57:11 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:11 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:11 --> URI Class Initialized
+DEBUG - 2015-07-28 18:57:11 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:57:11 --> Router Class Initialized
+INFO - 2015-07-28 18:57:11 --> Output Class Initialized
+INFO - 2015-07-28 18:57:11 --> Security Class Initialized
+DEBUG - 2015-07-28 18:57:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:11 --> Input Class Initialized
+INFO - 2015-07-28 18:57:11 --> Language Class Initialized
+INFO - 2015-07-28 18:57:11 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:11 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:57:11 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:57:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:17 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:17 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:17 --> Model Class Initialized
+INFO - 2015-07-28 18:57:17 --> Model Class Initialized
+INFO - 2015-07-28 18:57:17 --> Model Class Initialized
+INFO - 2015-07-28 18:57:18 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:57:18 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:18 --> Total execution time: 6.8212
+INFO - 2015-07-28 18:57:18 --> Config Class Initialized
+INFO - 2015-07-28 18:57:18 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:18 --> URI Class Initialized
+INFO - 2015-07-28 18:57:18 --> Router Class Initialized
+INFO - 2015-07-28 18:57:18 --> Output Class Initialized
+INFO - 2015-07-28 18:57:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:18 --> Input Class Initialized
+INFO - 2015-07-28 18:57:18 --> Language Class Initialized
+INFO - 2015-07-28 18:57:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:57:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:57:18 --> Config Class Initialized
+INFO - 2015-07-28 18:57:18 --> Hooks Class Initialized
+INFO - 2015-07-28 18:57:18 --> Config Class Initialized
+INFO - 2015-07-28 18:57:18 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:18 --> URI Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:18 --> Router Class Initialized
+INFO - 2015-07-28 18:57:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:18 --> URI Class Initialized
+INFO - 2015-07-28 18:57:18 --> Output Class Initialized
+INFO - 2015-07-28 18:57:18 --> Router Class Initialized
+INFO - 2015-07-28 18:57:18 --> Security Class Initialized
+INFO - 2015-07-28 18:57:18 --> Output Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:18 --> Input Class Initialized
+INFO - 2015-07-28 18:57:18 --> Security Class Initialized
+INFO - 2015-07-28 18:57:18 --> Language Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:18 --> Input Class Initialized
+INFO - 2015-07-28 18:57:18 --> Language Class Initialized
+INFO - 2015-07-28 18:57:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:18 --> Config Class Initialized
+INFO - 2015-07-28 18:57:18 --> Hooks Class Initialized
+INFO - 2015-07-28 18:57:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:57:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:18 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:57:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:18 --> URI Class Initialized
+INFO - 2015-07-28 18:57:18 --> Router Class Initialized
+INFO - 2015-07-28 18:57:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:57:18 --> Output Class Initialized
+INFO - 2015-07-28 18:57:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:57:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:18 --> Input Class Initialized
+INFO - 2015-07-28 18:57:18 --> Language Class Initialized
+INFO - 2015-07-28 18:57:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:57:18 --> Config Class Initialized
+INFO - 2015-07-28 18:57:18 --> Hooks Class Initialized
+INFO - 2015-07-28 18:57:18 --> Database Driver Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:57:18 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:57:18 --> URI Class Initialized
+INFO - 2015-07-28 18:57:18 --> Router Class Initialized
+INFO - 2015-07-28 18:57:18 --> Output Class Initialized
+INFO - 2015-07-28 18:57:18 --> Security Class Initialized
+DEBUG - 2015-07-28 18:57:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:57:18 --> Input Class Initialized
+INFO - 2015-07-28 18:57:18 --> Language Class Initialized
+INFO - 2015-07-28 18:57:18 --> Loader Class Initialized
+INFO - 2015-07-28 18:57:18 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:57:18 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:57:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:24 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:24 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:24 --> Model Class Initialized
+INFO - 2015-07-28 18:57:24 --> Model Class Initialized
+INFO - 2015-07-28 18:57:25 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:25 --> Total execution time: 6.6664
+INFO - 2015-07-28 18:57:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:25 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:25 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:25 --> Model Class Initialized
+INFO - 2015-07-28 18:57:25 --> Model Class Initialized
+INFO - 2015-07-28 18:57:25 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:25 --> Total execution time: 6.9868
+INFO - 2015-07-28 18:57:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:28 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:28 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:29 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:57:29 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:29 --> Total execution time: 10.7873
+INFO - 2015-07-28 18:57:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:29 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:29 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:29 --> Model Class Initialized
+INFO - 2015-07-28 18:57:29 --> Model Class Initialized
+INFO - 2015-07-28 18:57:29 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:29 --> Total execution time: 10.8410
+INFO - 2015-07-28 18:57:30 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:57:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:57:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:57:30 --> Encryption Class Initialized
+INFO - 2015-07-28 18:57:30 --> Controller Class Initialized
+INFO - 2015-07-28 18:57:30 --> Model Class Initialized
+INFO - 2015-07-28 18:57:30 --> Model Class Initialized
+INFO - 2015-07-28 18:57:30 --> Final output sent to browser
+DEBUG - 2015-07-28 18:57:30 --> Total execution time: 12.1312
+INFO - 2015-07-28 18:58:29 --> Config Class Initialized
+INFO - 2015-07-28 18:58:29 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:58:29 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:29 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:29 --> URI Class Initialized
+DEBUG - 2015-07-28 18:58:29 --> No URI present. Default controller set.
+INFO - 2015-07-28 18:58:29 --> Router Class Initialized
+INFO - 2015-07-28 18:58:29 --> Output Class Initialized
+INFO - 2015-07-28 18:58:29 --> Security Class Initialized
+DEBUG - 2015-07-28 18:58:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:29 --> Input Class Initialized
+INFO - 2015-07-28 18:58:29 --> Language Class Initialized
+INFO - 2015-07-28 18:58:29 --> Loader Class Initialized
+INFO - 2015-07-28 18:58:29 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:58:29 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:38 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:38 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:38 --> Model Class Initialized
+INFO - 2015-07-28 18:58:38 --> Model Class Initialized
+INFO - 2015-07-28 18:58:38 --> Model Class Initialized
+INFO - 2015-07-28 18:58:39 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 18:58:39 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:39 --> Total execution time: 10.3874
+INFO - 2015-07-28 18:58:39 --> Config Class Initialized
+INFO - 2015-07-28 18:58:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:58:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:39 --> URI Class Initialized
+INFO - 2015-07-28 18:58:39 --> Router Class Initialized
+INFO - 2015-07-28 18:58:39 --> Output Class Initialized
+INFO - 2015-07-28 18:58:39 --> Security Class Initialized
+DEBUG - 2015-07-28 18:58:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:39 --> Input Class Initialized
+INFO - 2015-07-28 18:58:39 --> Language Class Initialized
+INFO - 2015-07-28 18:58:39 --> Loader Class Initialized
+INFO - 2015-07-28 18:58:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:58:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:40 --> Config Class Initialized
+INFO - 2015-07-28 18:58:40 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:40 --> URI Class Initialized
+INFO - 2015-07-28 18:58:40 --> Router Class Initialized
+INFO - 2015-07-28 18:58:40 --> Output Class Initialized
+INFO - 2015-07-28 18:58:40 --> Security Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:40 --> Input Class Initialized
+INFO - 2015-07-28 18:58:40 --> Language Class Initialized
+INFO - 2015-07-28 18:58:40 --> Config Class Initialized
+INFO - 2015-07-28 18:58:40 --> Hooks Class Initialized
+INFO - 2015-07-28 18:58:40 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:40 --> URI Class Initialized
+INFO - 2015-07-28 18:58:40 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:58:40 --> Router Class Initialized
+INFO - 2015-07-28 18:58:40 --> Output Class Initialized
+INFO - 2015-07-28 18:58:40 --> Security Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:40 --> Input Class Initialized
+INFO - 2015-07-28 18:58:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:40 --> Language Class Initialized
+INFO - 2015-07-28 18:58:40 --> Loader Class Initialized
+INFO - 2015-07-28 18:58:40 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:58:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:40 --> Config Class Initialized
+INFO - 2015-07-28 18:58:40 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:40 --> URI Class Initialized
+INFO - 2015-07-28 18:58:40 --> Config Class Initialized
+INFO - 2015-07-28 18:58:40 --> Hooks Class Initialized
+INFO - 2015-07-28 18:58:40 --> Router Class Initialized
+INFO - 2015-07-28 18:58:40 --> Output Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:58:40 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:58:40 --> Security Class Initialized
+INFO - 2015-07-28 18:58:40 --> URI Class Initialized
+DEBUG - 2015-07-28 18:58:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:40 --> Input Class Initialized
+INFO - 2015-07-28 18:58:40 --> Language Class Initialized
+INFO - 2015-07-28 18:58:40 --> Router Class Initialized
+INFO - 2015-07-28 18:58:40 --> Output Class Initialized
+INFO - 2015-07-28 18:58:40 --> Loader Class Initialized
+INFO - 2015-07-28 18:58:40 --> Security Class Initialized
+INFO - 2015-07-28 18:58:40 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 18:58:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:58:40 --> Input Class Initialized
+INFO - 2015-07-28 18:58:40 --> Language Class Initialized
+INFO - 2015-07-28 18:58:40 --> Loader Class Initialized
+INFO - 2015-07-28 18:58:40 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:58:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:40 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:58:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:45 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:45 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:46 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:58:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:46 --> Total execution time: 6.3332
+INFO - 2015-07-28 18:58:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:46 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:46 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:46 --> Model Class Initialized
+INFO - 2015-07-28 18:58:46 --> Model Class Initialized
+INFO - 2015-07-28 18:58:46 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:46 --> Total execution time: 6.4007
+INFO - 2015-07-28 18:58:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:47 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:47 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:47 --> Model Class Initialized
+INFO - 2015-07-28 18:58:47 --> Model Class Initialized
+INFO - 2015-07-28 18:58:47 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:47 --> Total execution time: 7.1961
+INFO - 2015-07-28 18:58:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:47 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:47 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:47 --> Model Class Initialized
+INFO - 2015-07-28 18:58:47 --> Model Class Initialized
+INFO - 2015-07-28 18:58:47 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:47 --> Total execution time: 7.5537
+INFO - 2015-07-28 18:58:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:58:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:58:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:58:49 --> Encryption Class Initialized
+INFO - 2015-07-28 18:58:49 --> Controller Class Initialized
+INFO - 2015-07-28 18:58:49 --> Model Class Initialized
+INFO - 2015-07-28 18:58:49 --> Model Class Initialized
+INFO - 2015-07-28 18:58:49 --> Final output sent to browser
+DEBUG - 2015-07-28 18:58:49 --> Total execution time: 9.5442
+INFO - 2015-07-28 18:59:38 --> Config Class Initialized
+INFO - 2015-07-28 18:59:38 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:59:38 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:59:38 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:59:38 --> URI Class Initialized
+INFO - 2015-07-28 18:59:38 --> Router Class Initialized
+INFO - 2015-07-28 18:59:38 --> Output Class Initialized
+INFO - 2015-07-28 18:59:38 --> Security Class Initialized
+DEBUG - 2015-07-28 18:59:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:59:38 --> Input Class Initialized
+INFO - 2015-07-28 18:59:38 --> Language Class Initialized
+INFO - 2015-07-28 18:59:38 --> Loader Class Initialized
+INFO - 2015-07-28 18:59:38 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:59:38 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:59:44 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:59:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:59:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:59:44 --> Encryption Class Initialized
+INFO - 2015-07-28 18:59:44 --> Controller Class Initialized
+INFO - 2015-07-28 18:59:44 --> Model Class Initialized
+INFO - 2015-07-28 18:59:44 --> Model Class Initialized
+INFO - 2015-07-28 18:59:44 --> Model Class Initialized
+INFO - 2015-07-28 18:59:44 --> Model Class Initialized
+INFO - 2015-07-28 18:59:45 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 18:59:45 --> Final output sent to browser
+DEBUG - 2015-07-28 18:59:45 --> Total execution time: 7.3629
+INFO - 2015-07-28 18:59:45 --> Config Class Initialized
+INFO - 2015-07-28 18:59:45 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:59:45 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:59:45 --> URI Class Initialized
+INFO - 2015-07-28 18:59:45 --> Router Class Initialized
+INFO - 2015-07-28 18:59:45 --> Output Class Initialized
+INFO - 2015-07-28 18:59:45 --> Security Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:59:45 --> Input Class Initialized
+INFO - 2015-07-28 18:59:45 --> Language Class Initialized
+INFO - 2015-07-28 18:59:45 --> Loader Class Initialized
+INFO - 2015-07-28 18:59:45 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:59:45 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:59:45 --> Config Class Initialized
+INFO - 2015-07-28 18:59:45 --> Hooks Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:59:45 --> Config Class Initialized
+INFO - 2015-07-28 18:59:45 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:59:45 --> Hooks Class Initialized
+INFO - 2015-07-28 18:59:45 --> URI Class Initialized
+INFO - 2015-07-28 18:59:45 --> Router Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> UTF-8 Support Enabled
+INFO - 2015-07-28 18:59:45 --> Utf8 Class Initialized
+INFO - 2015-07-28 18:59:45 --> Output Class Initialized
+INFO - 2015-07-28 18:59:45 --> URI Class Initialized
+INFO - 2015-07-28 18:59:45 --> Security Class Initialized
+INFO - 2015-07-28 18:59:45 --> Router Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:59:45 --> Input Class Initialized
+INFO - 2015-07-28 18:59:45 --> Language Class Initialized
+INFO - 2015-07-28 18:59:45 --> Output Class Initialized
+INFO - 2015-07-28 18:59:45 --> Security Class Initialized
+INFO - 2015-07-28 18:59:45 --> Loader Class Initialized
+DEBUG - 2015-07-28 18:59:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 18:59:45 --> Input Class Initialized
+INFO - 2015-07-28 18:59:45 --> Language Class Initialized
+INFO - 2015-07-28 18:59:45 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:59:45 --> Loader Class Initialized
+INFO - 2015-07-28 18:59:45 --> Helper loaded: url_helper
+INFO - 2015-07-28 18:59:45 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:59:45 --> Database Driver Class Initialized
+INFO - 2015-07-28 18:59:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:59:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:59:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:59:52 --> Encryption Class Initialized
+INFO - 2015-07-28 18:59:52 --> Controller Class Initialized
+INFO - 2015-07-28 18:59:52 --> Model Class Initialized
+INFO - 2015-07-28 18:59:52 --> Model Class Initialized
+INFO - 2015-07-28 18:59:52 --> Model Class Initialized
+INFO - 2015-07-28 18:59:52 --> Model Class Initialized
+DEBUG - 2015-07-28 18:59:52 --> 7 0
+INFO - 2015-07-28 18:59:52 --> Final output sent to browser
+DEBUG - 2015-07-28 18:59:52 --> Total execution time: 6.9113
+INFO - 2015-07-28 18:59:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:59:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:59:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:59:53 --> Encryption Class Initialized
+INFO - 2015-07-28 18:59:53 --> Controller Class Initialized
+INFO - 2015-07-28 18:59:53 --> Model Class Initialized
+INFO - 2015-07-28 18:59:53 --> Model Class Initialized
+INFO - 2015-07-28 18:59:53 --> Model Class Initialized
+INFO - 2015-07-28 18:59:53 --> Model Class Initialized
+DEBUG - 2015-07-28 18:59:53 --> 5 0
+INFO - 2015-07-28 18:59:54 --> Final output sent to browser
+DEBUG - 2015-07-28 18:59:54 --> Total execution time: 8.8878
+INFO - 2015-07-28 18:59:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 18:59:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 18:59:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 18:59:55 --> Encryption Class Initialized
+INFO - 2015-07-28 18:59:55 --> Controller Class Initialized
+INFO - 2015-07-28 18:59:55 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 18:59:55 --> Final output sent to browser
+DEBUG - 2015-07-28 18:59:55 --> Total execution time: 10.3692
+INFO - 2015-07-28 19:00:02 --> Config Class Initialized
+INFO - 2015-07-28 19:00:02 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:00:02 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:00:02 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:00:02 --> URI Class Initialized
+INFO - 2015-07-28 19:00:02 --> Router Class Initialized
+INFO - 2015-07-28 19:00:02 --> Output Class Initialized
+INFO - 2015-07-28 19:00:02 --> Security Class Initialized
+DEBUG - 2015-07-28 19:00:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:00:02 --> Input Class Initialized
+INFO - 2015-07-28 19:00:02 --> Language Class Initialized
+INFO - 2015-07-28 19:00:02 --> Loader Class Initialized
+INFO - 2015-07-28 19:00:02 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:00:02 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:00:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:00:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:00:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:00:11 --> Encryption Class Initialized
+INFO - 2015-07-28 19:00:11 --> Controller Class Initialized
+INFO - 2015-07-28 19:00:11 --> Model Class Initialized
+INFO - 2015-07-28 19:00:11 --> Model Class Initialized
+INFO - 2015-07-28 19:00:11 --> Model Class Initialized
+INFO - 2015-07-28 19:00:11 --> Model Class Initialized
+INFO - 2015-07-28 19:00:11 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/blog.php
+INFO - 2015-07-28 19:00:11 --> Final output sent to browser
+DEBUG - 2015-07-28 19:00:11 --> Total execution time: 9.7623
+INFO - 2015-07-28 19:00:11 --> Config Class Initialized
+INFO - 2015-07-28 19:00:11 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:00:11 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:00:11 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:00:11 --> URI Class Initialized
+INFO - 2015-07-28 19:00:11 --> Router Class Initialized
+INFO - 2015-07-28 19:00:11 --> Output Class Initialized
+INFO - 2015-07-28 19:00:11 --> Security Class Initialized
+DEBUG - 2015-07-28 19:00:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:00:11 --> Input Class Initialized
+INFO - 2015-07-28 19:00:11 --> Language Class Initialized
+INFO - 2015-07-28 19:00:11 --> Loader Class Initialized
+INFO - 2015-07-28 19:00:11 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:00:11 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:00:12 --> Config Class Initialized
+INFO - 2015-07-28 19:00:12 --> Hooks Class Initialized
+INFO - 2015-07-28 19:00:12 --> Config Class Initialized
+INFO - 2015-07-28 19:00:12 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:00:12 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:00:12 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:00:12 --> URI Class Initialized
+DEBUG - 2015-07-28 19:00:12 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:00:12 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:00:12 --> Router Class Initialized
+INFO - 2015-07-28 19:00:12 --> URI Class Initialized
+INFO - 2015-07-28 19:00:12 --> Router Class Initialized
+INFO - 2015-07-28 19:00:12 --> Output Class Initialized
+INFO - 2015-07-28 19:00:12 --> Output Class Initialized
+INFO - 2015-07-28 19:00:12 --> Security Class Initialized
+INFO - 2015-07-28 19:00:12 --> Security Class Initialized
+DEBUG - 2015-07-28 19:00:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-07-28 19:00:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:00:12 --> Input Class Initialized
+INFO - 2015-07-28 19:00:12 --> Input Class Initialized
+INFO - 2015-07-28 19:00:12 --> Language Class Initialized
+INFO - 2015-07-28 19:00:12 --> Language Class Initialized
+INFO - 2015-07-28 19:00:12 --> Loader Class Initialized
+INFO - 2015-07-28 19:00:12 --> Loader Class Initialized
+INFO - 2015-07-28 19:00:12 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:00:12 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:00:12 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:00:12 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:00:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:00:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:00:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:00:24 --> Encryption Class Initialized
+INFO - 2015-07-28 19:00:24 --> Controller Class Initialized
+INFO - 2015-07-28 19:00:24 --> Model Class Initialized
+INFO - 2015-07-28 19:00:24 --> Model Class Initialized
+INFO - 2015-07-28 19:00:24 --> Model Class Initialized
+INFO - 2015-07-28 19:00:24 --> Model Class Initialized
+DEBUG - 2015-07-28 19:00:24 --> 7 0
+INFO - 2015-07-28 19:00:25 --> Final output sent to browser
+DEBUG - 2015-07-28 19:00:25 --> Total execution time: 13.4278
+INFO - 2015-07-28 19:00:26 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:00:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:00:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:00:26 --> Encryption Class Initialized
+INFO - 2015-07-28 19:00:26 --> Controller Class Initialized
+INFO - 2015-07-28 19:00:26 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:00:26 --> Final output sent to browser
+DEBUG - 2015-07-28 19:00:26 --> Total execution time: 14.5081
+INFO - 2015-07-28 19:00:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:00:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:00:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:00:27 --> Encryption Class Initialized
+INFO - 2015-07-28 19:00:27 --> Controller Class Initialized
+INFO - 2015-07-28 19:00:27 --> Model Class Initialized
+INFO - 2015-07-28 19:00:27 --> Model Class Initialized
+INFO - 2015-07-28 19:00:27 --> Model Class Initialized
+INFO - 2015-07-28 19:00:27 --> Model Class Initialized
+DEBUG - 2015-07-28 19:00:27 --> 5 0
+INFO - 2015-07-28 19:00:27 --> Final output sent to browser
+DEBUG - 2015-07-28 19:00:27 --> Total execution time: 15.7518
+INFO - 2015-07-28 19:00:54 --> Config Class Initialized
+INFO - 2015-07-28 19:00:54 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:00:54 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:00:54 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:00:54 --> URI Class Initialized
+INFO - 2015-07-28 19:00:54 --> Router Class Initialized
+INFO - 2015-07-28 19:00:54 --> Output Class Initialized
+INFO - 2015-07-28 19:00:54 --> Security Class Initialized
+DEBUG - 2015-07-28 19:00:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:00:54 --> Input Class Initialized
+INFO - 2015-07-28 19:00:54 --> Language Class Initialized
+INFO - 2015-07-28 19:00:54 --> Loader Class Initialized
+INFO - 2015-07-28 19:00:54 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:00:54 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:01:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:04 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:04 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:04 --> Model Class Initialized
+INFO - 2015-07-28 19:01:04 --> Model Class Initialized
+INFO - 2015-07-28 19:01:04 --> Model Class Initialized
+INFO - 2015-07-28 19:01:05 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/menu.php
+INFO - 2015-07-28 19:01:05 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:05 --> Total execution time: 11.0448
+INFO - 2015-07-28 19:01:29 --> Config Class Initialized
+INFO - 2015-07-28 19:01:29 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:01:29 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:01:29 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:01:29 --> URI Class Initialized
+DEBUG - 2015-07-28 19:01:29 --> No URI present. Default controller set.
+INFO - 2015-07-28 19:01:29 --> Router Class Initialized
+INFO - 2015-07-28 19:01:29 --> Output Class Initialized
+INFO - 2015-07-28 19:01:29 --> Security Class Initialized
+DEBUG - 2015-07-28 19:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:01:29 --> Input Class Initialized
+INFO - 2015-07-28 19:01:29 --> Language Class Initialized
+INFO - 2015-07-28 19:01:29 --> Loader Class Initialized
+INFO - 2015-07-28 19:01:29 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:01:29 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:01:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:38 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:38 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:38 --> Model Class Initialized
+INFO - 2015-07-28 19:01:38 --> Model Class Initialized
+INFO - 2015-07-28 19:01:38 --> Model Class Initialized
+INFO - 2015-07-28 19:01:39 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/index.php
+INFO - 2015-07-28 19:01:39 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:39 --> Total execution time: 9.8792
+INFO - 2015-07-28 19:01:39 --> Config Class Initialized
+INFO - 2015-07-28 19:01:39 --> Hooks Class Initialized
+INFO - 2015-07-28 19:01:39 --> Config Class Initialized
+INFO - 2015-07-28 19:01:39 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:01:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:01:39 --> Config Class Initialized
+INFO - 2015-07-28 19:01:39 --> Hooks Class Initialized
+INFO - 2015-07-28 19:01:39 --> URI Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:01:39 --> Router Class Initialized
+INFO - 2015-07-28 19:01:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:01:39 --> Output Class Initialized
+INFO - 2015-07-28 19:01:39 --> URI Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:01:39 --> Security Class Initialized
+INFO - 2015-07-28 19:01:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:01:39 --> Router Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:01:39 --> URI Class Initialized
+INFO - 2015-07-28 19:01:39 --> Input Class Initialized
+INFO - 2015-07-28 19:01:39 --> Output Class Initialized
+INFO - 2015-07-28 19:01:39 --> Language Class Initialized
+INFO - 2015-07-28 19:01:39 --> Router Class Initialized
+INFO - 2015-07-28 19:01:39 --> Security Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:01:39 --> Loader Class Initialized
+INFO - 2015-07-28 19:01:39 --> Output Class Initialized
+INFO - 2015-07-28 19:01:39 --> Input Class Initialized
+INFO - 2015-07-28 19:01:39 --> Language Class Initialized
+INFO - 2015-07-28 19:01:39 --> Config Class Initialized
+INFO - 2015-07-28 19:01:39 --> Hooks Class Initialized
+INFO - 2015-07-28 19:01:39 --> Security Class Initialized
+INFO - 2015-07-28 19:01:39 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 19:01:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:01:39 --> Input Class Initialized
+INFO - 2015-07-28 19:01:39 --> Loader Class Initialized
+INFO - 2015-07-28 19:01:39 --> Language Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:01:39 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:01:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:01:39 --> URI Class Initialized
+INFO - 2015-07-28 19:01:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:01:39 --> Loader Class Initialized
+INFO - 2015-07-28 19:01:39 --> Router Class Initialized
+INFO - 2015-07-28 19:01:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:01:39 --> Output Class Initialized
+INFO - 2015-07-28 19:01:39 --> Security Class Initialized
+INFO - 2015-07-28 19:01:39 --> Database Driver Class Initialized
+DEBUG - 2015-07-28 19:01:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:01:39 --> Input Class Initialized
+INFO - 2015-07-28 19:01:39 --> Language Class Initialized
+INFO - 2015-07-28 19:01:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:01:39 --> Loader Class Initialized
+INFO - 2015-07-28 19:01:39 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:01:39 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:01:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:45 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:45 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:45 --> Model Class Initialized
+INFO - 2015-07-28 19:01:45 --> Model Class Initialized
+INFO - 2015-07-28 19:01:45 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:45 --> Total execution time: 6.0086
+INFO - 2015-07-28 19:01:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:45 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:45 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:45 --> Model Class Initialized
+INFO - 2015-07-28 19:01:45 --> Model Class Initialized
+INFO - 2015-07-28 19:01:45 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:45 --> Total execution time: 6.2937
+INFO - 2015-07-28 19:01:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:46 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:46 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:46 --> Model Class Initialized
+INFO - 2015-07-28 19:01:46 --> Model Class Initialized
+INFO - 2015-07-28 19:01:46 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:46 --> Total execution time: 7.0196
+INFO - 2015-07-28 19:01:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:01:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:01:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:01:48 --> Encryption Class Initialized
+INFO - 2015-07-28 19:01:48 --> Controller Class Initialized
+INFO - 2015-07-28 19:01:48 --> Model Class Initialized
+INFO - 2015-07-28 19:01:48 --> Model Class Initialized
+INFO - 2015-07-28 19:01:48 --> Final output sent to browser
+DEBUG - 2015-07-28 19:01:48 --> Total execution time: 9.3308
+INFO - 2015-07-28 19:03:47 --> Config Class Initialized
+INFO - 2015-07-28 19:03:47 --> Hooks Class Initialized
+INFO - 2015-07-28 19:03:47 --> Config Class Initialized
+INFO - 2015-07-28 19:03:47 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:03:47 --> Config Class Initialized
+INFO - 2015-07-28 19:03:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:03:47 --> Hooks Class Initialized
+INFO - 2015-07-28 19:03:47 --> URI Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:03:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:03:47 --> Router Class Initialized
+INFO - 2015-07-28 19:03:47 --> URI Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:03:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:03:47 --> Output Class Initialized
+INFO - 2015-07-28 19:03:47 --> Router Class Initialized
+INFO - 2015-07-28 19:03:47 --> Security Class Initialized
+INFO - 2015-07-28 19:03:47 --> URI Class Initialized
+INFO - 2015-07-28 19:03:47 --> Output Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:03:47 --> Input Class Initialized
+INFO - 2015-07-28 19:03:47 --> Security Class Initialized
+INFO - 2015-07-28 19:03:47 --> Router Class Initialized
+INFO - 2015-07-28 19:03:47 --> Language Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:03:47 --> Input Class Initialized
+INFO - 2015-07-28 19:03:47 --> Output Class Initialized
+INFO - 2015-07-28 19:03:47 --> Language Class Initialized
+INFO - 2015-07-28 19:03:47 --> Security Class Initialized
+INFO - 2015-07-28 19:03:47 --> Loader Class Initialized
+INFO - 2015-07-28 19:03:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-28 19:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:03:47 --> Input Class Initialized
+INFO - 2015-07-28 19:03:47 --> Loader Class Initialized
+INFO - 2015-07-28 19:03:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:03:47 --> Language Class Initialized
+INFO - 2015-07-28 19:03:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:03:47 --> Loader Class Initialized
+INFO - 2015-07-28 19:03:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:03:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:03:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:03:47 --> Config Class Initialized
+INFO - 2015-07-28 19:03:47 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:03:47 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:03:47 --> URI Class Initialized
+INFO - 2015-07-28 19:03:47 --> Router Class Initialized
+INFO - 2015-07-28 19:03:47 --> Output Class Initialized
+INFO - 2015-07-28 19:03:47 --> Security Class Initialized
+DEBUG - 2015-07-28 19:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:03:47 --> Input Class Initialized
+INFO - 2015-07-28 19:03:47 --> Language Class Initialized
+INFO - 2015-07-28 19:03:47 --> Loader Class Initialized
+INFO - 2015-07-28 19:03:47 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:03:47 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:03:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:03:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:03:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:03:54 --> Encryption Class Initialized
+INFO - 2015-07-28 19:03:54 --> Controller Class Initialized
+INFO - 2015-07-28 19:03:54 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:03:54 --> Final output sent to browser
+DEBUG - 2015-07-28 19:03:54 --> Total execution time: 7.1983
+INFO - 2015-07-28 19:03:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:03:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:03:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:03:56 --> Encryption Class Initialized
+INFO - 2015-07-28 19:03:56 --> Controller Class Initialized
+INFO - 2015-07-28 19:03:56 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:03:56 --> Final output sent to browser
+DEBUG - 2015-07-28 19:03:56 --> Total execution time: 8.9596
+INFO - 2015-07-28 19:03:58 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:03:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:03:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:03:58 --> Encryption Class Initialized
+INFO - 2015-07-28 19:03:58 --> Controller Class Initialized
+INFO - 2015-07-28 19:03:58 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:03:58 --> Final output sent to browser
+DEBUG - 2015-07-28 19:03:58 --> Total execution time: 10.9308
+INFO - 2015-07-28 19:04:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:04:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:04:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:04:01 --> Encryption Class Initialized
+INFO - 2015-07-28 19:04:01 --> Controller Class Initialized
+INFO - 2015-07-28 19:04:01 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:04:01 --> Final output sent to browser
+DEBUG - 2015-07-28 19:04:01 --> Total execution time: 14.1323
+INFO - 2015-07-28 19:10:50 --> Config Class Initialized
+INFO - 2015-07-28 19:10:50 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:10:50 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:10:50 --> Config Class Initialized
+INFO - 2015-07-28 19:10:50 --> Hooks Class Initialized
+INFO - 2015-07-28 19:10:50 --> Config Class Initialized
+INFO - 2015-07-28 19:10:50 --> Hooks Class Initialized
+INFO - 2015-07-28 19:10:50 --> URI Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:10:50 --> Utf8 Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:10:50 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:10:50 --> URI Class Initialized
+INFO - 2015-07-28 19:10:50 --> Router Class Initialized
+INFO - 2015-07-28 19:10:50 --> URI Class Initialized
+INFO - 2015-07-28 19:10:50 --> Router Class Initialized
+INFO - 2015-07-28 19:10:50 --> Output Class Initialized
+INFO - 2015-07-28 19:10:50 --> Router Class Initialized
+INFO - 2015-07-28 19:10:50 --> Output Class Initialized
+INFO - 2015-07-28 19:10:50 --> Security Class Initialized
+INFO - 2015-07-28 19:10:50 --> Output Class Initialized
+INFO - 2015-07-28 19:10:50 --> Security Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:10:50 --> Input Class Initialized
+INFO - 2015-07-28 19:10:50 --> Language Class Initialized
+INFO - 2015-07-28 19:10:50 --> Security Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:10:50 --> Input Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:10:50 --> Language Class Initialized
+INFO - 2015-07-28 19:10:50 --> Input Class Initialized
+INFO - 2015-07-28 19:10:50 --> Loader Class Initialized
+INFO - 2015-07-28 19:10:50 --> Language Class Initialized
+INFO - 2015-07-28 19:10:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:10:50 --> Loader Class Initialized
+INFO - 2015-07-28 19:10:50 --> Loader Class Initialized
+INFO - 2015-07-28 19:10:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:10:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:10:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:10:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:10:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:10:50 --> Config Class Initialized
+INFO - 2015-07-28 19:10:50 --> Hooks Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> UTF-8 Support Enabled
+INFO - 2015-07-28 19:10:50 --> Utf8 Class Initialized
+INFO - 2015-07-28 19:10:50 --> URI Class Initialized
+INFO - 2015-07-28 19:10:50 --> Router Class Initialized
+INFO - 2015-07-28 19:10:50 --> Output Class Initialized
+INFO - 2015-07-28 19:10:50 --> Security Class Initialized
+DEBUG - 2015-07-28 19:10:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-07-28 19:10:50 --> Input Class Initialized
+INFO - 2015-07-28 19:10:50 --> Language Class Initialized
+INFO - 2015-07-28 19:10:50 --> Loader Class Initialized
+INFO - 2015-07-28 19:10:50 --> Helper loaded: url_helper
+INFO - 2015-07-28 19:10:50 --> Database Driver Class Initialized
+INFO - 2015-07-28 19:10:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:10:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:10:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:10:56 --> Encryption Class Initialized
+INFO - 2015-07-28 19:10:56 --> Controller Class Initialized
+INFO - 2015-07-28 19:10:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:10:57 --> Final output sent to browser
+DEBUG - 2015-07-28 19:10:57 --> Total execution time: 7.0127
+INFO - 2015-07-28 19:10:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:10:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:10:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:10:57 --> Encryption Class Initialized
+INFO - 2015-07-28 19:10:57 --> Controller Class Initialized
+INFO - 2015-07-28 19:10:57 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:10:57 --> Final output sent to browser
+DEBUG - 2015-07-28 19:10:57 --> Total execution time: 7.1965
+INFO - 2015-07-28 19:10:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:10:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:10:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:10:59 --> Encryption Class Initialized
+INFO - 2015-07-28 19:10:59 --> Controller Class Initialized
+INFO - 2015-07-28 19:11:00 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:11:00 --> Final output sent to browser
+DEBUG - 2015-07-28 19:11:00 --> Total execution time: 10.0124
+INFO - 2015-07-28 19:11:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2015-07-28 19:11:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2015-07-28 19:11:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2015-07-28 19:11:01 --> Encryption Class Initialized
+INFO - 2015-07-28 19:11:01 --> Controller Class Initialized
+INFO - 2015-07-28 19:11:02 --> File loaded: C:\wamp\www\CoffeeShopPro\application\views\front/error_404.php
+INFO - 2015-07-28 19:11:02 --> Final output sent to browser
+DEBUG - 2015-07-28 19:11:02 --> Total execution time: 12.2299

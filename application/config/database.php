@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | the query builder class.
 */
 
-$active_group = 'development';
+$active_group = 'testing';
 $query_builder = TRUE;
 
 $db['development'] = array(
@@ -90,9 +90,9 @@ $db['development'] = array(
 $db['testing'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
+	'username' => 'root',
 	'password' => '',
-	'database' => '',
+	'database' => 'vuthea_coffee',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

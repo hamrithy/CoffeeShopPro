@@ -29,7 +29,7 @@
 			$this->DtoSlide->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 
 			$this->DaoSlide->addSlide($this->DtoSlide);
-			$this->index();
+			redirect("admin/slide");
 
 		}
 		public function listSlidePro(){
@@ -44,7 +44,7 @@
 
 			$this->DtoSlide->setSlideid($id);
 			$this->DaoSlide->deleteSlide($this->DtoSlide);
-			$this->index();
+			redirect("admin/slide");
 		}
 
 		public function getSlide($id){
@@ -71,8 +71,7 @@
 			$this->DtoSlide->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 
 			$this->DaoSlide->updateSlide($this->DtoSlide);
-			$this->index();
-			redirect('admin/slide/listslide');
+			redirect("admin/slide");
 		}
 	}
 

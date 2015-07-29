@@ -110,8 +110,8 @@
 									<td><?php echo $row->foodtypeid; ?></td>
 									<td><?php echo $row->title; ?></td>
 									<td>
-										<button  value="<?php  echo $row->foodtypeid; ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
-										<a href='<?php  echo site_url()?>/admin/foodcategory/actionGetFoodType/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>
+										<a  href="<?php echo site_url()?>/admin/foodcategory/actiondeletefoodtype/<?php echo $row->foodtypeid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
+										<a href='<?php  echo site_url()?>/admin/foodcategory/actiongetfoodtype/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>
 									</td>
 								</tr>
 								<?php } ?>

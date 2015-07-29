@@ -36,7 +36,8 @@
 			$this->DtoPost->setSeodescription($this->input->post("txtseodescription"));
 			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			$this->DaoPost->addPost($this->DtoPost);
-			$this->index();
+			redirect("admin/post");
+			//$this->index();
 		}
 		
 		public function listPostPro(){
@@ -53,7 +54,7 @@
 		public function deletePost($id){
 			$this->DtoPost->setPostid($id);
 			$this->DaoPost->deletePost($this->DtoPost);
-			$this->index();
+			redirect("admin/post");
 		}
 		
 		public function updatePost(){
@@ -66,7 +67,7 @@
 			$this->DtoPost->setSeodescription($this->input->post("txtseodescription"));
 			$this->DtoPost->setUserid($this->encryption->decrypt($this->session->userdata("userid")));
 			$this->DaoPost->updatePost($this->DtoPost);
-			$this->index();	
+			redirect("admin/post");
 		}
 		 
 	}
