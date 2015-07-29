@@ -117,7 +117,7 @@
 							<div class="tiles twitter-tile text-center">
 								<i class="fa fa-dashboard icon-lg-size"></i>
 								<h4>
-									<a href="#"><?php echo $countFoodCategories; ?> Categories</a>
+									<a href="<?php echo site_url()?>/admin/foodcategory"><?php echo $countFoodCategories; ?> Categories</a>
 								</h4>
 							</div>
 							<!-- /.tiles .twitter-tile -->
@@ -127,7 +127,7 @@
 							<div class="tiles dribbble-tile text-center">
 								<i class="fa fa-comments icon-lg-size"></i>
 								<h4>
-									<a href="#"><?php echo $countPosts; ?> Posts</a>
+									<a href="<?php echo site_url()?>/admin/post"><?php echo $countPosts; ?> Posts</a>
 								</h4>
 							</div>
 							<!-- /.tiles .dribbble-tile -->
@@ -137,7 +137,7 @@
 							<div class="tiles linkedin-tile text-center">
 								<i class="fa fa-credit-card icon-lg-size"></i>
 								<h4>
-									<a href="#"><?php echo $countPages; ?> Pages</a>
+									<a href="<?php echo site_url()?>/admin/page"><?php echo $countPages; ?> Pages</a>
 								</h4>
 							</div>
 							<!-- /.tiles .dribbble-tile -->
@@ -192,12 +192,12 @@
 						<?php foreach($recentPosts as $row){ ?>	
 						<div class="the-box no-border store-list view-category">
 							<div class="media">
-								<a target="_blank" href="#" class="pull-left"><img style="width: 196px; height: 110px" src="<?php echo $row->thumbnailurl; ?>" class="store-image" alt="image"></a>
+								<a target="_blank" href="<?php echo site_url()?>/blog/detail/<?php echo $row->postid ?>" class="pull-left"><img style="width: 196px; height: 110px" src="<?php echo $row->thumbnailurl; ?>" class="store-image" alt="image"></a>
 								<div class="clearfix visible-xs"></div>
 								<div class="media-body">
 									<a href="#"></a>
 									<h4 style="padding: 0px; margin: 0px" class="media-heading">
-										<a href=""><strong class="text-black"><?php echo $row->title; ?></strong></a>
+										<a target="_blank" href="<?php echo site_url()?>/blog/detail/<?php echo $row->postid ?>"><strong class="text-black"><?php echo $row->title; ?></strong></a>
 									</h4>
 									<ul style="list-style: none; padding: 0px; margin: 0px;">
 										<li class="text-muted small">&nbsp;</li>
