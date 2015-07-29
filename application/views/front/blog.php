@@ -117,12 +117,7 @@
                         <h2 class="entry-title" style="cursor:pointer" onclick="location.href='<?php echo base_url() ?>blog/detail/{{= postid}}'" >{{= title}}</h2>
                         <ul class="clean-list post-meta-list border-top row">
                             <li class="no-padding">
-                                <a href="#" class="meta-link comments">1 comment</a> /
-                                <a class="text-red hover-text-dark-red author" href="#">By {{= username}}</a> / 
-                                <div class="tag-list inline">
-                                    <a href="#" rel="tag">food</a>, <a href="#" rel="tag">chicken</a>
-                                </div>
-
+                                <a class="text-red hover-text-dark-red author" href="#">By {{= username}}</a>
                             </li>
                         </ul>
 

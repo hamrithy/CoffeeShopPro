@@ -13,9 +13,9 @@
                                     </form>
                                 </div>
 
-                                <div class="widget widget-item widget_recent_entries">      
+                                <div class="widget widget-item widget_recent_posts">      
                                     <h3>Recent Posts</h3>       
-                                    <ul id="recentPost" style="width: 260px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                    <ul id="recentPost" class="clean-list ovh" >
                                     	
                                     </ul>
                                 </div>
@@ -113,9 +113,21 @@
              
                         
     <script type="text/x-jquery-tmpl" id="tmplRecentPost">
-		  <li>
-                <a href="<?php echo base_url() ?>blog/detail/{{= postid }}">{{= title}}</a>
-          </li>
+		  
+									<li class="row no-margin">
+                                            <div class="col-md-3 no-padding">
+                                                <figure>
+                                                    <a href="<?php echo site_url()?>/blog/detail/{{= postid }}">
+                                                        <img src="{{= thumbnailurl}}" alt="{{= title}}" />
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                            <div class="col-md-9 no-padding" style="height: 55px;overflow: HIDDEN;">
+                                                <div class="entry-content inline">
+                                                    <!--<time class="text-center" datetime="2014-08-18">18.08.2014</time>--><a href="<?php echo site_url()?>/blog/detail/{{= postid }}" class="entry-title">{{= title}}</a>
+                                                </div>
+                                            </div>
+                                        </li>
 	</script>
 	
 	
@@ -125,7 +137,7 @@
                                             <div class="col-md-3 no-padding">
                                                 <figure>
                                                     <a href="<?php echo site_url()?>/menu/food/{{= foodid}}">
-                                                        <img src="{{= thumbnailurl}}" alt="Donut with scrambled eggs" />
+                                                        <img src="{{= thumbnailurl}}" alt="{{= title}}" />
                                                     </a>
                                                 </figure>
                                             </div>
