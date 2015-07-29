@@ -8,10 +8,10 @@
                                             <input type="submit" class="search-button search-submit submit" id="btnSubmit" value="">
                                         </div>
                                         <div class="search-wrap ovh">
-                                            <input type="text" placeholder="Search"  name="search" class="search-line opacity">
+                                            <input type="text" placeholder="Search"  name="search" value="<?php if (!empty($_GET)) { echo $_GET["search"];  }  ?>" class="search-line opacity">
                                         </div>
                                     </form>
-                                </div>
+                               </div>
 
                                 <div class="widget widget-item widget_recent_posts">      
                                     <h3>Recent Posts</h3>       
