@@ -119,7 +119,7 @@
 									<td><?php echo $v->username; ?></td>
 									<td>
 										<!-- <a  href="<?php // echo site_url()?>/admin/post/deletepost/<?php  //echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> -->
-										
+										<img id="delete" style="display: none" src="<?php echo base_url() ?>public/style_front/images/deleting.gif" alt="Featured Image" >
 										<button  value="<?php  echo $v->postid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
 										<a  href="<?php  echo site_url()?>/admin/post/getpost/<?php  echo $v->postid ?>"  class="btn btn-primary">Update</a>
 									</td>
@@ -222,6 +222,9 @@
 		<script>
 		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
+				btn.disabled = true;
+				btn.previousElementSibling.style.display = 'inline';
+				btn.nextElementSibling.setAttribute("disabled", "disabled");
 				$.post('<?php  echo site_url()?>/admin/post/deletepost/'+btn.value,function(){
 					var row = btn.parentNode.parentNode;
 					row.parentNode.removeChild(row);
