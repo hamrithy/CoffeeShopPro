@@ -39,6 +39,7 @@
 		public function deletemenu($id){
 			$this->load->model('dao/DaoMenu');
 			$this->DaoMenu->deletemenu($id);
+			$this->index();
 		}
 
 		public function getmenu($id){

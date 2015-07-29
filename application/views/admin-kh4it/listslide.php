@@ -120,7 +120,7 @@
 									<td><?php echo $s->linkto; ?></td>							
 									<td><?php echo $s->ordering; ?></td>
 									<td>
-										<button value="<?php echo $s->slideid ?>" onclick="deletedata(this)" class="btn btn-danger">Delete</button>
+										<a  href="<?php echo site_url()?>/admin/slide/deleteSlidePro/<?php echo $s->slideid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a href="<?php  echo site_url()?>/admin/slide/getSlide/<?php  echo $s->slideid ?>" class="btn btn-primary" >Update</a>
 									</td>
 								</tr>

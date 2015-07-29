@@ -72,6 +72,7 @@
 
 		public function deleteFoodItem($id){
 			$this->DaoFood->deleteFoodItem($id);
+			$this->index();
 		}
 	}
 

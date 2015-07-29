@@ -53,6 +53,7 @@
 		public function deletePost($id){
 			$this->DtoPost->setPostid($id);
 			$this->DaoPost->deletePost($this->DtoPost);
+			$this->index();
 		}
 		
 		public function updatePost(){

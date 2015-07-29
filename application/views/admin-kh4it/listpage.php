@@ -118,8 +118,7 @@
 									<td><?php echo $p->createddate ?></td>									
 									<td><?php echo $p->username ?></td>
 									<td>
-										<img id="delete" style="display: none" src="<?php echo base_url() ?>public/style_front/images/deleting.gif" alt="Featured Image" >
-										<button value="<?php  echo $p->pageid ?>" onclick='deleteData(this)' style="margin-right:3px"  class="btn btn-danger">Delete</button>
+										<a  href="<?php echo site_url()?>/admin/page/deletepage/<?php echo $p->pageid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a  href="<?php  echo site_url()?>/admin/page/getpage/<?php  echo $p->pageid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>

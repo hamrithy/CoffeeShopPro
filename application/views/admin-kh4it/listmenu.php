@@ -118,7 +118,7 @@
 									<td><?php echo $v->ordering; ?></td>						
 									<td><?php echo $v->suboftitle; ?></td>
 									<td>
-										<button  value="<?php  echo $v->menuid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a  href="<?php echo site_url()?>/admin/menu/deletemenu/<?php echo $v->menuid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a  href="<?php  echo site_url()?>/admin/menu/getmenu/<?php  echo $v->menuid ?>"  class="btn btn-primary">Update</a>
 									</td>
 								</tr>
@@ -220,6 +220,9 @@
 		
 		function deleteData(btn){
 			if (confirm("Are you sure you want to delete?") == true) {
+				btn.disabled = true;
+				btn.previousElementSibling.style.display = 'inline';
+				btn.nextElementSibling.setAttribute("disabled", "disabled");
 				$.post('<?php  echo site_url()?>/admin/menu/deletemenu/'+btn.value,function(){
 					var row = btn.parentNode.parentNode;
 					row.parentNode.removeChild(row);

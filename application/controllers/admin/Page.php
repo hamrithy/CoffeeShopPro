@@ -41,6 +41,7 @@
 		public function deletePage($id){
 			$this->DtoPage->setPageid($id);
 			$this->DaoPage->deletePage($this->DtoPage);
+			$this->index();
 		}
 		
 		public function getPage($id){

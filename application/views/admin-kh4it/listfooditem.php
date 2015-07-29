@@ -128,7 +128,7 @@
 										?>
 									</td>								
 									<td>
-										<button  value="<?php  echo $row->foodid ?>" onclick='deleteData(this)' class="btn btn-danger">Delete</button>
+										<a  href="<?php echo site_url()?>/admin/fooditem/deletefooditem/<?php echo $row->foodid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a href='<?php  echo site_url()?>/admin/fooditem/getFood/<?php echo $row->foodid ?>' class='btn btn-primary'>Update</a>
 									</td>
 								</tr>

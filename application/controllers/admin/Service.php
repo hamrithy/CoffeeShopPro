@@ -43,6 +43,7 @@
 
 			$this->DtoService->setServiceid($id);
 			$this->DaoService->deleteService($this->DtoService);
+			$this->index();
 		}
 
 		public function getService($id){

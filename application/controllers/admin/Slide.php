@@ -30,8 +30,6 @@
 
 			$this->DaoSlide->addSlide($this->DtoSlide);
 			$this->index();
-			redirect('admin/slide/listslide');
-
 
 		}
 		public function listSlidePro(){
@@ -46,6 +44,7 @@
 
 			$this->DtoSlide->setSlideid($id);
 			$this->DaoSlide->deleteSlide($this->DtoSlide);
+			$this->index();
 		}
 
 		public function getSlide($id){
