@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="author" content="Vuthea Chheang">
-		<title>List Food Category</title>
+		<title>Dashboard</title>
  
 	<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 	<link href="<?php echo base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -165,7 +165,7 @@
 								<p class="text-success">$ <?php echo $row->price; ?></p>
 							</div>
 							<div class="right-button">
-								<a class="btn btn-success active" href="user.act" title="View" data-toggle="tooltip">
+								<a class="btn btn-success active" target="_blank" href="<?php echo base_url(); ?>menu" title="View" data-toggle="tooltip">
 									<i class="fa fa-check"></i>
 								</a>
 							</div>
@@ -192,7 +192,7 @@
 						<?php foreach($recentPosts as $row){ ?>	
 						<div class="the-box no-border store-list view-category">
 							<div class="media">
-								<a target="_blank" href="../elearning/play.act?v=15" class="pull-left"><img style="width: 196px; height: 110px" src="<?php echo $row->thumbnailurl; ?>" class="store-image" alt="image"></a>
+								<a target="_blank" href="#" class="pull-left"><img style="width: 196px; height: 110px" src="<?php echo $row->thumbnailurl; ?>" class="store-image" alt="image"></a>
 								<div class="clearfix visible-xs"></div>
 								<div class="media-body">
 									<a href="#"></a>
