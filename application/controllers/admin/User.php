@@ -39,7 +39,7 @@
 			if ($this->form_validation->run() == FALSE){
 				echo json_encode(array(
 										"ERROR"=> true ,
-										"ERR)MSG"=>validation_errors()
+										"ERR_MSG"=>validation_errors()
 									));
 			}else{
 				if($this->input->post('password')!=$this->input->post('confirm_password')){
@@ -95,7 +95,7 @@
 			if ($this->form_validation->run() == FALSE){
 				echo json_encode(array(
 										"ERROR"=> true ,
-										"ERR)MSG"=>validation_errors()
+										"ERR_MSG"=>validation_errors()
 									));
 			}else{
 				if($this->input->post('password')!=$this->input->post('confirm_password')){
@@ -115,7 +115,7 @@
 						$data["ERR_MSG"] = "Your user has been updated.";
 					}else{
 						$data["ERROR"] = true;
-						$data["ERR_MSG"] = "Your user cannot update.";
+						$data["ERR_MSG"] = "Your user has not been updated.";
 					}
 					echo json_encode($data);
 				}

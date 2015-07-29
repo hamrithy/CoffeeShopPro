@@ -121,14 +121,14 @@
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="password" id="PASSWORD" value="<?php echo $result->password;?>"/>
+										<input type="password" class="form-control" name="password" id="PASSWORD"/>
 									</div>
 								</div>
 								
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Confirm Password<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD" value="<?php echo $result->password;?>"/>
+										<input type="password" class="form-control" name="confirmpassword" id="CONFIRM_PASSWORD"/>
 									</div>
 								</div>
 
@@ -288,8 +288,8 @@
 				}
 				if($("#PASSWORD").val()!=$("#CONFIRM_PASSWORD").val()){
 					$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">Your password are mismatch. Please enter again.</div>');
-					$("#MESSAGE").fadeIn(1000);
-					$("#MESSAGE").fadeOut(5000);
+					$("#MESSAGE").fadeIn(500);
+					$("#MESSAGE").fadeOut(2000);
 					return;
 				}else{
 					$.ajax({
@@ -308,20 +308,20 @@
 							console.log("DATA:",data);
 							if(data["ERROR"]==true){
 								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
-								$("#MESSAGE").fadeIn(1000);
-								$("#MESSAGE").fadeOut(5000);
+								$("#MESSAGE").fadeIn(500);
+								$("#MESSAGE").fadeOut(2000);
 							}else{
 								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been updated successfully.</div>');
-								$("#MESSAGE").fadeIn(1000);
-								$("#MESSAGE").fadeOut(5000,function(){
+								$("#MESSAGE").fadeIn(500);
+								$("#MESSAGE").fadeOut(2000,function(){
 									location.href= "<?php echo site_url('admin/user');?>";
 								});
 							}
 						},
 						error: function(data){
 							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data.statusText+'</div>');
-							$("#MESSAGE").fadeIn(1000);
-							$("#MESSAGE").fadeOut(5000);
+							$("#MESSAGE").fadeIn(500);
+							$("#MESSAGE").fadeOut(2000);
 						}
 					});
 				}
