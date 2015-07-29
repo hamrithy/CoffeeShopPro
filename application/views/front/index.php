@@ -91,7 +91,7 @@
                                                         <div>
                                                             <figure>
                                                                 <a href="<?php echo $food->thumbnailurl ?>" class="zoom-image"><img src="<?php echo $food->thumbnailurl ?>" class="imgSize" alt="<?php echo $food->food_title ?>"></a>
-                                                                <figcaption>
+                                                                <figcaption style="height: 50px;overflow: hidden;">
                                                                     <a onclick="showdetailpopup(<?php echo $food->foodid ?>)" href="javascript:;" title="<?php echo $food->food_title ?>"><?php echo $food->food_title ?></a>
                                                                 </figcaption>
                                                             </figure>

@@ -69,7 +69,7 @@
                                 <div>
                                     <figure>
                                         <a href="'.$food->thumbnailurl.'" class="zoom-image"><img src="'.$food->thumbnailurl.'" alt="menu item" style="min-height:252px;"></a>
-                                        <figcaption class="aligncenter">
+                                        <figcaption class="aligncenter" style="height: 52px;overflow: hidden;">
                                            <!-- <a href="'.site_url().'/menu/food/'.$food->foodid.'" title="'.$food->food_title.'">'.$food->food_title.'</a> -->
                                         <a herf="#" style="cursor:pointer" onclick="showdetailpopup('.$food->foodid.')" title="'.$food->food_title.'">'.$food->food_title.'</a>
                                         </figcaption>
