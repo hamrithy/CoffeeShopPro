@@ -39,7 +39,7 @@
 			$this->email->to('darapenhchet@gmail.com'); 
 			$this->email->subject('Email from website Reservation');
 			$this->email->message('<br /><br /> Name: '.$name. '<br /><br /> Email: '.$email.
-								  '<br /><br /> DATE: '.$time.' '.$day.' '.$month.' '.$year.
+								  '<br /><br /> DATE: '.$day.' '.$month.' '.$year.' ' .$time.
 								  '<br /><br /> GUEST: '.$guest.' PERSONS'.
 								  '<br /><br /> Description: '.$message);	
 

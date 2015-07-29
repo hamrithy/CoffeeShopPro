@@ -138,7 +138,8 @@
     <script src="<?php echo base_url()?>public/style_front/js/options.js"></script>
     <script type="text/javascript">
         $(function(){
-            $('#btnSubmit').click(function(){
+            $('#contact_form').submit(function(e){
+                e.preventDefault();
             	if($("#NAME").val().trim() == "" ){
             		$("#msg").show().text("Please enter your name!");
             	}else if($("#EMAIL").val().trim() == "" ){
