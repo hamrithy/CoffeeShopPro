@@ -51,18 +51,19 @@
                 <div class="contact-form-wrap padding">
                     <h3 class="entry-title">Drop Us a Line</h3><hr />
                     <!-- Form -->
+                     <h5 class="entry-title" id="msg" style="color: red"></h5>
                      <form class="tt-form contact-form margin-top padding-top" id="contact_form" action="<?php  echo site_url('contact/sendemail')?>" method="POST" novalidate>
          
                         <div class="row form-row"><!-- Start Row -->
                                 <div class="col-md-4 column"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="Name" name="name" id="NAME">
+                                        <input type="text" class="contact-form-line" value="" placeholder="*Name" required="required" name="name" id="NAME">
                                     </div>
                                 </div><!-- End Column -->
-                             
+                               
                                 <div class="col-md-4 column"><!-- Start Column -->
                                     <div class="input-cover contact-line">
-                                        <input type="text" class="contact-form-line" value="" placeholder="E-Mail" name="e-mail" id="EMAIL">
+                                        <input type="text" class="contact-form-line" value="" placeholder="*E-Mail" required="required" name="e-mail" id="EMAIL">
                                     </div>
                                 </div><!-- End Column -->
                              
@@ -138,24 +139,33 @@
     <script type="text/javascript">
         $(function(){
             $('#btnSubmit').click(function(){
-                $.ajax({
-                    type: "POST",
-                    url: $("#contact_form").attr("action"),
-                    dataType: 'json',
-                    data: {
-                        name: $("#NAME").val(),
-                        email: $("#EMAIL").val(), 
-                        website: $("#WEBSITE").val(),
-                        message: $("#MESSAGE").val(),
-                    },
-                    success: function(data){
-                        if(data["ERROR"]==false){
-                            alert("Your email has been sent.");
-                        }else{
-                            alert("Your email has not been sent.");
-                        }
-                    }
-                });
+            	if($("#NAME").val().trim() == "" ){
+            		$("#msg").show().text("Please enter your name!");
+            	}else if($("#EMAIL").val().trim() == "" ){
+            		$("#msg").show().text("Please enter your email!");
+            	}else if($("#MESSAGE").val().trim() == "" ){
+            		$("#msg").show().text("Please enter message!");
+            	}else{
+            		 $.ajax({
+                         type: "POST",
+                         url: $("#contact_form").attr("action"),
+                         dataType: 'json',
+                         data: {
+                             name: $("#NAME").val(),
+                             email: $("#EMAIL").val(), 
+                             website: $("#WEBSITE").val(),
+                             message: $("#MESSAGE").val(),
+                         },
+                         success: function(data){
+                             if(data["ERROR"]==false){
+                                 alert("Your email has been sent.");
+                             }else{
+                                 alert("Your email has not been sent.");
+                             }
+                         }
+                     });
+                }
+                 
             });
         });
     </script>
