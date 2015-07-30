@@ -154,6 +154,7 @@
                     $("#msg").show().text('Please provide a valid e-mail.');
                 }else{                       
                      $("#msg").hide();
+                     $("#frmWaiting").modal('show');
             		 $.ajax({
                          type: "POST",
                          url: $("#contact_form").attr("action"),
@@ -170,6 +171,7 @@
                              }else{
                                  alert("Your email has not been sent.");
                              }
+                             $("#frmWaiting").modal('hide');
                          }
                      });
                 }
@@ -177,5 +179,21 @@
             });
         });
     </script>
+    
+    									<div class="modal fade" id="frmWaiting" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="DefaultModalLabel" aria-hidden="true">
+										  <div class="modal-dialog">
+											<div class="modal-content" style="border-radius: 5px;">
+											  
+											  <div class="modal-body">
+													<h5>Your message is sending. Please wait!</h5>
+													<center><img src="<?php echo base_url()?>/public/style_front/images/sending.gif"/></center>
+											  </div>
+											  
+											  
+											</div><!-- /.modal-content -->
+										  </div><!-- /.modal-doalog -->
+										</div><!-- /#DefaultModal -->
+										
+										
 </body>
 </html>
