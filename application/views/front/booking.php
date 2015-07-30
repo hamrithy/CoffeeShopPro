@@ -219,14 +219,15 @@
                     return re.test(email);
                 };
                 if($("#NAME").val().trim() == "" ){
-                    $("#msg").show().text("Please enter your name!");
+                    $("#msg").show().text("Please enter your name!").css("color" , "red"); 
                 }else if($("#EMAIL").val().trim() == "" ){
-                    $("#msg").show().text("Please enter your email!");
+                    $("#msg").show().text("Please enter your email!").css("color" , "red"); 
                 }else if($("#MESSAGE").val().trim() == "" ){
                     $("#msg").show().text("Please enter message!");
                 }else if(!validate_email($("#EMAIL").val())){
-                    $("#msg").show().text('Please provide a valid e-mail.');
+                    $("#msg").show().text('Please provide a valid e-mail.').css("color" , "red"); 
                 }else{
+                	$("#frmWaiting").modal('show');
                     $.ajax({
                         type: "POST",
                         url: $("#booking_form").attr("action"),
@@ -244,10 +245,11 @@
                         },
                         success: function(data){
                             if(data["ERROR"]==false){
-                                alert("Your email has been sent.");
+                            	 $("#msg").show().text("Your booking has been sent!").css("color" , "green"); 
                             }else{
-                                alert("Your email has not been sent.");
+                            	 $("#msg").show().text("Error ! Please try again !").css("color" , "red"); 
                             }
+                            $("#frmWaiting").modal('hide');
                         },
                         error: function(data){
                             console.log(data);
@@ -257,5 +259,22 @@
             });
         });
     </script>
+    
+    
+    
+    								<div class="modal fade" id="frmWaiting" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="DefaultModalLabel" aria-hidden="true">
+										  <div class="modal-dialog">
+											<div class="modal-content" style="border-radius: 5px;">
+											  
+											  <div class="modal-body">
+													<h5>Your Booking is sending. Please wait!</h5>
+													<center><img src="<?php echo base_url()?>/public/style_front/images/sending.gif"/></center>
+											  </div>
+											  
+											  
+											</div><!-- /.modal-content -->
+										  </div><!-- /.modal-doalog -->
+										</div><!-- /#DefaultModal -->
+										
 </body>
 </html>
