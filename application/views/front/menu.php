@@ -100,7 +100,7 @@
                               <div class="modal-content">
                                 <div class="modal-header">
                                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                  <h2 class="entry-title" id="fooditemtitle"</h2>
+                                  <h2 class="entry-title" id="fooditemtitle"></h2>
                                 </div>
                                 <div class="modal-body" style="height: 450px;">
                                         <div class="col-sm-6">
