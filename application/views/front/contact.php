@@ -167,9 +167,9 @@
                          },
                          success: function(data){
                              if(data["ERROR"]==false){
-                                // alert("Your email has been sent.");
+                            	 $("#msg").show().text("Your message has been sent!").css("color" , "green");
                              }else{
-                                 //alert("Your email has not been sent.");
+                            	 $("#msg").show().text("please try agin!").css("color" , "red"); 
                              }
                              $("#frmWaiting").modal('hide');
                          }
