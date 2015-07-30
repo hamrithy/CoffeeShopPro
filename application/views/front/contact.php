@@ -140,13 +140,20 @@
         $(function(){
             $('#contact_form').submit(function(e){
                 e.preventDefault();
+                var validate_email = function validateEmail(email) {
+                    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    return re.test(email);
+                };
             	if($("#NAME").val().trim() == "" ){
             		$("#msg").show().text("Please enter your name!");
             	}else if($("#EMAIL").val().trim() == "" ){
             		$("#msg").show().text("Please enter your email!");
             	}else if($("#MESSAGE").val().trim() == "" ){
             		$("#msg").show().text("Please enter message!");
-            	}else{
+            	}else if(!validate_email($("#EMAIL").val())){
+                    $("#msg").show().text('Please provide a valid e-mail.');
+                }else{                       
+                     $("#msg").hide();
             		 $.ajax({
                          type: "POST",
                          url: $("#contact_form").attr("action"),
