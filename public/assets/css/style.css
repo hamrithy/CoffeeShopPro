@@ -42,7 +42,8 @@ LOGIN, FORGOT PASS, REGISTER AND LOCK SCREEN
 ----------------------------------------------
 **/
 body.login{
-	background: #37BC9B;
+	/* background: #37BC9B; */
+	background : url("../../style_front/images/bglogin.jpg") no-repeat 50% 50% transparent;
 	padding: 0;
 }
 body.lock{

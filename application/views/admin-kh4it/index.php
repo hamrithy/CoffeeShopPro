@@ -71,7 +71,17 @@
 		===========================================================
 		-->
 		
+		
 		<div class="login-wrapper">
+		
+			<div class="logo aligncenter" style=" padding-left: 20%;margin-bottom: 30px;">
+                            <div class="identity">
+                                <a href="http://localhost/coffeeshoppro/index.php/" title="home" rel="home">
+                                    <img  width="69%" src="<?php echo base_url() ?>/public/style_front/images/downtown-logo.png" alt="Downtown theme logo">
+                                </a>
+                            </div>
+             </div>
+                        
 			<div class="alert alert-warning alert-bold-border fade in alert-dismissable">
 			  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 			  <strong>Login!</strong> Log to your account.
