@@ -36,7 +36,7 @@
 			$type = $this->input->post('type');
 
 			$this->email->from($email, $name);
-			$this->email->to('darapenhchet@gmail.com'); 
+			$this->email->to('admin@kh4it.com'); 
 			$this->email->subject('Email from website Reservation');
 			$this->email->message('<br /><br /> Name: '.$name. '<br /><br /> Email: '.$email.
 								  '<br /><br /> DATE: '.$day.' '.$month.' '.$year.' ' .$time.
