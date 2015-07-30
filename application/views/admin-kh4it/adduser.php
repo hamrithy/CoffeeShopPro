@@ -283,23 +283,43 @@
 	<!-- C3 JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/plugins/c3-chart/d3.v3.min.js" charset="utf-8"></script>
 	<script src="<?php echo base_url(); ?>/public/assets/plugins/c3-chart/c3.min.js"></script>
+	<script src="<?php echo base_url(); ?>/public/assets/libs/spin.js/spin.min.js"></script>
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$body = $("body");
-			$(document).on({
-			    ajaxStart: function() { $body.addClass("loading");    },
-			    ajaxStop: function() { $body.removeClass("loading"); }    
-			});
 			$("#btnSave").click(function(){
 				if($("#PASSWORD").val()!=$("#CONFIRM_PASSWORD").val()){
 					$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">Your password are mismatch. Please enter again.</div>');
-					$("#MESSAGE").fadeIn(1000);
-					$("#MESSAGE").fadeOut(5000);
+					$("#MESSAGE").fadeIn(500);
+					$("#MESSAGE").fadeOut(2000);
 					return;
 				}else{
+					var opts = {
+				          lines: 13 // The number of lines to draw
+				        , length: 28 // The length of each line
+				        , width: 3 // The line thickness
+				        , radius: 10 // The radius of the inner circle
+				        , scale: 1 // Scales overall size of the spinner
+				        , corners: 1 // Corner roundness (0..1)
+				        , color: '#000' // #rgb or #rrggbb or array of colors
+				        , opacity: 0.25 // Opacity of the lines
+				        , rotate: 0 // The rotation offset
+				        , direction: 1 // 1: clockwise, -1: counterclockwise
+				        , speed: 1 // Rounds per second
+				        , trail: 60 // Afterglow percentage
+				        , fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+				        , zIndex: 2e9 // The z-index (defaults to 2000000000)
+				        , className: 'spinner' // The CSS class to assign to the spinner
+				        , top: '50%' // Top position relative to parent
+				        , left: '50%' // Left position relative to parent
+				        , shadow: false // Whether to render a shadow
+				        , hwaccel: false // Whether to use hardware acceleration
+				        , position: 'absolute' // Element positioning
+			        }
+			        var target = document.getElementById('frmadduser');
+			        var spinner = new Spinner(opts).spin(target);
 					$.ajax({
 						type: "POST",
 						url: '<?php  echo site_url()?>/admin/user/adduserpro',
@@ -312,23 +332,25 @@
 							status: $("#STATUS").val()
 						},
 						success: function(data){
-/*							<?php if(isset($DUP_MSG)) {?>
-									<div class="alert alert-warning alert-bold-border fade in alert-dismissable"> 
-										<?php echo $DUP_MSG; ?>
-									</div>
-								<?php } ?>*/
 							console.log("DATA:",data);
 							if(data["ERROR"]==true){
 								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data["ERR_MSG"]+'</div>');
-								$("#MESSAGE").fadeIn(1000);
-								$("#MESSAGE").fadeOut(5000);
+								$("#MESSAGE").fadeIn(500);
+								$("#MESSAGE").fadeOut(2000);
 							}else{
 								$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">You have been inserted successfully.</div>');
-								$("#MESSAGE").fadeIn(1000);
-								$("#MESSAGE").fadeOut(5000,function(){
+								$("#MESSAGE").fadeIn(500);
+								$("#MESSAGE").fadeOut(2000,function(){
 									location.href= "<?php echo site_url('admin/user');?>";
 								});
 							}
+							spinner.stop();
+						},
+						error: function(data){
+							$("#MESSAGE").html('<div class="alert alert-warning alert-bold-border fade in alert-dismissable">'+data.statusText+'</div>');
+							$("#MESSAGE").fadeIn(500);
+							$("#MESSAGE").fadeOut(2000);
+							spinner.stop();
 						}
 					});
 				}
