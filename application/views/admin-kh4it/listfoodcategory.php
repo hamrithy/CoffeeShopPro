@@ -99,13 +99,17 @@
 					<!-- BEGIN DATA TABLE -->
 					<div class="the-box">
 						<div class="table-responsive">
-							<table class='table table-striped table-hover' id='datatable-example'>
+						<table class="table table-striped table-hover" id="datatable-example">
+							<thead class="the-box dark full">
 								<tr>
-									<td>Id</td>
-									<td>Title</td>
-									<td>Action</td>
+									<th>Id</th>
+									<th>Titile</th>
+									<th>Action</th>
 								</tr>
-								<?php foreach($listFoodTypes as $row){ ?>
+							</thead>
+							<tbody>
+						
+							<?php foreach($listFoodTypes as $row){ ?>
 								<tr>
 									<td><?php echo $row->foodtypeid; ?></td>
 									<td><?php echo $row->title; ?></td>
@@ -114,8 +118,9 @@
 										<a href='<?php  echo site_url()?>/admin/foodcategory/actiongetfoodtype/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>
 									</td>
 								</tr>
-								<?php } ?>
-							</table>
+							<?php } ?>
+							</tbody>
+						</table>
 						</div><!-- /.table-responsive -->
 					</div><!-- /.the-box .default -->
 					<!-- END DATA TABLE -->
