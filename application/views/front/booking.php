@@ -52,7 +52,7 @@
 
                 <div class="booking-form-wrap padding">
                     <h3 class="entry-title">Choose the Date</h3><hr />
-
+                    <h5 class="entry-title" id="msg" style="color: red"></h5>
                      <form class="tt-form booking-form margin-top padding-top" data-parsley-validate="" id="booking_form" action="<?php  echo site_url('booking/sendemail')?>" method="POST" novalidate>
          
                         <div class="row form-row"><!-- Start Row -->
@@ -214,32 +214,46 @@
         $(function(){
             $('#booking_form').submit(function(e){
                 e.preventDefault();
-                $.ajax({
-                    type: "POST",
-                    url: $("#booking_form").attr("action"),
-                    dataType: 'json',
-                    data: {
-                        name: $("#NAME").val(),
-                        email: $("#EMAIL").val(), 
-                        message: $("#MESSAGE").val(),
-                        time: $("#TIME").val(),
-                        year: $("#YEAR").val(),
-                        month: $("#MONTH").val(),
-                        day: $("#DAY").val(),
-                        guest: $("#GUEST").val(),
-                        type: $("#TYPE").val()
-                    },
-                    success: function(data){
-                        if(data["ERROR"]==false){
-                            alert("Your email has been sent.");
-                        }else{
-                            alert("Your email has not been sent.");
+                var validate_email = function validateEmail(email) {
+                    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    return re.test(email);
+                };
+                if($("#NAME").val().trim() == "" ){
+                    $("#msg").show().text("Please enter your name!");
+                }else if($("#EMAIL").val().trim() == "" ){
+                    $("#msg").show().text("Please enter your email!");
+                }else if($("#MESSAGE").val().trim() == "" ){
+                    $("#msg").show().text("Please enter message!");
+                }else if(!validate_email($("#EMAIL").val())){
+                    $("#msg").show().text('Please provide a valid e-mail.');
+                }else{
+                    $.ajax({
+                        type: "POST",
+                        url: $("#booking_form").attr("action"),
+                        dataType: 'json',
+                        data: {
+                            name: $("#NAME").val(),
+                            email: $("#EMAIL").val(), 
+                            message: $("#MESSAGE").val(),
+                            time: $("#TIME").val(),
+                            year: $("#YEAR").val(),
+                            month: $("#MONTH").val(),
+                            day: $("#DAY").val(),
+                            guest: $("#GUEST").val(),
+                            type: $("#TYPE").val()
+                        },
+                        success: function(data){
+                            if(data["ERROR"]==false){
+                                alert("Your email has been sent.");
+                            }else{
+                                alert("Your email has not been sent.");
+                            }
+                        },
+                        error: function(data){
+                            console.log(data);
                         }
-                    },
-                    error: function(data){
-                        console.log(data);
-                    }
-                });
+                    });
+                }
             });
         });
     </script>
