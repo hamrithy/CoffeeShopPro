@@ -18,6 +18,7 @@
 					  'protocol'  => 'smtp', 
 					  'smtp_host' => 'ssl://smtp.googlemail.com', 
 					  'smtp_port' => 465, 
+					  'smtp_crypto'=> 'tls',
 					  'smtp_user' => 'oiminho2015@gmail.com', 
 					  'smtp_pass' => 'vuthea@2014' ); 
 
