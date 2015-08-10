@@ -28,7 +28,7 @@
                                 </div>
 
 
-                                <div class="widget widget-item widget_archive">
+                                <!-- <div class="widget widget-item widget_archive">
                                     <h3>Archives</h3>
                                     <ul class="toggle-vertical archive-list clean-list grey-background ovh">
                                         <li>
@@ -44,9 +44,9 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
 
-                                <div class="widget widget-item twitter_widget tesla_twitter_widget">
+                               <!--  <div class="widget widget-item twitter_widget tesla_twitter_widget">
                                     <h3>Twitter</h3>
                                     <div class="tt_twitter">
                                         <ul class="twitter">
@@ -54,7 +54,7 @@
                                             <li>How To: HTML5 Background Video <a href="http://t.co/E82ExrpLmI">http://t.co/E82ExrpLmI</a><span class="date">4 days ago</span></li><li class="last">Hi <a href="http://twitter.com/olidale">@olidale</a>, it's a custom one, do you like it?<span class="date">4 days ago</span></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
 
 
                                 <div class="widget widget-item widget_categories">
@@ -64,7 +64,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="widget widget-item widget_tag_cloud">
+                               <!--  <div class="widget widget-item widget_tag_cloud">
                                     <h3>Tags</h3>
                                     <div class="tagcloud">
                                         <a style="font-size: 22pt;" title="2 topics" class="" >Resaturant</a>
@@ -74,7 +74,7 @@
                                         <a style="font-size: 8pt;" title="1 topic" class="" >Meat</a>
                                         <a style="font-size: 8pt;" title="1 topic" class="" >Chicken</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
           
           

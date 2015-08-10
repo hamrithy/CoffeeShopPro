@@ -42,9 +42,14 @@
 
         </div>
         <div class="container">
+        <div class="col-md-9 no-padding ">    
         <!-- CONTENT -->
         <?php echo $PAGE_REC->body; ?>
         <!-- CONTENT -->
+         </div>
+        <div class="col-md-3 no-padding">
+            <?php include_once '_rightside.php';?>
+        </div>
          </div>
         <div class="section section-map">
             <div class="gmap-container"></div>

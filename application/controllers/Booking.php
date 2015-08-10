@@ -16,9 +16,9 @@
 		public function sendEmail(){
 			$config = Array( 
 					  'protocol'  => 'smtp', 
-					  'smtp_host' => 'ssl://smtp.googlemail.com', 
+					  'smtp_host' => 'ssl://mocha3015.mochahost.com', 
 					  'smtp_port' => 465, 
-					  'smtp_user' => 'oiminho2015@gmail.com', 
+					  'smtp_user' => 'noreply@cafe.kh4it.com', 
 					  'smtp_pass' => 'vuthea@2014' ); 
 
 		  	$this->load->library('email', $config); 
