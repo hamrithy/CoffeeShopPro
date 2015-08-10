@@ -26,7 +26,7 @@ class DaoFoodType extends CI_Model{
 	}
 
 	public function getAllFoodTypesAndCountFoods(){
-		$sql = "SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B WHERE B.recommend='1' ORDER BY B.foodtypeid DESC"; 
+		$sql = "SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B WHERE B.recommend='1' ORDER BY TOTL DESC, B.foodtypeid DESC"; 
 		$query = $this->db->query($sql);
 		return $query->result();
 	}
