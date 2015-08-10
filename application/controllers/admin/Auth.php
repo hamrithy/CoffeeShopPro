@@ -64,9 +64,11 @@
 	     				log_message('debug', $row->userid);
 	       				$user->setUsername($row->username);
 	         			$user->setUserid($row->userid);
+	         			$user->setUsertype($row->usertype);
 						$this->session->set_userdata('logged_in', $user);
 						$this->session->set_userdata('username', $this->encryption->encrypt($user->getUsername()));
 						$this->session->set_userdata('userid', $this->encryption->encrypt($user->getUserid()));	
+						$this->session->set_userdata('usertype', $user->getUsertype());	
 						log_message("debug",$this->encryption->decrypt($user->getUserid()));
 	     			}
 	     			redirect("admin/dashboard");

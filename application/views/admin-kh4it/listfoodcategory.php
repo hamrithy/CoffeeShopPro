@@ -104,6 +104,7 @@
 								<tr>
 									<th>Id</th>
 									<th>Titile</th>
+									<th>Show on Home</th>
 									<th>Action</th>
 								</tr>
 							</thead>
@@ -113,6 +114,14 @@
 								<tr>
 									<td><?php echo $row->foodtypeid; ?></td>
 									<td><?php echo $row->title; ?></td>
+									<td><?php
+											if($row->recommend==1){
+												echo('Show');
+											}else if($row->recommend==0){
+												echo('Not Show');
+											}
+										?>	
+									</td>
 									<td>
 										<a  href="<?php echo site_url()?>/admin/foodcategory/actiondeletefoodtype/<?php echo $row->foodtypeid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a href='<?php  echo site_url()?>/admin/foodcategory/actiongetfoodtype/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>

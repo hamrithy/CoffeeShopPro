@@ -4,6 +4,7 @@ class DtoFoodType{
 	private $foodtypeid;
 	private $title;
 	private $description;
+	private $recommend;
 	
 	
 	public function getFoodtypeid(){
@@ -29,5 +30,14 @@ class DtoFoodType{
 	public function setDescription($description){
 		$this->description = $description;
 	}
+
+	public function getRecommend(){
+		return $this->recommend;
+	}
+
+	public function setRecommend($recommend){
+		$this->recommend = $recommend;
+	}
+
 	
 }

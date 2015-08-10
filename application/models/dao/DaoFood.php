@@ -7,10 +7,21 @@ class DaoFood extends CI_Model{
 	}
 
 	public function getAllFoodItems(){
-		$this->db->select("A.foodid, A.title As food_title, A.description As food_description, A.foodtypeid, A.thumbnailurl, A.promotiontype, A.price, A.userid, B.title As foodtype_title, B.description As footype_description");
-		$this->db->from("FOODS A");
-		$this->db->join("FOODTYPES B",'A.foodtypeid=B.foodtypeid');
-		$query = $this->db->get();
+		$sql = "SELECT A.foodid,
+					A.title AS food_title,
+					A.description AS food_description,
+					A.foodtypeid,
+					A.thumbnailurl,
+					A.promotiontype,
+					A.price,
+					A.userid,
+					B.title AS foodtype_title,
+					B.description AS footype_description
+				FROM
+					FOODS A
+				JOIN ( SELECT * FROM FOODTYPES WHERE recommend = '1' ORDER BY foodtypeid DESC) B 
+				ON A.foodtypeid = B.foodtypeid";
+		$query = $this->db->query($sql);
 		return $query->result();
 	}
 

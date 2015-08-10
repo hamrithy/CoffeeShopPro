@@ -39,9 +39,10 @@
 		public function actionAddFoodType(){
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
+			$this->DtoFoodType->setRecommend($this->input->post('recommend'));
 			$this->DaoFoodType->addFoodType($this->DtoFoodType);
 
-			// ADD TO MENU
+/*			// ADD TO MENU
 			$this->load->model('dao/DaoMenu');
 			$this->load->model('dto/DtoMenu');
 
@@ -49,7 +50,7 @@
 			$this->DtoMenu->setLinkto("/menu/foods/".str_replace(" ","",strtolower($this->input->post('title'))));
 			$this->DtoMenu->setOrdering("1");
 			$this->DtoMenu->setSubof("3");
-			$this->DaoMenu->addMenu($this->DtoMenu);
+			$this->DaoMenu->addMenu($this->DtoMenu);*/
 			redirect("admin/foodcategory");
 		}
 
@@ -62,6 +63,7 @@
 			$this->DtoFoodType->setFoodtypeid($id);
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
+			$this->DtoFoodType->setRecommend($this->input->post('recommend'));
 			$status = $this->DaoFoodType->updateFoodType($this->DtoFoodType);
 			redirect("admin/foodcategory");
 		}

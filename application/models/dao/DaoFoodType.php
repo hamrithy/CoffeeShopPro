@@ -8,29 +8,15 @@ class DaoFoodType extends CI_Model{
 
 	public function addFoodType(DtoFoodType $foodType){
 		$data = array("title" 		 => 	$foodType->getTitle(),
-					  "description"  =>		str_replace(array("\r", "\n"), " ", $foodType->getDescription())
+					  "description"  =>		str_replace(array("\r", "\n"), " ", $foodType->getDescription()),
+					  "recommend"	 =>		(($foodType->getRecommend()=="") ? "0" : "1")
 			);
 		return $this->db->insert('FOODTYPES', $data);
 	}
 
 	public function deleteFoodType($id){
-		$this->load->model('dao/DaoMenu');
-		$this->db->trans_start();
 		$this->db->where('foodtypeid',$id);
-		$query = $this->db->get('FOODTYPES');
-
-		$this->db->where('foodtypeid',$id);
-		if($this->db->delete('FOODTYPES')){
-			//REMOVE FROM MENU that has that food type
-			if($this->DaoMenu->deleteMenuByTitle(str_replace(" ","",strtolower($query->row()->title)))){
-				$this->db->trans_commit();
-			}else{
-				$this->db->trans_rollback();
-			}
-		}else{
-			$this->db->trans_rollback();
-		}
-		$this->db->trans_complete();
+		$this->db->delete('FOODTYPES');
 	}
 
 	public function getAllFoodTypes(){
@@ -40,7 +26,7 @@ class DaoFoodType extends CI_Model{
 	}
 
 	public function getAllFoodTypesAndCountFoods(){
-		$sql = "SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B ORDER BY B.title"; 
+		$sql = "SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B WHERE B.recommend='1' ORDER BY B.foodtypeid DESC"; 
 		$query = $this->db->query($sql);
 		return $query->result();
 	}
@@ -60,6 +46,7 @@ class DaoFoodType extends CI_Model{
 	public function updateFoodType(DtoFoodType $foodType){
 		$data = array('title' 		=> $foodType->getTitle(),
 					  'description' => str_replace(array("\r", "\n"), " ", $foodType->getDescription()),
+					  "recommend"	=>		(($foodType->getRecommend()=="") ? "0" : "1"),
 					  'foodtypeid' 	=> $foodType->getFoodtypeid()
 		 );
 		$this->db->where('foodtypeid', $this->DtoFoodType->getFoodtypeid());

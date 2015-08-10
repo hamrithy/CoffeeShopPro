@@ -114,6 +114,13 @@
 										<textarea class="form-control" name="description" required id="description"></textarea>
 									</div>
 								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label"></label>
+									<div class="col-lg-5">
+										 <input type="checkbox"  name="recommend" id="recommend" value="1">
+										 Show on Home page
+								    </div>
+								</div>
 								
 							</fieldset>
 
@@ -160,6 +167,9 @@
 						$("#formtitle").text("Form Edit Food Category");
 						$("#btnsave").text("Edit");
 						$("#title").val("<?php echo $s->title ?>");
+						<?php if($s->recommend == '1'){ ?>
+							$("#recommend").prop('checked', true);
+						<?php }?>
 						$("#description").val("<?php echo $s->description ?>");
 						document.frmfoodtype.action="<?php echo site_url();?>/admin/foodcategory/actionupdatefoodcategory/<?php echo $s->foodtypeid ?>";
 					<?php } ?>
