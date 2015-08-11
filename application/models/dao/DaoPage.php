@@ -49,6 +49,16 @@ class DaoPage extends CI_Model{
 		$query = $this->db->get();
 		return $query->row();
 	}
+
+	public function getPageById($pageid){
+		$this->db->select('p.pageid , p.title , p.body , u.userid , u.username');
+		$this->db->from('PAGES p');
+		$this->db->join('USERS u', 'p.userid = u.userid');
+		$this->db->where('p.pageid',$pageid);
+		$this->db->limit(1);
+		$query = $this->db->get();
+		return $query->row();
+	}
 	
 	public function deletePage(DtoPage $p){
 		$this->db->where('pageid',$p->getPageid());

@@ -42,7 +42,15 @@
 
         </div>
         <div class="container">
-        <div class="col-md-9 no-padding ">    
+          
+        
+        <div class="col-md-9 no-padding ">  
+        <header class="entry-header aligncenter section-header section-contact-header margin-top padding-top">
+                    <h2 class="entry-title">
+                        <?php echo $PAGE_REC->title; ?>
+                    </h2>
+                     
+        </header>  
         <!-- CONTENT -->
         <?php echo $PAGE_REC->body; ?>
         <!-- CONTENT -->

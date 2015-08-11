@@ -8,7 +8,17 @@
 	        $this->load->model("dao/DaoPage");
 		}
 
-		public function index($pageName){
+		public function index($pageid){
+			$data['page']  = "Page Detail";
+			$data['title'] = "Page Title";
+			$data['PAGE_REC'] = $this->DaoPage->getPageById($pageid);
+			if($data['PAGE_REC']==null){
+				redirect('page_no_found');
+			}
+			$this->load->view('front/page', $data);
+		}
+
+		public function view($pageName){
 			$data['page']  = $pageName;
 			$data['title'] = $pageName;
 			$data['PAGE_REC'] = $this->DaoPage->getPageByName(str_replace(" ","",strtolower($pageName)));

@@ -120,6 +120,7 @@
 									<td>
 										<a  href="<?php echo site_url()?>/admin/post/deletepost/<?php echo $v->postid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a> 
 										<a  href="<?php  echo site_url()?>/admin/post/getpost/<?php  echo $v->postid ?>"  class="btn btn-primary">Update</a>
+										<a target="_blank"  href="<?php  echo site_url()?>blog/detail/<?php  echo $v->postid ?>"  class="btn btn-info">View</a>
 									</td>
 								</tr>
 							<?php } ?>

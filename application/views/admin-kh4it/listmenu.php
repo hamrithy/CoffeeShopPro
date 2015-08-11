@@ -102,6 +102,7 @@
 						<table class="table table-striped table-hover" id="datatable-example">
 							<thead class="the-box dark full">
 								<tr>
+									<th>ID</td>
 									<th>Title</th>
 									<th>Link To</th>									
 									<th>Ordering</th>
@@ -113,6 +114,7 @@
 						
 							<?php foreach($listMenu as $v){ ?>
 								<tr>
+									<td><?php echo $v->menuid; ?></td>
 									<td><?php echo $v->title; ?></td>
 									<td><?php echo $v->linkto; ?></td>
 									<td><?php echo $v->ordering; ?></td>						
