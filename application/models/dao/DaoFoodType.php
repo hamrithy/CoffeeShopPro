@@ -67,6 +67,14 @@ class DaoFoodType extends CI_Model{
 		return $query->result();
 	}
 
+	public function listFoodCategory(){
+		$this->db->select('foodtypeid,title, description');
+		$this->db->from('FOODTYPES');
+		$this->db->order_by("foodtypeid","desc");
+		$query = $this->db->get();
+		return $query->result();
+	}
+
 	public function countFoodType(){
 		return $this->db->count_all('FOODTYPES');
 	}

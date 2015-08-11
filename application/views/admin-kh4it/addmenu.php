@@ -104,28 +104,52 @@
 							<fieldset>
 								<input type="hidden" name="txtMenuid" id="txtMenuid" />
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Title<span class="required">*</span></label>
+									<label class="col-lg-2 control-label">Title<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<input type="text" class="form-control" name="txtTitle" id="txtTitle" />
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Link To<span class="required">*</span></label>
+									<label class="col-lg-2 control-label">Link To<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<input type="text" class="form-control" name="txtLinkto" id="txtLinkto" />
 									</div>
+									<div class="col-lg-2">
+										<select class="form-control" name="page" id="page" onchange="listpagelinkto()">
+											<?php 
+												echo '<option value="#">Choose Page</option>';
+												if(count($pages)>0){
+													foreach($pages as $page){
+														echo '<option value="page/'.$page->pageid.'">'.$page->title.'</option>';
+													}
+												}
+											?>
+										</select>
+									</div>
+									<div class="col-lg-2">
+										<select class="form-control" id="ProductCategory" name="ProductCategory" onchange="listcatlinkto()">
+											<?php 
+												echo '<option value="#">OR Choose Category</option>';
+												if(count($categories)>0){
+													foreach($categories as $category){
+														echo '<option value="menu/foods/'.$category->title.'">'.$category->title.'</option>';
+													}
+												}
+											?>
+										</select>
+									</div>
 								</div>
-								
-								
+										
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Ordering<span class="required">*</span></label>
+									<label class="col-lg-2 control-label">Ordering<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<input type="text" class="form-control" name="txtOrdering" id="txtOrdering" />
 									</div>
 								</div>
+								
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Sub Of<span class="required">*</span></label>
+									<label class="col-lg-2 control-label">Sub Of<span class="required">*</span></label>
 									<div class="col-lg-5">
 										<select class="form-control" id="txtSubof" name="txtSubof">
 												<option value="">--</option>
@@ -146,9 +170,8 @@
 							
 						</form>
 					</div><!-- /.the-box -->
-						
 					</div><!-- /.col-sm-8 -->
-						
+					
 				
 					</div><!-- /.row -->
 					</div>
@@ -242,8 +265,16 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-
 	<script>
+			function listpagelinkto(){
+				$("#txtLinkto").val($("#page").val());
+			}
+		function listcatlinkto(){
+				$("#txtLinkto").val($("#ProductCategory").val());
+			}
+	</script>
+	<script>
+		
 		<?php 
 			if($menu!=null){
 				foreach ($menu as $v) {
@@ -258,6 +289,9 @@
 				}
 			}
 		?>
+
+	
+		
 	</script>
 
 	</body>
