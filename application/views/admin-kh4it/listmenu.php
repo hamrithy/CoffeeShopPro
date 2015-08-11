@@ -104,9 +104,9 @@
 								<tr>
 									<th>ID</td>
 									<th>Title</th>
-									<th>Link To</th>									
-									<th>Ordering</th>
-									<th>Sub Of</th>
+									<th>Link To</th>
+									<th>Sub Of</th>									
+									<th>Ordering</th>									
 									<th>Action</th>
 								</tr>
 							</thead>
@@ -117,8 +117,8 @@
 									<td><?php echo $v->menuid; ?></td>
 									<td><?php echo $v->title; ?></td>
 									<td><?php echo $v->linkto; ?></td>
-									<td><?php echo $v->ordering; ?></td>						
 									<td><?php echo $v->suboftitle; ?></td>
+									<td style="width: 5%;"><input type="number" min="0" step="1" value="<?php echo $v->ordering; ?>" id="txtordering<?php  echo $v->menuid ?>" onchange="mychangeorder(<?php  echo $v->menuid ?>)"/></td>						
 									<td>
 										<a  href="<?php echo site_url()?>/admin/menu/deletemenu/<?php echo $v->menuid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a  href="<?php  echo site_url()?>/admin/menu/getmenu/<?php  echo $v->menuid ?>"  class="btn btn-primary">Update</a>
@@ -218,6 +218,24 @@
 
 	<!-- MAIN APPS JS -->
 	<script src="<?php echo base_url(); ?>/public/assets/js/apps.js"></script>
-		
+	
+	<script>
+		function mychangeorder(id){
+			$("#frmWaiting").modal('show');
+			$.post("<?php echo site_url()?>admin/menu/updateordermenu",{
+				ordering : $("#txtordering"+id+"").val() ,
+				menuid : id
+			}, function(data){
+				$("#getTxt").html("<h5>You have been update successfully.</h5>");
+						setTimeout(function(){ 
+							//location.href= "<?php  echo site_url('admin/category')?>";
+ 							$("#frmWaiting").modal('hide');
+						}, 1000);
+			})
+			
+		}
+
+	</script>
+
 	</body>
 </html>

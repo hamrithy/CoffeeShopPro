@@ -180,7 +180,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Demo Image</label>
 									<div class="col-lg-6">
-										<img src="<?php echo base_url(); ?>/public/upload/slider-background.jpg" class="img-responsive" id="myimagedemo"/>
+										<img src="<?php echo base_url(); ?>/public/upload/post-background.jpg" class="img-responsive" id="myimagedemo"/>
 									</div>
 								</div>
 								<script>

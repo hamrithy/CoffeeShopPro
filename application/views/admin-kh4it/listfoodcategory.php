@@ -104,7 +104,7 @@
 								<tr>
 									<th>Id</th>
 									<th>Titile</th>
-									<th>Show on Home</th>
+									<th>Show on Home Page</th>
 									<th>Action</th>
 								</tr>
 							</thead>
