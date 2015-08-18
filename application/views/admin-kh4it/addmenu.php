@@ -121,7 +121,7 @@
 												echo '<option value="#">Choose Page</option>';
 												if(count($pages)>0){
 													foreach($pages as $page){
-														echo '<option value="page/'.$page->pageid.'">'.$page->title.'</option>';
+														echo '<option value="/page/'.$page->pageid.'">'.$page->title.'</option>';
 													}
 												}
 											?>
@@ -133,7 +133,7 @@
 												echo '<option value="#">OR Choose Category</option>';
 												if(count($categories)>0){
 													foreach($categories as $category){
-														echo '<option value="menu/foods/'.$category->foodtypeid.'">'.$category->title.'</option>';
+														echo '<option value="/menu/foods/'.$category->foodtypeid.'">'.$category->title.'</option>';
 													}
 												}
 											?>
