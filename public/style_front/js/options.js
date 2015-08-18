@@ -383,7 +383,6 @@ var teslaThemes = {
       var box = jQuery('.menu-items');
 
       var selector = tag.toLowerCase() == 'all' ? 'li' : '.' + tag.toLowerCase();
-      alert(selector);
       box.isotope({
         filter: selector
       });
