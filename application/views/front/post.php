@@ -74,7 +74,7 @@
                                                 </div>
                                             </div>
                                         </header>
-                                        <div class="entry-content border padding" style="width: auto;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                        <div class="entry-content border padding" style="width: auto;overflow: hidden;text-overflow: ellipsis;">
                                            
                                            <?php echo $v->longdescription ?>
 
