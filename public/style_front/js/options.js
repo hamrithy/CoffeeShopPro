@@ -379,10 +379,11 @@ var teslaThemes = {
     "use strict";
     jQuery('.filter-cats > li a').click(function(e) {
       e.preventDefault();
-      var tag = jQuery(this).text();
+      var tag = jQuery(this).attr("id");
       var box = jQuery('.menu-items');
 
       var selector = tag.toLowerCase() == 'all' ? 'li' : '.' + tag.toLowerCase();
+      alert(selector);
       box.isotope({
         filter: selector
       });

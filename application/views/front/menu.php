@@ -52,9 +52,9 @@
                 <div class="padding-10 margin-top">
                     <div class="background-white ovh filter-cats-wrap">
                         <ul class="clean-list inline-list filter-cats center-me" id="FOOD_CATEGORY">
-                            <li><a href="javascript:;">All</a></li>
+                            <li><a href="javascript:;" id="all">All</a></li>
                             <?php foreach($categories as $category){
-                                echo '<li id="'.strtoupper($category->title).'"><a href="javascript:;">'.$category->title.'</a></li>';
+                                echo '<li><a href="javascript:;" id="'.strtoupper($category->foodtypeid).'">'.$category->title.'</a></li>';
                             }?>
                      
                         </ul> <!-- /.filter cats -->
@@ -64,7 +64,7 @@
                 <div class="background-white padding margin-top dishes-block">
                     <ul class="clean-list filter-items menu-items row">
                         <?php foreach($foods as $food){
-                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($food->foodtype_title).'" id="'.$this->encryption->encrypt($food->foodid).'">
+                        echo '<li class="col-md-3 col-sm-6 col-xs-6 '.strtolower($food->foodtypeid).'" id="'.$this->encryption->encrypt($food->foodid).'">
                             <div>
                                 <div>
                                     <figure>
@@ -142,7 +142,7 @@
     <script>
         $(function(){
             if(categoryType!="#"){
-                $("#FOOD_CATEGORY").find(categoryType).find("a").trigger('click');
+a                $("#FOOD_CATEGORY").find(categoryType).trigger('click');
             }
         });
 

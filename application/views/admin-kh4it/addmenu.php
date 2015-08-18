@@ -133,7 +133,7 @@
 												echo '<option value="#">OR Choose Category</option>';
 												if(count($categories)>0){
 													foreach($categories as $category){
-														echo '<option value="menu/foods/'.$category->title.'">'.$category->title.'</option>';
+														echo '<option value="menu/foods/'.$category->foodtypeid.'">'.$category->title.'</option>';
 													}
 												}
 											?>
