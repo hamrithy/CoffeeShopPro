@@ -142,7 +142,7 @@
     <script>
         $(function(){
             if(categoryType!="#"){
-a                $("#FOOD_CATEGORY").find(categoryType).trigger('click');
+                $("#FOOD_CATEGORY").find(categoryType).trigger('click');
             }
         });
 
