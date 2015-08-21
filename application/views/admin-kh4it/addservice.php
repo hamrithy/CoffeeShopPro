@@ -161,7 +161,7 @@
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Order<span class="required">*</span></label>
 									<div class="col-sm-4">
-										<input type="text" id="txtorder" name="txtorder" required>
+										<input type="text" id="txtorder" name="txtorder" value="0" required>
 									</div>
 									
 								</div> 							

@@ -144,7 +144,7 @@
 								<div class="form-group">
 									<label class="col-lg-2 control-label">Ordering<span class="required">*</span></label>
 									<div class="col-lg-5">
-										<input type="text" class="form-control" name="txtOrdering" id="txtOrdering" />
+										<input type="text" class="form-control" name="txtOrdering" id="txtOrdering" value="0" />
 									</div>
 								</div>
 								
