@@ -7,7 +7,7 @@
                         <div class="logo aligncenter">
                             <div class="identity">
                                 <a href="<?php echo site_url()?>/" title="home" rel="home">
-                                    <img src="<?php echo base_url()?>public/style_front/images/downtown-logo.png" alt="Downtown theme logo">
+                                    <img src="<?php echo $this->settings->getLogo()?>" style="width:165px; height:100px;" alt="Downtown theme logo">
                                 </a>
                             </div>
                         </div>
