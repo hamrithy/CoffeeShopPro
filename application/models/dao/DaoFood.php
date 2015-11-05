@@ -6,7 +6,7 @@ class DaoFood extends CI_Model{
 		$this->load->model('dto/DtoFood');
 	}
 
-	public function getAllFoodItems(){
+	public function getAllFoodItems($category=''){
 		$sql = "SELECT A.foodid,
 					A.title AS food_title,
 					A.description AS food_description,
@@ -24,6 +24,30 @@ class DaoFood extends CI_Model{
 		$query = $this->db->query($sql);
 		return $query->result();
 	}
+
+	public function getAllFoodItemsByCategories($category=''){
+		$sql = "SELECT A.foodid,
+					A.title AS food_title,
+					A.description AS food_description,
+					A.foodtypeid,
+					A.thumbnailurl,
+					A.promotiontype,
+					A.price,
+					A.userid,
+					B.title AS foodtype_title,
+					B.description AS footype_description
+				FROM
+					FOODS A
+				JOIN ( SELECT * FROM FOODTYPES ORDER BY foodtypeid DESC) B 
+				ON A.foodtypeid = B.foodtypeid ";
+		if($category!=''){
+			$sql .= ' WHERE A.foodtypeid IN (SELECT foodtypeid FROM FOODTYPES WHERE parent_id = '. $category .')';
+		}
+				
+		$query = $this->db->query($sql);
+		return $query->result();
+	}
+
 
 	public function addFoodItem(DtoFood $food){
 		$data = array('title' 			=>  $food->getTitle(),

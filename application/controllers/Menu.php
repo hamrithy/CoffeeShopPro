@@ -16,8 +16,8 @@
 		public function foods($category=''){
 			$data["title"] = "Menu";
 			$data["page"] = "Menu";
-			$data["categories"] = $this->DaoFoodType->getAllFoodTypesOrderByTitle();
-			$data["foods"] = $this->DaoFood->getAllFoodItems();
+			$data["categories"] = $this->DaoFoodType->getAllFoodTypesOrderByTitle($category);
+			$data["foods"] = $this->DaoFood->getAllFoodItemsByCategories($category);
 			$data["cat"] = $category;
 			$this->load->view('front/menu', $data);
 		}
