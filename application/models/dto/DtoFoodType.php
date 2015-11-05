@@ -5,7 +5,15 @@ class DtoFoodType{
 	private $title;
 	private $description;
 	private $recommend;
+	private $parentid;
 	
+	public function getParentid(){
+		return $this->parentid;
+	}
+	
+	public function setParentid($parentid){
+		$this->parentid = $parentid;
+	}
 	
 	public function getFoodtypeid(){
 		return $this->foodtypeid;

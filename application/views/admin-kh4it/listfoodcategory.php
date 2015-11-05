@@ -105,6 +105,7 @@
 									<th>Id</th>
 									<th>Titile</th>
 									<th>Show on Home Page</th>
+									<th>Sub of</th>
 									<th>Action</th>
 								</tr>
 							</thead>
@@ -122,6 +123,7 @@
 											}
 										?>	
 									</td>
+									<td><?php echo $row->suboftitle; ?></td>
 									<td>
 										<a  href="<?php echo site_url()?>/admin/foodcategory/actiondeletefoodtype/<?php echo $row->foodtypeid ?>" style="margin-right:3px" onclick="return confirm('Do you want to delete?');"  class="btn btn-danger">Delete</a>
 										<a href='<?php  echo site_url()?>/admin/foodcategory/actiongetfoodtype/<?php echo $row->foodtypeid; ?>' class='btn btn-primary' >Update</a>

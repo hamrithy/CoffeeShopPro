@@ -9,7 +9,8 @@ class DaoFoodType extends CI_Model{
 	public function addFoodType(DtoFoodType $foodType){
 		$data = array("title" 		 => 	$foodType->getTitle(),
 					  "description"  =>		str_replace(array("\r", "\n"), " ", $foodType->getDescription()),
-					  "recommend"	 =>		(($foodType->getRecommend()=="") ? "0" : "1")
+					  "recommend"	 =>		(($foodType->getRecommend()=="") ? "0" : "1"),
+					  "parent_id" 	 => 	$foodType->getParentid()
 			);
 		return $this->db->insert('FOODTYPES', $data);
 	}
@@ -20,11 +21,23 @@ class DaoFoodType extends CI_Model{
 	}
 
 	public function getAllFoodTypes(){
+		$this->db->select('M1.foodtypeid, M1.Title title, M1.description, M1.recommend, M2.title suboftitle');
+		$this->db->from('FOODTYPES M1');
+		$this->db->join('FOODTYPES M2', 'M1.foodtypeid=M2.parent_id', 'left');
 		$this->db->order_by('foodtypeid', 'desc');
-		$query = $this->db->get('FOODTYPES');
+		$query = $this->db->get();
 		return $query->result();
 	}
-
+/* 
+	public function listMenu(){
+		$this->db->select('M1.menuid, M1.Title title, M1.linkto, M1.ordering, M2.title suboftitle');
+		$this->db->from('MENUS M1');
+		$this->db->join('MENUS M2', 'M1.subof=M2.menuid', 'left');
+		$query = $this->db->get();
+		return $query->result();
+	}
+	
+	 */
 	public function getAllFoodTypesAndCountFoods(){
 		$sql = "SELECT *, (SELECT COUNT(A.foodid) FROM FOODS A WHERE A.foodtypeid=B.foodtypeid) AS TOTL FROM FOODTYPES B WHERE B.recommend='1' ORDER BY TOTL DESC, B.foodtypeid DESC"; 
 		$query = $this->db->query($sql);
@@ -47,7 +60,8 @@ class DaoFoodType extends CI_Model{
 		$data = array('title' 		=> $foodType->getTitle(),
 					  'description' => str_replace(array("\r", "\n"), " ", $foodType->getDescription()),
 					  "recommend"	=>		(($foodType->getRecommend()=="") ? "0" : "1"),
-					  'foodtypeid' 	=> $foodType->getFoodtypeid()
+					  'foodtypeid' 	=> $foodType->getFoodtypeid(),
+					  "parent_id" 	 => 	$foodType->getParentid()
 		 );
 		$this->db->where('foodtypeid', $this->DtoFoodType->getFoodtypeid());
 		$this->db->update('FOODTYPES', $data);

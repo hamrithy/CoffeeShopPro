@@ -114,6 +114,19 @@
 										<textarea class="form-control" name="description" required id="description"></textarea>
 									</div>
 								</div>
+								
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Sub Of<span class="required">*</span></label>
+									<div class="col-lg-5">
+										<select class="form-control" id="parentid" name="parentid">
+												<option value="">--</option>
+											<?php foreach($listFoodTypes as $v){ ?>
+												<option value="<?php echo $v->foodtypeid ?>"><?php echo $v->title ?></option>
+											<?php } ?>
+										</select>
+									</div>
+								</div>
+								
 								<div class="form-group">
 									<label class="col-lg-2 control-label"></label>
 									<div class="col-lg-5">

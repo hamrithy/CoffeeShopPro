@@ -23,7 +23,8 @@
 		}
 
 		public function addfoodcategory(){
-			$this->load->view('admin-kh4it/addfoodcategory');
+			$data['listFoodTypes'] = $this->DaoFoodType->getAllFoodTypes();
+			$this->load->view('admin-kh4it/addfoodcategory' , $data);
 		}
 
 		public function actionListFoodCategories(){
@@ -40,6 +41,7 @@
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
 			$this->DtoFoodType->setRecommend($this->input->post('recommend'));
+			$this->DtoFoodType->setParentid($this->input->post('parentid'));
 			$this->DaoFoodType->addFoodType($this->DtoFoodType);
 
 /*			// ADD TO MENU
@@ -55,6 +57,7 @@
 		}
 
 		public function actionGetFoodType($id){
+			$data['listFoodTypes'] = $this->DaoFoodType->getAllFoodTypes();
 			$data['getFoodType'] = $this->DaoFoodType->getFoodType($id);
 			$this->load->view('admin-kh4it/addfoodcategory', $data);
 		}
@@ -64,6 +67,7 @@
 			$this->DtoFoodType->setTitle($this->input->post('title'));
 			$this->DtoFoodType->setDescription($this->input->post('description'));
 			$this->DtoFoodType->setRecommend($this->input->post('recommend'));
+			$this->DtoFoodType->setParentid($this->input->post('parentid'));
 			$status = $this->DaoFoodType->updateFoodType($this->DtoFoodType);
 			redirect("admin/foodcategory");
 		}
