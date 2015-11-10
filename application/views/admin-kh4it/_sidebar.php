@@ -174,9 +174,12 @@
 									</div><!-- /.collapse in -->
 								</div><!-- /.panel panel-default -->
 								<br/>
+								
+								<!--
 								<h4 class="small-title">
 									<strong><i class="fa fa-cog"></i> Layout Section</strong>
 								</h4>	
+								
 								<div class="panel panel-default">
 								  <div class="panel-heading">
 									<h3 class="panel-title">
@@ -192,13 +195,13 @@
 								  </div>
 									<div class="collapse" id="accordion-1-child-10">
 									  <div class="panel-body">
-									  	<i ></i>&nbsp;<a href="<?php echo site_url("admin/logo/");?>">Logo Settings</a><br><br>
-										<i ></i>&nbsp;<a href="<?php echo site_url("admin/theme/");?>">Theme Editor</a><br><br>
+									  	<i ></i>&nbsp;<a href="<?php //echo site_url("admin/logo/");?>">Logo Settings</a><br><br>
+										<i ></i>&nbsp;<a href="<?php //echo site_url("admin/theme/");?>">Theme Editor</a><br><br>
 										
 										
-									  </div><!-- /.panel-body -->
-									</div><!-- /.collapse in -->
-								</div><!-- /.panel panel-default -->
+									  </div>
+									</div> 
+								</div>  --><!-- /.panel panel-default -->
 								
 							<?php } ?>	
 							</div><!-- /.panel-group -->
